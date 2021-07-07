@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Window" id="2" x="14" y="17" width="650" height="352" text="Thunderbird" measuredWidth="650" measuredHeight="352"/>
+  <widgets xsi:type="model:Menu" id="3" x="14" y="34" width="650" text="&amp;File,&amp;Edit,&amp;View,&amp;Insert,F&amp;ormat,O&amp;ptions,&amp;Tools,&amp;Help" measuredWidth="650" measuredHeight="27">
+    <items x="5" y="0" width="30" height="27" text="&amp;File"/>
+    <items x="35" y="0" width="32" height="27" text="&amp;Edit"/>
+    <items x="67" y="0" width="37" height="27" text="&amp;View"/>
+    <items x="104" y="0" width="42" height="27" text="&amp;Insert"/>
+    <items x="146" y="0" width="51" height="27" text="F&amp;ormat"/>
+    <items x="197" y="0" width="54" height="27" text="O&amp;ptions"/>
+    <items x="251" y="0" width="41" height="27" text="&amp;Tools"/>
+    <items x="292" y="0" width="36" height="27" text="&amp;Help"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="25" x="101" y="101" text="From" measuredWidth="36" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="26" x="119" y="126" text="To" measuredWidth="20" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="27" x="85" y="151" text="Subject" measuredWidth="46" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="28" x="145" y="101" text="Alice &lt;alice@irq7.fr>" measuredWidth="118" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Icon" id="29" x="316" y="107" width="10" height="10" measuredWidth="10" measuredHeight="10" icon="assets/toolbarbutton-arrow (small)"/>
+  <widgets xsi:type="model:VLine" id="30" x="340" y="105" height="14" measuredWidth="6" measuredHeight="14" foreground="#999"/>
+  <widgets xsi:type="model:Label" id="31" x="359" y="101" text="Cc" measuredWidth="20" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="32" x="385" y="101" text="Bcc" measuredWidth="26" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Icon" id="33" x="423" y="104" measuredWidth="16" measuredHeight="16" icon="assets/overflow (small)"/>
+  <widgets xsi:type="model:Panel" id="38" x="23" y="176" width="631" height="165" measuredWidth="631" measuredHeight="165"/>
+  <widgets xsi:type="model:VLine" id="58" x="89" y="417" height="20" measuredWidth="6" measuredHeight="20" foreground="#999"/>
+  <widgets xsi:type="model:Button" id="96" x="99" y="384" width="100" measuredWidth="100" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="91" x="105" y="416" measuredWidth="89" measuredHeight="23">
+    <widgets xsi:type="model:WidgetGroup" id="78" x="70" y="4" measuredWidth="19" measuredHeight="14">
+      <widgets xsi:type="model:VLine" id="59" height="14" measuredWidth="6" measuredHeight="14" foreground="#999"/>
+      <widgets xsi:type="model:Icon" id="60" x="9" y="2" width="10" height="10" measuredWidth="10" measuredHeight="10" icon="assets/toolbarbutton-arrow (small)"/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="76" text="Spelling" measuredWidth="65" measuredHeight="23" textAlignment="Center" icon="assets/spelling (small)">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:Button" id="95" x="23" y="384" width="62" measuredWidth="62" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="77" x="27" y="416" text="Send" measuredWidth="49" measuredHeight="23" textAlignment="Center" icon="assets/send (small)">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="97" x="206" y="384" width="100" measuredWidth="100" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="92" x="210" y="416" measuredWidth="91" measuredHeight="23">
+    <widgets xsi:type="model:Label" id="75" text="Security" measuredWidth="66" measuredHeight="23" textAlignment="Center" icon="assets/privacy-security (small)">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:WidgetGroup" id="79" x="72" y="4" measuredWidth="19" measuredHeight="14">
+      <widgets xsi:type="model:VLine" id="80" height="14" measuredWidth="6" measuredHeight="14" foreground="#999"/>
+      <widgets xsi:type="model:Icon" id="81" x="9" y="2" width="10" height="10" measuredWidth="10" measuredHeight="10" icon="assets/toolbarbutton-arrow (small)"/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:Button" id="99" x="314" y="384" width="86" measuredWidth="86" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="93" x="322" y="416" measuredWidth="71" measuredHeight="23">
+    <widgets xsi:type="model:Label" id="74" text="Save" measuredWidth="47" measuredHeight="23" textAlignment="Center" icon="assets/save (small)">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:WidgetGroup" id="82" x="52" y="4" measuredWidth="19" measuredHeight="14">
+      <widgets xsi:type="model:VLine" id="83" height="14" measuredWidth="6" measuredHeight="14" foreground="#999"/>
+      <widgets xsi:type="model:Icon" id="84" x="9" y="2" width="10" height="10" measuredWidth="10" measuredHeight="10" icon="assets/toolbarbutton-arrow (small)"/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:Button" id="100" x="567" y="384" width="90" measuredWidth="90" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="94" x="571" y="416" measuredWidth="81" measuredHeight="23">
+    <widgets xsi:type="model:Label" id="73" text="Attach" measuredWidth="57" measuredHeight="23" textAlignment="Center" icon="assets/attach (small)">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:WidgetGroup" id="85" x="62" y="4" measuredWidth="19" measuredHeight="14">
+      <widgets xsi:type="model:VLine" id="86" height="14" measuredWidth="6" measuredHeight="14" foreground="#999"/>
+      <widgets xsi:type="model:Icon" id="87" x="9" y="2" width="10" height="10" measuredWidth="10" measuredHeight="10" icon="assets/toolbarbutton-arrow (small)"/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="88" x="138" y="126" width="516" measuredWidth="516" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="89" x="138" y="151" width="516" measuredWidth="516" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:HLine" id="101" x="14" y="91" width="650" measuredWidth="650" measuredHeight="6"/>
+  <widgets xsi:type="model:Popup" id="102" x="36" y="448" text="Encryption &amp;Technology, >&#xA;---&#xA;( ) D&amp;o Not Encrypt&#xA;( ) Require &amp;Encryption&#xA;---&#xA;[ ] Digitally Sign This &amp;Message&#xA;---&#xA;[ ] &amp;Attach My Public Key&#xA;---&#xA;View Security &amp;Info" measuredWidth="212" measuredHeight="186">
+    <items x="0" y="2" width="212" height="23" text="Encryption &amp;Technology, >"/>
+    <items x="0" y="25" width="212" height="11" text="---"/>
+    <items x="0" y="36" width="212" height="23" text="( ) D&amp;o Not Encrypt"/>
+    <items x="0" y="59" width="212" height="23" text="( ) Require &amp;Encryption"/>
+    <items x="0" y="82" width="212" height="11" text="---"/>
+    <items x="0" y="93" width="212" height="23" text="[ ] Digitally Sign This &amp;Message"/>
+    <items x="0" y="116" width="212" height="11" text="---"/>
+    <items x="0" y="127" width="212" height="23" text="[ ] &amp;Attach My Public Key"/>
+    <items x="0" y="150" width="212" height="11" text="---"/>
+    <items x="0" y="161" width="212" height="23" text="View Security &amp;Info"/>
+  </widgets>
+  <widgets xsi:type="model:Popup" id="104" x="262" y="448" text="C&amp;heck Spelling...,Ctrl+Shift+P&#xA;[ ] Spellcheck As You Type&#xA;&amp;Quote Message&#xA;---&#xA;[ ] Re&amp;turn Receipt&#xA;[ ] Delivery Status &amp;Notification&#xA;---&#xA;Text En&amp;coding, >&#xA;&amp;Priority, >&#xA;Sen&amp;d a Copy To, >&#xA;---&#xA;[ ] Customize From &amp;Address...&#xA;---&#xA;Encryption &amp;Technology, >&#xA;---&#xA;( ) D&amp;o Not Encrypt&#xA;( ) Require &amp;Encryption&#xA;---&#xA;[ ] Digitally Sign This &amp;Message&#xA;---&#xA;[ ] &amp;Attach My Public Key" measuredWidth="227" measuredHeight="403">
+    <items x="0" y="2" width="227" height="23" text="C&amp;heck Spelling...,Ctrl+Shift+P"/>
+    <items x="0" y="25" width="227" height="23" text="[ ] Spellcheck As You Type"/>
+    <items x="0" y="48" width="227" height="23" text="&amp;Quote Message"/>
+    <items x="0" y="71" width="227" height="11" text="---"/>
+    <items x="0" y="82" width="227" height="23" text="[ ] Re&amp;turn Receipt"/>
+    <items x="0" y="105" width="227" height="23" text="[ ] Delivery Status &amp;Notification"/>
+    <items x="0" y="128" width="227" height="11" text="---"/>
+    <items x="0" y="139" width="227" height="23" text="Text En&amp;coding, >"/>
+    <items x="0" y="162" width="227" height="23" text="&amp;Priority, >"/>
+    <items x="0" y="185" width="227" height="23" text="Sen&amp;d a Copy To, >"/>
+    <items x="0" y="208" width="227" height="11" text="---"/>
+    <items x="0" y="219" width="227" height="23" text="[ ] Customize From &amp;Address..."/>
+    <items x="0" y="242" width="227" height="11" text="---"/>
+    <items x="0" y="253" width="227" height="23" text="Encryption &amp;Technology, >"/>
+    <items x="0" y="276" width="227" height="11" text="---"/>
+    <items x="0" y="287" width="227" height="23" text="( ) D&amp;o Not Encrypt"/>
+    <items x="0" y="310" width="227" height="23" text="( ) Require &amp;Encryption"/>
+    <items x="0" y="333" width="227" height="11" text="---"/>
+    <items x="0" y="344" width="227" height="23" text="[ ] Digitally Sign This &amp;Message"/>
+    <items x="0" y="367" width="227" height="11" text="---"/>
+    <items x="0" y="378" width="227" height="23" text="[ ] &amp;Attach My Public Key"/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="114" x="23" y="176" measuredWidth="631" measuredHeight="32">
+    <widgets xsi:type="model:Panel" id="110" width="631" height="32" measuredWidth="631" measuredHeight="32"/>
+    <widgets xsi:type="model:Label" id="111" x="7" y="4" text="{assets/remote-blocked} To protect your privacy, Thundebird has blocked remote content in this message." measuredWidth="463" measuredHeight="24">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Combo" id="112" x="510" y="5" text="Preferences" measuredWidth="91" measuredHeight="23">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Icon" id="126" x="604" y="5" width="23" height="23" measuredWidth="23" measuredHeight="23" icon="close (large)"/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="115" x="23" y="309" measuredWidth="631" measuredHeight="32">
+    <widgets xsi:type="model:Panel" id="116" width="631" height="32" measuredWidth="631" measuredHeight="32"/>
+    <widgets xsi:type="model:Label" id="117" x="7" y="4" text="{assets/attach} Found an attachment keyword" measuredWidth="189" measuredHeight="24">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Combo" id="118" x="483" y="5" text="Remind Me Later" measuredWidth="119" measuredHeight="23">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Button" id="120" x="363" y="5" height="23" text="Add Attachment..." measuredWidth="117" measuredHeight="23">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Icon" id="121" x="604" y="5" width="23" height="23" measuredWidth="23" measuredHeight="23" icon="close (large)"/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="127" x="21" y="65" height="23" text="{assets/send} Send" measuredWidth="66" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Combo" id="128" x="94" y="65" text="{assets/spelling} Spelling" measuredWidth="89" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Combo" id="129" x="191" y="65" text="{assets/privacy-security} Security" measuredWidth="90" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Combo" id="130" x="289" y="65" text="{assets/save} Save" measuredWidth="71" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="131" x="512" y="456" width="296" text="Disable attachment reminder for current message" measuredWidth="296" measuredHeight="25">
+    <font/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>
