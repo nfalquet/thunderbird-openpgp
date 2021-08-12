@@ -1,0 +1,4 @@
+#! /bin/bash
+
+bundle exec jekyll build
+rsync --archive --progress --delete _site/ nf@pulpe:public_html/
