@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Panel" id="120" width="900" height="680" measuredWidth="900" measuredHeight="680" border="dashed-rounded"/>
+  <widgets xsi:type="model:List" id="116" x="19" y="37" text="[ ] *Turn on encryption by default*&#xA;Always ask me to confirm before sending an email unencrypted." measuredWidth="375" measuredHeight="48" border="false" alpha="0">
+    <font/>
+    <items x="0" y="2" width="375" height="22" text="[ ] *Turn on encryption by default*"/>
+    <items x="0" y="24" width="375" height="22" text="Always ask me to confirm before sending an email unencrypted."/>
+  </widgets>
+  <widgets xsi:type="model:List" id="117" x="19" y="119" text="[ ] *Ask me to confirm before sending an email unencrypted*" measuredWidth="328" measuredHeight="26" border="false" alpha="0">
+    <font/>
+    <items x="0" y="2" width="328" height="22" text="[ ] *Ask me to confirm before sending an email unencrypted*"/>
+  </widgets>
+  <widgets xsi:type="model:List" id="118" x="19" y="263" text=" ( ) *Manual*&#xA;       Encrypt only when I choose to.&#xA; ( ) *Relaxed*&#xA;       Encrypt automatically if I have the keys.&#xA; ( ) *Strict*&#xA;       Always ask me to confirm before sending an email unencrypted." measuredWidth="377" measuredHeight="133" border="false" alpha="0">
+    <font/>
+    <items x="0" y="2" width="377" height="22" text=" ( ) *Manual*"/>
+    <items x="0" y="24" width="377" height="21" text="       Encrypt only when I choose to."/>
+    <items x="0" y="45" width="377" height="22" text=" ( ) *Relaxed*"/>
+    <items x="0" y="67" width="377" height="21" text="       Encrypt automatically if I have the keys."/>
+    <items x="0" y="88" width="377" height="22" text=" ( ) *Strict*"/>
+    <items x="0" y="110" width="377" height="21" text="       Always ask me to confirm before sending an email unencrypted."/>
+  </widgets>
+  <widgets xsi:type="model:List" id="119" x="467" y="38" width="382" text="*Default encryption mode*&#xA;You can change the encryption mode for each email while writing it.&#xA;&#xA; ( ) *Do Not Encrypt*&#xA;        Encrypt only when I choose to.&#xA; ( ) *Encrypt If Possible*&#xA;        Encrypt automatically if I have a key for the recipient.&#xA; ( ) *Require Encryption*&#xA;        Always ask me to confirm before sending an email unencrypted." measuredWidth="382" measuredHeight="196" border="false" alpha="0" rowHeight="20">
+    <font/>
+    <items x="0" y="2" width="382" height="21" text="*Default encryption mode*"/>
+    <items x="0" y="23" width="382" height="21" text="You can change the encryption mode for each email while writing it."/>
+    <items x="0" y="44" width="382" height="21"/>
+    <items x="0" y="65" width="382" height="22" text=" ( ) *Do Not Encrypt*"/>
+    <items x="0" y="87" width="382" height="21" text="        Encrypt only when I choose to."/>
+    <items x="0" y="108" width="382" height="22" text=" ( ) *Encrypt If Possible*"/>
+    <items x="0" y="130" width="382" height="21" text="        Encrypt automatically if I have a key for the recipient."/>
+    <items x="0" y="151" width="382" height="22" text=" ( ) *Require Encryption*"/>
+    <items x="0" y="173" width="382" height="21" text="        Always ask me to confirm before sending an email unencrypted."/>
+  </widgets>
+  <widgets xsi:type="model:List" id="123" x="19" y="551" text="[x] *Encrypt automatically if possible*&#xA; If it is impossible to encrypt an email:&#xA;  (o) Ask me to confirm if I have a key for the recipient but it has a problem&#xA;  ( ) Always ask me to confirm" measuredWidth="426" measuredHeight="92" border="false" alpha="0">
+    <font/>
+    <items x="0" y="2" width="426" height="22" text="[x] *Encrypt automatically if possible*"/>
+    <items x="0" y="24" width="426" height="22" text=" If it is impossible to encrypt an email:"/>
+    <items x="0" y="46" width="426" height="22" text="  (o) Ask me to confirm if I have a key for the recipient but it has a problem"/>
+    <items x="0" y="68" width="426" height="22" text="  ( ) Always ask me to confirm"/>
+  </widgets>
+  <widgets xsi:type="model:List" id="124" x="19" y="421" text="[ ] *Encrypt automatically if possible*&#xA;~Ask me to confirm before sending an email unencrypted:~&#xA;  ~( ) Never~&#xA;  ~(o) If I have a key~&#xA;  ~( ) Always~" measuredWidth="336" measuredHeight="114" border="false" alpha="0">
+    <font/>
+    <items x="0" y="2" width="336" height="22" text="[ ] *Encrypt automatically if possible*"/>
+    <items x="0" y="24" width="336" height="22" text="~Ask me to confirm before sending an email unencrypted:~"/>
+    <items x="0" y="46" width="336" height="22" text="  ~( ) Never~"/>
+    <items x="0" y="68" width="336" height="22" text="  ~(o) If I have a key~"/>
+    <items x="0" y="90" width="336" height="22" text="  ~( ) Always~"/>
+  </widgets>
+  <widgets xsi:type="model:List" id="125" x="467" y="266" text="( ) *I prefer sending unencrypted emails*&#xA;Only turn encryption on if I choose to.&#xA;(o) *I prefer sending encrypted emails*&#xA;If it is impossible to encrypt an email:&#xA;  (o) Ask me to confirm if I have a key for a recipient but it has a problem&#xA;  ( ) Always ask me to confirm" measuredWidth="415" measuredHeight="136" border="false" alpha="0">
+    <font/>
+    <items x="0" y="2" width="415" height="22" text="( ) *I prefer sending unencrypted emails*"/>
+    <items x="0" y="24" width="415" height="22" text="Only turn encryption on if I choose to."/>
+    <items x="0" y="46" width="415" height="22" text="(o) *I prefer sending encrypted emails*"/>
+    <items x="0" y="68" width="415" height="22" text="If it is impossible to encrypt an email:"/>
+    <items x="0" y="90" width="415" height="22" text="  (o) Ask me to confirm if I have a key for a recipient but it has a problem"/>
+    <items x="0" y="112" width="415" height="22" text="  ( ) Always ask me to confirm"/>
+  </widgets>
+  <widgets xsi:type="model:List" id="126" x="467" y="432" text="( ) *I prefer sending unencrypted emails*&#xA;Only turn encryption on if I choose to.&#xA;(o) *I prefer sending encrypted emails*&#xA; [x] Ask me to confirm before sending an email unencrypted" measuredWidth="352" measuredHeight="92" border="false" alpha="0">
+    <font/>
+    <items x="0" y="2" width="352" height="22" text="( ) *I prefer sending unencrypted emails*"/>
+    <items x="0" y="24" width="352" height="22" text="Only turn encryption on if I choose to."/>
+    <items x="0" y="46" width="352" height="22" text="(o) *I prefer sending encrypted emails*"/>
+    <items x="0" y="68" width="352" height="22" text=" [x] Ask me to confirm before sending an email unencrypted"/>
+  </widgets>
+  <widgets xsi:type="model:List" id="127" x="467" y="557" text="[x] *Encrypt automatically if possible*&#xA; [x] Ask me to confirm before sending an email unencrypted" measuredWidth="352" measuredHeight="48" border="false" alpha="0">
+    <font/>
+    <items x="0" y="2" width="352" height="22" text="[x] *Encrypt automatically if possible*"/>
+    <items x="0" y="24" width="352" height="22" text=" [x] Ask me to confirm before sending an email unencrypted"/>
+  </widgets>
+  <widgets xsi:type="model:List" id="129" x="19" y="173" text=" ( ) *Do not enable encryption by default*&#xA; ( ) *Require encryption by default*" measuredWidth="223" measuredHeight="48" border="false" alpha="0">
+    <font/>
+    <items x="0" y="2" width="223" height="22" text=" ( ) *Do not enable encryption by default*"/>
+    <items x="0" y="24" width="223" height="22" text=" ( ) *Require encryption by default*"/>
+  </widgets>
+  <hRuler/>
+  <vRuler>
+    <guides position="2305"/>
+  </vRuler>
+  <font size="12px"/>
+</model:Screen>

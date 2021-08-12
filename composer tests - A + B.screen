@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Panel" id="160" width="900" height="680" measuredWidth="900" measuredHeight="680" border="dashed-rounded"/>
+  <widgets xsi:type="model:Combo" id="147" x="14" y="404" width="127" text="{assets/privacy-security} Encryption On" measuredWidth="127" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Combo" id="148" x="14" y="436" width="127" text="{assets/lock-stricked} Encryption Off" measuredWidth="127" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Checkbox" id="150" x="14" y="468" text="Encrypt" measuredWidth="63" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Checkbox" id="151" x="14" y="500" text="Encrypt" measuredWidth="63" measuredHeight="23" selected="true">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Popup" id="152" x="706" y="10" text="[x] Encrypt&#xA; [x] Encrypt Subject&#xA;---&#xA;[x] Sign&#xA;[ ] &amp;Attach My Public Key&#xA;---&#xA;{assets/encryption-key-plain} Manage Keys for Recipients" measuredWidth="180" measuredHeight="141">
+    <items x="0" y="2" width="180" height="23" text="[x] Encrypt"/>
+    <items x="0" y="25" width="180" height="23" text=" [x] Encrypt Subject"/>
+    <items x="0" y="48" width="180" height="11" text="---"/>
+    <items x="0" y="59" width="180" height="23" text="[x] Sign"/>
+    <items x="0" y="82" width="180" height="23" text="[ ] &amp;Attach My Public Key"/>
+    <items x="0" y="105" width="180" height="11" text="---"/>
+    <items x="0" y="116" width="180" height="23" text="{assets/encryption-key-plain} Manage Keys for Recipients"/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="158" x="14" y="372" width="71" height="23" text="{assets/send} Send" measuredWidth="71" measuredHeight="23" state="disabled" textAlignment="Left">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Tooltip" id="159" x="15" y="601" height="58" text="Some keys are missing to be able to encrypt.&#xA;Review the pending key notifications." measuredWidth="251" measuredHeight="58">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="178" x="15" y="10" measuredWidth="684" measuredHeight="352">
+    <widgets xsi:type="model:Window" id="114" width="684" height="352" text="Thunderbird" measuredWidth="684" measuredHeight="352"/>
+    <widgets xsi:type="model:Menu" id="115" y="17" width="684" text="&amp;File,&amp;Edit,&amp;View,&amp;Insert,F&amp;ormat,O&amp;ptions,E&amp;ncryption,&amp;Tools,&amp;Help" measuredWidth="684" measuredHeight="27">
+      <items x="5" y="0" width="30" height="27" text="&amp;File"/>
+      <items x="35" y="0" width="32" height="27" text="&amp;Edit"/>
+      <items x="67" y="0" width="37" height="27" text="&amp;View"/>
+      <items x="104" y="0" width="42" height="27" text="&amp;Insert"/>
+      <items x="146" y="0" width="51" height="27" text="F&amp;ormat"/>
+      <items x="197" y="0" width="54" height="27" text="O&amp;ptions"/>
+      <items x="251" y="0" width="70" height="27" text="E&amp;ncryption"/>
+      <items x="321" y="0" width="41" height="27" text="&amp;Tools"/>
+      <items x="362" y="0" width="36" height="27" text="&amp;Help"/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="116" x="84" y="84" text="From" measuredWidth="36" measuredHeight="23">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="117" x="100" y="111" text="To" measuredWidth="20" measuredHeight="23">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="118" x="74" y="143" text="Subject" measuredWidth="46" measuredHeight="23">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Icon" id="120" x="302" y="90" width="10" height="10" measuredWidth="10" measuredHeight="10" icon="assets/toolbarbutton-arrow (small)"/>
+    <widgets xsi:type="model:VLine" id="121" x="326" y="88" height="14" measuredWidth="6" measuredHeight="14" foreground="#999"/>
+    <widgets xsi:type="model:Label" id="122" x="345" y="84" text="Cc" measuredWidth="20" measuredHeight="23">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="123" x="371" y="84" text="Bcc" measuredWidth="26" measuredHeight="23">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Icon" id="124" x="409" y="87" measuredWidth="16" measuredHeight="16" icon="assets/overflow (small)"/>
+    <widgets xsi:type="model:Panel" id="125" x="9" y="172" width="666" height="170" measuredWidth="666" measuredHeight="170"/>
+    <widgets xsi:type="model:TextField" id="126" x="124" y="109" width="550" measuredWidth="550" measuredHeight="28">
+      <font size="16px"/>
+    </widgets>
+    <widgets xsi:type="model:TextField" id="127" x="124" y="140" width="550" measuredWidth="550" measuredHeight="28">
+      <font size="16px"/>
+    </widgets>
+    <widgets xsi:type="model:HLine" id="128" y="74" width="684" measuredWidth="684" measuredHeight="6"/>
+    <widgets xsi:type="model:Combo" id="132" x="280" y="48" width="101" text="{assets/spelling} Spelling" measuredWidth="101" measuredHeight="23">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Combo" id="133" x="407" y="48" width="80" text="{assets/save} Save" measuredWidth="80" measuredHeight="23">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Button" id="134" x="10" y="48" width="71" height="23" text="{assets/send} Send" measuredWidth="71" measuredHeight="23" textAlignment="Left">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Combo" id="161" x="597" y="48" width="80" text="{attachment} Attach" measuredWidth="80" measuredHeight="23">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:Popup" id="162" x="519" y="372" text="(o) D&amp;o Not Encrypt&#xA;( ) Encrypt If Possible&#xA;( ) Require &amp;Encryption&#xA;[ ] Encrypt Subject&#xA;---&#xA;[ ] Sign&#xA;[ ] &amp;Attach My Public Key&#xA;---&#xA;Manage Keys for Recipients" measuredWidth="180" measuredHeight="187">
+    <items x="0" y="2" width="180" height="23" text="(o) D&amp;o Not Encrypt"/>
+    <items x="0" y="25" width="180" height="23" text="( ) Encrypt If Possible"/>
+    <items x="0" y="48" width="180" height="23" text="( ) Require &amp;Encryption"/>
+    <items x="0" y="71" width="180" height="23" text="[ ] Encrypt Subject"/>
+    <items x="0" y="94" width="180" height="11" text="---"/>
+    <items x="0" y="105" width="180" height="23" text="[ ] Sign"/>
+    <items x="0" y="128" width="180" height="23" text="[ ] &amp;Attach My Public Key"/>
+    <items x="0" y="151" width="180" height="11" text="---"/>
+    <items x="0" y="162" width="180" height="23" text="Manage Keys for Recipients"/>
+  </widgets>
+  <widgets xsi:type="model:Combo" id="164" x="224" y="371" width="139" text="Do Not Encrypt" measuredWidth="139" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="165" x="152" y="371" height="23" text="{assets/send} Send" measuredWidth="66" measuredHeight="23" textAlignment="Left">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="166" x="152" y="404" measuredWidth="303" measuredHeight="23">
+    <widgets xsi:type="model:Combo" id="167" x="164" width="139" text="Encrypt If Possible" measuredWidth="139" measuredHeight="23">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Button" id="168" height="23" text="{assets/send} Send Unencrypted {assets/lock-stricked}" measuredWidth="158" measuredHeight="23">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="169" x="152" y="470" measuredWidth="284" measuredHeight="23">
+    <widgets xsi:type="model:Combo" id="170" x="145" width="139" text="Require Encryption" measuredWidth="139" measuredHeight="23">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Button" id="171" width="139" height="23" text="{assets/send} Send Encrypted {assets/privacy-security}" measuredWidth="139" measuredHeight="23">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="172" x="152" y="437" measuredWidth="284" measuredHeight="23">
+    <widgets xsi:type="model:Combo" id="173" x="145" width="139" text="Encrypt If Possible" measuredWidth="139" measuredHeight="23">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Button" id="174" width="139" height="23" text="{assets/send} Send Encrypted {assets/privacy-security}" measuredWidth="139" measuredHeight="23">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="175" x="152" y="504" measuredWidth="284" measuredHeight="23">
+    <widgets xsi:type="model:Button" id="176" width="139" height="23" text="{assets/send} Send Encrypted {assets/privacy-security}" measuredWidth="139" measuredHeight="23" state="disabled">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Combo" id="177" x="145" width="139" text="Require Encryption" measuredWidth="139" measuredHeight="23">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:Popup" id="191" x="706" y="309" text="(o) Encryption On&#xA; [x] Encrypt Subject&#xA;( ) Encryption Off&#xA;---&#xA;[ ] Sign&#xA;[ ] &amp;Attach My Public Key&#xA;---&#xA;{assets/encryption-key-plain} Manage Keys for Recipients" measuredWidth="180" measuredHeight="164">
+    <items x="0" y="2" width="180" height="23" text="(o) Encryption On"/>
+    <items x="0" y="25" width="180" height="23" text=" [x] Encrypt Subject"/>
+    <items x="0" y="48" width="180" height="23" text="( ) Encryption Off"/>
+    <items x="0" y="71" width="180" height="11" text="---"/>
+    <items x="0" y="82" width="180" height="23" text="[ ] Sign"/>
+    <items x="0" y="105" width="180" height="23" text="[ ] &amp;Attach My Public Key"/>
+    <items x="0" y="128" width="180" height="11" text="---"/>
+    <items x="0" y="139" width="180" height="23" text="{assets/encryption-key-plain} Manage Keys for Recipients"/>
+  </widgets>
+  <widgets xsi:type="model:Popup" id="192" x="706" y="160" text="[ ] Encrypt&#xA; ~[ ] Encrypt Subject~&#xA;---&#xA;[ ] Sign&#xA;[ ] &amp;Attach My Public Key&#xA;---&#xA;{assets/encryption-key-plain} Manage Keys for Recipients" measuredWidth="180" measuredHeight="141">
+    <items x="0" y="2" width="180" height="23" text="[ ] Encrypt"/>
+    <items x="0" y="25" width="180" height="23" text=" ~[ ] Encrypt Subject~"/>
+    <items x="0" y="48" width="180" height="11" text="---"/>
+    <items x="0" y="59" width="180" height="23" text="[ ] Sign"/>
+    <items x="0" y="82" width="180" height="23" text="[ ] &amp;Attach My Public Key"/>
+    <items x="0" y="105" width="180" height="11" text="---"/>
+    <items x="0" y="116" width="180" height="23" text="{assets/encryption-key-plain} Manage Keys for Recipients"/>
+  </widgets>
+  <widgets xsi:type="model:Popup" id="193" x="706" y="481" text="( ) Encryption On&#xA; ~[ ] Encrypt Subject~&#xA;(o) Encryption Off&#xA;---&#xA;[ ] Sign&#xA;[ ] &amp;Attach My Public Key&#xA;---&#xA;{assets/encryption-key-plain} Manage Keys for Recipients" measuredWidth="180" measuredHeight="164">
+    <items x="0" y="2" width="180" height="23" text="( ) Encryption On"/>
+    <items x="0" y="25" width="180" height="23" text=" ~[ ] Encrypt Subject~"/>
+    <items x="0" y="48" width="180" height="23" text="(o) Encryption Off"/>
+    <items x="0" y="71" width="180" height="11" text="---"/>
+    <items x="0" y="82" width="180" height="23" text="[ ] Sign"/>
+    <items x="0" y="105" width="180" height="23" text="[ ] &amp;Attach My Public Key"/>
+    <items x="0" y="128" width="180" height="11" text="---"/>
+    <items x="0" y="139" width="180" height="23" text="{assets/encryption-key-plain} Manage Keys for Recipients"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="194" x="152" y="551" text="Encrypted Subject" measuredWidth="104" measuredHeight="23">
+    <font/>
+  </widgets>
+  <hRuler/>
+  <vRuler>
+    <guides position="2305"/>
+  </vRuler>
+  <font size="12px"/>
+</model:Screen>

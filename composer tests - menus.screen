@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Panel" id="119" width="900" height="680" measuredWidth="900" measuredHeight="680" border="dashed-rounded"/>
+  <widgets xsi:type="model:Popup" id="114" x="32" y="34" width="253" text="&amp;New, >&#xA;Attac&amp;h, >&#xA;---&#xA;&amp;Save, Ctrl+S&#xA;Save &amp;As, >&#xA;---&#xA;Sen&amp;d Now, Ctrl+Enter&#xA;Send &amp;Later, Ctrl+Shift+Enter&#xA;---&#xA;Page Set&amp;up..., Ctrl+Enter&#xA;Print Pre&amp;view&#xA;&amp;Print..., Ctrl+P&#xA;---&#xA;&amp;Close, Ctrl+W" measuredWidth="253" measuredHeight="278">
+    <items x="0" y="2" width="253" height="23" text="&amp;New, >"/>
+    <items x="0" y="25" width="253" height="23" text="Attac&amp;h, >"/>
+    <items x="0" y="48" width="253" height="11" text="---"/>
+    <items x="0" y="59" width="253" height="23" text="&amp;Save, Ctrl+S"/>
+    <items x="0" y="82" width="253" height="23" text="Save &amp;As, >"/>
+    <items x="0" y="105" width="253" height="11" text="---"/>
+    <items x="0" y="116" width="253" height="23" text="Sen&amp;d Now, Ctrl+Enter"/>
+    <items x="0" y="139" width="253" height="23" text="Send &amp;Later, Ctrl+Shift+Enter"/>
+    <items x="0" y="162" width="253" height="11" text="---"/>
+    <items x="0" y="173" width="253" height="23" text="Page Set&amp;up..., Ctrl+Enter"/>
+    <items x="0" y="196" width="253" height="23" text="Print Pre&amp;view"/>
+    <items x="0" y="219" width="253" height="23" text="&amp;Print..., Ctrl+P"/>
+    <items x="0" y="242" width="253" height="11" text="---"/>
+    <items x="0" y="253" width="253" height="23" text="&amp;Close, Ctrl+W"/>
+  </widgets>
+  <widgets xsi:type="model:Popup" id="115" x="293" y="34" width="253" text="&amp;Undo, Ctrl+Z&#xA;&amp;Redo, Ctrl+Shift+Z&#xA;---&#xA;Cu&amp;t, Ctrl+X&#xA;&amp;Copy, Ctrl+C&#xA;&amp;Paste, Ctrl+V&#xA;Paste Without Formatti&amp;ng, Ctrl+Shift+V&#xA;Paste As &amp;Quotation, Ctrl+Shift+O&#xA;&amp;Delete, Del&#xA;---&#xA;Re&amp;wrap, Ctrl+R&#xA;R&amp;ename Attachment..., F2&#xA;Reorder Attachment&amp;s..., Ctrl+Shift+X&#xA;---&#xA;Select &amp;All, Ctrl+A&#xA;---&#xA;&amp;Find..., Ctrl+F&#xA;Find and Rep&amp;lace..., Ctrl+H&#xA;Find A&amp;gain, Ctrl+G&#xA;Find Pre&amp;vious, Ctrl+Shift+G&#xA;---&#xA;Account &amp;Settings&#xA;Prefere&amp;nces" measuredWidth="253" measuredHeight="473">
+    <items x="0" y="2" width="253" height="23" text="&amp;Undo, Ctrl+Z"/>
+    <items x="0" y="25" width="253" height="23" text="&amp;Redo, Ctrl+Shift+Z"/>
+    <items x="0" y="48" width="253" height="11" text="---"/>
+    <items x="0" y="59" width="253" height="23" text="Cu&amp;t, Ctrl+X"/>
+    <items x="0" y="82" width="253" height="23" text="&amp;Copy, Ctrl+C"/>
+    <items x="0" y="105" width="253" height="23" text="&amp;Paste, Ctrl+V"/>
+    <items x="0" y="128" width="253" height="23" text="Paste Without Formatti&amp;ng, Ctrl+Shift+V"/>
+    <items x="0" y="151" width="253" height="23" text="Paste As &amp;Quotation, Ctrl+Shift+O"/>
+    <items x="0" y="174" width="253" height="23" text="&amp;Delete, Del"/>
+    <items x="0" y="197" width="253" height="11" text="---"/>
+    <items x="0" y="208" width="253" height="23" text="Re&amp;wrap, Ctrl+R"/>
+    <items x="0" y="231" width="253" height="23" text="R&amp;ename Attachment..., F2"/>
+    <items x="0" y="254" width="253" height="23" text="Reorder Attachment&amp;s..., Ctrl+Shift+X"/>
+    <items x="0" y="277" width="253" height="11" text="---"/>
+    <items x="0" y="288" width="253" height="23" text="Select &amp;All, Ctrl+A"/>
+    <items x="0" y="311" width="253" height="11" text="---"/>
+    <items x="0" y="322" width="253" height="23" text="&amp;Find..., Ctrl+F"/>
+    <items x="0" y="345" width="253" height="23" text="Find and Rep&amp;lace..., Ctrl+H"/>
+    <items x="0" y="368" width="253" height="23" text="Find A&amp;gain, Ctrl+G"/>
+    <items x="0" y="391" width="253" height="23" text="Find Pre&amp;vious, Ctrl+Shift+G"/>
+    <items x="0" y="414" width="253" height="11" text="---"/>
+    <items x="0" y="425" width="253" height="23" text="Account &amp;Settings"/>
+    <items x="0" y="448" width="253" height="23" text="Prefere&amp;nces"/>
+  </widgets>
+  <widgets xsi:type="model:Popup" id="116" x="552" y="34" width="253" text="&amp;Toolbars, >&#xA;&amp;Zoom, >&#xA;[ ] C&amp;ontacts Sidebar, F9&#xA;[ ] Attach&amp;ment Pane, Alt+M" measuredWidth="253" measuredHeight="96">
+    <items x="0" y="2" width="253" height="23" text="&amp;Toolbars, >"/>
+    <items x="0" y="25" width="253" height="23" text="&amp;Zoom, >"/>
+    <items x="0" y="48" width="253" height="23" text="[ ] C&amp;ontacts Sidebar, F9"/>
+    <items x="0" y="71" width="253" height="23" text="[ ] Attach&amp;ment Pane, Alt+M"/>
+  </widgets>
+  <widgets xsi:type="model:Popup" id="117" x="552" y="137" width="253" text="C&amp;heck Spelling..., Ctrl+Shift+P&#xA;[ ] &amp;Spellcheck As You Type&#xA;&amp;Quote Message&#xA;---&#xA;[ ] Re&amp;turn Receipt&#xA;[ ] Delivery Status &amp;Notification&#xA;---&#xA;Text En&amp;coding, >&#xA;&amp;Priority, >&#xA;Sen&amp;d a Copy To, >&#xA;---&#xA;[ ] Customize From &amp;Address..." measuredWidth="253" measuredHeight="244">
+    <items x="0" y="2" width="253" height="23" text="C&amp;heck Spelling..., Ctrl+Shift+P"/>
+    <items x="0" y="25" width="253" height="23" text="[ ] &amp;Spellcheck As You Type"/>
+    <items x="0" y="48" width="253" height="23" text="&amp;Quote Message"/>
+    <items x="0" y="71" width="253" height="11" text="---"/>
+    <items x="0" y="82" width="253" height="23" text="[ ] Re&amp;turn Receipt"/>
+    <items x="0" y="105" width="253" height="23" text="[ ] Delivery Status &amp;Notification"/>
+    <items x="0" y="128" width="253" height="11" text="---"/>
+    <items x="0" y="139" width="253" height="23" text="Text En&amp;coding, >"/>
+    <items x="0" y="162" width="253" height="23" text="&amp;Priority, >"/>
+    <items x="0" y="185" width="253" height="23" text="Sen&amp;d a Copy To, >"/>
+    <items x="0" y="208" width="253" height="11" text="---"/>
+    <items x="0" y="219" width="253" height="23" text="[ ] Customize From &amp;Address..."/>
+  </widgets>
+  <widgets xsi:type="model:Popup" id="118" x="552" y="389" width="253" text="&amp;Mail &amp; Newsgroups, Ctrl+1&#xA;&amp;Address Book, Ctrl+Shift+B" measuredWidth="253" measuredHeight="50">
+    <items x="0" y="2" width="253" height="23" text="&amp;Mail &amp; Newsgroups, Ctrl+1"/>
+    <items x="0" y="25" width="253" height="23" text="&amp;Address Book, Ctrl+Shift+B"/>
+  </widgets>
+  <widgets xsi:type="model:Popup" id="120" x="32" y="320" width="160" text="Key Accepted {check}&#xA;Manage Key...&#xA;---&#xA;&amp;Edit Address&#xA;&amp;Delete&#xA;---&#xA;Cu&amp;t&#xA;&amp;Copy&#xA;---&#xA;~Move to &amp;To~&#xA;Move to &amp;Cc&#xA;Move to &amp;Bcc&#xA;" measuredWidth="160" measuredHeight="244">
+    <items x="0" y="2" width="160" height="23" text="Key Accepted {check}"/>
+    <items x="0" y="25" width="160" height="23" text="Manage Key..."/>
+    <items x="0" y="48" width="160" height="11" text="---"/>
+    <items x="0" y="59" width="160" height="23" text="&amp;Edit Address"/>
+    <items x="0" y="82" width="160" height="23" text="&amp;Delete"/>
+    <items x="0" y="105" width="160" height="11" text="---"/>
+    <items x="0" y="116" width="160" height="23" text="Cu&amp;t"/>
+    <items x="0" y="139" width="160" height="23" text="&amp;Copy"/>
+    <items x="0" y="162" width="160" height="11" text="---"/>
+    <items x="0" y="173" width="160" height="23" text="~Move to &amp;To~"/>
+    <items x="0" y="196" width="160" height="23" text="Move to &amp;Cc"/>
+    <items x="0" y="219" width="160" height="23" text="Move to &amp;Bcc"/>
+  </widgets>
+  <widgets xsi:type="model:Popup" id="121" x="32" y="576" width="160" text="Key Accepted {check}&#xA;Manage Key...&#xA; " measuredWidth="160" measuredHeight="73">
+    <items x="0" y="2" width="160" height="23" text="Key Accepted {check}"/>
+    <items x="0" y="25" width="160" height="23" text="Manage Key..."/>
+    <items x="0" y="48" width="160" height="23" text=" "/>
+  </widgets>
+  <widgets xsi:type="model:Popup" id="122" x="208" y="576" width="160" text="Key Not Accepted {warning}&#xA;Manage Key...&#xA; " measuredWidth="160" measuredHeight="73">
+    <items x="0" y="2" width="160" height="23" text="Key Not Accepted {warning}"/>
+    <items x="0" y="25" width="160" height="23" text="Manage Key..."/>
+    <items x="0" y="48" width="160" height="23" text=" "/>
+  </widgets>
+  <widgets xsi:type="model:Popup" id="123" x="386" y="576" text="No OpenPGP Key {help}&#xA;Search on Key Servers...&#xA; " measuredWidth="160" measuredHeight="73">
+    <items x="0" y="2" width="160" height="23" text="No OpenPGP Key {help}"/>
+    <items x="0" y="25" width="160" height="23" text="Search on Key Servers..."/>
+    <items x="0" y="48" width="160" height="23" text=" "/>
+  </widgets>
+  <hRuler/>
+  <vRuler>
+    <guides position="2305"/>
+  </vRuler>
+  <font size="12px"/>
+</model:Screen>

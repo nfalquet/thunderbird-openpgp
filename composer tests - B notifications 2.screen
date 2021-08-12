@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Panel" id="114" width="900" height="680" measuredWidth="900" measuredHeight="680" border="dashed-rounded"/>
+  <widgets xsi:type="model:WidgetGroup" id="133" x="46" y="11" measuredWidth="684" measuredHeight="330">
+    <widgets xsi:type="model:Window" id="134" width="684" height="330" text="Thunderbird" measuredWidth="684" measuredHeight="330"/>
+    <widgets xsi:type="model:Menu" id="135" y="17" width="684" text="&amp;File,&amp;Edit,&amp;View,&amp;Insert,F&amp;ormat,O&amp;ptions,E&amp;ncryption,&amp;Tools,&amp;Help" measuredWidth="684" measuredHeight="27">
+      <items x="5" y="0" width="30" height="27" text="&amp;File"/>
+      <items x="35" y="0" width="32" height="27" text="&amp;Edit"/>
+      <items x="67" y="0" width="37" height="27" text="&amp;View"/>
+      <items x="104" y="0" width="42" height="27" text="&amp;Insert"/>
+      <items x="146" y="0" width="51" height="27" text="F&amp;ormat"/>
+      <items x="197" y="0" width="54" height="27" text="O&amp;ptions"/>
+      <items x="251" y="0" width="70" height="27" text="E&amp;ncryption"/>
+      <items x="321" y="0" width="41" height="27" text="&amp;Tools"/>
+      <items x="362" y="0" width="36" height="27" text="&amp;Help"/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="136" x="84" y="84" text="From" measuredWidth="36" measuredHeight="23">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="137" x="100" y="111" text="To" measuredWidth="20" measuredHeight="23">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="138" x="16" y="143" text="Encrypted Subject" measuredWidth="104" measuredHeight="23" textAlignment="Right">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Icon" id="139" x="302" y="90" width="10" height="10" measuredWidth="10" measuredHeight="10" icon="assets/toolbarbutton-arrow (small)"/>
+    <widgets xsi:type="model:VLine" id="140" x="326" y="88" height="14" measuredWidth="6" measuredHeight="14" foreground="#999"/>
+    <widgets xsi:type="model:Label" id="141" x="345" y="84" text="Cc" measuredWidth="20" measuredHeight="23">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="142" x="371" y="84" text="Bcc" measuredWidth="26" measuredHeight="23">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Icon" id="143" x="409" y="87" measuredWidth="16" measuredHeight="16" icon="assets/overflow (small)"/>
+    <widgets xsi:type="model:Panel" id="144" x="9" y="172" width="666" height="150" measuredWidth="666" measuredHeight="150"/>
+    <widgets xsi:type="model:TextField" id="145" x="124" y="109" width="550" measuredWidth="550" measuredHeight="28">
+      <font size="16px"/>
+    </widgets>
+    <widgets xsi:type="model:TextField" id="146" x="124" y="140" width="550" measuredWidth="550" measuredHeight="28">
+      <font size="16px"/>
+    </widgets>
+    <widgets xsi:type="model:HLine" id="147" y="74" width="684" measuredWidth="684" measuredHeight="6"/>
+    <widgets xsi:type="model:Combo" id="148" x="227" y="48" width="101" text="{assets/spelling} Spelling" measuredWidth="101" measuredHeight="23">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Combo" id="149" x="337" y="48" width="80" text="{assets/save} Save" measuredWidth="80" measuredHeight="23">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Button" id="150" x="10" y="48" width="71" height="23" text="{assets/send} Send" measuredWidth="71" measuredHeight="23" state="disabled" textAlignment="Left">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Combo" id="151" x="597" y="48" width="80" text="{attachment} Attach" measuredWidth="80" measuredHeight="23">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Combo" id="152" x="90" y="48" width="127" text="{assets/privacy-security} Encryption On" measuredWidth="127" measuredHeight="23">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:Button" id="155" x="175" y="124" height="20" text="hello@yoga.life {help}" measuredWidth="122" measuredHeight="20">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="188" x="54" y="182" measuredWidth="667" measuredHeight="32">
+    <widgets xsi:type="model:WidgetGroup" id="189" width="667" measuredWidth="667" measuredHeight="32">
+      <widgets xsi:type="model:Panel" id="190" width="667" height="32" measuredWidth="667" measuredHeight="32"/>
+      <widgets xsi:type="model:Label" id="191" x="6" y="4" text="{assets/encryption-key-plain} You don't have a key for *hello@yoga.life*." measuredWidth="243" measuredHeight="24">
+        <font/>
+      </widgets>
+    </widgets>
+    <widgets xsi:type="model:Button" id="192" x="511" y="4" height="23" text="Search on Key Servers..." measuredWidth="150" measuredHeight="23">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Button" id="193" x="404" y="4" height="23" text="Do Not Encrypt" measuredWidth="104" measuredHeight="23">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="232" x="46" y="561" measuredWidth="667" measuredHeight="32">
+    <widgets xsi:type="model:WidgetGroup" id="233" width="667" measuredWidth="667" measuredHeight="32">
+      <widgets xsi:type="model:Panel" id="234" width="667" height="32" measuredWidth="667" measuredHeight="32"/>
+      <widgets xsi:type="model:Label" id="235" x="6" y="4" text="{assets/encryption-key-plain} You have accepted a key for *renata@riseup.net*." measuredWidth="282" measuredHeight="24">
+        <font/>
+      </widgets>
+    </widgets>
+    <widgets xsi:type="model:Button" id="236" x="599" y="4" height="23" text="Encrypt" measuredWidth="62" measuredHeight="23">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Button" id="237" x="492" y="4" height="23" text="Do Not Encrypt" measuredWidth="104" measuredHeight="23">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="238" x="46" y="598" measuredWidth="667" measuredHeight="32">
+    <widgets xsi:type="model:WidgetGroup" id="239" width="667" measuredWidth="667" measuredHeight="32">
+      <widgets xsi:type="model:Panel" id="240" width="667" height="32" measuredWidth="667" measuredHeight="32"/>
+      <widgets xsi:type="model:Label" id="241" x="6" y="4" text="{assets/encryption-key-plain} You don't have a key for *hello@yoga.life*." measuredWidth="243" measuredHeight="24">
+        <font/>
+      </widgets>
+    </widgets>
+    <widgets xsi:type="model:Button" id="242" x="511" y="4" height="23" text="Search on Key Servers..." measuredWidth="150" measuredHeight="23">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Button" id="243" x="404" y="4" height="23" text="Do Not Encrypt" measuredWidth="104" measuredHeight="23">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="244" x="46" y="636" measuredWidth="667" measuredHeight="32">
+    <widgets xsi:type="model:WidgetGroup" id="245" width="667" measuredWidth="667" measuredHeight="32">
+      <widgets xsi:type="model:Panel" id="246" width="667" height="32" measuredWidth="667" measuredHeight="32"/>
+      <widgets xsi:type="model:Label" id="247" x="6" y="4" text="{assets/encryption-key-plain} You have accepted a key for *derya@humanrights.org*." measuredWidth="315" measuredHeight="24">
+        <font/>
+      </widgets>
+    </widgets>
+    <widgets xsi:type="model:Button" id="248" x="599" y="4" height="23" text="Encrypt" measuredWidth="62" measuredHeight="23">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Button" id="249" x="492" y="4" height="23" text="Do Not Encrypt" measuredWidth="104" measuredHeight="23">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="250" x="46" y="486" measuredWidth="667" measuredHeight="32">
+    <widgets xsi:type="model:WidgetGroup" id="251" width="667" measuredWidth="667" measuredHeight="32">
+      <widgets xsi:type="model:Panel" id="252" width="667" height="32" measuredWidth="667" measuredHeight="32"/>
+      <widgets xsi:type="model:Label" id="253" x="6" y="4" text="{assets/encryption-key-plain} You have accepted a key for *renata@riseup.net*." measuredWidth="282" measuredHeight="24">
+        <font/>
+      </widgets>
+    </widgets>
+    <widgets xsi:type="model:Button" id="254" x="599" y="4" height="23" text="Encrypt" measuredWidth="62" measuredHeight="23">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Button" id="255" x="492" y="4" height="23" text="Do Not Encrypt" measuredWidth="104" measuredHeight="23">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="256" x="46" y="523" measuredWidth="667" measuredHeight="32">
+    <widgets xsi:type="model:WidgetGroup" id="257" width="667" measuredWidth="667" measuredHeight="32">
+      <widgets xsi:type="model:Panel" id="258" width="667" height="32" measuredWidth="667" measuredHeight="32"/>
+      <widgets xsi:type="model:Label" id="259" x="7" y="4" text="{assets/encryption-key-plain}  You have not accepted the key for *kim@humanrights.org*." measuredWidth="340" measuredHeight="24">
+        <font/>
+      </widgets>
+    </widgets>
+    <widgets xsi:type="model:Button" id="260" x="566" y="4" height="23" text="Manage Key..." measuredWidth="95" measuredHeight="23">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Button" id="261" x="460" y="4" height="23" text="Do Not Encrypt" measuredWidth="104" measuredHeight="23">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:Icon" id="269" x="177" y="158" measuredWidth="16" measuredHeight="16" icon="assets/privacy-security (small)"/>
+  <widgets xsi:type="model:WidgetGroup" id="270" x="46" y="449" measuredWidth="667" measuredHeight="32">
+    <widgets xsi:type="model:WidgetGroup" id="271" width="667" measuredWidth="667" measuredHeight="32">
+      <widgets xsi:type="model:Panel" id="272" width="667" height="32" measuredWidth="667" measuredHeight="32"/>
+      <widgets xsi:type="model:Label" id="273" x="6" y="4" text="{assets/encryption-key-plain} You don't have a key for *alex@humanrights.org*." measuredWidth="286" measuredHeight="24">
+        <font/>
+      </widgets>
+    </widgets>
+    <widgets xsi:type="model:Button" id="274" x="511" y="4" height="23" text="Search on Key Servers..." measuredWidth="150" measuredHeight="23">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Button" id="275" x="404" y="4" height="23" text="Do Not Encrypt" measuredWidth="104" measuredHeight="23">
+      <font/>
+    </widgets>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>

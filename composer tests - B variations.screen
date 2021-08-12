@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Panel" id="114" width="900" height="680" measuredWidth="900" measuredHeight="680" border="dashed-rounded"/>
+  <widgets xsi:type="model:WidgetGroup" id="210" x="34" y="78" measuredWidth="400" measuredHeight="80">
+    <widgets xsi:type="model:WidgetGroup" id="136" measuredWidth="400" measuredHeight="80">
+      <widgets xsi:type="model:Window" id="137" height="80" text="Thunderbird" measuredWidth="400" measuredHeight="80"/>
+      <widgets xsi:type="model:Menu" id="138" y="17" width="400" text="&amp;File,&amp;Edit,&amp;View,&amp;Insert,F&amp;ormat,O&amp;ptions,E&amp;ncryption,&amp;Tools,&amp;Help" measuredWidth="400" measuredHeight="27">
+        <items x="5" y="0" width="30" height="27" text="&amp;File"/>
+        <items x="35" y="0" width="32" height="27" text="&amp;Edit"/>
+        <items x="67" y="0" width="37" height="27" text="&amp;View"/>
+        <items x="104" y="0" width="42" height="27" text="&amp;Insert"/>
+        <items x="146" y="0" width="51" height="27" text="F&amp;ormat"/>
+        <items x="197" y="0" width="54" height="27" text="O&amp;ptions"/>
+        <items x="251" y="0" width="70" height="27" text="E&amp;ncryption"/>
+        <items x="321" y="0" width="41" height="27" text="&amp;Tools"/>
+        <items x="362" y="0" width="36" height="27" text="&amp;Help"/>
+      </widgets>
+    </widgets>
+    <widgets xsi:type="model:Button" id="146" x="8" y="49" width="71" height="23" text="{assets/send} Send" measuredWidth="71" measuredHeight="23" textAlignment="Left">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Combo" id="147" x="87" y="49" width="127" text="{assets/privacy-security} Encryption On" measuredWidth="127" measuredHeight="23">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="200" x="466" y="78" measuredWidth="400" measuredHeight="80">
+    <widgets xsi:type="model:WidgetGroup" id="148" measuredWidth="400" measuredHeight="80">
+      <widgets xsi:type="model:Window" id="149" height="80" text="Thunderbird" measuredWidth="400" measuredHeight="80"/>
+      <widgets xsi:type="model:Menu" id="150" y="17" width="400" text="&amp;File,&amp;Edit,&amp;View,&amp;Insert,F&amp;ormat,O&amp;ptions,E&amp;ncryption,&amp;Tools,&amp;Help" measuredWidth="400" measuredHeight="27">
+        <items x="5" y="0" width="30" height="27" text="&amp;File"/>
+        <items x="35" y="0" width="32" height="27" text="&amp;Edit"/>
+        <items x="67" y="0" width="37" height="27" text="&amp;View"/>
+        <items x="104" y="0" width="42" height="27" text="&amp;Insert"/>
+        <items x="146" y="0" width="51" height="27" text="F&amp;ormat"/>
+        <items x="197" y="0" width="54" height="27" text="O&amp;ptions"/>
+        <items x="251" y="0" width="70" height="27" text="E&amp;ncryption"/>
+        <items x="321" y="0" width="41" height="27" text="&amp;Tools"/>
+        <items x="362" y="0" width="36" height="27" text="&amp;Help"/>
+      </widgets>
+    </widgets>
+    <widgets xsi:type="model:Button" id="151" x="8" y="49" width="71" height="23" text="{assets/send} Send" measuredWidth="71" measuredHeight="23" textAlignment="Left">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Combo" id="153" x="88" y="49" width="127" text="{assets/lock-stricked} Encryption Off" measuredWidth="127" measuredHeight="23">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="207" x="34" y="288" measuredWidth="400" measuredHeight="80">
+    <widgets xsi:type="model:WidgetGroup" id="154" measuredWidth="400" measuredHeight="80">
+      <widgets xsi:type="model:Window" id="155" height="80" text="Thunderbird" measuredWidth="400" measuredHeight="80"/>
+      <widgets xsi:type="model:Menu" id="156" y="17" width="400" text="&amp;File,&amp;Edit,&amp;View,&amp;Insert,F&amp;ormat,O&amp;ptions,E&amp;ncryption,&amp;Tools,&amp;Help" measuredWidth="400" measuredHeight="27">
+        <items x="5" y="0" width="30" height="27" text="&amp;File"/>
+        <items x="35" y="0" width="32" height="27" text="&amp;Edit"/>
+        <items x="67" y="0" width="37" height="27" text="&amp;View"/>
+        <items x="104" y="0" width="42" height="27" text="&amp;Insert"/>
+        <items x="146" y="0" width="51" height="27" text="F&amp;ormat"/>
+        <items x="197" y="0" width="54" height="27" text="O&amp;ptions"/>
+        <items x="251" y="0" width="70" height="27" text="E&amp;ncryption"/>
+        <items x="321" y="0" width="41" height="27" text="&amp;Tools"/>
+        <items x="362" y="0" width="36" height="27" text="&amp;Help"/>
+      </widgets>
+    </widgets>
+    <widgets xsi:type="model:Button" id="157" x="8" y="49" width="71" height="23" text="{assets/send} Send" measuredWidth="71" measuredHeight="23" textAlignment="Left">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Checkbox" id="144" x="88" y="48" text="Encrypt" measuredWidth="63" measuredHeight="23" selected="true">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="202" x="466" y="288" measuredWidth="400" measuredHeight="80">
+    <widgets xsi:type="model:WidgetGroup" id="159" measuredWidth="400" measuredHeight="80">
+      <widgets xsi:type="model:Window" id="160" height="80" text="Thunderbird" measuredWidth="400" measuredHeight="80"/>
+      <widgets xsi:type="model:Menu" id="161" y="17" width="400" text="&amp;File,&amp;Edit,&amp;View,&amp;Insert,F&amp;ormat,O&amp;ptions,E&amp;ncryption,&amp;Tools,&amp;Help" measuredWidth="400" measuredHeight="27">
+        <items x="5" y="0" width="30" height="27" text="&amp;File"/>
+        <items x="35" y="0" width="32" height="27" text="&amp;Edit"/>
+        <items x="67" y="0" width="37" height="27" text="&amp;View"/>
+        <items x="104" y="0" width="42" height="27" text="&amp;Insert"/>
+        <items x="146" y="0" width="51" height="27" text="F&amp;ormat"/>
+        <items x="197" y="0" width="54" height="27" text="O&amp;ptions"/>
+        <items x="251" y="0" width="70" height="27" text="E&amp;ncryption"/>
+        <items x="321" y="0" width="41" height="27" text="&amp;Tools"/>
+        <items x="362" y="0" width="36" height="27" text="&amp;Help"/>
+      </widgets>
+    </widgets>
+    <widgets xsi:type="model:Button" id="162" x="8" y="49" width="71" height="23" text="{assets/send} Send" measuredWidth="71" measuredHeight="23" textAlignment="Left">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Checkbox" id="145" x="89" y="48" text="Encrypt" measuredWidth="63" measuredHeight="23">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="206" x="34" y="393" measuredWidth="400" measuredHeight="80">
+    <widgets xsi:type="model:WidgetGroup" id="164" measuredWidth="400" measuredHeight="80">
+      <widgets xsi:type="model:Window" id="165" height="80" text="Thunderbird" measuredWidth="400" measuredHeight="80"/>
+      <widgets xsi:type="model:Menu" id="166" y="17" width="400" text="&amp;File,&amp;Edit,&amp;View,&amp;Insert,F&amp;ormat,O&amp;ptions,E&amp;ncryption,&amp;Tools,&amp;Help" measuredWidth="400" measuredHeight="27">
+        <items x="5" y="0" width="30" height="27" text="&amp;File"/>
+        <items x="35" y="0" width="32" height="27" text="&amp;Edit"/>
+        <items x="67" y="0" width="37" height="27" text="&amp;View"/>
+        <items x="104" y="0" width="42" height="27" text="&amp;Insert"/>
+        <items x="146" y="0" width="51" height="27" text="F&amp;ormat"/>
+        <items x="197" y="0" width="54" height="27" text="O&amp;ptions"/>
+        <items x="251" y="0" width="70" height="27" text="E&amp;ncryption"/>
+        <items x="321" y="0" width="41" height="27" text="&amp;Tools"/>
+        <items x="362" y="0" width="36" height="27" text="&amp;Help"/>
+      </widgets>
+    </widgets>
+    <widgets xsi:type="model:Button" id="167" x="8" y="49" width="71" height="23" text="{assets/send} Send" measuredWidth="71" measuredHeight="23" textAlignment="Left">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Checkbox" id="172" x="118" y="48" text="Encrypt" measuredWidth="63" measuredHeight="23" selected="true">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Icon" id="174" x="90" y="51" measuredWidth="16" measuredHeight="16" icon="assets/privacy-security (small)"/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="203" x="466" y="393" measuredWidth="400" measuredHeight="80">
+    <widgets xsi:type="model:WidgetGroup" id="168" measuredWidth="400" measuredHeight="80">
+      <widgets xsi:type="model:Window" id="169" height="80" text="Thunderbird" measuredWidth="400" measuredHeight="80"/>
+      <widgets xsi:type="model:Menu" id="170" y="17" width="400" text="&amp;File,&amp;Edit,&amp;View,&amp;Insert,F&amp;ormat,O&amp;ptions,E&amp;ncryption,&amp;Tools,&amp;Help" measuredWidth="400" measuredHeight="27">
+        <items x="5" y="0" width="30" height="27" text="&amp;File"/>
+        <items x="35" y="0" width="32" height="27" text="&amp;Edit"/>
+        <items x="67" y="0" width="37" height="27" text="&amp;View"/>
+        <items x="104" y="0" width="42" height="27" text="&amp;Insert"/>
+        <items x="146" y="0" width="51" height="27" text="F&amp;ormat"/>
+        <items x="197" y="0" width="54" height="27" text="O&amp;ptions"/>
+        <items x="251" y="0" width="70" height="27" text="E&amp;ncryption"/>
+        <items x="321" y="0" width="41" height="27" text="&amp;Tools"/>
+        <items x="362" y="0" width="36" height="27" text="&amp;Help"/>
+      </widgets>
+    </widgets>
+    <widgets xsi:type="model:Button" id="171" x="8" y="49" width="71" height="23" text="{assets/send} Send" measuredWidth="71" measuredHeight="23" textAlignment="Left">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Checkbox" id="173" x="119" y="48" text="Encrypt" measuredWidth="63" measuredHeight="23">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Icon" id="175" x="91" y="51" measuredWidth="16" measuredHeight="16" icon="assets/lock-stricked (small)"/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="205" x="34" y="498" measuredWidth="400" measuredHeight="80">
+    <widgets xsi:type="model:WidgetGroup" id="178" measuredWidth="400" measuredHeight="80">
+      <widgets xsi:type="model:Window" id="179" height="80" text="Thunderbird" measuredWidth="400" measuredHeight="80"/>
+      <widgets xsi:type="model:Menu" id="180" y="17" width="400" text="&amp;File,&amp;Edit,&amp;View,&amp;Insert,F&amp;ormat,O&amp;ptions,E&amp;ncryption,&amp;Tools,&amp;Help" measuredWidth="400" measuredHeight="27">
+        <items x="5" y="0" width="30" height="27" text="&amp;File"/>
+        <items x="35" y="0" width="32" height="27" text="&amp;Edit"/>
+        <items x="67" y="0" width="37" height="27" text="&amp;View"/>
+        <items x="104" y="0" width="42" height="27" text="&amp;Insert"/>
+        <items x="146" y="0" width="51" height="27" text="F&amp;ormat"/>
+        <items x="197" y="0" width="54" height="27" text="O&amp;ptions"/>
+        <items x="251" y="0" width="70" height="27" text="E&amp;ncryption"/>
+        <items x="321" y="0" width="41" height="27" text="&amp;Tools"/>
+        <items x="362" y="0" width="36" height="27" text="&amp;Help"/>
+      </widgets>
+    </widgets>
+    <widgets xsi:type="model:Checkbox" id="186" x="96" y="49" text="Encrypt" measuredWidth="63" measuredHeight="23" selected="true">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Button" id="176" x="8" y="47" width="78" text="Send  {assets/privacy-security}" measuredWidth="78" measuredHeight="26" icon="assets/send (small)">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="204" x="466" y="498" measuredWidth="400" measuredHeight="80">
+    <widgets xsi:type="model:WidgetGroup" id="182" measuredWidth="400" measuredHeight="80">
+      <widgets xsi:type="model:Window" id="183" height="80" text="Thunderbird" measuredWidth="400" measuredHeight="80"/>
+      <widgets xsi:type="model:Menu" id="184" y="17" width="400" text="&amp;File,&amp;Edit,&amp;View,&amp;Insert,F&amp;ormat,O&amp;ptions,E&amp;ncryption,&amp;Tools,&amp;Help" measuredWidth="400" measuredHeight="27">
+        <items x="5" y="0" width="30" height="27" text="&amp;File"/>
+        <items x="35" y="0" width="32" height="27" text="&amp;Edit"/>
+        <items x="67" y="0" width="37" height="27" text="&amp;View"/>
+        <items x="104" y="0" width="42" height="27" text="&amp;Insert"/>
+        <items x="146" y="0" width="51" height="27" text="F&amp;ormat"/>
+        <items x="197" y="0" width="54" height="27" text="O&amp;ptions"/>
+        <items x="251" y="0" width="70" height="27" text="E&amp;ncryption"/>
+        <items x="321" y="0" width="41" height="27" text="&amp;Tools"/>
+        <items x="362" y="0" width="36" height="27" text="&amp;Help"/>
+      </widgets>
+    </widgets>
+    <widgets xsi:type="model:Checkbox" id="187" x="96" y="48" text="Encrypt" measuredWidth="63" measuredHeight="23">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Button" id="177" x="8" y="47" width="78" text="Send  {assets/lock-stricked}" measuredWidth="78" measuredHeight="26" icon="assets/send (small)">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:Label" id="188" x="34" y="24" text="Encrypted" measuredWidth="116" measuredHeight="38">
+    <font size="24px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="189" x="466" y="24" text="Unencrypted" measuredWidth="146" measuredHeight="38">
+    <font size="24px"/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="208" x="34" y="183" measuredWidth="400" measuredHeight="80">
+    <widgets xsi:type="model:WidgetGroup" id="190" measuredWidth="400" measuredHeight="80">
+      <widgets xsi:type="model:Window" id="191" height="80" text="Thunderbird" measuredWidth="400" measuredHeight="80"/>
+      <widgets xsi:type="model:Menu" id="192" y="17" width="400" text="&amp;File,&amp;Edit,&amp;View,&amp;Insert,F&amp;ormat,O&amp;ptions,E&amp;ncryption,&amp;Tools,&amp;Help" measuredWidth="400" measuredHeight="27">
+        <items x="5" y="0" width="30" height="27" text="&amp;File"/>
+        <items x="35" y="0" width="32" height="27" text="&amp;Edit"/>
+        <items x="67" y="0" width="37" height="27" text="&amp;View"/>
+        <items x="104" y="0" width="42" height="27" text="&amp;Insert"/>
+        <items x="146" y="0" width="51" height="27" text="F&amp;ormat"/>
+        <items x="197" y="0" width="54" height="27" text="O&amp;ptions"/>
+        <items x="251" y="0" width="70" height="27" text="E&amp;ncryption"/>
+        <items x="321" y="0" width="41" height="27" text="&amp;Tools"/>
+        <items x="362" y="0" width="36" height="27" text="&amp;Help"/>
+      </widgets>
+    </widgets>
+    <widgets xsi:type="model:Button" id="193" x="8" y="47" text="{assets/send} Send Encrypted" measuredWidth="124" measuredHeight="26" textAlignment="Left">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Combo" id="194" x="140" y="48" width="127" text="{assets/privacy-security} Encryption On" measuredWidth="127" measuredHeight="23">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="201" x="466" y="183" measuredWidth="400" measuredHeight="80">
+    <widgets xsi:type="model:WidgetGroup" id="195" measuredWidth="400" measuredHeight="80">
+      <widgets xsi:type="model:Window" id="196" height="80" text="Thunderbird" measuredWidth="400" measuredHeight="80"/>
+      <widgets xsi:type="model:Menu" id="197" y="17" width="400" text="&amp;File,&amp;Edit,&amp;View,&amp;Insert,F&amp;ormat,O&amp;ptions,E&amp;ncryption,&amp;Tools,&amp;Help" measuredWidth="400" measuredHeight="27">
+        <items x="5" y="0" width="30" height="27" text="&amp;File"/>
+        <items x="35" y="0" width="32" height="27" text="&amp;Edit"/>
+        <items x="67" y="0" width="37" height="27" text="&amp;View"/>
+        <items x="104" y="0" width="42" height="27" text="&amp;Insert"/>
+        <items x="146" y="0" width="51" height="27" text="F&amp;ormat"/>
+        <items x="197" y="0" width="54" height="27" text="O&amp;ptions"/>
+        <items x="251" y="0" width="70" height="27" text="E&amp;ncryption"/>
+        <items x="321" y="0" width="41" height="27" text="&amp;Tools"/>
+        <items x="362" y="0" width="36" height="27" text="&amp;Help"/>
+      </widgets>
+    </widgets>
+    <widgets xsi:type="model:Button" id="198" x="8" y="47" text="{assets/send} Send Unencrypted" measuredWidth="139" measuredHeight="26" textAlignment="Left">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Combo" id="199" x="155" y="48" width="127" text="{assets/lock-stricked} Encryption Off" measuredWidth="127" measuredHeight="23">
+      <font/>
+    </widgets>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>

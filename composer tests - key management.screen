@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Panel" id="114" width="900" height="680" measuredWidth="900" measuredHeight="680" border="dashed-rounded"/>
+  <widgets xsi:type="model:Alert" id="116" x="12" y="12" width="394" height="132" text="Search on Key Servers&#xA;" measuredWidth="394" measuredHeight="132">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Alert" id="117" x="12" y="153" width="394" height="131" text="Search on Key Servers&#xA;&#xA;Close, Do Not Encrypt" measuredWidth="394" measuredHeight="131">
+    <items x="154" y="92" width="105" height="24" text="Close"/>
+    <items x="274" y="92" width="105" height="24" text="Do Not Encrypt"/>
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Alert" id="118" x="416" y="12" width="436" height="132" text="Search on Key Servers&#xA;" measuredWidth="436" measuredHeight="132">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Alert" id="119" x="416" y="153" width="437" height="131" text="Search on Key Servers&#xA;&#xA;Close, Do Not Encrypt" measuredWidth="437" measuredHeight="131">
+    <items x="197" y="92" width="105" height="24" text="Close"/>
+    <items x="317" y="92" width="105" height="24" text="Do Not Encrypt"/>
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Window" id="120" x="12" y="296" width="394" height="373" text="Key Properties" measuredWidth="394" measuredHeight="373"/>
+  <widgets xsi:type="model:Text" id="121" x="30" y="331" text="Email&#xA;Type&#xA;Fingerprint&#xA;Created&#xA;Expiry" measuredWidth="63" measuredHeight="75">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="122" x="110" y="331" text="kim@humanrights.org&#xA;public key&#xA;9B6D A7CF C646 78C5 69E8 5357 4F3D B3B4&#xA;2021-05-21&#xA;Never" measuredWidth="254" measuredHeight="75">
+    <font bold="false"/>
+  </widgets>
+  <widgets xsi:type="model:Tabs" id="123" x="12" y="416" width="394" text="Your Acceptance, Certifications, Structure" measuredWidth="394" measuredHeight="27" selection="0">
+    <items x="1" y="0" width="112" height="27" text="Your Acceptance"/>
+    <items x="113" y="0" width="93" height="27" text="Certifications"/>
+    <items x="206" y="0" width="72" height="27" text="Structure"/>
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="124" x="26" y="453" width="370" height="91" text="Accept the key to use it to encrypt and verify OpenPGP signatures." measuredWidth="370" measuredHeight="91" lineHeight="1.5">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:List" id="125" x="26" y="474" text="( ) No, reject this key.&#xA;(o) Not yet, maybe later.&#xA;( ) Yes, but I have not verified the fingerprint of the key.&#xA;( ) Yes, and I verified the fingerprint of the key." measuredWidth="310" measuredHeight="92" border="false" alpha="0">
+    <font/>
+    <items x="0" y="2" width="310" height="22" text="( ) No, reject this key."/>
+    <items x="0" y="24" width="310" height="22" text="(o) Not yet, maybe later."/>
+    <items x="0" y="46" width="310" height="22" text="( ) Yes, but I have not verified the fingerprint of the key."/>
+    <items x="0" y="68" width="310" height="22" text="( ) Yes, and I verified the fingerprint of the key."/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="126" x="315" y="633" width="80" text="OK" measuredWidth="80" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="137" x="416" y="296" measuredWidth="473" measuredHeight="217">
+    <widgets xsi:type="model:Alert" id="138" width="473" height="217" text="Unable to Encrypt&#xA;To encrypt this email, you need accepted or verified keys for each recipient.&#xA;Send Unencrypted,Close" measuredWidth="473" measuredHeight="217">
+      <items x="201" y="178" width="121" height="24" text="Send Unencrypted"/>
+      <items x="337" y="178" width="121" height="24" text="Close"/>
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Table" id="139" x="19" y="73" width="440" text="Email,Key Status&#xA;derya@humanrights.org,{check} accepted&#xA;kim@humanrights.org,{warning} not accepted,[Manage Key]&#xA;alex@humanrights.org,{help} not available,[Search on Key Servers]" measuredWidth="440" measuredHeight="91" alternative="#eee">
+      <font/>
+      <items x="289" y="46" width="66" height="15" text="Manage Key"/>
+      <items x="289" y="68" width="121" height="15" text="Search on Key Servers"/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:Label" id="141" x="73" y="52" text="Key servers are online repositories of public keys." measuredWidth="273" measuredHeight="23">
+    <font bold="false"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="143" x="37" y="81" text="Searching key for hello@yoga.life on keys.openpgp.org..." measuredWidth="344" measuredHeight="32" icon="loading (large)">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="144" x="476" y="54" text="Key servers are online repositories of public keys." measuredWidth="273" measuredHeight="23">
+    <font bold="false"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="145" x="440" y="87" text="Searching key for alex@humanrights.org on keys.openpgp.org..." measuredWidth="386" measuredHeight="32" icon="loading (large)">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="146" x="26" y="575" width="370" height="55" text="Verify the fingerprint of the key using a secure communication channel other than email to make sure that it's really the key of kim@humanrights.org." measuredWidth="370" measuredHeight="55" lineHeight="1.5">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="147" x="73" y="185" text="Key servers are online repositories of public keys." measuredWidth="273" measuredHeight="23">
+    <font bold="false"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="148" x="37" y="211" text="No key found for hello@yoga.life on the key servers." measuredWidth="319" measuredHeight="32" icon="warning (large)">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="149" x="482" y="185" width="266" text="Key servers are online repositories of public keys." measuredWidth="266" measuredHeight="23">
+    <font bold="false"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="150" x="447" y="211" text="No key found for alex@humanrights.org on the key servers." measuredWidth="361" measuredHeight="32" icon="warning (large)">
+    <font/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>
