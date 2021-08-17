@@ -40,7 +40,7 @@ protocol](https://www.nngroup.com/articles/thinking-aloud-the-1-usability-tool/)
 Both proposals were displayed to the test participant as paper prototypes that
 I manipulated following their instructions and shared on video. I improved on
 each proposal after each test, as a way of improving on the design as quickly
-and cheaply as possible. This method is called [formating
+and cheaply as possible. This method is called [formative
 testing](https://simplysecure.org/blog/formative-testing).
 
 Proposal A vs Proposal B
