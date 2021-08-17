@@ -5,3 +5,11 @@ body {
   max-width: 40em;
   margin: 100px auto 200px;
 }
+
+blockquote {
+  font-style: italic;
+  color: #666;
+  border-left: 3px solid green;
+  padding-left: 1em;
+  margin: 2em 2em 2em 0;
+}

@@ -66,24 +66,24 @@ provide just-in-time help.
 > or not in general. If choose encryption to be off by default, I can still
 > turn it on for some people. Having these 2 options is more clearer and
 > coherent. Likes the recipient preference dialog ("Never Encrypt").
-> --- P1
+> ---&nbsp;P1
 
 > Proposal B is better for me, with encryption on by default. I expect the
 > program to tell me if I can't send because of a missing key. I like the
 > advice.
-> --- P2
+> ---&nbsp;P2
 
 > I like "Encrypt If Possible" and "Require Encryption" in Proposal A, but
 > "Encryption On" and "Encryption Off" are super clear as well. I like the
 > "Send Encrypted" button in Proposal A but I prefer the notification of
 > Proposal B.
-> --- P3
+> ---&nbsp;P3
 
 > I like "Encrypt If Possible" in Proposal A. But I like that Proposal B ask
 > you to confirm when the email will be sent unencrypted. I prefer B because if
 > we imagine that more people start encrypting, it will become better to
 > confirm before sending unencrypted emails.
-> --- P4
+> ---&nbsp;P4
 
 P1, the test participants with less experience with OpenPGP, was also the most
 confused by Proposal A.
@@ -95,19 +95,19 @@ confused by Proposal A.
   > That's a bit confusing. I have 3 options: "Encryption", "Send Encrypted",
   > and "Encrypt If Possible". I already said that it's ok to encrypt if
   > possible, so I don't know why I should still make the choice. If it's not
-  > possible, it's not possible anyway. --- P1
+  > possible, it's not possible anyway. ---&nbsp;P1
 
 - "Encrypt If Possible" sounded too uncertain to P1:
 
   > When I really want the information to be protected, 'Encrypt If Possible'
   > is the wrong option because I need to be sure that it's going to be
-  > encrypted. --- P1
+  > encrypted. ---&nbsp;P1
 
 - The options in the split button didn't seem logic to P1:
 
   > "Do Not Encrypt" is not logic because I already have a "Send Unencrypted"
   > button. That option I don't need. "Encrypt If Possible" is not logic either
-  > because I don't have a key for this person. --- P1
+  > because I don't have a key for this person. ---&nbsp;P1
 
 In the rest of this document, I describe an improved version of Proposal B
 only.
@@ -125,20 +125,20 @@ to encrypt as much as possible (or everything):
   of non at-risk users agree with the idea that they would "encrypt email
   frequently.”.
 
-  > “Well, I'm trying to think when I would need to. It would be nice to have
+  > Well, I'm trying to think when I would need to. It would be nice to have
   > it, in case,  but I don't know if there's anyone I would need to send that
-  > information to.”
+  > information to.
 
 - The at-risk users who were interviewed during the usability tests want to:
 
   * Encrypt as much as possible.
 
     > If encryption is possible, it's good that it's done.
-    > --- P1
+    > ---&nbsp;P1
 
     > The logic should be to encrypt as much as possible not to attract
     > extra attention to communications that are indeed sensitive.
-    > --- P4
+    > ---&nbsp;P4
 
   * Be asked what to do with key issues as part of sensitive communications.
 
@@ -183,7 +183,7 @@ modes, which could roughly map to the modes discussed on
   > Sometimes you exchange keys and you think that you have it but something
   > goes wrong. I prefer to be asked whether to send unencrypted instead of
   > having a bad surprise.
-  > --- P3
+  > ---&nbsp;P3
 
 - Strict
 
@@ -196,7 +196,7 @@ modes, which could roughly map to the modes discussed on
   > With "Require Encryption", if 70-80% of the people I write to don't use a
   > key, I'll have to say 'no' almost everytime. It'll be yet another step in
   > the process of sending an email.
-  > --- P4
+  > ---&nbsp;P4
 
 This means that, at-risks users actually want something inbetween a **Relaxed**
 mode that could be too silent and a **Strict** mode that could be to
@@ -372,7 +372,7 @@ know that they exist and some others avoid using them by lack of trust.
 
 > I never search on key servers because I don't trust them. Someone
 > can pretend to be someone else and send a wrong key.
-> --- P2
+> ---&nbsp;P2
 
 When the user searches on key servers, it's a good opportunity to educate them
 about key servers:
@@ -390,7 +390,7 @@ about fingerprint verification.
 > but I’m curious what a correct fingerprint means. I want to know. I
 > would like an explanation of difference between 'accepted' and
 > 'verified'.
-> --- P1
+> ---&nbsp;P1
 
 ![](mockups/manage-current.png)
 
@@ -419,11 +419,11 @@ Subject** and can be toggled with a lock icon on the left of the subject line:
   and enabled by default.
 
   > I would put a subject that noone could understand, like "let's party".
-  > --- P2
+  > ---&nbsp;P2
 
   > "Encrypted Subject", cool! I understand that the subject will be
   > encrypted now. It hasn't always been the case.
-  > --- P3
+  > ---&nbsp;P3
 
 Subject encryption is also available in the [Advanced
 options](#advanced-options) for accessibility.
