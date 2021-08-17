@@ -112,6 +112,8 @@ confused by Proposal A.
 In the rest of this document, I describe an improved version of Proposal B
 only.
 
+Gus Andrews helped interview, facilitate, and debrief the tests with P1 and P2.
+
 Account settings
 ----------------
 
