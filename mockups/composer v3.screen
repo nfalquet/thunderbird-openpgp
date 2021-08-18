@@ -165,7 +165,7 @@
   <widgets xsi:type="model:TextField" id="703" x="58" y="253" width="158" measuredWidth="158" measuredHeight="28">
     <font size="16px"/>
   </widgets>
-  <widgets xsi:type="model:WidgetGroup" id="704" x="467" y="601" measuredWidth="666" measuredHeight="32">
+  <widgets xsi:type="model:WidgetGroup" id="704" x="467" y="561" measuredWidth="666" measuredHeight="32">
     <widgets xsi:type="model:WidgetGroup" id="705" measuredWidth="666" measuredHeight="32">
       <widgets xsi:type="model:Panel" id="706" width="666" height="32" measuredWidth="666" measuredHeight="32"/>
       <widgets xsi:type="model:Label" id="707" x="7" y="4" text="{assets/encryption-key-plain}  You have not accepted the key for *unaccepted@example.com*." measuredWidth="362" measuredHeight="24">
@@ -179,7 +179,7 @@
       <font/>
     </widgets>
   </widgets>
-  <widgets xsi:type="model:WidgetGroup" id="716" x="467" y="563" measuredWidth="666" measuredHeight="32">
+  <widgets xsi:type="model:WidgetGroup" id="716" x="467" y="523" measuredWidth="666" measuredHeight="32">
     <widgets xsi:type="model:WidgetGroup" id="717" width="666" measuredWidth="666" measuredHeight="32">
       <widgets xsi:type="model:Panel" id="718" width="666" height="32" measuredWidth="666" measuredHeight="32"/>
       <widgets xsi:type="model:Label" id="719" x="6" y="4" text="{assets/encryption-key-plain} You don't have a key for *unavailable@example.com*." measuredWidth="304" measuredHeight="24">
@@ -193,10 +193,10 @@
       <font/>
     </widgets>
   </widgets>
-  <widgets xsi:type="model:Label" id="734" x="467" y="531" text="If encryption is turned on" measuredWidth="183" measuredHeight="28">
+  <widgets xsi:type="model:Label" id="734" x="467" y="491" text="If encryption is turned on" measuredWidth="183" measuredHeight="28">
     <font size="16px"/>
   </widgets>
-  <widgets xsi:type="model:WidgetGroup" id="751" x="467" y="640" measuredWidth="666" measuredHeight="32">
+  <widgets xsi:type="model:WidgetGroup" id="751" x="467" y="600" measuredWidth="666" measuredHeight="32">
     <widgets xsi:type="model:WidgetGroup" id="752" measuredWidth="666" measuredHeight="32">
       <widgets xsi:type="model:Panel" id="753" width="666" height="32" measuredWidth="666" measuredHeight="32"/>
       <widgets xsi:type="model:Label" id="754" x="7" y="4" text="{assets/encryption-key-plain}  The key for *expired@example.com* has expired." measuredWidth="283" measuredHeight="24">
@@ -210,7 +210,7 @@
       <font/>
     </widgets>
   </widgets>
-  <widgets xsi:type="model:WidgetGroup" id="757" x="467" y="679" measuredWidth="666" measuredHeight="32">
+  <widgets xsi:type="model:WidgetGroup" id="757" x="467" y="639" measuredWidth="666" measuredHeight="32">
     <widgets xsi:type="model:WidgetGroup" id="758" measuredWidth="666" measuredHeight="32">
       <widgets xsi:type="model:Panel" id="759" width="666" height="32" measuredWidth="666" measuredHeight="32"/>
       <widgets xsi:type="model:Label" id="760" x="7" y="4" text="{assets/encryption-key-plain}  You rejected the key for *rejected@example.com*." measuredWidth="289" measuredHeight="24">
@@ -224,7 +224,7 @@
       <font/>
     </widgets>
   </widgets>
-  <widgets xsi:type="model:Label" id="763" x="467" y="474" text="Key notifications" measuredWidth="185" measuredHeight="38">
+  <widgets xsi:type="model:Label" id="763" x="467" y="434" text="Key notifications" measuredWidth="185" measuredHeight="38">
     <font size="24px"/>
   </widgets>
   <widgets xsi:type="model:Label" id="764" x="-50" y="113" text="Subject encryption" measuredWidth="207" measuredHeight="38">
@@ -408,7 +408,7 @@
       <items x="295" y="68" width="121" height="15" text="Search on Key Servers"/>
     </widgets>
   </widgets>
-  <widgets xsi:type="model:WidgetGroup" id="827" x="467" y="668" measuredWidth="666" measuredHeight="32">
+  <widgets xsi:type="model:WidgetGroup" id="827" x="467" y="678" measuredWidth="666" measuredHeight="32">
     <widgets xsi:type="model:WidgetGroup" id="828" measuredWidth="666" measuredHeight="32">
       <widgets xsi:type="model:Panel" id="829" width="666" height="32" measuredWidth="666" measuredHeight="32"/>
       <widgets xsi:type="model:Label" id="830" x="7" y="4" text="{assets/encryption-key-plain}  2 more key notifications..." measuredWidth="166" measuredHeight="24">
