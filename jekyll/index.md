@@ -43,6 +43,8 @@ each proposal after each test, as a way of improving on the design as quickly
 and cheaply as possible. This method is called [formative
 testing](https://simplysecure.org/blog/formative-testing).
 
+Gus Andrews helped interview, facilitate, and debrief the tests with P1 and P2.
+
 Proposal A vs Proposal B
 ------------------------
 
@@ -111,8 +113,6 @@ confused by Proposal A.
 
 In the rest of this document, I describe an improved version of Proposal B
 only.
-
-Gus Andrews helped interview, facilitate, and debrief the tests with P1 and P2.
 
 Account settings
 ----------------
