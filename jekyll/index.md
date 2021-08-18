@@ -114,6 +114,17 @@ confused by Proposal A.
 In the rest of this document, I describe an improved version of Proposal B
 only.
 
+Overview
+--------
+
+Example screen:
+
+![](mockups/composer.png)
+
+Summary:
+
+![](mockups/summary.png)
+
 Account settings
 ----------------
 
@@ -220,11 +231,6 @@ For example, **Always ask me** could:
 Bugzilla:
 
 - [#135636: Implement "Encryption when possible" option for OpenPGP and S/MIME](https://bugzilla.mozilla.org/show_bug.cgi?id=135636)
-
-Overview
---------
-
-![](mockups/composer.png)
 
 Encryption split button
 -----------------------
