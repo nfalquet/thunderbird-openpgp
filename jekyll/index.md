@@ -217,6 +217,10 @@ For example, **Always ask me** could:
 - Always display the [recipient list](#send-button) and confirmation dialog when sending.
 - Not provide the [recipient preference](#key-notifications) dialog.
 
+Bugzilla:
+
+- [#135636: Implement "Encryption when possible" option for OpenPGP and S/MIME](https://bugzilla.mozilla.org/show_bug.cgi?id=135636)
+
 Overview
 --------
 
@@ -250,6 +254,14 @@ current account.
 *From* address in case the user have 1 account with OpenPGP and 1 account
 without OpenPGP for example? Otherwise we can have them displayed as long as
 the user as at least 1 account with OpenPGP or S/MIME.
+
+Bugzilla:
+
+- [#1630405: In composer, show message encryption "configuration"](https://bugzilla.mozilla.org/show_bug.cgi?id=1630405)
+- [#1681938: User experience: make it easier to see if messages to be sent will be encrypted/signed](https://bugzilla.mozilla.org/show_bug.cgi?id=1681938)
+- [#1669788: Support encrypt/sign toggle buttons in compose window](https://bugzilla.mozilla.org/show_bug.cgi?id=1669788)
+- [#1651045: Improve labels "require encryption" and "do not encrypt" in composer](https://bugzilla.mozilla.org/show_bug.cgi?id=1651045)
+- [#1680815: Automatically enable encryption based on message recipient](https://bugzilla.mozilla.org/show_bug.cgi?id=1680815)
 
 Send button
 -----------
@@ -332,6 +344,12 @@ The status of the key is also available in the right-click menu of the
 recipient pill:
 
 ![](mockups/recipient-right-click.png)
+
+Bugzilla:
+
+- [#1630433: In composer, show individual message encryption "status"](https://bugzilla.mozilla.org/show_bug.cgi?id=1630433)
+- [#1630416: In composer, show overall pre-calculated message encryption "status"](https://bugzilla.mozilla.org/show_bug.cgi?id=1630416)
+- [#1667254: Improve the UI of the Compose window when encrypting emails](https://bugzilla.mozilla.org/show_bug.cgi?id=1667254)
 
 Key notifications
 -----------------
