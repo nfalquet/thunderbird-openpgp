@@ -83,7 +83,7 @@
   <widgets xsi:type="model:Button" id="546" x="877" y="228" height="23" text="Search on Key Servers..." measuredWidth="150" measuredHeight="23">
     <font/>
   </widgets>
-  <widgets xsi:type="model:Label" id="556" x="142" y="-84" text="Encryption toogle and indicator" measuredWidth="344" measuredHeight="38">
+  <widgets xsi:type="model:Label" id="556" x="142" y="-84" text="Encryption split button" measuredWidth="253" measuredHeight="38">
     <font size="24px"/>
   </widgets>
   <widgets xsi:type="model:Label" id="560" x="1116" y="128" text="Recipient pills" measuredWidth="157" measuredHeight="38">
@@ -107,7 +107,7 @@
   <widgets xsi:type="model:Combo" id="638" x="281" y="-28" width="127" text="{assets/lock-stricked} Encryption Off" measuredWidth="127" measuredHeight="23">
     <font/>
   </widgets>
-  <widgets xsi:type="model:Label" id="649" x="-49" y="409" text="Global settings" measuredWidth="170" measuredHeight="38">
+  <widgets xsi:type="model:Label" id="649" x="-49" y="409" text="Account settings" measuredWidth="186" measuredHeight="38">
     <font size="24px"/>
   </widgets>
   <widgets xsi:type="model:Alert" id="669" x="467" y="995" width="371" height="125" text="unavailable@example.com&#xA;Do you want to turn encryption off automatically for *unavailable@example.com* in future emails?&#xA;Never Encrypt,Choose Each Time" measuredWidth="371" measuredHeight="125" icon="warning (large)">
@@ -224,10 +224,10 @@
       <font/>
     </widgets>
   </widgets>
-  <widgets xsi:type="model:Label" id="763" x="467" y="474" text="Status messages when encrypting is not possible" measuredWidth="530" measuredHeight="38">
+  <widgets xsi:type="model:Label" id="763" x="467" y="474" text="Key notifications" measuredWidth="185" measuredHeight="38">
     <font size="24px"/>
   </widgets>
-  <widgets xsi:type="model:Label" id="764" x="-50" y="113" text="Subject encryptiong indicator" measuredWidth="321" measuredHeight="38">
+  <widgets xsi:type="model:Label" id="764" x="-50" y="113" text="Subject encryption" measuredWidth="207" measuredHeight="38">
     <font size="24px"/>
   </widgets>
   <widgets xsi:type="model:Tooltip" id="766" x="1337" y="99" width="263" height="58" text="Using verified key for verified@example.com.&#xA;[Manage Key...]" measuredWidth="263" measuredHeight="58">
@@ -381,10 +381,10 @@
     <items x="0" y="185" width="180" height="11" text="---"/>
     <items x="0" y="196" width="180" height="23" text="{assets/encryption-key-plain} Manage Keys for Recipients"/>
   </widgets>
-  <widgets xsi:type="model:Label" id="810" x="625" y="-242" text="Encryption menu and split button" measuredWidth="364" measuredHeight="38">
+  <widgets xsi:type="model:Label" id="810" x="625" y="-242" text="Advanced options in Encryption split button" measuredWidth="476" measuredHeight="38">
     <font size="24px"/>
   </widgets>
-  <widgets xsi:type="model:Label" id="811" x="1139" y="-241" text="Dual S/MIME and OpenPGP" measuredWidth="304" measuredHeight="38">
+  <widgets xsi:type="model:Label" id="811" x="1139" y="-241" text="Dual S/MIME and OpenPGP account" measuredWidth="393" measuredHeight="38">
     <font size="24px"/>
   </widgets>
   <widgets xsi:type="model:Label" id="812" x="1658" y="45" text="Right-click on recipient" measuredWidth="255" measuredHeight="38">
@@ -418,6 +418,9 @@
     <widgets xsi:type="model:Button" id="831" x="594" y="4" height="23" text="Show All" measuredWidth="67" measuredHeight="23">
       <font/>
     </widgets>
+  </widgets>
+  <widgets xsi:type="model:Label" id="832" x="912" y="794" text="Search on key servers" measuredWidth="237" measuredHeight="38">
+    <font size="24px"/>
   </widgets>
   <hRuler/>
   <vRuler/>
