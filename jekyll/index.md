@@ -360,12 +360,10 @@ notifications that appear on top of the body of the email:
 ![](mockups/recipient-notification.png)
 
 Several notifications are be visible at the same time. After 3
-notifications, a single notification summarizes how many notification are
+notifications, a single notification summarizes how many more notifications are
 not displayed yet:
 
-    - You don't have a key for unavailable@example.com.
-    - The key for expired@example.com has expired.
-    - 2 more key notifications...
+![](mockups/recipient-multiple.png)
 
 When the user chooses **Do Not Encrypt** in a notification:
 
