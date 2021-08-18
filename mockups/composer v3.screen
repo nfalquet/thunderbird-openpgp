@@ -396,6 +396,29 @@
   <widgets xsi:type="model:Combo" id="817" x="1142" y="-190" width="127" text="{assets/privacy-security} Encryption On" measuredWidth="127" measuredHeight="23">
     <font/>
   </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="818" x="1936" y="352" measuredWidth="473" measuredHeight="217">
+    <widgets xsi:type="model:Alert" id="819" width="473" height="217" text="Unable to Encrypt&#xA;To encrypt this email, you need accepted or verified keys for each recipient.&#xA;Send Unencrypted,Close" measuredWidth="473" measuredHeight="217">
+      <items x="201" y="178" width="121" height="24" text="Send Unencrypted"/>
+      <items x="337" y="178" width="121" height="24" text="Close"/>
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Table" id="820" x="19" y="73" width="440" text="Email,Key Status&#xA;accepted@example.com,{check} accepted&#xA;unaccepted@example.com,{warning} not accepted,[Manage Key]&#xA;unavailable@example.com,{help} not available,[Search on Key Servers]" measuredWidth="440" measuredHeight="91" alternative="#eee">
+      <font/>
+      <items x="295" y="46" width="66" height="15" text="Manage Key"/>
+      <items x="295" y="68" width="121" height="15" text="Search on Key Servers"/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="827" x="467" y="668" measuredWidth="666" measuredHeight="32">
+    <widgets xsi:type="model:WidgetGroup" id="828" measuredWidth="666" measuredHeight="32">
+      <widgets xsi:type="model:Panel" id="829" width="666" height="32" measuredWidth="666" measuredHeight="32"/>
+      <widgets xsi:type="model:Label" id="830" x="7" y="4" text="{assets/encryption-key-plain}  2 more key notifications..." measuredWidth="166" measuredHeight="24">
+        <font/>
+      </widgets>
+    </widgets>
+    <widgets xsi:type="model:Button" id="831" x="594" y="4" height="23" text="Show All" measuredWidth="67" measuredHeight="23">
+      <font/>
+    </widgets>
+  </widgets>
   <hRuler/>
   <vRuler/>
   <font size="12px"/>
