@@ -270,6 +270,59 @@ Bugzilla:
 - [#1651045: Improve labels "require encryption" and "do not encrypt" in composer](https://bugzilla.mozilla.org/show_bug.cgi?id=1651045)
 - [#1680815: Automatically enable encryption based on message recipient](https://bugzilla.mozilla.org/show_bug.cgi?id=1680815)
 
+Recipient pills
+---------------
+
+If encryption is turned on, the status of the key for each recipient is
+displayed in their recipient pill:
+
+![](mockups/recipient-pill.png)
+
+The icons were well understood by test participants and are simple enough to
+improve accessibilty at a very small size.
+
+These pills are completed with a tooltip that provides more information and a
+possible solution on hover:
+
+![](mockups/recipient-tooltip.png)
+
+The status of the key is also available in the right-click menu of the
+recipient pill:
+
+![](mockups/recipient-right-click.png)
+
+Bugzilla:
+
+- [#1630433: In composer, show individual message encryption "status"](https://bugzilla.mozilla.org/show_bug.cgi?id=1630433)
+- [#1630416: In composer, show overall pre-calculated message encryption "status"](https://bugzilla.mozilla.org/show_bug.cgi?id=1630416)
+- [#1667254: Improve the UI of the Compose window when encrypting emails](https://bugzilla.mozilla.org/show_bug.cgi?id=1667254)
+
+Key notifications
+-----------------
+
+If encryption is turned on, the recipient pills are completed with
+notifications that appear on top of the body of the email:
+
+![](mockups/recipient-notification.png)
+
+Several notifications are be visible at the same time. After 3
+notifications, a single notification summarizes how many more notifications are
+not displayed yet:
+
+![](mockups/recipient-multiple.png)
+
+When the user chooses **Do Not Encrypt** in a notification:
+
+- The **Encryption** split button is turned off.
+
+- The user is proposed to remember this preference for this
+  recipient in the future:
+
+  ![](mockups/encrypt-never.png)
+
+  This choice is undone automatically if the user ever imports a key for this
+  recipient in the future.
+
 Send button
 -----------
 
@@ -330,59 +383,6 @@ If both OpenPGP and S/MIME are enabled for the current account, the choice betwe
 - Radio buttons, in the **Encryption** menu.
 
 ![](mockups/smime.png)
-
-Recipient pills
----------------
-
-If encryption is turned on, the status of the key for each recipient is
-displayed in their recipient pill:
-
-![](mockups/recipient-pill.png)
-
-The icons were well understood by test participants and are simple enough to
-improve accessibilty at a very small size.
-
-These pills are completed with a tooltip that provides more information and a
-possible solution on hover:
-
-![](mockups/recipient-tooltip.png)
-
-The status of the key is also available in the right-click menu of the
-recipient pill:
-
-![](mockups/recipient-right-click.png)
-
-Bugzilla:
-
-- [#1630433: In composer, show individual message encryption "status"](https://bugzilla.mozilla.org/show_bug.cgi?id=1630433)
-- [#1630416: In composer, show overall pre-calculated message encryption "status"](https://bugzilla.mozilla.org/show_bug.cgi?id=1630416)
-- [#1667254: Improve the UI of the Compose window when encrypting emails](https://bugzilla.mozilla.org/show_bug.cgi?id=1667254)
-
-Key notifications
------------------
-
-If encryption is turned on, the recipient pills are completed with
-notifications that appear on top of the body of the email:
-
-![](mockups/recipient-notification.png)
-
-Several notifications are be visible at the same time. After 3
-notifications, a single notification summarizes how many more notifications are
-not displayed yet:
-
-![](mockups/recipient-multiple.png)
-
-When the user chooses **Do Not Encrypt** in a notification:
-
-- The **Encryption** split button is turned off.
-
-- The user is proposed to remember this preference for this
-  recipient in the future:
-
-  ![](mockups/encrypt-never.png)
-
-  This choice is undone automatically if the user ever imports a key for this
-  recipient in the future.
 
 Search on key servers
 ---------------------
