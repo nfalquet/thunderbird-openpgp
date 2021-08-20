@@ -471,11 +471,28 @@ Subject** and can be toggled with a lock icon on the left of the subject line:
 
 ![](mockups/subject-unencrypted.png)
 
-- Test participants were not aware that subject encryption was possible
-  and enabled by default.
+- Without the label **Encrypted Subject** but a padlock icon on the right
+  of the subject line, P2 was not aware that the subject was going to be
+  encrypted by default and typed a dummy subject instead:
+
+  ![](mockups/subject-right.png)
 
   > I would put a subject that noone could understand, like "let's party".
   > ---&nbsp;P2
+
+  Dummy subjects like these make emails harder to go back to for the
+  recipients.
+
+  When we made P2 notice the padlock icon while debriefing the tests by moving
+  it to the left of the subject line, they incorrectly thought that the icon indicates that
+  the encryption is working:
+
+  ![](mockups/subject-left.png)
+
+  > It means that encryption is working. ---&nbsp;P2
+
+- With the **Encypted Subject** label, P3 discovered that it was now possible
+  to encrypt the subject line as well:
 
   > "Encrypted Subject", cool! I understand that the subject will be
   > encrypted now. It hasn't always been the case.
