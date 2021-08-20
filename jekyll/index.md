@@ -1,6 +1,7 @@
 ---
 title: Composer
 layout: default
+toc: true
 ---
 
 Methodology
