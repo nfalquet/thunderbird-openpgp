@@ -67,7 +67,7 @@ provide just-in-time help.
 
 > Proposal B is much better. I can choose if I want encryption to be on
 > or not in general. If choose encryption to be off by default, I can still
-> turn it on for some people. Having these 2 options is more clearer and
+> turn it on for some people. Having these 2 options is more clear and
 > coherent. Likes the recipient preference dialog ("Never Encrypt").
 > ---&nbsp;P1
 
