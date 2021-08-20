@@ -332,14 +332,47 @@ key notifications:
 
 ![](mockups/send-unavailable.png)
 
-Alternatively, we could keep the **Send** button available and instead display
-the list of recipients and keys when the user chooses to send the email but
-some keys are missing:
+Why remove the recipients dialog
+--------------------------------
 
-![](mockups/recipients-list.png)
+If encryption is turned on but the email is impossible to encrypt, we could
+instead keep the **Send** button available and display the recipients dialog with
+a list of recipients and keys when the users chooses to send the email:
 
-But, once we have the recipients pills and key notifications, we should be able
-to get rid of the code for this window and save a bit on maintenance.
+![](mockups/recipients-dialog.png)
+
+Recipients pills provide better user experience than only displaying the
+recipients dialog because:
+
+- If encryption is possible because all keys are fine, the UX is basically the same.
+
+  **Question**: Should we try removing the "check" icon on good keys and only
+  display errors and missing keys? Is reassuring people with the "check" icon
+  worth the additional icon?
+
+- Recipients pills provide better *visibility of system status*
+  ([Usability Heuristics #1](https://www.nngroup.com/articles/visibility-system-status/)):
+
+  * They present feedback to the user as quickly as possible.
+
+  * Without this immediate feedback, the encryption toggle would remain on
+    while it's actually impossible to encrypt and without telling the user. The
+    **Send** button will feel uncertain. Predictable interactions create trust.
+
+- Recipients pills rely on *recognition rather than recall*
+  ([Usability Heuristics #6](https://www.nngroup.com/articles/recognition-and-recall/)):
+
+  * They inform the user about whether it is possible to encrypt without having
+    to recall, guess, or wait until they try to send. They provide help in
+    context.
+
+- Key notifications *help users recognize, diagnose, and recover from errors*
+  ([Usability Heuristics #9](https://www.nngroup.com/articles/ten-usability-heuristics/)):
+
+  * They describe the problem and provide shortcuts that can solve the error immediately.
+
+Once we have the recipients pills and key notifications, we could
+get rid of the code for this window and save a bit on maintenance.
 
 Advanced options
 ----------------
