@@ -301,7 +301,7 @@ Recipient pills
 If encryption is turned on, the status of the key for each recipient is
 displayed in their recipient pill:
 
-![](mockups/recipient-pill.png)
+![](mockups/recipient-pills.png)
 
 The icons were well understood by test participants and are simple enough to
 improve accessibilty at a very small size.

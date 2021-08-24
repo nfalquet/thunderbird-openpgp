@@ -41,16 +41,16 @@
     <font size="16px"/>
   </widgets>
   <widgets xsi:type="model:HLine" id="101" x="357" y="126" width="684" measuredWidth="684" measuredHeight="6"/>
-  <widgets xsi:type="model:Button" id="120" x="486" y="165" height="20" text="accepted@example.com {check}" measuredWidth="171" measuredHeight="20">
+  <widgets xsi:type="model:Button" id="120" x="486" y="165" height="20" text="accepted@example.com" measuredWidth="152" measuredHeight="20">
     <font/>
   </widgets>
-  <widgets xsi:type="model:Button" id="121" x="659" y="165" height="20" text="unavailable@example.com {warning}" measuredWidth="183" measuredHeight="20">
+  <widgets xsi:type="model:Button" id="121" x="641" y="165" height="20" text="unavailable@example.com {warning}" measuredWidth="183" measuredHeight="20">
     <font/>
   </widgets>
-  <widgets xsi:type="model:Button" id="357" x="1117" y="175" height="20" text="verified@example.com {check}" measuredWidth="163" measuredHeight="20">
+  <widgets xsi:type="model:Button" id="357" x="1117" y="175" height="20" text="verified@example.com" measuredWidth="144" measuredHeight="20">
     <font/>
   </widgets>
-  <widgets xsi:type="model:Button" id="358" x="1117" y="203" height="20" text="accepted@example.com {check}" measuredWidth="171" measuredHeight="20">
+  <widgets xsi:type="model:Button" id="358" x="1117" y="203" height="20" text="accepted@example.com" measuredWidth="152" measuredHeight="20">
     <font/>
   </widgets>
   <widgets xsi:type="model:Button" id="359" x="1118" y="316" height="20" text="unavailable@example.com {help}" measuredWidth="183" measuredHeight="20">
