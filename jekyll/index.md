@@ -62,13 +62,13 @@ All tests participants could use fine both proposals.
 When asked which one they prefer, all test participant preferred Proposal B.
 
 They liked the simpler encryption split button and the key notifications
-combined with the recipient preference dialog (eg. "Never Encrypt") that
+combined with the Never Encrypt dialog that
 provide just-in-time help.
 
 > Proposal B is much better. I can choose if I want encryption to be on
 > or not in general. If choose encryption to be off by default, I can still
 > turn it on for some people. Having these 2 options is more clear and
-> coherent. Likes the recipient preference dialog ("Never Encrypt").
+> coherent. I like the "Never Encrypt" dialog.
 > ---&nbsp;P1
 
 > Proposal B is better for me, with encryption on by default. I expect the
@@ -217,7 +217,7 @@ cumbersome.
 I believe that the status and notification mechanisms described below can
 introduce the right amount of friction in the composer to keep at-risk users
 both safe and efficient without having them to choose between a second
-suboption. See [Recipient pills](#recipient-pills) and [Key
+suboption. See the [recipient pills](#recipient-pills) and [key
 notifications](#key-notifications).
 
 The additional friction that would be added by the option **Always ask me to
@@ -226,8 +226,8 @@ defined.
 
 For example, **Always ask me** could:
 
-- Always display the [recipient list](#send-button) and confirmation dialog when sending.
-- Not provide the [recipient preference](#key-notifications) dialog.
+- Always display the [recipients dialog](#about-the-recipients-dialog) when sending.
+- Not provide the [Never Encrypt dialog](#never-encrypt-dialog) dialog.
 
 **Bugzilla**
 
@@ -344,6 +344,9 @@ not displayed yet:
 > addresses. I can immediately start to address the problems from the
 > notification. --&nbsp;P1
 
+Never Encrypt dialog
+--------------------
+
 When the user chooses **Do Not Encrypt** in a notification:
 
 - The **Encryption** split button is turned off.
@@ -374,7 +377,7 @@ a list of recipients and keys when the users chooses to send the email:
 
 ![](mockups/recipients-dialog.png)
 
-Recipients pills provide better user experience than only displaying the
+Recipient pills provide better user experience than only displaying the
 recipients dialog because:
 
 - If encryption is possible because all keys are fine, the UX is basically the same.
@@ -383,7 +386,7 @@ recipients dialog because:
   display errors and missing keys? Is reassuring people with the "check" icon
   worth the additional icon?
 
-- Recipients pills provide better *visibility of system status*
+- Recipient pills provide better *visibility of system status*
   ([Usability Heuristics #1](https://www.nngroup.com/articles/visibility-system-status/)):
 
   * They present feedback to the user as quickly as possible.
@@ -392,7 +395,7 @@ recipients dialog because:
     while it's actually impossible to encrypt and without telling the user. The
     **Send** button will feel uncertain. Predictable interactions create trust.
 
-- Recipients pills rely on *recognition rather than recall*
+- Recipient pills rely on *recognition rather than recall*
   ([Usability Heuristics #6](https://www.nngroup.com/articles/recognition-and-recall/)):
 
   * They inform the user about whether it is possible to encrypt without having
@@ -404,7 +407,7 @@ recipients dialog because:
 
   * They describe the problem and provide shortcuts that can solve the error immediately.
 
-Once we have the recipients pills and key notifications, we could
+Once we have the recipient pills and key notifications, we could
 get rid of the code for this window and save a bit on maintenance.
 
 Additional options
@@ -412,7 +415,7 @@ Additional options
 
 The same OpenPGP and S/MIME options are available from either:
 
-- The **Encrypton** split button.
+- The **Encryption** split button.
 - A dedicated top-level **Encryption** menu.
 
 ![](mockups/encryption-menu.png)
@@ -440,7 +443,7 @@ assume that the few people who are also interested in
 cryptographic signatures won't have problems finding these options
 in this menu despite the **Encryption** label.
 
-Dual OpenPGP and S/MIME account
+OpenPGP and S/MIME split button
 -------------------------------
 
 If both OpenPGP and S/MIME are enabled for the current account, the choice between both encryption technologies is available from:
@@ -492,8 +495,8 @@ I rephrased and restructured the acceptance tab of the key properties to:
 
 ![](mockups/manage-key.png)
 
-Subject encryption
-------------------
+Subject encryption toggle
+-------------------------
 
 If encryption is turned on, subject encryption is turned on by default as well.
 
@@ -531,8 +534,8 @@ Subject** and can be toggled with a lock icon on the left of the subject line:
   > encrypted now. It hasn't always been the case.
   > ---&nbsp;P3
 
-Subject encryption is also available in the [Additional
-options](#advanced-options) for accessibility.
+Subject encryption is also available in the [additional
+options](#additional-options) for accessibility.
 
 If encryption is turned off, the usual **Subject** line with no icon is
 displayed:
