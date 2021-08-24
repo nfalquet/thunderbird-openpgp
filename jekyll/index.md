@@ -541,3 +541,46 @@ If encryption is turned off, the usual **Subject** line with no icon is
 displayed:
 
 ![](mockups/subject.png)
+
+Implementation and release strategy
+-----------------------------------
+
+This design could be released in increments in the following order:
+
+1. [Encryption split button](#encryption-split-button) and [additional options](#additional-options)
+
+   Most pressing in terms of ease of use and visibility of system status.
+
+   Default state could be mapped to the current "Do Not Encrypt" and "Require
+   Encryption".
+
+1. [Key notifications](#key-notifications), [Never Encrypt dialog](#never-encrypt-dialog), and [Send button](#send-button)
+
+   More useful than recipient pills.
+
+   Implementing the Never Encrypt dialog reduces the amount of notifications.
+
+1. [Key properties](#key-properties)
+
+   Not super important but easy.
+
+1. [Recipient pills](#recipient-pills)
+
+   Sugar on top of key notifications.
+
+1. [Account settings](#account-settings)
+
+   Could require more discussion.
+
+1. [Search on key servers](#search-on-key-servers)
+
+   At-risk and less technical users are defiant of key servers and
+   already have other key distribution mechanisms.
+
+1. [Subject encryption toggle](#subject-encryption-toggle)
+
+   Mostly educational.
+
+1. [OpenPGP and S/MIME split button](#openpgp-and-smime-split-button)
+
+   These options could live in the encrytion split button until then.
