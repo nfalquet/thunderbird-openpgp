@@ -118,11 +118,11 @@ only.
 Overview
 --------
 
-Example screen:
+**Example screen**
 
 ![](mockups/composer.png)
 
-Summary:
+**Summary**
 
 ![](mockups/summary.png)
 
@@ -229,7 +229,7 @@ For example, **Always ask me** could:
 - Always display the [recipient list](#send-button) and confirmation dialog when sending.
 - Not provide the [recipient preference](#key-notifications) dialog.
 
-Bugzilla:
+**Bugzilla**
 
 - [#135636: Implement "Encryption when possible" option for OpenPGP and S/MIME](https://bugzilla.mozilla.org/show_bug.cgi?id=135636)
 
@@ -243,7 +243,7 @@ the **Encryption** split button in the toolbar, left of the **Send** button.
 
 ![](mockups/encryption-off.png)
 
-### Default state
+**Default state**
 
 When opening the composer, encryption if turned on by default depending on
 various heuristics:
@@ -259,7 +259,7 @@ current account.
 without OpenPGP for example? Otherwise we can have them displayed as long as
 the user as at least 1 account with OpenPGP or S/MIME.
 
-### Widget
+**Widget**
 
 - According to Alex, a split button is easier to implement than, for example, an
   **Encrypt** checkbox, which we also considered. Test participants had no
@@ -287,7 +287,7 @@ the user as at least 1 account with OpenPGP or S/MIME.
 
   ![](mockups/quick-filter-on.png)
 
-Bugzilla:
+**Bugzilla**
 
 - [#1630405: In composer, show message encryption "configuration"](https://bugzilla.mozilla.org/show_bug.cgi?id=1630405)
 - [#1681938: User experience: make it easier to see if messages to be sent will be encrypted/signed](https://bugzilla.mozilla.org/show_bug.cgi?id=1681938)
@@ -316,7 +316,7 @@ recipient pill:
 
 ![](mockups/recipient-right-click.png)
 
-Bugzilla:
+**Bugzilla**
 
 - [#1630433: In composer, show individual message encryption "status"](https://bugzilla.mozilla.org/show_bug.cgi?id=1630433)
 - [#1630416: In composer, show overall pre-calculated message encryption "status"](https://bugzilla.mozilla.org/show_bug.cgi?id=1630416)
