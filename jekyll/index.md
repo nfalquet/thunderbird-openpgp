@@ -243,16 +243,13 @@ the **Encryption** split button in the toolbar, left of the **Send** button.
 
 ![](mockups/encryption-off.png)
 
+### Default state
+
 When opening the composer, encryption if turned on by default depending on
 various heuristics:
 
 - If the account is configured to **Encrypt automatically if possible**.
 - If the email is a reply to or a forward of an encrypted email.
-
-According to Alex, a split button is easier to implement than, for example, an
-**Encrypt** checkbox, which we also considered. Test participants had no
-problem with the **Encryption On** and **Encryption Off** labels and nobody had
-a strong preference for a checkbox.
 
 This split button is only displayed if OpenPGP or S/MIME is configured for the
 current account.
@@ -261,6 +258,34 @@ current account.
 *From* address in case the user have 1 account with OpenPGP and 1 account
 without OpenPGP for example? Otherwise we can have them displayed as long as
 the user as at least 1 account with OpenPGP or S/MIME.
+
+### Widget
+
+- According to Alex, a split button is easier to implement than, for example, an
+  **Encrypt** checkbox, which we also considered. Test participants had no
+  problem with the **Encryption On** and **Encryption Off** labels and nobody had
+  a strong preference for a checkbox.
+
+  ![](mockups/encrypt-checkbox.png)
+
+- Merging the encryption toggle and additional options provides everything in
+  the same widget under a single padlock icon. Split buttons were well
+  understood by test participants.
+
+- State-switch controls are [notoriously hard to get
+  right](https://www.nngroup.com/articles/state-switch-buttons/). Reenforcing
+  the toggle with a change in label and icon provides multiple and strong
+  signifiers and is more accessible.
+
+  > “Encryption On” and “Encryption Off” are super clear. ---&nbsp;P2
+
+- The **Quick Filter** feature uses a simple 3D toggle, but pressing it has
+  visible consequences beyond changing the state of the button, by displaying
+  the quick filter toolbar. It's also not mission critical.
+
+  ![](mockups/quick-filter-off.png)
+
+  ![](mockups/quick-filter-on.png)
 
 Bugzilla:
 
@@ -374,10 +399,10 @@ recipients dialog because:
 Once we have the recipients pills and key notifications, we could
 get rid of the code for this window and save a bit on maintenance.
 
-Advanced options
-----------------
+Additional options
+------------------
 
-The same OpenPGP and S/MIME advanced options are available from either:
+The same OpenPGP and S/MIME options are available from either:
 
 - The **Encrypton** split button.
 - A dedicated top-level **Encryption** menu.
@@ -498,7 +523,7 @@ Subject** and can be toggled with a lock icon on the left of the subject line:
   > encrypted now. It hasn't always been the case.
   > ---&nbsp;P3
 
-Subject encryption is also available in the [Advanced
+Subject encryption is also available in the [Additional
 options](#advanced-options) for accessibility.
 
 If encryption is turned off, the usual **Subject** line with no icon is
