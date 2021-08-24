@@ -47,7 +47,7 @@
   <widgets xsi:type="model:Button" id="215" x="345" y="357" height="20" text="unaccepted@example.com" measuredWidth="166" measuredHeight="20">
     <font/>
   </widgets>
-  <widgets xsi:type="model:Combo" id="221" x="331" y="292" text="{assets/spelling} Spelling" measuredWidth="89" measuredHeight="23">
+  <widgets xsi:type="model:Combo" id="221" x="236" y="292" text="{assets/spelling} Spelling" measuredWidth="89" measuredHeight="23">
     <font/>
   </widgets>
   <widgets xsi:type="model:Combo" id="222" x="426" y="292" text="{assets/save} Save" measuredWidth="71" measuredHeight="23">
@@ -56,20 +56,17 @@
   <widgets xsi:type="model:Button" id="223" x="71" y="292" width="71" height="23" text="{assets/send} Send" measuredWidth="71" measuredHeight="23" textAlignment="Left">
     <font/>
   </widgets>
-  <widgets xsi:type="model:Combo" id="233" x="235" y="292" text="{assets/privacy-security} Security" measuredWidth="90" measuredHeight="23">
+  <widgets xsi:type="model:Combo" id="233" x="331" y="292" text="{assets/privacy-security} Security" measuredWidth="90" measuredHeight="23">
     <font/>
   </widgets>
-  <widgets xsi:type="model:Popup" id="311" x="564" y="24" text="(o) OpenPGP&#xA;( ) S/MIME&#xA;---&#xA;[x] Encrypt&#xA; [x] Encrypt Subject&#xA;---&#xA;[x] Sign&#xA;[ ] &amp;Attach My Public Key&#xA;---&#xA;{assets/encryption-key-plain} Manage Keys for Recipients" measuredWidth="180" measuredHeight="198">
-    <items x="0" y="2" width="180" height="23" text="(o) OpenPGP"/>
-    <items x="0" y="25" width="180" height="23" text="( ) S/MIME"/>
+  <widgets xsi:type="model:Popup" id="311" x="564" y="84" text="[x] Encrypt&#xA; [x] Encrypt Subject&#xA;---&#xA;[x] Sign&#xA;[ ] &amp;Attach My Public Key&#xA;---&#xA;{assets/encryption-key-plain} Manage Keys for Recipients" measuredWidth="180" measuredHeight="141">
+    <items x="0" y="2" width="180" height="23" text="[x] Encrypt"/>
+    <items x="0" y="25" width="180" height="23" text=" [x] Encrypt Subject"/>
     <items x="0" y="48" width="180" height="11" text="---"/>
-    <items x="0" y="59" width="180" height="23" text="[x] Encrypt"/>
-    <items x="0" y="82" width="180" height="23" text=" [x] Encrypt Subject"/>
+    <items x="0" y="59" width="180" height="23" text="[x] Sign"/>
+    <items x="0" y="82" width="180" height="23" text="[ ] &amp;Attach My Public Key"/>
     <items x="0" y="105" width="180" height="11" text="---"/>
-    <items x="0" y="116" width="180" height="23" text="[x] Sign"/>
-    <items x="0" y="139" width="180" height="23" text="[ ] &amp;Attach My Public Key"/>
-    <items x="0" y="162" width="180" height="11" text="---"/>
-    <items x="0" y="173" width="180" height="23" text="{assets/encryption-key-plain} Manage Keys for Recipients"/>
+    <items x="0" y="116" width="180" height="23" text="{assets/encryption-key-plain} Manage Keys for Recipients"/>
   </widgets>
   <widgets xsi:type="model:WidgetGroup" id="317" x="-680" y="195" measuredWidth="473" measuredHeight="217">
     <widgets xsi:type="model:Alert" id="318" width="473" height="217" text="Unable to Encrypt&#xA;To encrypt this email, you need accepted or verified keys for each recipient.&#xA;Send Unencrypted,Close" measuredWidth="473" measuredHeight="217">
@@ -89,13 +86,13 @@
   <widgets xsi:type="model:Note" id="327" x="-100" y="164" width="196" height="64" text="Encrypt is a toggle button, like &quot;Quick Filter&quot;, with no additional options." measuredWidth="196" measuredHeight="64" textAlignment="Left">
     <font/>
   </widgets>
-  <widgets xsi:type="model:Note" id="328" x="116" y="164" width="196" height="64" text="The current &quot;Security&quot; split button still provides the additional options." measuredWidth="196" measuredHeight="64" textAlignment="Left">
+  <widgets xsi:type="model:Note" id="328" x="330" y="164" width="196" height="64" text="The current &quot;Security&quot; split button also still provides the additional options." measuredWidth="196" measuredHeight="64" textAlignment="Left">
     <font/>
   </widgets>
-  <widgets xsi:type="model:Note" id="329" x="688" y="342" text="No recipient pills" measuredWidth="108" measuredHeight="29" textAlignment="Left">
+  <widgets xsi:type="model:Note" id="329" x="772" y="352" text="No icons about keys on recipient addresses." measuredWidth="254" measuredHeight="29" textAlignment="Left">
     <font/>
   </widgets>
-  <widgets xsi:type="model:Note" id="330" x="-107" y="383" text="No subject encryption indicator." measuredWidth="190" measuredHeight="29" textAlignment="Left">
+  <widgets xsi:type="model:Note" id="330" x="-162" y="383" text="No subject encryption indicator." measuredWidth="190" measuredHeight="29" textAlignment="Left">
     <font/>
   </widgets>
   <widgets xsi:type="model:Note" id="331" x="-183" y="272" width="232" height="62" text="Send button is always available and returns the recipient lists if there are any errors." measuredWidth="232" measuredHeight="62" textAlignment="Left">
@@ -105,18 +102,23 @@
     <font/>
   </widgets>
   <widgets xsi:type="model:Arrow" id="333" x="43" y="227" width="123" height="66" measuredWidth="123" measuredHeight="66"/>
-  <widgets xsi:type="model:Arrow" id="334" x="209" y="227" width="42" height="66" measuredWidth="42" measuredHeight="66"/>
-  <widgets xsi:type="model:Note" id="335" x="332" y="164" width="196" height="64" text="The current &quot;Options&quot; menu still provides the additional options." measuredWidth="196" measuredHeight="64" textAlignment="Left">
+  <widgets xsi:type="model:Arrow" id="334" x="377" y="227" width="46" height="66" measuredWidth="46" measuredHeight="66" left="false" right="true" direction="bottom"/>
+  <widgets xsi:type="model:Note" id="335" x="116" y="152" width="196" height="76" text="No more dedicated &quot;Encryption&quot; menua. The current &quot;Options&quot; menu still provides the additional options." measuredWidth="196" measuredHeight="76" textAlignment="Left">
     <font/>
   </widgets>
-  <widgets xsi:type="model:Arrow" id="336" x="309" y="227" width="64" height="46" measuredWidth="64" measuredHeight="46" left="false" right="true" direction="bottom"/>
-  <widgets xsi:type="model:Arrow" id="338" x="81" y="398" width="49" height="8" measuredWidth="49" measuredHeight="8" direction="bottom"/>
+  <widgets xsi:type="model:Arrow" id="336" x="216" y="227" width="61" height="42" measuredWidth="61" measuredHeight="42"/>
+  <widgets xsi:type="model:Arrow" id="338" x="27" y="397" width="103" height="8" measuredWidth="103" measuredHeight="8" direction="bottom"/>
   <widgets xsi:type="model:Button" id="339" x="-92" y="120" height="23" text="{assets/privacy-security} Encrypt" measuredWidth="81" measuredHeight="23" textAlignment="Left">
     <font/>
   </widgets>
   <widgets xsi:type="model:Button" id="340" x="-1" y="120" height="23" text="{assets/privacy-security} Encrypt" measuredWidth="81" measuredHeight="23" state="selected" textAlignment="Left">
     <font/>
   </widgets>
+  <widgets xsi:type="model:Text" id="341" x="77" y="547" width="649" height="34" text="{info} This message will be end-to-end encrypted before sending. If you haven't sent encrypted messages to a recipient before, additional steps are needed to bootstrap encrypted communications with that person." measuredWidth="649" measuredHeight="34">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Icon" id="342" x="710" y="559" measuredWidth="16" measuredHeight="16" icon="delete (small)"/>
+  <widgets xsi:type="model:Arrow" id="343" x="677" y="367" width="94" height="8" measuredWidth="94" measuredHeight="8" left="false" right="true"/>
   <hRuler/>
   <vRuler/>
   <font size="12px"/>
