@@ -365,8 +365,8 @@ key notifications:
 
 ![](mockups/send-unavailable.png)
 
-Why remove the recipients dialog
---------------------------------
+About the recipients dialog
+---------------------------
 
 If encryption is turned on but the email is impossible to encrypt, we could
 instead keep the **Send** button available and display the recipients dialog with
