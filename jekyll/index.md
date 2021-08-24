@@ -336,6 +336,14 @@ not displayed yet:
 
 ![](mockups/recipient-multiple.png)
 
+> If I'm serious about encryption, problems should be shown right away because
+> I have to act on them anyway. The emails I work a lot with I have an interest
+> in getting them in order. Progressively, more and more people will use PGP
+> and the list will get lower in the future. It would be good to have these
+> notifications because if I have 10 recipients, I don't have to click on 10
+> addresses. I can immediately start to address the problems from the
+> notification. --&nbsp;P1
+
 When the user chooses **Do Not Encrypt** in a notification:
 
 - The **Encryption** split button is turned off.
