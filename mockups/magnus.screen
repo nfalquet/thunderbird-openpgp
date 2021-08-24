@@ -114,7 +114,7 @@
   <widgets xsi:type="model:Button" id="340" x="-1" y="120" height="23" text="{assets/privacy-security} Encrypt" measuredWidth="81" measuredHeight="23" state="selected" textAlignment="Left">
     <font/>
   </widgets>
-  <widgets xsi:type="model:Text" id="341" x="77" y="547" width="649" height="34" text="{info} This message will be end-to-end encrypted before sending. If you haven't sent encrypted messages to a recipient before, additional steps are needed to bootstrap encrypted communications with that person." measuredWidth="649" measuredHeight="34">
+  <widgets xsi:type="model:Text" id="341" x="81" y="558" width="649" height="22" text="{info} The message will be end-to-end encrypted before sending. Additional steps needed for 2/3 of the recipients." measuredWidth="649" measuredHeight="22">
     <font/>
   </widgets>
   <widgets xsi:type="model:Icon" id="342" x="710" y="559" measuredWidth="16" measuredHeight="16" icon="delete (small)"/>
