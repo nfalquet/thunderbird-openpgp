@@ -44,7 +44,7 @@
   <widgets xsi:type="model:Button" id="120" x="486" y="165" height="20" text="accepted@example.com" measuredWidth="152" measuredHeight="20">
     <font/>
   </widgets>
-  <widgets xsi:type="model:Button" id="121" x="641" y="165" height="20" text="unavailable@example.com {warning}" measuredWidth="183" measuredHeight="20">
+  <widgets xsi:type="model:Button" id="121" x="641" y="165" height="20" text="unaccepted@example.com {warning}" measuredWidth="185" measuredHeight="20">
     <font/>
   </widgets>
   <widgets xsi:type="model:Button" id="357" x="1117" y="175" height="20" text="verified@example.com" measuredWidth="144" measuredHeight="20">
@@ -73,14 +73,14 @@
   </widgets>
   <widgets xsi:type="model:WidgetGroup" id="541" x="366" y="224" measuredWidth="666" measuredHeight="32">
     <widgets xsi:type="model:Panel" id="542" width="666" height="32" measuredWidth="666" measuredHeight="32"/>
-    <widgets xsi:type="model:Label" id="543" x="6" y="4" text="{assets/encryption-key-plain} You don't have a key for *unavailable@example.com*." measuredWidth="304" measuredHeight="24">
+    <widgets xsi:type="model:Label" id="543" x="6" y="4" text="{assets/encryption-key-plain} You have not accepted the key for *unaccepted@example.com*." measuredWidth="359" measuredHeight="24">
       <font/>
     </widgets>
   </widgets>
-  <widgets xsi:type="model:Button" id="545" x="770" y="228" height="23" text="Do Not Encrypt" measuredWidth="104" measuredHeight="23">
+  <widgets xsi:type="model:Button" id="545" x="825" y="228" height="23" text="Do Not Encrypt" measuredWidth="104" measuredHeight="23">
     <font/>
   </widgets>
-  <widgets xsi:type="model:Button" id="546" x="877" y="228" height="23" text="Search on Key Servers..." measuredWidth="150" measuredHeight="23">
+  <widgets xsi:type="model:Button" id="546" x="932" y="228" height="23" text="Manage Key..." measuredWidth="95" measuredHeight="23">
     <font/>
   </widgets>
   <widgets xsi:type="model:Label" id="556" x="142" y="-84" text="Encryption split button" measuredWidth="253" measuredHeight="38">
@@ -421,6 +421,21 @@
   </widgets>
   <widgets xsi:type="model:Label" id="832" x="912" y="794" text="Search on key servers" measuredWidth="237" measuredHeight="38">
     <font size="24px"/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="833" x="828" y="165" height="20" text="unavailable@example.com {warning}" measuredWidth="183" measuredHeight="20">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="834" x="366" y="251" measuredWidth="666" measuredHeight="32">
+    <widgets xsi:type="model:Panel" id="835" width="666" height="32" measuredWidth="666" measuredHeight="32"/>
+    <widgets xsi:type="model:Label" id="836" x="6" y="4" text="{assets/encryption-key-plain} You don't have a key for *unavailable@example.com*." measuredWidth="304" measuredHeight="24">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:Button" id="837" x="770" y="255" height="23" text="Do Not Encrypt" measuredWidth="104" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="838" x="877" y="255" height="23" text="Search on Key Servers..." measuredWidth="150" measuredHeight="23">
+    <font/>
   </widgets>
   <hRuler/>
   <vRuler/>
