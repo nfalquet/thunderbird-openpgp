@@ -83,10 +83,10 @@
   <widgets xsi:type="model:Button" id="326" x="148" y="292" height="23" text="{assets/privacy-security} Encrypt" measuredWidth="81" measuredHeight="23" state="selected" textAlignment="Left">
     <font/>
   </widgets>
-  <widgets xsi:type="model:Note" id="327" x="-100" y="164" width="196" height="64" text="Encrypt is a toggle button, like &quot;Quick Filter&quot;, with no additional options." measuredWidth="196" measuredHeight="64" textAlignment="Left">
+  <widgets xsi:type="model:Note" id="327" x="-100" y="164" width="196" height="64" text="Encrypt is a toggle button, with no additional options, like the &quot;Quick Filter&quot; feature." measuredWidth="196" measuredHeight="64" textAlignment="Left">
     <font/>
   </widgets>
-  <widgets xsi:type="model:Note" id="328" x="330" y="164" width="196" height="64" text="The current &quot;Security&quot; split button also still provides the additional options." measuredWidth="196" measuredHeight="64" textAlignment="Left">
+  <widgets xsi:type="model:Note" id="328" x="330" y="164" width="196" height="64" text="The current &quot;Security&quot; split button still provides the additional options." measuredWidth="196" measuredHeight="64" textAlignment="Left">
     <font/>
   </widgets>
   <widgets xsi:type="model:Note" id="329" x="772" y="352" text="No icons about keys on recipient addresses." measuredWidth="254" measuredHeight="29" textAlignment="Left">
@@ -95,7 +95,7 @@
   <widgets xsi:type="model:Note" id="330" x="-162" y="383" text="No subject encryption indicator." measuredWidth="190" measuredHeight="29" textAlignment="Left">
     <font/>
   </widgets>
-  <widgets xsi:type="model:Note" id="331" x="-183" y="272" width="232" height="62" text="Send button is always available and returns the recipient lists if there are any errors." measuredWidth="232" measuredHeight="62" textAlignment="Left">
+  <widgets xsi:type="model:Note" id="331" x="-183" y="272" width="232" height="62" text="Send button is always available and returns the recipient lists if there are any problems with keys." measuredWidth="232" measuredHeight="62" textAlignment="Left">
     <font/>
   </widgets>
   <widgets xsi:type="model:Button" id="332" x="514" y="357" height="20" text="unavailable@example.com" measuredWidth="164" measuredHeight="20">
@@ -108,7 +108,7 @@
   </widgets>
   <widgets xsi:type="model:Arrow" id="336" x="216" y="227" width="61" height="42" measuredWidth="61" measuredHeight="42"/>
   <widgets xsi:type="model:Arrow" id="338" x="27" y="397" width="103" height="8" measuredWidth="103" measuredHeight="8" direction="bottom"/>
-  <widgets xsi:type="model:Button" id="339" x="-92" y="120" height="23" text="{assets/privacy-security} Encrypt" measuredWidth="81" measuredHeight="23" textAlignment="Left">
+  <widgets xsi:type="model:Button" id="339" x="-92" y="120" height="23" text="{assets/lock-stricked} Encrypt" measuredWidth="81" measuredHeight="23" textAlignment="Left">
     <font/>
   </widgets>
   <widgets xsi:type="model:Button" id="340" x="-1" y="120" height="23" text="{assets/privacy-security} Encrypt" measuredWidth="81" measuredHeight="23" state="selected" textAlignment="Left">
@@ -119,6 +119,10 @@
   </widgets>
   <widgets xsi:type="model:Icon" id="342" x="710" y="559" measuredWidth="16" measuredHeight="16" icon="delete (small)"/>
   <widgets xsi:type="model:Arrow" id="343" x="677" y="367" width="94" height="8" measuredWidth="94" measuredHeight="8" left="false" right="true"/>
+  <widgets xsi:type="model:Note" id="344" x="-259" y="554" text="Notification is more discrete and without buttons." measuredWidth="285" measuredHeight="29" textAlignment="Left">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Arrow" id="345" x="27" y="568" width="53" height="8" measuredWidth="53" measuredHeight="8" direction="bottom"/>
   <hRuler/>
   <vRuler/>
   <font size="12px"/>
