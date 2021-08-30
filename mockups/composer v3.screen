@@ -92,11 +92,11 @@
   <widgets xsi:type="model:Button" id="572" x="467" y="799" width="71" height="23" text="{assets/send} Send" measuredWidth="71" measuredHeight="23" state="disabled" textAlignment="Left">
     <font/>
   </widgets>
-  <widgets xsi:type="model:Combo" id="594" x="1276" y="-190" width="115" text="{assets/privacy-security} OpenPGP&#xA;{assets/privacy-security} OpenPGP&#xA;{assets/privacy-security} S/MIME" measuredWidth="115" measuredHeight="65">
+  <widgets xsi:type="model:Combo" id="594" x="1277" y="-190" text="OpenPGP&#xA;OpenPGP&#xA;S/MIME" measuredWidth="79" measuredHeight="65">
     <font/>
-    <items x="0" y="0" width="114" height="22" text="{assets/privacy-security} OpenPGP"/>
-    <items x="0" y="23" width="114" height="21" text="{assets/privacy-security} OpenPGP"/>
-    <items x="0" y="44" width="114" height="21" text="{assets/privacy-security} S/MIME"/>
+    <items x="0" y="0" width="78" height="22" text="OpenPGP"/>
+    <items x="0" y="23" width="78" height="21" text="OpenPGP"/>
+    <items x="0" y="44" width="78" height="21" text="S/MIME"/>
   </widgets>
   <widgets xsi:type="model:Combo" id="636" x="444" y="100" width="127" text="{assets/privacy-security} Encryption On" measuredWidth="127" measuredHeight="23">
     <font/>
@@ -384,7 +384,7 @@
   <widgets xsi:type="model:Label" id="810" x="625" y="-242" text="Advanced options in Encryption split button" measuredWidth="476" measuredHeight="38">
     <font size="24px"/>
   </widgets>
-  <widgets xsi:type="model:Label" id="811" x="1139" y="-241" text="Dual S/MIME and OpenPGP account" measuredWidth="393" measuredHeight="38">
+  <widgets xsi:type="model:Label" id="811" x="1139" y="-241" text="Dual S/MIME and OpenPGP user" measuredWidth="355" measuredHeight="38">
     <font size="24px"/>
   </widgets>
   <widgets xsi:type="model:Label" id="812" x="1658" y="45" text="Right-click on recipient" measuredWidth="255" measuredHeight="38">

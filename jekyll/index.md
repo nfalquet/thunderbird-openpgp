@@ -450,7 +450,7 @@ in this menu despite the **Encryption** label.
 OpenPGP and S/MIME split button
 -------------------------------
 
-If both OpenPGP and S/MIME are enabled for the current account, the choice between both encryption technologies is available from:
+If the user has accounts with both OpenPGP and S/MIME, the choice between both encryption technologies is available from:
 
 - A dropdown, left from the **Encryption** split button.
 - Radio buttons, in the **Encryption** menu.
