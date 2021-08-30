@@ -381,7 +381,7 @@
     <items x="0" y="185" width="180" height="11" text="---"/>
     <items x="0" y="196" width="180" height="23" text="Manage Keys for Recipients"/>
   </widgets>
-  <widgets xsi:type="model:Label" id="810" x="625" y="-242" text="Advanced options in Encryption split button" measuredWidth="476" measuredHeight="38">
+  <widgets xsi:type="model:Label" id="810" x="625" y="-242" text="Additional options in Encryption split button" measuredWidth="482" measuredHeight="38">
     <font size="24px"/>
   </widgets>
   <widgets xsi:type="model:Label" id="811" x="1139" y="-241" text="Dual S/MIME and OpenPGP user" measuredWidth="355" measuredHeight="38">
