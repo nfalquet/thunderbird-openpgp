@@ -551,7 +551,7 @@ Implementation and release strategy
 
 This design could be released in increments in the following order:
 
-1. [Encryption split button](#encryption-split-button) and [additional options](#additional-options)
+1. [Encryption split button](#encryption-split-button), [additional options](#additional-options), and [OpenPGP and S/MIME split button](#openpgp-and-smime-split-button)
 
    Most pressing in terms of ease of use and visibility of system status.
 
@@ -584,7 +584,3 @@ This design could be released in increments in the following order:
 1. [Subject encryption toggle](#subject-encryption-toggle)
 
    Mostly educational.
-
-1. [OpenPGP and S/MIME split button](#openpgp-and-smime-split-button)
-
-   These options could live in the encrytion split button until then.
