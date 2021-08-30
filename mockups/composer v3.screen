@@ -425,6 +425,14 @@
   <widgets xsi:type="model:Button" id="838" x="877" y="255" height="23" text="Search on Key Servers..." measuredWidth="150" measuredHeight="23">
     <font/>
   </widgets>
+  <widgets xsi:type="model:List" id="839" x="-54" y="876" text="[x] *Encrypt as much as possible*&#xA;You will be asked to confirm before sending an email unencrypted." measuredWidth="388" measuredHeight="48" border="false" alpha="0">
+    <font/>
+    <items x="0" y="2" width="388" height="22" text="[x] *Encrypt as much as possible*"/>
+    <items x="0" y="24" width="388" height="22" text="You will be asked to confirm before sending an email unencrypted."/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="840" x="-49" y="845" text="Only 2 modes (not tested)" measuredWidth="190" measuredHeight="28">
+    <font size="16px"/>
+  </widgets>
   <hRuler/>
   <vRuler/>
   <font size="12px"/>

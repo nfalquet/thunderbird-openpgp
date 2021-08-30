@@ -165,7 +165,11 @@ to encrypt as much as possible (or everything):
 
 This dinstinction can be summarized in the account settings with the following:
 
-![](mockups/settings-only-one.png)
+![](mockups/settings-only-one-1.png)
+
+Or (not tested yet):
+
+![](mockups/settings-only-one-2.png)
 
 It would replace the current radio buttons:
 
