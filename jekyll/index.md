@@ -447,8 +447,8 @@ assume that the few people who are also interested in
 cryptographic signatures won't have problems finding these options
 in this menu despite the **Encryption** label.
 
-OpenPGP and S/MIME split button
--------------------------------
+OpenPGP-S/MIME split button
+---------------------------
 
 If the user has accounts with both OpenPGP and S/MIME, the choice between both encryption technologies is available from:
 
@@ -461,7 +461,7 @@ Search on key servers
 ---------------------
 
 Searching on key servers is made available from the recipient pills, their
-right-lick menu, and the key notifications.
+right-click menu, and the key notifications.
 
 None of the test participants used key servers to share their keys: some don't
 know that they exist and some others avoid using them by lack of trust.
@@ -551,7 +551,7 @@ Implementation and release strategy
 
 This design could be released in increments in the following order:
 
-1. [Encryption split button](#encryption-split-button), [additional options](#additional-options), and [OpenPGP and S/MIME split button](#openpgp-and-smime-split-button)
+1. [Encryption split button](#encryption-split-button), [additional options](#additional-options), and [OpenPGP-S/MIME split button](#openpgp-smime-split-button)
 
    Most pressing in terms of ease of use and visibility of system status.
 
