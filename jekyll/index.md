@@ -55,7 +55,7 @@ advocate for OpenPGP as a way to protect their communications from surveillance
 and repression from State and private actors. I call them **at-risk** users:
 
 - P1 (Germany), from an international peasant movement
-- P2 (Brazil), from feminist digital care network
+- P2 (Brazil), from a feminist digital care network
 - P3 (Colombia), from a local social movement
 - P4 (Guatemala), a journalist and digital security trainer
 
@@ -586,3 +586,48 @@ This design could be released in increments in the following order:
 1. [Subject encryption toggle](#subject-encryption-toggle)
 
    Mostly educational.
+
+Software prototype
+------------------
+
+The following patch includes proof-of-concept code for almost all the design
+elements described earlier:
+
+  - [composer.diff](patches/composer.diff)
+
+It can be applied on top of changeset de35d92fd3ea.
+
+This patch is a prototype made to demonstrate to design and is probably broken
+in many ways. Please report any unexpected behavior.
+
+Known issues:
+
+- Doesn't implement the **Encrypted Subject** label.
+
+  I want to see whether having the icon only works better for users on the
+  software prototype. This label being mostly educational, it might not be a
+  problem if people take some time to understand how subject encryption works.
+  Going for the longer label first makes it harder to know whether the shorter
+  label would be enough and simplify it in the future.
+
+- Doesn't implement [Search on key servers](#search-on-key-servers).
+
+- The **Send Now** entry of the **File** menu and the **Ctrl+Enter** keyboard
+  shortcut still allow sending an email while there are pending key
+  notifications.
+
+- Key notifications are not updated when coming back from the **Manage
+  Key&hellip;** dialog.
+
+- Key notifications are placed on the bottom of the message instead of on top.
+
+- Doesn't implement the link to **Manage Key&hellip;** and **Search on Key
+  Servers&hellip;** in the tooltip of the recipient pills nor the shortcut to
+  the key properties in the right-click menu of the recipient pill.
+
+Next steps
+----------
+
+- Test the software prototype with more at-risk users.
+
+- Design improvements for key management and discovery.
