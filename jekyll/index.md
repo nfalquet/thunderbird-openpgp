@@ -38,7 +38,7 @@ protocol](https://www.nngroup.com/articles/thinking-aloud-the-1-usability-tool/)
   The participant had an unaccepted key for kim@humanrights.org.
   The participant had no key for alex@humanrights.org and none was available on the key servers.
 
-Both proposals were displayed to the test participant as paper prototypes that
+Both proposals were displayed to the test participants as paper prototypes that
 I manipulated following their instructions and shared on video. I improved on
 each proposal after each test, as a way of improving on the design as quickly
 and cheaply as possible. This method is called [formative
@@ -59,11 +59,11 @@ Below is an example screen of Proposal B:
 
 All tests participants could use fine both proposals.
 
-When asked which one they prefer, all test participant preferred Proposal B.
+When asked which one they prefer, all test participants preferred Proposal B.
 
 They liked the simpler encryption split button and the key notifications
 combined with the Never Encrypt dialog that
-provide just-in-time help.
+provides just-in-time help.
 
 > Proposal B is much better. I can choose if I want encryption to be on
 > or not in general. If choose encryption to be off by default, I can still
@@ -82,7 +82,7 @@ provide just-in-time help.
 > Proposal B.
 > ---&nbsp;P3
 
-> I like "Encrypt If Possible" in Proposal A. But I like that Proposal B ask
+> I like "Encrypt If Possible" in Proposal A. But I like that Proposal B asks
 > you to confirm when the email will be sent unencrypted. I prefer B because if
 > we imagine that more people start encrypting, it will become better to
 > confirm before sending unencrypted emails.
@@ -106,9 +106,9 @@ confused by Proposal A.
   > is the wrong option because I need to be sure that it's going to be
   > encrypted. ---&nbsp;P1
 
-- The options in the split button didn't seem logic to P1:
+- The options in the split button didn't seem logical to P1:
 
-  > "Do Not Encrypt" is not logic because I already have a "Send Unencrypted"
+  > "Do Not Encrypt" is not logical because I already have a "Send Unencrypted"
   > button. That option I don't need. "Encrypt If Possible" is not logic either
   > because I don't have a key for this person. ---&nbsp;P1
 
@@ -163,7 +163,7 @@ to encrypt as much as possible (or everything):
   want to be bothered about encryption each time they write to their yoga
   teacher who doesn't use OpenPGP.
 
-This dinstinction can be summarized in the account settings with the following:
+This distinction can be summarized in the account settings with the following:
 
 ![](mockups/settings-only-one-1.png)
 
@@ -175,7 +175,7 @@ It would replace the current radio buttons:
 
 ![](mockups/settings-current.png)
 
-If we want to give the use more control over how much friction the composer
+If we want to give the user more control over how much friction the composer
 adds to prevent them from sending an unencrypted email by mistake, we can add
 another suboption. This suboption would allow the user to choose between 3
 modes, which could roughly map to the modes discussed on
@@ -206,21 +206,21 @@ modes, which could roughly map to the modes discussed on
   ![](mockups/settings-strict.png)
 
   But, at-risk users also send many unencrypted emails and would not want a
-  **Strict** mode that make it too cumbersome or entirely prevents sending
+  **Strict** mode that makes it too cumbersome or entirely prevents sending
   unencrypted emails.
 
   > With "Require Encryption", if 70-80% of the people I write to don't use a
-  > key, I'll have to say 'no' almost everytime. It'll be yet another step in
+  > key, I'll have to say 'no' almost every time. It'll be yet another step in
   > the process of sending an email.
   > ---&nbsp;P4
 
-This means that, at-risks users actually want something inbetween a **Relaxed**
-mode that could be too silent and a **Strict** mode that could be to
+This means that at-risk users actually want something in-between a **Relaxed**
+mode that could be too silent and a **Strict** mode that could be too
 cumbersome.
 
 I believe that the status and notification mechanisms described below can
 introduce the right amount of friction in the composer to keep at-risk users
-both safe and efficient without having them to choose between a second
+both safe and efficient without asking them to choose between a second
 suboption. See the [recipient pills](#recipient-pills) and [key
 notifications](#key-notifications).
 
@@ -231,7 +231,7 @@ defined.
 For example, **Always ask me** could:
 
 - Always display the [recipients dialog](#about-the-recipients-dialog) when sending.
-- Not provide the [Never Encrypt dialog](#never-encrypt-dialog) dialog.
+- Not provide the [Never Encrypt dialog](#never-encrypt-dialog).
 
 **Bugzilla**
 
@@ -249,7 +249,7 @@ the **Encryption** split button in the toolbar, left of the **Send** button.
 
 **Default state**
 
-When opening the composer, encryption if turned on by default depending on
+When opening the composer, encryption is turned on by default depending on
 various heuristics:
 
 - If the account is configured to **Encrypt automatically if possible**.
@@ -285,7 +285,7 @@ the user as at least 1 account with OpenPGP or S/MIME.
 
 - The **Quick Filter** feature uses a simple 3D toggle, but pressing it has
   visible consequences beyond changing the state of the button, by displaying
-  the quick filter toolbar. It's also not mission critical.
+  the quick filter toolbar. It's also not mission-critical.
 
   ![](mockups/quick-filter-off.png)
 
@@ -308,7 +308,7 @@ displayed in their recipient pill:
 ![](mockups/recipient-pills.png)
 
 The icons were well understood by test participants and are simple enough to
-improve accessibilty at a very small size.
+improve accessibility at a very small size.
 
 These pills are completed with a tooltip that provides more information and a
 possible solution on hover:
@@ -334,7 +334,7 @@ notifications that appear on top of the body of the email:
 
 ![](mockups/recipient-notification.png)
 
-Several notifications are be visible at the same time. After 3
+Several notifications are visible at the same time. After 3
 notifications, a single notification summarizes how many more notifications are
 not displayed yet:
 
@@ -377,14 +377,14 @@ About the recipients dialog
 
 If encryption is turned on but the email is impossible to encrypt, we could
 instead keep the **Send** button available and display the recipients dialog with
-a list of recipients and keys when the users chooses to send the email:
+a list of recipients and keys when the user chooses to send the email:
 
 ![](mockups/recipients-dialog.png)
 
-Recipient pills provide better user experience than only displaying the
-recipients dialog because:
+Recipient pills provide a better user experience than only displaying the
+recipients dialog when sending the email because:
 
-- If encryption is possible because all keys are fine, the UX is basically the same.
+- If encryption is possible because all keys are fine, the UX is the same.
 
   **Question**: Should we try removing the "check" icon on good keys and only
   display errors and missing keys? Is reassuring people with the "check" icon
@@ -396,7 +396,7 @@ recipients dialog because:
   * They present feedback to the user as quickly as possible.
 
   * Without this immediate feedback, the encryption toggle would remain on
-    while it's actually impossible to encrypt and without telling the user. The
+    while it's impossible to encrypt and without telling the user. The
     **Send** button will feel uncertain. Predictable interactions create trust.
 
 - Recipient pills rely on *recognition rather than recall*
@@ -427,7 +427,7 @@ The same OpenPGP and S/MIME options are available from either:
 According to Kai, the options from the split button should also be available
 from a top-level menu for accessibility.
 
-Moving OpenPGP and S/MIME options to a dedicated top-level menu helps making
+Moving OpenPGP and S/MIME options to a dedicated top-level menu helps to make
 them more discoverable. It also keeps the set of options in the split button
 and the top-level menu consistent and helps people understand that the
 top-level menu mirrors the options in the split button.
@@ -483,8 +483,8 @@ about fingerprint verification.
 
 > I don't know what a fingerprint is so I would choose 'accepted'.
 > I don't know how I can verify if the key is correct but I'm curious
-> but I’m curious what a correct fingerprint means. I want to know. I
-> would like an explanation of difference between 'accepted' and
+> what a correct fingerprint means. I want to know. I
+> would like an explanation of the difference between 'accepted' and
 > 'verified'.
 > ---&nbsp;P1
 
@@ -562,7 +562,7 @@ This design could be released in increments in the following order:
 
    More useful than recipient pills.
 
-   Implementing the Never Encrypt dialog reduces the amount of notifications.
+   Implementing the Never Encrypt dialog reduces the number of notifications.
 
 1. [Key properties](#key-properties)
 
