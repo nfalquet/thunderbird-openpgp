@@ -597,7 +597,7 @@ elements described earlier:
 
 It can be applied on top of changeset de35d92fd3ea.
 
-This patch is a prototype made to demonstrate to design and is probably broken
+This patch is a prototype made to demonstrate the design and is probably broken
 in many ways. Please report any unexpected behavior.
 
 ### Known issues
