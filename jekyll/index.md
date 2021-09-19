@@ -12,7 +12,7 @@ protect sensitive information as part of their work or activism. They use and
 advocate for OpenPGP as a way to protect their communications from surveillance
 and repression from State and private actors. I call them **at-risk** users:
 
-- P1 (Germany), from an international peasant movements
+- P1 (Germany), from an international peasant movement
 - P2 (Brazil), from an activism school and transfeminist digital care network
 - P3 (Colombia), from a local social movement
 - P4 (Guatemala), a journalist and digital security trainer
@@ -517,7 +517,7 @@ Subject** and can be toggled with a lock icon on the left of the subject line:
 
   ![](mockups/subject-right.png)
 
-  > I would put a subject that noone could understand, like "let's party".
+  > I would put a subject that no one could understand, like "let's party".
   > ---&nbsp;P2
 
   Dummy subjects like these make emails harder to go back to for the
