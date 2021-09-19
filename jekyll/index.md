@@ -13,7 +13,7 @@ advocate for OpenPGP as a way to protect their communications from surveillance
 and repression from State and private actors. I call them **at-risk** users:
 
 - P1 (Germany), from an international peasant movement
-- P2 (Brazil), from an activism school and transfeminist digital care network
+- P2 (Brazil), from feminist digital care network
 - P3 (Colombia), from a local social movement
 - P4 (Guatemala), a journalist and digital security trainer
 
