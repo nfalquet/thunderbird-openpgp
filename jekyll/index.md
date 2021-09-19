@@ -4,6 +4,48 @@ layout: default
 toc: true
 ---
 
+Scope
+-----
+
+This work is financed by the
+[BASICS](https://internews.org/areas-of-expertise/global-tech/global-tech-projects/basics/)
+project of Internews to improve the usability of OpenPGP for at-risk users:
+journalists, activists, and human-rights defenders who use OpenPGP in
+Thunderbird to protect their sensitive communications.
+
+I worked with Kai, Alex, and Magnus from the Thundebird team and [Gus
+Andrews](https://gusandrews.medium.com/).
+
+I started working on the usability of OpenPGP in the composer window, because:
+
+- Among at-risk and less technical users, the most pressing issues since the
+  replacement of Enigmail seem to be the lack of an equivalent for the "Encrypt
+  If Possible" option and the lack of visibility about the encryption status
+  while composing an email.
+- The migration from Enigmail to Thunderbird was not fun but [most
+  people](https://stats.thunderbird.net/#version) have migrated by now.
+- The OpenPGP feature is far from being good enough in terms of usability to
+  encourage new users to use it.
+- Working on the composer seemed easier and more important to tackle than key
+  management and discovery as a start. I'll work on these next.
+
+This work would address the following Bugzilla issues:
+
+- Opportunistic encryption
+
+  * [#135636: Implement "Encryption when possible" option for OpenPGP and S/MIME](https://bugzilla.mozilla.org/show_bug.cgi?id=135636)
+  * [#1680815: Automatically enable encryption based on message recipient](https://bugzilla.mozilla.org/show_bug.cgi?id=1680815)
+
+- Encryption status and settings in the composer window
+
+  * [#1630405: In composer, show message encryption "configuration"](https://bugzilla.mozilla.org/show_bug.cgi?id=1630405)
+  * [#1681938: User experience: make it easier to see if messages to be sent will be encrypted/signed](https://bugzilla.mozilla.org/show_bug.cgi?id=1681938)
+  * [#1669788: Support encrypt/sign toggle buttons in compose window](https://bugzilla.mozilla.org/show_bug.cgi?id=1669788)
+  * [#1651045: Improve labels "require encryption" and "do not encrypt" in composer](https://bugzilla.mozilla.org/show_bug.cgi?id=1651045)
+  * [#1630433: In composer, show individual message encryption "status"](https://bugzilla.mozilla.org/show_bug.cgi?id=1630433)
+  * [#1630416: In composer, show overall pre-calculated message encryption "status"](https://bugzilla.mozilla.org/show_bug.cgi?id=1630416)
+  * [#1667254: Improve the UI of the Compose window when encrypting emails](https://bugzilla.mozilla.org/show_bug.cgi?id=1667254)
+
 Methodology
 -----------
 
@@ -17,10 +59,8 @@ and repression from State and private actors. I call them **at-risk** users:
 - P3 (Colombia), from a local social movement
 - P4 (Guatemala), a journalist and digital security trainer
 
-I asked them to perform 3 tasks on each of Proposal A and Proposal B, on
-improved versions after the feedback received on
-[Mural](https://app.mural.co/t/nf3836/m/nf3836/1624980164516/d63fba04b062ea4c77d32b9c66e120f4bdffc64a?sender=1f9ca67c-ab56-4c87-bd58-4b29d55a52df)
-using the [think aloud
+I asked them to perform 3 tasks on 2 proposals developed by our team, Proposal A and Proposal B,
+using the [think-aloud
 protocol](https://www.nngroup.com/articles/thinking-aloud-the-1-usability-tool/):
 
 - *Write an email to your friend renata@riseup.net about an upcoming secret action.*
@@ -46,8 +86,10 @@ testing](https://simplysecure.org/blog/formative-testing).
 
 Gus Andrews helped interview, facilitate, and debrief the tests with P1 and P2.
 
-Proposal A vs Proposal B
-------------------------
+Design elements
+---------------
+
+### Proposal A vs Proposal B
 
 Below is an example screen of Proposal A:
 
@@ -115,8 +157,7 @@ confused by Proposal A.
 In the rest of this document, I describe an improved version of Proposal B
 only.
 
-Overview
---------
+### Overview
 
 **Example screen**
 
@@ -126,8 +167,7 @@ Overview
 
 ![](mockups/summary.png)
 
-Account settings
-----------------
+### Account settings
 
 The account settings should allow people to choose between at least 2 big
 categories: those who want to encrypt as little as possible and those who want
@@ -233,12 +273,7 @@ For example, **Always ask me** could:
 - Always display the [recipients dialog](#about-the-recipients-dialog) when sending.
 - Not provide the [Never Encrypt dialog](#never-encrypt-dialog).
 
-**Bugzilla**
-
-- [#135636: Implement "Encryption when possible" option for OpenPGP and S/MIME](https://bugzilla.mozilla.org/show_bug.cgi?id=135636)
-
-Encryption split button
------------------------
+### Encryption split button
 
 Whether the user wants to encrypt the email or not is displayed in the label of
 the **Encryption** split button in the toolbar, left of the **Send** button.
@@ -286,16 +321,7 @@ current account.
 
   ![](mockups/quick-filter-on.png)
 
-**Bugzilla**
-
-- [#1630405: In composer, show message encryption "configuration"](https://bugzilla.mozilla.org/show_bug.cgi?id=1630405)
-- [#1681938: User experience: make it easier to see if messages to be sent will be encrypted/signed](https://bugzilla.mozilla.org/show_bug.cgi?id=1681938)
-- [#1669788: Support encrypt/sign toggle buttons in compose window](https://bugzilla.mozilla.org/show_bug.cgi?id=1669788)
-- [#1651045: Improve labels "require encryption" and "do not encrypt" in composer](https://bugzilla.mozilla.org/show_bug.cgi?id=1651045)
-- [#1680815: Automatically enable encryption based on message recipient](https://bugzilla.mozilla.org/show_bug.cgi?id=1680815)
-
-Recipient pills
----------------
+### Recipient pills
 
 If encryption is turned on, the status of the key for each recipient is
 displayed in their recipient pill:
@@ -315,14 +341,7 @@ recipient pill:
 
 ![](mockups/recipient-right-click.png)
 
-**Bugzilla**
-
-- [#1630433: In composer, show individual message encryption "status"](https://bugzilla.mozilla.org/show_bug.cgi?id=1630433)
-- [#1630416: In composer, show overall pre-calculated message encryption "status"](https://bugzilla.mozilla.org/show_bug.cgi?id=1630416)
-- [#1667254: Improve the UI of the Compose window when encrypting emails](https://bugzilla.mozilla.org/show_bug.cgi?id=1667254)
-
-Key notifications
------------------
+### Key notifications
 
 If encryption is turned on, the recipient pills are completed with
 notifications that appear on top of the body of the email:
@@ -343,8 +362,7 @@ not displayed yet:
 > addresses. I can immediately start to address the problems from the
 > notification. --&nbsp;P1
 
-Never Encrypt dialog
---------------------
+### Never Encrypt dialog
 
 When the user chooses **Do Not Encrypt** in a notification:
 
@@ -358,8 +376,7 @@ When the user chooses **Do Not Encrypt** in a notification:
   This choice is undone automatically if the user ever imports a key for this
   recipient in the future.
 
-Send button
------------
+### Send button
 
 If encryption is turned on but the email is impossible to encrypt, the **Send**
 button is made unavailable and a tooltip instructs the user to review pending
@@ -367,8 +384,7 @@ key notifications:
 
 ![](mockups/send-unavailable.png)
 
-About the recipients dialog
----------------------------
+### About the recipients dialog
 
 If encryption is turned on but the email is impossible to encrypt, we could
 instead keep the **Send** button available and display the recipients dialog with
@@ -405,8 +421,7 @@ recipients dialog when sending the email because:
 Once we have the recipient pills and key notifications, we could
 get rid of the code for this window and save a bit on maintenance.
 
-Additional options
-------------------
+### Additional options
 
 The same OpenPGP and S/MIME options are available from either:
 
@@ -438,8 +453,7 @@ assume that the few people who are also interested in
 cryptographic signatures won't have problems finding these options
 in this menu despite the **Encryption** label.
 
-OpenPGP-S/MIME split button
----------------------------
+### OpenPGP-S/MIME split button
 
 If the user has accounts with both OpenPGP and S/MIME, the choice between both encryption technologies is available from:
 
@@ -448,8 +462,7 @@ If the user has accounts with both OpenPGP and S/MIME, the choice between both e
 
 ![](mockups/smime.png)
 
-Search on key servers
----------------------
+### Search on key servers
 
 Searching on key servers is made available from the recipient pills, their
 right-click menu, and the key notifications.
@@ -466,8 +479,7 @@ about key servers:
 
 ![](mockups/key-servers.png)
 
-Key properties
---------------
+### Key properties
 
 P1 didn't read the current text despite being interested in learning more
 about fingerprint verification.
@@ -490,8 +502,7 @@ I rephrased and restructured the acceptance tab of the key properties to:
 
 ![](mockups/manage-key.png)
 
-Subject encryption toggle
--------------------------
+### Subject encryption toggle
 
 If encryption is turned on, subject encryption is turned on by default as well.
 
