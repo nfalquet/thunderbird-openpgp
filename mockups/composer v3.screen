@@ -348,35 +348,35 @@
   <widgets xsi:type="model:Tooltip" id="804" x="507" y="738" height="58" text="Some keys are missing to be able to encrypt.&#xA;Review the pending key notifications." measuredWidth="251" measuredHeight="58">
     <font/>
   </widgets>
-  <widgets xsi:type="model:Popup" id="805" x="810" y="-191" text="(o) Encryption On&#xA; [x] Encrypt Subject&#xA;( ) Encryption Off&#xA;---&#xA;[x] Sign&#xA;[ ] &amp;Attach My Public Key&#xA;---&#xA;Manage Keys for Recipients" measuredWidth="180" measuredHeight="164">
+  <widgets xsi:type="model:Popup" id="805" x="810" y="-191" text="(o) Encryption On&#xA;( ) Encryption Off&#xA;---&#xA;[x] Sign&#xA;[x] Encrypt Subject&#xA;[ ] &amp;Attach My Public Key&#xA;---&#xA;Manage Keys for Recipients" measuredWidth="180" measuredHeight="164">
     <items x="0" y="2" width="180" height="23" text="(o) Encryption On"/>
-    <items x="0" y="25" width="180" height="23" text=" [x] Encrypt Subject"/>
-    <items x="0" y="48" width="180" height="23" text="( ) Encryption Off"/>
-    <items x="0" y="71" width="180" height="11" text="---"/>
-    <items x="0" y="82" width="180" height="23" text="[x] Sign"/>
+    <items x="0" y="25" width="180" height="23" text="( ) Encryption Off"/>
+    <items x="0" y="48" width="180" height="11" text="---"/>
+    <items x="0" y="59" width="180" height="23" text="[x] Sign"/>
+    <items x="0" y="82" width="180" height="23" text="[x] Encrypt Subject"/>
     <items x="0" y="105" width="180" height="23" text="[ ] &amp;Attach My Public Key"/>
     <items x="0" y="128" width="180" height="11" text="---"/>
     <items x="0" y="139" width="180" height="23" text="Manage Keys for Recipients"/>
   </widgets>
-  <widgets xsi:type="model:Popup" id="807" x="622" y="-191" text="( ) Encryption On&#xA; ~[ ] Encrypt Subject~&#xA;(o) Encryption Off&#xA;---&#xA;[ ] Sign&#xA;[ ] &amp;Attach My Public Key&#xA;---&#xA;Manage Keys for Recipients" measuredWidth="180" measuredHeight="164">
+  <widgets xsi:type="model:Popup" id="807" x="622" y="-191" text="( ) Encryption On&#xA;(o) Encryption Off&#xA;---&#xA;[ ] Sign&#xA;~[ ] Encrypt Subject~&#xA;[ ] &amp;Attach My Public Key&#xA;---&#xA;Manage Keys for Recipients" measuredWidth="180" measuredHeight="164">
     <items x="0" y="2" width="180" height="23" text="( ) Encryption On"/>
-    <items x="0" y="25" width="180" height="23" text=" ~[ ] Encrypt Subject~"/>
-    <items x="0" y="48" width="180" height="23" text="(o) Encryption Off"/>
-    <items x="0" y="71" width="180" height="11" text="---"/>
-    <items x="0" y="82" width="180" height="23" text="[ ] Sign"/>
+    <items x="0" y="25" width="180" height="23" text="(o) Encryption Off"/>
+    <items x="0" y="48" width="180" height="11" text="---"/>
+    <items x="0" y="59" width="180" height="23" text="[ ] Sign"/>
+    <items x="0" y="82" width="180" height="23" text="~[ ] Encrypt Subject~"/>
     <items x="0" y="105" width="180" height="23" text="[ ] &amp;Attach My Public Key"/>
     <items x="0" y="128" width="180" height="11" text="---"/>
     <items x="0" y="139" width="180" height="23" text="Manage Keys for Recipients"/>
   </widgets>
-  <widgets xsi:type="model:Popup" id="808" x="1365" y="-190" text="(o) OpenPGP&#xA;( ) S/MIME&#xA;---&#xA;(o) Encryption On&#xA; [x] Encrypt Subject&#xA;( ) Encryption Off&#xA;---&#xA;[x] Sign&#xA;[ ] &amp;Attach My Public Key&#xA;---&#xA;Manage Keys for Recipients" measuredWidth="180" measuredHeight="221">
+  <widgets xsi:type="model:Popup" id="808" x="1365" y="-190" text="(o) OpenPGP&#xA;( ) S/MIME&#xA;---&#xA;(o) Encryption On&#xA;( ) Encryption Off&#xA;---&#xA;[x] Sign&#xA;[x] Encrypt Subject&#xA;[ ] &amp;Attach My Public Key&#xA;---&#xA;Manage Keys for Recipients" measuredWidth="180" measuredHeight="221">
     <items x="0" y="2" width="180" height="23" text="(o) OpenPGP"/>
     <items x="0" y="25" width="180" height="23" text="( ) S/MIME"/>
     <items x="0" y="48" width="180" height="11" text="---"/>
     <items x="0" y="59" width="180" height="23" text="(o) Encryption On"/>
-    <items x="0" y="82" width="180" height="23" text=" [x] Encrypt Subject"/>
-    <items x="0" y="105" width="180" height="23" text="( ) Encryption Off"/>
-    <items x="0" y="128" width="180" height="11" text="---"/>
-    <items x="0" y="139" width="180" height="23" text="[x] Sign"/>
+    <items x="0" y="82" width="180" height="23" text="( ) Encryption Off"/>
+    <items x="0" y="105" width="180" height="11" text="---"/>
+    <items x="0" y="116" width="180" height="23" text="[x] Sign"/>
+    <items x="0" y="139" width="180" height="23" text="[x] Encrypt Subject"/>
     <items x="0" y="162" width="180" height="23" text="[ ] &amp;Attach My Public Key"/>
     <items x="0" y="185" width="180" height="11" text="---"/>
     <items x="0" y="196" width="180" height="23" text="Manage Keys for Recipients"/>
