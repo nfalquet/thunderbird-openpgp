@@ -258,11 +258,6 @@ various heuristics:
 This split button is only displayed if OpenPGP or S/MIME is configured for the
 current account.
 
-**Question**: Is it OK to change the toolbar and top-level menus based on the
-*From* address in case the user have 1 account with OpenPGP and 1 account
-without OpenPGP for example? Otherwise we can have them displayed as long as
-the user as at least 1 account with OpenPGP or S/MIME.
-
 **Widget**
 
 - According to Alex, a split button is easier to implement than, for example, an
@@ -385,10 +380,6 @@ Recipient pills provide a better user experience than only displaying the
 recipients dialog when sending the email because:
 
 - If encryption is possible because all keys are fine, the UX is the same.
-
-  **Question**: Should we try removing the "check" icon on good keys and only
-  display errors and missing keys? Is reassuring people with the "check" icon
-  worth the additional icon?
 
 - Recipient pills provide better *visibility of system status*
   ([Usability Heuristics #1](https://www.nngroup.com/articles/visibility-system-status/)):
