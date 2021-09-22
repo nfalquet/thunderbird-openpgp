@@ -211,6 +211,10 @@ Or (not tested yet):
 
 ![](mockups/settings-only-one-2.png)
 
+Or (not tested yet):
+
+- **Enable encryption for new messages**
+
 It would replace the current radio buttons:
 
 ![](mockups/settings-current.png)
