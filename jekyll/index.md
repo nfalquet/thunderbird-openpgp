@@ -35,9 +35,11 @@ This work would address the following Bugzilla issues:
 
   * [#135636: Implement "Encryption when possible" option for OpenPGP and S/MIME](https://bugzilla.mozilla.org/show_bug.cgi?id=135636)
   * [#1680815: Automatically enable encryption based on message recipient](https://bugzilla.mozilla.org/show_bug.cgi?id=1680815)
+  * [#1711294: Missing per-recipient rules whether to use encryption lead to bad UX](https://bugzilla.mozilla.org/show_bug.cgi?id=1711294)
 
 - Encryption status and settings in the composer window
 
+  * [#1595226: Mail Composer - Configuring individual message settings and recipient key selection](https://bugzilla.mozilla.org/show_bug.cgi?id=1595226)
   * [#1630405: In composer, show message encryption "configuration"](https://bugzilla.mozilla.org/show_bug.cgi?id=1630405)
   * [#1681938: User experience: make it easier to see if messages to be sent will be encrypted/signed](https://bugzilla.mozilla.org/show_bug.cgi?id=1681938)
   * [#1669788: Support encrypt/sign toggle buttons in compose window](https://bugzilla.mozilla.org/show_bug.cgi?id=1669788)
@@ -45,6 +47,11 @@ This work would address the following Bugzilla issues:
   * [#1630433: In composer, show individual message encryption "status"](https://bugzilla.mozilla.org/show_bug.cgi?id=1630433)
   * [#1630416: In composer, show overall pre-calculated message encryption "status"](https://bugzilla.mozilla.org/show_bug.cgi?id=1630416)
   * [#1667254: Improve the UI of the Compose window when encrypting emails](https://bugzilla.mozilla.org/show_bug.cgi?id=1667254)
+  * [#1616525: openpgp, composer, when changing "from", potentially adjust encrypt/sign settings](https://bugzilla.mozilla.org/show_bug.cgi?id=1616525)
+  * [#1677709: PGP: Make error message more helpful](https://bugzilla.mozilla.org/show_bug.cgi?id=1677709)
+  * [#1683332: Replyto encrypted despite setting](https://bugzilla.mozilla.org/show_bug.cgi?id=1683332)
+  * [#1692625: Thunderbird's UI should explain that it expects that a correspondent's OpenPGP encryption key must contain the correspondent's email address to be used immediately, and that alternatively the Alias feature could be used](https://bugzilla.mozilla.org/show_bug.cgi?id=1692625)
+  * [#1710453: OpenPGP: add 2 buttons send "unencrypted/signed", "unencrypted/unsigned" early in the send workflow](https://bugzilla.mozilla.org/show_bug.cgi?id=1710453)
 
 Methodology
 -----------
