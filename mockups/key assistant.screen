@@ -1,0 +1,665 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Window" id="525" x="-1695" y="1174" width="372" height="268" text="Sources for Online Key Discovery" measuredWidth="372" measuredHeight="268"/>
+  <widgets xsi:type="model:Window" id="243" x="532" y="78" width="565" height="465" text="OpenPGP Key Assistant" measuredWidth="565" measuredHeight="465"/>
+  <widgets xsi:type="model:Button" id="245" x="563" y="498" text="Disable Encryption" measuredWidth="122" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="247" x="565" y="115" width="501" text="*Impossible to encrypt because 4 keys are missing, invalid, or not accepted.*" measuredWidth="501" measuredHeight="15">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Window" id="238" x="-390" y="78" width="441" height="466" text="OpenPGP Key Assistant" measuredWidth="441" measuredHeight="466"/>
+  <widgets xsi:type="model:Panel" id="141" x="105" y="899" width="377" height="67" measuredWidth="377" measuredHeight="67"/>
+  <widgets xsi:type="model:Window" id="100" x="72" y="78" width="441" height="547" text="OpenPGP Key Assistant" measuredWidth="441" measuredHeight="547"/>
+  <widgets xsi:type="model:Button" id="101" x="336" y="559" text="Discover Keys Online..." measuredWidth="144" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Panel" id="120" x="103" y="408" width="377" height="67" measuredWidth="377" measuredHeight="67"/>
+  <widgets xsi:type="model:Panel" id="113" x="103" y="206" width="377" height="47" measuredWidth="377" measuredHeight="47"/>
+  <widgets xsi:type="model:Panel" id="115" x="103" y="248" width="377" height="47" measuredWidth="377" measuredHeight="47"/>
+  <widgets xsi:type="model:Label" id="116" x="117" y="260" text="verified@example.com" measuredWidth="131" measuredHeight="23">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="106" x="384" y="216" text="{key} Accepted" measuredWidth="89" measuredHeight="26" background="#d9ead3" style="round">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="108" x="384" y="258" width="89" text="{check} Verified" measuredWidth="89" measuredHeight="26" background="#d9ead3" style="round">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="109" x="103" y="559" text="Disable Encryption" measuredWidth="122" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="114" x="117" y="217" text="accepted@example.com" measuredWidth="139" measuredHeight="23">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Panel" id="117" x="103" y="290" width="377" height="61" measuredWidth="377" measuredHeight="61"/>
+  <widgets xsi:type="model:Label" id="118" x="117" y="301" text="collected@example.com" measuredWidth="139" measuredHeight="23">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="112" x="116" y="325" text="You received a key by email on 2021-02-14." measuredWidth="237" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="121" x="384" y="418" width="89" text="{warning} Missing" measuredWidth="89" measuredHeight="26" background="#fff2cc" style="round">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="122" x="117" y="421" text="unavailable@example.com" measuredWidth="150" measuredHeight="23">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Checkbox" id="128" x="108" y="995" text="Always Discover Keys Automatically" measuredWidth="216" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Link" id="129" x="128" y="1016" text="Advanced Options" measuredWidth="102" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="136" x="385" y="909" width="89" text="{warning} Missing" measuredWidth="89" measuredHeight="26" background="#fff2cc" style="round">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="137" x="119" y="912" text="unavailable@example.com" measuredWidth="150" measuredHeight="23">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="138" x="118" y="937" text="Searching on keys.openpgp.org..." measuredWidth="186" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="139" x="354" y="995" text="{loading} Discovering Keys..." measuredWidth="128" measuredHeight="24">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Link" id="140" x="374" y="1016" text="Cancel" measuredWidth="39" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Panel" id="144" x="563" y="900" width="377" height="67" measuredWidth="377" measuredHeight="67"/>
+  <widgets xsi:type="model:Label" id="148" x="577" y="913" text="unavailable@example.com" measuredWidth="150" measuredHeight="23">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="149" x="576" y="938" text="Found a key on keys.openpgp.org." measuredWidth="191" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="153" x="818" y="983" text="Accept New Keys..." measuredWidth="122" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Panel" id="157" x="103" y="346" width="377" height="67" measuredWidth="377" measuredHeight="67"/>
+  <widgets xsi:type="model:Button" id="158" x="384" y="356" width="89" text="{warning} Expired" measuredWidth="89" measuredHeight="26" background="#fff2cc" style="round">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="159" x="117" y="359" text="*expired@example.com* (2021-03-06)" measuredWidth="206" measuredHeight="23">
+    <font bold="false"/>
+  </widgets>
+  <widgets xsi:type="model:Panel" id="164" x="563" y="1730" width="377" height="67" measuredWidth="377" measuredHeight="67"/>
+  <widgets xsi:type="model:Label" id="166" x="577" y="1743" text="expired@example.com" measuredWidth="130" measuredHeight="23">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="167" x="576" y="1768" text="Key updated from keys.openpgp.org." measuredWidth="206" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="170" x="844" y="1740" text="{key} Accepted" measuredWidth="89" measuredHeight="26" background="#d9ead3" style="round">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Panel" id="171" x="563" y="1550" width="377" height="67" measuredWidth="377" measuredHeight="67"/>
+  <widgets xsi:type="model:Label" id="172" x="577" y="1563" text="expired@example.com" measuredWidth="130" measuredHeight="23">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="173" x="576" y="1585" text="Key could not be updated online." measuredWidth="182" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Panel" id="175" x="563" y="725" width="377" height="67" measuredWidth="377" measuredHeight="67"/>
+  <widgets xsi:type="model:Label" id="176" x="577" y="738" text="unavailable@example.com" measuredWidth="150" measuredHeight="23">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="177" x="576" y="764" text="Key could not be discovered online." measuredWidth="197" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="180" x="842" y="735" width="89" text="{warning} Missing" measuredWidth="89" measuredHeight="26" background="#fff2cc" style="round">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Link" id="183" x="844" y="764" text="Import..." measuredWidth="49" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="184" x="843" y="1560" width="89" text="{warning} Expired" measuredWidth="89" measuredHeight="26" background="#fff2cc" style="round">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Panel" id="186" x="565" y="351" width="500" height="67" measuredWidth="500" measuredHeight="67"/>
+  <widgets xsi:type="model:Panel" id="187" x="565" y="149" width="500" height="47" measuredWidth="500" measuredHeight="47"/>
+  <widgets xsi:type="model:Panel" id="188" x="565" y="191" width="500" height="47" measuredWidth="500" measuredHeight="47"/>
+  <widgets xsi:type="model:Label" id="189" x="675" y="203" text="verified@example.com" measuredWidth="131" measuredHeight="23">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="190" x="573" y="159" text="{key} Accepted" measuredWidth="89" measuredHeight="26" background="#d9ead3" style="round">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="191" x="573" y="201" width="89" text="{check} Verified" measuredWidth="89" measuredHeight="26" background="#d9ead3" style="round">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="192" x="675" y="160" text="accepted@example.com" measuredWidth="139" measuredHeight="23">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Panel" id="193" x="565" y="233" width="500" height="61" measuredWidth="500" measuredHeight="61"/>
+  <widgets xsi:type="model:Label" id="194" x="675" y="244" text="collected@example.com" measuredWidth="139" measuredHeight="23">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="195" x="867" y="241" text="Accept..." measuredWidth="66" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="196" x="674" y="267" text="You received a key by email on 2021-02-14." measuredWidth="237" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="197" x="573" y="361" width="89" text="{warning} Missing" measuredWidth="89" measuredHeight="26" background="#fff2cc" style="round">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="198" x="675" y="364" text="unavailable@example.com" measuredWidth="150" measuredHeight="23">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Panel" id="200" x="565" y="289" width="500" height="67" measuredWidth="500" measuredHeight="67"/>
+  <widgets xsi:type="model:Button" id="201" x="573" y="299" width="89" text="{warning} Expired" measuredWidth="89" measuredHeight="26" background="#fff2cc" style="round">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="202" x="675" y="302" text="expired@example.com" measuredWidth="130" measuredHeight="23">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="203" x="674" y="327" text="Key expired on 2021-03-06." measuredWidth="157" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="206" x="573" y="242" width="89" text="{warning} New Key" measuredWidth="89" measuredHeight="26" background="#fff2cc" style="round">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="207" x="990" y="299" text="Import..." measuredWidth="66" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="208" x="990" y="359" text="Import..." measuredWidth="66" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="209" x="867" y="359" text="Discover Online..." measuredWidth="115" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="211" x="938" y="241" text="Import..." measuredWidth="66" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Link" id="212" x="336" y="587" text="Import Keys..." measuredWidth="78" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Panel" id="215" x="-357" y="378" width="377" height="47" measuredWidth="377" measuredHeight="47"/>
+  <widgets xsi:type="model:Panel" id="216" x="-357" y="210" width="377" height="47" measuredWidth="377" measuredHeight="47"/>
+  <widgets xsi:type="model:Panel" id="217" x="-357" y="252" width="377" height="47" measuredWidth="377" measuredHeight="47"/>
+  <widgets xsi:type="model:Label" id="218" x="-343" y="264" text="verified@example.com" measuredWidth="131" measuredHeight="23">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="219" x="-76" y="220" text="{key} Accepted" measuredWidth="89" measuredHeight="26" background="#d9ead3" style="round">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="220" x="-76" y="262" width="89" text="{check} Verified" measuredWidth="89" measuredHeight="26" background="#d9ead3" style="round">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="221" x="-343" y="221" text="accepted@example.com" measuredWidth="139" measuredHeight="23">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Panel" id="222" x="-357" y="294" width="377" height="47" measuredWidth="377" measuredHeight="47"/>
+  <widgets xsi:type="model:Label" id="223" x="-343" y="305" text="collected@example.com" measuredWidth="139" measuredHeight="23">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="226" x="-76" y="388" width="89" text="{warning} Missing" measuredWidth="89" measuredHeight="26" background="#fff2cc" style="round">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="227" x="-343" y="391" text="unavailable@example.com" measuredWidth="150" measuredHeight="23">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Panel" id="228" x="-357" y="336" width="377" height="47" measuredWidth="377" measuredHeight="47"/>
+  <widgets xsi:type="model:Button" id="229" x="-76" y="346" width="89" text="{warning} Expired" measuredWidth="89" measuredHeight="26" background="#fff2cc" style="round">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="230" x="-343" y="349" text="expired@example.com" measuredWidth="130" measuredHeight="23">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="234" x="384" y="300" width="89" text="{key} New Key" measuredWidth="89" measuredHeight="26" background="#d9ead3" style="round">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Link" id="235" x="384" y="325" text="Accept..." measuredWidth="49" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="237" x="-357" y="115" width="398" height="87" text="*Impossible to encrypt because 4 keys are missing, invalid, or not accepted.*&#xA;&#xA;You can import new keys from a file or try to discover keys online.&#xA;&#xA;Click on a recipient for more details." measuredWidth="398" measuredHeight="87">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="239" x="-124" y="492" text="Discover Keys Online..." measuredWidth="144" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="240" x="-357" y="492" text="Disable Encryption" measuredWidth="122" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="242" x="103" y="115" width="400" text="*Impossible to encrypt because 4 keys are missing, invalid, or not accepted.*&#xA;&#xA;You can import new keys from a file or try to discover keys online.&#xA;&#xA;Click on a recipient for more details." measuredWidth="400" measuredHeight="75">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Panel" id="248" x="105" y="1730" width="377" height="67" measuredWidth="377" measuredHeight="67"/>
+  <widgets xsi:type="model:Button" id="249" x="385" y="1740" width="89" text="{warning} Expired" measuredWidth="89" measuredHeight="26" background="#fff2cc" style="round">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="250" x="119" y="1743" text="expired@example.com" measuredWidth="130" measuredHeight="23">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="251" x="118" y="1768" text="Searching on keys.openpgp.org..." measuredWidth="186" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Checkbox" id="252" x="108" y="1828" text="Always Discover Keys Automatically" measuredWidth="216" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Link" id="253" x="128" y="1849" text="Advanced Options" measuredWidth="102" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="254" x="354" y="1828" text="{loading} Discovering Keys..." measuredWidth="128" measuredHeight="24">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Link" id="255" x="374" y="1849" text="Cancel" measuredWidth="39" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="256" x="867" y="299" text="Discover Online..." measuredWidth="115" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="257" x="116" y="443" text="Import a new key or try to discover it online." measuredWidth="243" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="258" x="116" y="383" text="Import an updated key or try to discover it online." measuredWidth="272" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="263" x="843" y="912" width="89" text="{help} New Key" measuredWidth="89" measuredHeight="26" background="#cfe2f3" style="round">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Panel" id="272" x="-357" y="421" width="377" height="47" measuredWidth="377" measuredHeight="47"/>
+  <widgets xsi:type="model:Label" id="274" x="-343" y="434" text="multiple@example.com" measuredWidth="135" measuredHeight="23">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Panel" id="275" x="103" y="469" width="377" height="67" measuredWidth="377" measuredHeight="67"/>
+  <widgets xsi:type="model:Button" id="276" x="384" y="479" width="89" text="{key} Multiple" measuredWidth="89" measuredHeight="26" background="#d9ead3" style="round">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="277" x="117" y="482" text="multiple@example.com" measuredWidth="135" measuredHeight="23">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="278" x="116" y="504" text="You have multiple valid keys." measuredWidth="160" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Link" id="280" x="384" y="504" text="Choose..." measuredWidth="53" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Panel" id="281" x="565" y="413" width="500" height="67" measuredWidth="500" measuredHeight="67"/>
+  <widgets xsi:type="model:Button" id="282" x="573" y="423" width="89" text="{warning} Multiple" measuredWidth="89" measuredHeight="26" background="#fff2cc" style="round">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="283" x="675" y="426" text="multiple@example.com" measuredWidth="135" measuredHeight="23">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="284" x="867" y="421" text="Choose..." measuredWidth="70" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="286" x="675" y="449" text="You have multiple valid keys." measuredWidth="160" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="291" x="563" y="809" text="Disable Encryption" measuredWidth="122" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="292" x="563" y="983" text="Disable Encryption" measuredWidth="122" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="295" x="816" y="1814" text="{assets/send} Send Encrypted" measuredWidth="124" measuredHeight="26">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="296" x="563" y="1814" text="Disable Encryption" measuredWidth="122" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Arrow" id="312" x="939" y="933" width="269" height="8" measuredWidth="269" measuredHeight="8" left="false" right="true" direction="bottom"/>
+  <widgets xsi:type="model:Button" id="314" x="847" y="1164" text="Choose Key..." measuredWidth="93" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="315" x="563" y="1164" text="Disable Encryption" measuredWidth="122" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Window" id="328" x="1213" y="802" width="450" height="397" text="OpenPGP Key Assistant" measuredWidth="450" measuredHeight="397"/>
+  <widgets xsi:type="model:Button" id="334" x="1581" y="1150" text="Accept" measuredWidth="57" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="338" x="1413" y="1150" text="Reject" measuredWidth="53" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="342" x="1232" y="845" width="333" text="Accepting 2 of 2 new keys." measuredWidth="333" measuredHeight="15">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="343" x="1242" y="956" text="Email&#xA;Source&#xA;Fingerprint&#xA;Created&#xA;Expiry" measuredWidth="63" measuredHeight="75">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="344" x="1322" y="956" text="kim@humanrights.org&#xA;Downloaded from keys.openpgp.org on 2021-10-20&#xA;9B6D A7CF C646 78C5 69E8 5357 4F3D B3B4&#xA;2021-05-21&#xA;Never" measuredWidth="281" measuredHeight="75">
+    <font bold="false"/>
+  </widgets>
+  <widgets xsi:type="model:Tabs" id="345" x="1213" y="915" width="450" text="Summary, Certifications, Structure" measuredWidth="450" measuredHeight="27" selection="0">
+    <items x="1" y="0" width="74" height="27" text="Summary"/>
+    <items x="75" y="0" width="93" height="27" text="Certifications"/>
+    <items x="168" y="0" width="72" height="27" text="Structure"/>
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="346" x="1232" y="875" text="Accept the key to use it to encrypt and verify OpenPGP signatures." measuredWidth="357" measuredHeight="18" lineHeight="1.5">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="349" x="1242" y="1043" width="356" height="55" text="Verify the fingerprint of the key using a secure communication channel other than email to make sure that it's really the key of kim@humanrights.org." measuredWidth="356" measuredHeight="55" lineHeight="1.5">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Checkbox" id="350" x="1242" y="1104" text="I have verified the fingerprint of this key." measuredWidth="237" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Window" id="352" x="1213" y="1312" width="450" height="395" text="OpenPGP Key Assistant" measuredWidth="450" measuredHeight="395"/>
+  <widgets xsi:type="model:Text" id="356" x="1232" y="1357" width="333" text="Choosing 1 of 2 new keys." measuredWidth="333" measuredHeight="15">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="360" x="1232" y="1387" text="Choose the key to use to encrypt to multiple@example.com." measuredWidth="325" measuredHeight="18" lineHeight="1.5">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="367" x="1268" y="1431" measuredWidth="361" measuredHeight="45">
+    <widgets xsi:type="model:Text" id="364" text="Source&#xA;Fingerprint&#xA;Created" measuredWidth="63" measuredHeight="45">
+      <font bold="true"/>
+    </widgets>
+    <widgets xsi:type="model:Text" id="365" x="80" text="Downloaded from keys.openpgp.org on 2021-10-20&#xA;9B6D A7CF C646 78C5 69E8 5357 4F3D B3B4&#xA;2021-03-03" measuredWidth="281" measuredHeight="45">
+      <font bold="false"/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:RadioButton" id="366" x="1233" y="1442" measuredWidth="20" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="368" x="1268" y="1501" measuredWidth="334" measuredHeight="45">
+    <widgets xsi:type="model:Text" id="369" text="Source&#xA;Fingerprint&#xA;Created" measuredWidth="63" measuredHeight="45">
+      <font bold="true"/>
+    </widgets>
+    <widgets xsi:type="model:Text" id="370" x="80" text="Received in an email on 2021-08-20&#xA;9B6D A7CF C646 78C5 69E8 5357 4F3D B3B4&#xA;2021-02-02" measuredWidth="254" measuredHeight="45">
+      <font bold="false"/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:RadioButton" id="371" x="1233" y="1512" measuredWidth="20" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="372" x="1268" y="1571" measuredWidth="387" measuredHeight="45">
+    <widgets xsi:type="model:Text" id="373" text="Source&#xA;Fingerprint&#xA;Created" measuredWidth="63" measuredHeight="45">
+      <font bold="true"/>
+    </widgets>
+    <widgets xsi:type="model:Text" id="374" x="80" text="Downloaded from openpgp.example.com on 2021-04-15&#xA;9B6D A7CF C646 78C5 69E8 5357 4F3D B3B4&#xA;2021-01-01" measuredWidth="307" measuredHeight="45">
+      <font bold="false"/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:RadioButton" id="375" x="1233" y="1582" measuredWidth="20" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="376" x="1577" y="1656" text="Choose" measuredWidth="61" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="377" x="1413" y="1656" text="Reject" measuredWidth="53" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Arrow" id="380" x="1448" y="1199" width="8" height="114" measuredWidth="8" measuredHeight="114" left="false" right="true" direction="bottom"/>
+  <widgets xsi:type="model:Arrow" id="382" x="910" y="1188" width="304" height="325" measuredWidth="304" measuredHeight="325" left="false" right="true"/>
+  <widgets xsi:type="model:Panel" id="383" x="563" y="1080" width="377" height="67" measuredWidth="377" measuredHeight="67"/>
+  <widgets xsi:type="model:Label" id="384" x="577" y="1093" text="unavailable@example.com" measuredWidth="150" measuredHeight="23">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="385" x="576" y="1118" text="Multiple keys were found online." measuredWidth="180" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="386" x="843" y="1092" width="89" text="{help} Multiple" measuredWidth="89" measuredHeight="26" background="#cfe2f3" style="round">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="387" x="751" y="1284" text="Accept and Choose New Keys..." measuredWidth="189" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="388" x="563" y="1284" text="Disable Encryption" measuredWidth="122" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="389" x="1242" y="1150" text="Back" measuredWidth="46" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="390" x="1242" y="1656" text="Back" measuredWidth="46" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="391" x="-226" y="492" text="Import Keys..." measuredWidth="95" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="392" x="796" y="809" text="Discover Keys Online..." measuredWidth="144" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Note" id="393" x="954" y="800" width="173" height="44" text="Keep the same button on failure for people to retry." measuredWidth="173" measuredHeight="44">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Arrow" id="394" x="481" y="752" width="83" height="182" text="failure" measuredWidth="83" measuredHeight="182" left="false" right="true" direction="bottom"/>
+  <widgets xsi:type="model:Arrow" id="395" x="481" y="934" width="83" height="8" text="success" measuredWidth="83" measuredHeight="8" left="false" right="true"/>
+  <widgets xsi:type="model:Arrow" id="396" x="481" y="933" width="83" height="183" text="multiple" measuredWidth="83" measuredHeight="183" left="false" right="true"/>
+  <widgets xsi:type="model:Note" id="397" x="768" y="1320" width="173" height="44" text="If we have a mix of single and multiple keys to accept." measuredWidth="173" measuredHeight="44">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="398" x="693" y="809" text="Import Keys..." measuredWidth="95" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Arrow" id="400" x="-48" y="516" width="225" height="385" measuredWidth="225" measuredHeight="385" left="false" right="true"/>
+  <widgets xsi:type="model:Panel" id="407" x="563" y="1900" width="377" height="67" measuredWidth="377" measuredHeight="67"/>
+  <widgets xsi:type="model:Label" id="408" x="577" y="1913" text="expired@example.com" measuredWidth="130" measuredHeight="23">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="409" x="576" y="1938" text="New key found on keys.openpgp.org." measuredWidth="206" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="410" x="818" y="1983" text="Accept New Keys..." measuredWidth="122" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="411" x="843" y="1912" width="89" text="{help} New Key" measuredWidth="89" measuredHeight="26" background="#cfe2f3" style="round">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="412" x="563" y="1983" text="Disable Encryption" measuredWidth="122" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Arrow" id="413" x="481" y="1582" width="83" height="182" text="failure" measuredWidth="83" measuredHeight="182" left="false" right="true" direction="bottom"/>
+  <widgets xsi:type="model:Arrow" id="414" x="481" y="1764" width="83" height="8" text="update" measuredWidth="83" measuredHeight="8" left="false" right="true"/>
+  <widgets xsi:type="model:Arrow" id="415" x="481" y="1763" width="83" height="183" text="new" measuredWidth="83" measuredHeight="183" left="false" right="true"/>
+  <widgets xsi:type="model:Button" id="417" x="563" y="1634" text="Disable Encryption" measuredWidth="122" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="418" x="796" y="1634" text="Discover Keys Online..." measuredWidth="144" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="419" x="693" y="1634" text="Import Keys..." measuredWidth="95" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="420" x="-66" y="914" text="Missing key" measuredWidth="131" measuredHeight="38">
+    <font size="24px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="421" x="-66" y="1744" text="Expired key" measuredWidth="129" measuredHeight="38">
+    <font size="24px"/>
+  </widgets>
+  <widgets xsi:type="model:Arrow" id="422" x="1637" y="1162" width="204" height="8" measuredWidth="204" measuredHeight="8" left="false" right="true"/>
+  <widgets xsi:type="model:Window" id="423" x="1840" y="931" width="441" height="466" text="OpenPGP Key Assistant" measuredWidth="441" measuredHeight="466"/>
+  <widgets xsi:type="model:Panel" id="424" x="1873" y="1231" width="377" height="47" measuredWidth="377" measuredHeight="47"/>
+  <widgets xsi:type="model:Panel" id="425" x="1873" y="1063" width="377" height="47" measuredWidth="377" measuredHeight="47"/>
+  <widgets xsi:type="model:Panel" id="426" x="1873" y="1105" width="377" height="47" measuredWidth="377" measuredHeight="47"/>
+  <widgets xsi:type="model:Label" id="427" x="1887" y="1117" text="verified@example.com" measuredWidth="131" measuredHeight="23">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="428" x="2154" y="1073" text="{key} Accepted" measuredWidth="89" measuredHeight="26" background="#d9ead3" style="round">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="429" x="2154" y="1115" width="89" text="{check} Verified" measuredWidth="89" measuredHeight="26" background="#d9ead3" style="round">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="430" x="1887" y="1074" text="accepted@example.com" measuredWidth="139" measuredHeight="23">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Panel" id="431" x="1873" y="1147" width="377" height="47" measuredWidth="377" measuredHeight="47"/>
+  <widgets xsi:type="model:Label" id="432" x="1887" y="1158" text="collected@example.com" measuredWidth="139" measuredHeight="23">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="434" x="1887" y="1244" text="unavailable@example.com" measuredWidth="150" measuredHeight="23">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Panel" id="435" x="1873" y="1189" width="377" height="47" measuredWidth="377" measuredHeight="47"/>
+  <widgets xsi:type="model:Label" id="437" x="1887" y="1202" text="expired@example.com" measuredWidth="130" measuredHeight="23">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="438" x="2154" y="1157" width="89" text="{key} Accepted" measuredWidth="89" measuredHeight="26" background="#d9ead3" style="round">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="439" x="1873" y="968" width="398" height="87" text="*Impossible to encrypt because 2 keys are missing or invalid.*&#xA;&#xA;You can import new keys from a file or try to discover them online.&#xA;&#xA;Click on a recipient for more details." measuredWidth="398" measuredHeight="87">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="440" x="2126" y="1345" text="{assets/send} Send Encrypted" measuredWidth="124" measuredHeight="26">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="441" x="1873" y="1345" text="Disable Encryption" measuredWidth="122" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Panel" id="442" x="1873" y="1274" width="377" height="47" measuredWidth="377" measuredHeight="47"/>
+  <widgets xsi:type="model:Button" id="443" x="2154" y="1284" width="89" text="{key} Accepted" measuredWidth="89" measuredHeight="26" background="#d9ead3" style="round">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="444" x="1887" y="1287" text="multiple@example.com" measuredWidth="135" measuredHeight="23">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Note" id="446" x="1681" y="1184" width="141" height="58" text="Goes back to recipients list for final review and send." measuredWidth="141" measuredHeight="58">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="447" x="2154" y="1201" text="{key} Accepted" measuredWidth="89" measuredHeight="26" background="#d9ead3" style="round">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="448" x="2154" y="1243" text="{key} Accepted" measuredWidth="89" measuredHeight="26" background="#d9ead3" style="round">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="456" x="-76" y="304" width="89" text="{help} New Key" measuredWidth="89" measuredHeight="26" background="#cfe2f3" style="round">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Note" id="449" x="-377" y="583" width="173" height="44" text="Goes back to composer with encryption disabled." measuredWidth="173" measuredHeight="44">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Arrow" id="450" x="-296" y="516" width="8" height="68" measuredWidth="8" measuredHeight="68" left="false" right="true"/>
+  <widgets xsi:type="model:Note" id="451" x="1472" y="1219" width="149" height="76" text="Display key acceptance dialog after choosing from multiple key for better review and undo." measuredWidth="149" measuredHeight="76">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="452" x="-408" y="-68" text="A" measuredWidth="22" measuredHeight="38">
+    <font size="24px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="454" x="288" y="-68" text="B" measuredWidth="22" measuredHeight="38">
+    <font size="24px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="455" x="800" y="-68" text="C" measuredWidth="22" measuredHeight="38">
+    <font size="24px"/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="457" x="-76" y="431" width="89" text="{help} Multiple" measuredWidth="89" measuredHeight="26" background="#cfe2f3" style="round">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Window" id="458" x="-850" y="78" width="441" height="357" text="OpenPGP Key Assistant" measuredWidth="441" measuredHeight="357"/>
+  <widgets xsi:type="model:Panel" id="460" x="-817" y="184" width="377" height="47" measuredWidth="377" measuredHeight="47"/>
+  <widgets xsi:type="model:Panel" id="461" x="-817" y="226" width="377" height="47" measuredWidth="377" measuredHeight="47"/>
+  <widgets xsi:type="model:Label" id="462" x="-803" y="238" text="verified@example.com" measuredWidth="131" measuredHeight="23">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="463" x="-536" y="194" text="{key} Accepted" measuredWidth="89" measuredHeight="26" background="#d9ead3" style="round">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="464" x="-536" y="236" width="89" text="{check} Verified" measuredWidth="89" measuredHeight="26" background="#d9ead3" style="round">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="465" x="-803" y="195" text="accepted@example.com" measuredWidth="139" measuredHeight="23">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Panel" id="466" x="-817" y="268" width="377" height="47" measuredWidth="377" measuredHeight="47"/>
+  <widgets xsi:type="model:Label" id="467" x="-803" y="279" text="collected@example.com" measuredWidth="139" measuredHeight="23">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="473" x="-817" y="119" width="398" height="87" text="*Impossible to encrypt because 2 keys are not accepted yet.*&#xA;&#xA;Click on a recipient for more details." measuredWidth="398" measuredHeight="87">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="475" x="-817" y="381" text="Disable Encryption" measuredWidth="122" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Panel" id="476" x="-817" y="310" width="377" height="47" measuredWidth="377" measuredHeight="47"/>
+  <widgets xsi:type="model:Label" id="477" x="-803" y="323" text="multiple@example.com" measuredWidth="135" measuredHeight="23">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="479" x="-536" y="278" width="89" text="{help} New Key" measuredWidth="89" measuredHeight="26" background="#cfe2f3" style="round">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="482" x="-536" y="320" width="89" text="{help} Multiple" measuredWidth="89" measuredHeight="26" background="#cfe2f3" style="round">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="483" x="-629" y="381" text="Accept and Choose New Keys..." measuredWidth="189" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="484" x="-826" y="6" text="At least 1 valid key for each recipient" measuredWidth="393" measuredHeight="38">
+    <font size="24px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="486" x="-340" y="6" text="Not 1 valid key for each recipient" measuredWidth="353" measuredHeight="38">
+    <font size="24px"/>
+  </widgets>
+  <widgets xsi:type="model:Note" id="487" x="167" y="-24" width="242" height="80" text="Option B has shortcuts to acceptance dialog. It might help people understand better what will happen next and not feel &quot;forced&quot; into the assistant." measuredWidth="242" measuredHeight="80">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Note" id="489" x="694" y="-24" width="242" height="80" text="Option C is more upfront about the action to take on each key issue and removes the need for a step-by-step assistant." measuredWidth="242" measuredHeight="80">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="491" x="941" y="497" text="{assets/send} Send Encrypted" measuredWidth="124" measuredHeight="26" state="disabled">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="492" x="867" y="160" text="Verify..." measuredWidth="61" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:List" id="505" x="-1730" y="962" text="Discover missing keys online when composing an email:&#xA;  ( ) Never&#xA;  (o) When I choose to&#xA;  ( ) Automatically" measuredWidth="315" measuredHeight="91" border="false" alpha="0">
+    <font/>
+    <items x="0" y="2" width="315" height="21" text="Discover missing keys online when composing an email:"/>
+    <items x="0" y="23" width="315" height="22" text="  ( ) Never"/>
+    <items x="0" y="45" width="315" height="22" text="  (o) When I choose to"/>
+    <items x="0" y="67" width="315" height="22" text="  ( ) Automatically"/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="507" x="-1456" y="1095" text="Configure Key Sources..." measuredWidth="153" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:List" id="508" x="-1184" y="962" text="Discover missing keys automatically from:&#xA;  [ ] Web Key Directories (WKD)&#xA;  [ ] keys.openpgp.org&#xA;  [ ] keys.mailvelope.com&#xA;  [ ] keyserver.pgp.com" measuredWidth="240" measuredHeight="113" border="false" alpha="0">
+    <font/>
+    <items x="0" y="2" width="240" height="21" text="Discover missing keys automatically from:"/>
+    <items x="0" y="23" width="240" height="22" text="  [ ] Web Key Directories (WKD)"/>
+    <items x="0" y="45" width="240" height="22" text="  [ ] keys.openpgp.org"/>
+    <items x="0" y="67" width="240" height="22" text="  [ ] keys.mailvelope.com"/>
+    <items x="0" y="89" width="240" height="22" text="  [ ] keyserver.pgp.com"/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="510" x="-1402" y="1347" text="Add..." measuredWidth="51" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="511" x="-1403" y="1315" text="Delete" measuredWidth="54" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Table" id="515" x="-1670" y="1315" width="261" height="103" text="Keyserver&#xA;keys.mailvelope.com&#xA;keyserver.pgp.com" measuredWidth="261" measuredHeight="103" alternative="#eee">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:List" id="516" x="-1676" y="1203" text="Discover missing keys from:&#xA;  [x] Web Key Directories (WKD)&#xA;  [x] keys.openpgp.org&#xA;&#xA;Search automatically on additional key servers:" measuredWidth="263" measuredHeight="111" border="false" alpha="0">
+    <font/>
+    <items x="0" y="2" width="263" height="21" text="Discover missing keys from:"/>
+    <items x="0" y="23" width="263" height="22" text="  [x] Web Key Directories (WKD)"/>
+    <items x="0" y="45" width="263" height="22" text="  [x] keys.openpgp.org"/>
+    <items x="0" y="67" width="263" height="21"/>
+    <items x="0" y="88" width="263" height="21" text="Search automatically on additional key servers:"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="519" x="-1162" y="823" text="Account settings" measuredWidth="186" measuredHeight="38">
+    <font size="24px"/>
+  </widgets>
+  <widgets xsi:type="model:Arrow" id="524" x="-1379" y="1120" width="8" height="54" measuredWidth="8" measuredHeight="54" left="false" right="true"/>
+  <widgets xsi:type="model:Combo" id="528" x="-541" y="1017" width="129" text="When I Choose To" measuredWidth="129" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Combo" id="529" x="-541" y="987" width="129" text="Automatically" measuredWidth="129" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="530" x="-775" y="962" text="Discover missing keys from:&#xA; &#xA;- Web Key Directories (WKD)&#xA; &#xA;- keys.openpgp.org&#xA; &#xA;- keys.mailvelope.com&#xA; &#xA;- keyserver.pgp.com" measuredWidth="176" measuredHeight="135">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Combo" id="531" x="-541" y="1047" width="129" text="Never" measuredWidth="129" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Combo" id="532" x="-541" y="1079" width="129" text="Never" measuredWidth="129" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="535" x="-1567" y="903" text="A" measuredWidth="22" measuredHeight="38">
+    <font size="24px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="537" x="-1075" y="903" text="B" measuredWidth="22" measuredHeight="38">
+    <font size="24px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="538" x="-618" y="903" text="C" measuredWidth="22" measuredHeight="38">
+    <font size="24px"/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>
