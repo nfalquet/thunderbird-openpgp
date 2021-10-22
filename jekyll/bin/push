@@ -2,3 +2,4 @@
 
 bundle exec jekyll build
 rsync --archive --progress --delete _site/ nf@pulpe:public_html/thunderbird-openpgp/
+git push origin main
