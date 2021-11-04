@@ -145,18 +145,6 @@
   <widgets xsi:type="model:Label" id="764" x="49" y="-223" text="Subject encryption" measuredWidth="207" measuredHeight="38">
     <font size="24px"/>
   </widgets>
-  <widgets xsi:type="model:Tooltip" id="766" x="1537" y="497" width="144" height="58" text="Key verified&#xA;[Manage Key...]" measuredWidth="144" measuredHeight="58" position="topLeft">
-    <font bold="false"/>
-    <items x="5" y="35" width="75" height="15" text="Manage Key..."/>
-  </widgets>
-  <widgets xsi:type="model:Tooltip" id="767" x="1537" y="661" width="144" height="60" text="Key is not accepted yet.&#xA;[Resolve...]" measuredWidth="144" measuredHeight="60" position="topLeft">
-    <font bold="false"/>
-    <items x="5" y="35" width="51" height="15" text="Resolve..."/>
-  </widgets>
-  <widgets xsi:type="model:Tooltip" id="768" x="1537" y="850" width="144" height="58" text="No key available.&#xA;[Resolve...]" measuredWidth="144" measuredHeight="58" position="topLeft">
-    <font bold="false"/>
-    <items x="5" y="35" width="51" height="15" text="Resolve..."/>
-  </widgets>
   <widgets xsi:type="model:Popup" id="772" x="1808" y="499" width="160" text="Key Verified {check}&#xA;Manage Key...&#xA;---&#xA;&amp;Edit Address&#xA;&amp;Delete&#xA;---&#xA;Cu&amp;t&#xA;&amp;Copy&#xA;---&#xA;~Move to &amp;To~&#xA;Move to &amp;Cc&#xA;Move to &amp;Bcc&#xA;" measuredWidth="160" measuredHeight="244">
     <items x="0" y="2" width="160" height="23" text="Key Verified {check}"/>
     <items x="0" y="25" width="160" height="23" text="Manage Key..."/>
@@ -186,20 +174,8 @@
     <items x="0" y="25" width="160" height="23" text="Resolve..."/>
     <items x="0" y="48" width="160" height="23" text=" "/>
   </widgets>
-  <widgets xsi:type="model:Tooltip" id="788" x="1537" y="559" width="144" height="58" text="Key accepted&#xA;[Manage Key...]" measuredWidth="144" measuredHeight="58" position="topLeft">
-    <font bold="false"/>
-    <items x="5" y="35" width="75" height="15" text="Manage Key..."/>
-  </widgets>
-  <widgets xsi:type="model:Tooltip" id="789" x="1537" y="787" width="144" height="58" text="Key for was rejected.&#xA;[Resolve...]" measuredWidth="144" measuredHeight="58" position="topLeft">
-    <font bold="false"/>
-    <items x="5" y="35" width="51" height="15" text="Resolve..."/>
-  </widgets>
   <widgets xsi:type="model:Button" id="791" x="1318" y="729" height="20" text="expired@example.com {warning}" measuredWidth="163" measuredHeight="20">
     <font/>
-  </widgets>
-  <widgets xsi:type="model:Tooltip" id="792" x="1537" y="725" width="144" height="58" text="Key has expired.&#xA;[Resolve...]" measuredWidth="144" measuredHeight="58" position="topLeft">
-    <font bold="false"/>
-    <items x="5" y="35" width="51" height="15" text="Resolve..."/>
   </widgets>
   <widgets xsi:type="model:Popup" id="793" x="1977" y="663" width="160" text="Key Rejected {warning}&#xA;Resolve...&#xA; " measuredWidth="160" measuredHeight="73">
     <items x="0" y="2" width="160" height="23" text="Key Rejected {warning}"/>
