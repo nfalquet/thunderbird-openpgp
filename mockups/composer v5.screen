@@ -476,7 +476,7 @@
   <widgets xsi:type="model:WidgetGroup" id="1198" x="376" y="1424" measuredWidth="666" measuredHeight="32">
     <widgets xsi:type="model:WidgetGroup" id="1199" width="666" measuredWidth="666" measuredHeight="32">
       <widgets xsi:type="model:Panel" id="1200" width="666" height="32" measuredWidth="666" measuredHeight="32"/>
-      <widgets xsi:type="model:Label" id="1201" x="6" y="4" text="{assets/privacy-security} You can encrypt this message because you have OpenPGP keys for all recipients." measuredWidth="459" measuredHeight="24">
+      <widgets xsi:type="model:Label" id="1201" x="6" y="4" text="{assets/privacy-security} You can encrypt this message end-to-end using OpenPGP." measuredWidth="341" measuredHeight="24">
         <font/>
       </widgets>
     </widgets>
@@ -515,7 +515,7 @@
   <widgets xsi:type="model:WidgetGroup" id="1447" x="376" y="1544" measuredWidth="666" measuredHeight="32">
     <widgets xsi:type="model:WidgetGroup" id="1448" width="666" measuredWidth="666" measuredHeight="32">
       <widgets xsi:type="model:Panel" id="1449" width="666" height="32" measuredWidth="666" measuredHeight="32"/>
-      <widgets xsi:type="model:Label" id="1450" x="6" y="4" text="{assets/privacy-security} You can encrypt this message because you have S/MIME certificates for all recipients." measuredWidth="485" measuredHeight="24">
+      <widgets xsi:type="model:Label" id="1450" x="6" y="4" text="{assets/privacy-security} You can encrypt this message end-to-end using S/MIME." measuredWidth="332" measuredHeight="24">
         <font/>
       </widgets>
     </widgets>
@@ -530,7 +530,7 @@
   <widgets xsi:type="model:WidgetGroup" id="1454" x="376" y="1644" width="740" measuredWidth="740" measuredHeight="32">
     <widgets xsi:type="model:WidgetGroup" id="1455" width="740" measuredWidth="740" measuredHeight="32">
       <widgets xsi:type="model:Panel" id="1456" width="740" height="32" measuredWidth="740" measuredHeight="32"/>
-      <widgets xsi:type="model:Label" id="1457" x="4" y="4" width="625" text="{assets/privacy-security} You can encrypt this message because you have S/MIME certificates and OpePGP keys for all recipients." measuredWidth="625" measuredHeight="24">
+      <widgets xsi:type="model:Label" id="1457" x="4" y="4" width="625" text="{assets/privacy-security} You can encrypt this message end-to-end using OpenPGP or S/MIME." measuredWidth="625" measuredHeight="24">
         <font/>
       </widgets>
     </widgets>
@@ -590,10 +590,10 @@
   </widgets>
   <widgets xsi:type="model:Arrow" id="1575" x="1065" y="1656" width="144" height="35" measuredWidth="144" measuredHeight="35" left="false" right="true"/>
   <widgets xsi:type="model:Arrow" id="1576" x="1000" y="1664" width="206" height="137" measuredWidth="206" measuredHeight="137" left="false" right="true"/>
-  <widgets xsi:type="model:Alert" id="1577" x="1205" y="1760" text="Encryption Technology&#xA;Do you want to enable OpenPGP or S/MIME for this message?&#xA;OpenPGP,S/MIME,Cancel" measuredWidth="422" measuredHeight="132" icon="warning (large)">
-    <items x="137" y="93" width="80" height="24" text="OpenPGP"/>
-    <items x="232" y="93" width="80" height="24" text="S/MIME"/>
-    <items x="327" y="93" width="80" height="24" text="Cancel"/>
+  <widgets xsi:type="model:Alert" id="1577" x="1205" y="1760" text="Encryption Technology&#xA;Do you want to enable OpenPGP or S/MIME encryption for this message?&#xA;OpenPGP,S/MIME,Cancel" measuredWidth="483" measuredHeight="132" icon="warning (large)">
+    <items x="198" y="93" width="80" height="24" text="OpenPGP"/>
+    <items x="293" y="93" width="80" height="24" text="S/MIME"/>
+    <items x="388" y="93" width="80" height="24" text="Cancel"/>
     <font/>
   </widgets>
   <widgets xsi:type="model:Window" id="1578" x="346" y="2419" width="684" height="80" text="Thunderbird" measuredWidth="684" measuredHeight="80"/>
