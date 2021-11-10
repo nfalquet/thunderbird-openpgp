@@ -454,15 +454,6 @@
     <items x="251" y="0" width="41" height="27" text="&amp;Tools"/>
     <items x="292" y="0" width="36" height="27" text="&amp;Help"/>
   </widgets>
-  <widgets xsi:type="model:Combo" id="1297" x="434" y="2224" width="101" text="{assets/spelling} Spelling" measuredWidth="101" measuredHeight="23">
-    <font/>
-  </widgets>
-  <widgets xsi:type="model:Combo" id="1298" x="541" y="2224" width="80" text="{assets/save} Save" measuredWidth="80" measuredHeight="23">
-    <font/>
-  </widgets>
-  <widgets xsi:type="model:Button" id="1299" x="357" y="2224" width="71" height="23" text="{assets/send} Send" measuredWidth="71" measuredHeight="23" textAlignment="Left">
-    <font/>
-  </widgets>
   <widgets xsi:type="model:Combo" id="1301" x="935" y="2225" width="88" text="{attachment} Attach" measuredWidth="88" measuredHeight="23">
     <font/>
   </widgets>
@@ -911,6 +902,22 @@
     </widgets>
     <widgets xsi:type="model:Icon" id="1851" x="638" y="4" measuredWidth="24" measuredHeight="24" icon="close (medium)"/>
   </widgets>
+  <widgets xsi:type="model:Combo" id="1856" x="541" y="2226" width="101" text="{assets/spelling} Spelling" measuredWidth="101" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Combo" id="1857" x="648" y="2226" width="80" text="{assets/save} Save" measuredWidth="80" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="1858" x="357" y="2226" width="71" height="23" text="{assets/send} Send" measuredWidth="71" measuredHeight="23" textAlignment="Left">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="1859" x="434" y="2226" width="100" height="23" text="{assets/privacy-security} Encryption" measuredWidth="100" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Note" id="1860" x="582" y="2299" text="Opens an assistant to configure OpenPGP." measuredWidth="246" measuredHeight="29">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Arrow" id="1861" x="519" y="2240" width="64" height="74" measuredWidth="64" measuredHeight="74" left="false" right="true"/>
   <hRuler/>
   <vRuler/>
   <font size="12px"/>
