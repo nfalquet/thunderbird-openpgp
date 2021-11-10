@@ -779,16 +779,14 @@
   <widgets xsi:type="model:Combo" id="1742" x="540" y="3628" width="85" text="S/MIME" measuredWidth="85" measuredHeight="23">
     <font/>
   </widgets>
-  <widgets xsi:type="model:Popup" id="1761" x="493" y="3692" text="~( ) OpenPGP~&#xA;(o) S/MIME&#xA;---&#xA;[x] Encrypt&#xA;~[ ] Encrypt Subject~&#xA;[x] Sign&#xA;---&#xA;Manage Certificates for Recipients&#xA;~Open Key Manager~" measuredWidth="215" measuredHeight="187">
-    <items x="0" y="2" width="215" height="23" text="~( ) OpenPGP~"/>
-    <items x="0" y="25" width="215" height="23" text="(o) S/MIME"/>
-    <items x="0" y="48" width="215" height="11" text="---"/>
-    <items x="0" y="59" width="215" height="23" text="[x] Encrypt"/>
-    <items x="0" y="82" width="215" height="23" text="~[ ] Encrypt Subject~"/>
-    <items x="0" y="105" width="215" height="23" text="[x] Sign"/>
-    <items x="0" y="128" width="215" height="11" text="---"/>
-    <items x="0" y="139" width="215" height="23" text="Manage Certificates for Recipients"/>
-    <items x="0" y="162" width="215" height="23" text="~Open Key Manager~"/>
+  <widgets xsi:type="model:Popup" id="1761" x="493" y="3692" text="~( ) OpenPGP~&#xA;(o) S/MIME&#xA;---&#xA;[x] Encrypt&#xA;[x] Sign&#xA;---&#xA;Manage Certificates for Recipient" measuredWidth="209" measuredHeight="141">
+    <items x="0" y="2" width="209" height="23" text="~( ) OpenPGP~"/>
+    <items x="0" y="25" width="209" height="23" text="(o) S/MIME"/>
+    <items x="0" y="48" width="209" height="11" text="---"/>
+    <items x="0" y="59" width="209" height="23" text="[x] Encrypt"/>
+    <items x="0" y="82" width="209" height="23" text="[x] Sign"/>
+    <items x="0" y="105" width="209" height="11" text="---"/>
+    <items x="0" y="116" width="209" height="23" text="Manage Certificates for Recipient"/>
   </widgets>
   <widgets xsi:type="model:Label" id="1765" x="-51" y="3955" text="Identity with both technologies" measuredWidth="344" measuredHeight="38">
     <font size="24px"/>
@@ -799,16 +797,14 @@
   <widgets xsi:type="model:Label" id="1771" x="721" y="4031" text="S/MIME" measuredWidth="91" measuredHeight="38">
     <font size="24px"/>
   </widgets>
-  <widgets xsi:type="model:Popup" id="1772" x="597" y="4085" text="( ) OpenPGP&#xA;(o) S/MIME&#xA;---&#xA;[x] Encrypt&#xA;~[ ] Encrypt Subject~&#xA;[x] Sign&#xA;---&#xA;Manage Certificates for Recipients&#xA;~Open Key Manager~" measuredWidth="215" measuredHeight="187">
+  <widgets xsi:type="model:Popup" id="1772" x="597" y="4085" text="( ) OpenPGP&#xA;(o) S/MIME&#xA;---&#xA;[x] Encrypt&#xA;[x] Sign&#xA;---&#xA;Manage Certificates for Recipients" measuredWidth="215" measuredHeight="141">
     <items x="0" y="2" width="215" height="23" text="( ) OpenPGP"/>
     <items x="0" y="25" width="215" height="23" text="(o) S/MIME"/>
     <items x="0" y="48" width="215" height="11" text="---"/>
     <items x="0" y="59" width="215" height="23" text="[x] Encrypt"/>
-    <items x="0" y="82" width="215" height="23" text="~[ ] Encrypt Subject~"/>
-    <items x="0" y="105" width="215" height="23" text="[x] Sign"/>
-    <items x="0" y="128" width="215" height="11" text="---"/>
-    <items x="0" y="139" width="215" height="23" text="Manage Certificates for Recipients"/>
-    <items x="0" y="162" width="215" height="23" text="~Open Key Manager~"/>
+    <items x="0" y="82" width="215" height="23" text="[x] Sign"/>
+    <items x="0" y="105" width="215" height="11" text="---"/>
+    <items x="0" y="116" width="215" height="23" text="Manage Certificates for Recipients"/>
   </widgets>
   <widgets xsi:type="model:Arrow" id="1780" x="-168" y="2219" width="481" height="8" measuredWidth="481" measuredHeight="8" left="false" right="true" direction="bottom"/>
   <widgets xsi:type="model:Arrow" id="1782" x="-193" y="2461" width="114" height="99" measuredWidth="114" measuredHeight="99" left="false" right="true" direction="bottom"/>
@@ -873,19 +869,18 @@
   <widgets xsi:type="model:Arrow" id="1832" x="583" y="3993" width="66" height="93" measuredWidth="66" measuredHeight="93" left="false" right="true"/>
   <widgets xsi:type="model:Arrow" id="1833" x="533" y="3959" width="86" height="127" measuredWidth="86" measuredHeight="127" direction="bottom"/>
   <widgets xsi:type="model:Arrow" id="1834" x="507" y="3992" width="64" height="94" measuredWidth="64" measuredHeight="94" direction="bottom"/>
-  <widgets xsi:type="model:Popup" id="1838" x="1112" y="3638" text="&amp;File(s)&#xA;&amp;Web Page...&#xA;---&#xA;[ ] My vCard Contact...&#xA;~[ ] My OpenPGP Public Key~&#xA;---&#xA;[ ] Remind Me Later" measuredWidth="161" measuredHeight="141">
-    <items x="0" y="2" width="161" height="23" text="&amp;File(s)"/>
-    <items x="0" y="25" width="161" height="23" text="&amp;Web Page..."/>
-    <items x="0" y="48" width="161" height="11" text="---"/>
-    <items x="0" y="59" width="161" height="23" text="[ ] My vCard Contact..."/>
-    <items x="0" y="82" width="161" height="23" text="~[ ] My OpenPGP Public Key~"/>
-    <items x="0" y="105" width="161" height="11" text="---"/>
-    <items x="0" y="116" width="161" height="23" text="[ ] Remind Me Later"/>
+  <widgets xsi:type="model:Popup" id="1838" x="1112" y="3638" text="&amp;File(s)&#xA;&amp;Web Page...&#xA;---&#xA;[ ] My vCard Contact...&#xA;---&#xA;[ ] Remind Me Later" measuredWidth="136" measuredHeight="118">
+    <items x="0" y="2" width="136" height="23" text="&amp;File(s)"/>
+    <items x="0" y="25" width="136" height="23" text="&amp;Web Page..."/>
+    <items x="0" y="48" width="136" height="11" text="---"/>
+    <items x="0" y="59" width="136" height="23" text="[ ] My vCard Contact..."/>
+    <items x="0" y="82" width="136" height="11" text="---"/>
+    <items x="0" y="93" width="136" height="23" text="[ ] Remind Me Later"/>
   </widgets>
   <widgets xsi:type="model:Label" id="1839" x="1112" y="3571" text="Attach menu" measuredWidth="143" measuredHeight="38">
     <font size="24px"/>
   </widgets>
-  <widgets xsi:type="model:Note" id="1844" x="720" y="3835" width="217" height="44" text="Options that are only for OpenPGP are unavailable when using S/MIME." measuredWidth="217" measuredHeight="44" textAlignment="Left">
+  <widgets xsi:type="model:Note" id="1844" x="720" y="3835" width="217" height="44" text="Options that are only for OpenPGP are hidden when using S/MIME." measuredWidth="217" measuredHeight="44" textAlignment="Left">
     <font/>
   </widgets>
   <widgets xsi:type="model:WidgetGroup" id="1845" x="2178" y="2649" measuredWidth="666" measuredHeight="32">
