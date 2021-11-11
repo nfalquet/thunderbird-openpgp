@@ -263,7 +263,7 @@
   </widgets>
   <widgets xsi:type="model:WidgetGroup" id="1173" x="366" y="963" measuredWidth="666" measuredHeight="32">
     <widgets xsi:type="model:Panel" id="1174" width="666" height="32" measuredWidth="666" measuredHeight="32"/>
-    <widgets xsi:type="model:Label" id="1175" x="6" y="4" text="{assets/privacy-security} 2 missing or invalid keys." measuredWidth="160" measuredHeight="24">
+    <widgets xsi:type="model:Label" id="1175" x="6" y="4" text="{assets/privacy-security} End-to-end encryption requires resolving key issues for 2 of the 6 recipients." measuredWidth="160" measuredHeight="24">
       <font/>
     </widgets>
   </widgets>
