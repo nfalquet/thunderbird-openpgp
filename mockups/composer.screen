@@ -185,61 +185,6 @@
       </widgets>
     </widgets>
   </widgets>
-  <widgets xsi:type="model:Alert" id="901" x="2258" y="2184" width="513" height="131" text="unavailable@example.com&#xA;&#xA;Always Disable Encryption,Disable Encryption" measuredWidth="513" measuredHeight="131" icon="warning (large)">
-    <items x="155" y="92" width="164" height="24" text="Always Disable Encryption"/>
-    <items x="334" y="92" width="164" height="24" text="Disable Encryption"/>
-    <font/>
-  </widgets>
-  <widgets xsi:type="model:Text" id="905" x="2408" y="2224" width="353" height="32" text="Disable encryption in future messages until you have a valid key for *never@example.com*?" measuredWidth="353" measuredHeight="32">
-    <font bold="false"/>
-  </widgets>
-  <widgets xsi:type="model:Popup" id="947" x="2419" y="2703" width="218" text="Manage Encryption Preferences...&#xA;---&#xA;&amp;Edit Address&#xA;&amp;Delete&#xA;---&#xA;Cu&amp;t&#xA;&amp;Copy&#xA;---&#xA;~Move to &amp;To~&#xA;Move to &amp;Cc&#xA;Move to &amp;Bcc&#xA;" measuredWidth="218" measuredHeight="221">
-    <items x="0" y="2" width="218" height="23" text="Manage Encryption Preferences..."/>
-    <items x="0" y="25" width="218" height="11" text="---"/>
-    <items x="0" y="36" width="218" height="23" text="&amp;Edit Address"/>
-    <items x="0" y="59" width="218" height="23" text="&amp;Delete"/>
-    <items x="0" y="82" width="218" height="11" text="---"/>
-    <items x="0" y="93" width="218" height="23" text="Cu&amp;t"/>
-    <items x="0" y="116" width="218" height="23" text="&amp;Copy"/>
-    <items x="0" y="139" width="218" height="11" text="---"/>
-    <items x="0" y="150" width="218" height="23" text="~Move to &amp;To~"/>
-    <items x="0" y="173" width="218" height="23" text="Move to &amp;Cc"/>
-    <items x="0" y="196" width="218" height="23" text="Move to &amp;Bcc"/>
-  </widgets>
-  <widgets xsi:type="model:Tooltip" id="948" x="2383" y="2469" width="356" height="72" text="Encryption was disabled because you chose to never encrypt to unavailable@example.com.&#xA;[Undo...]" measuredWidth="356" measuredHeight="72" position="topLeft">
-    <font bold="false"/>
-    <items x="5" y="50" width="39" height="15" text="Undo..."/>
-  </widgets>
-  <widgets xsi:type="model:Image" id="949" x="1777" y="2439" measuredWidth="355" measuredHeight="77" src="assets/never-encrypt.png"/>
-  <widgets xsi:type="model:Label" id="951" x="2198" y="2439" text="To" measuredWidth="20" measuredHeight="23">
-    <font/>
-  </widgets>
-  <widgets xsi:type="model:TextField" id="953" x="2222" y="2437" width="550" measuredWidth="550" measuredHeight="28">
-    <font size="16px"/>
-  </widgets>
-  <widgets xsi:type="model:Button" id="954" x="2227" y="2441" height="20" text="unavailable@example.com {assets/lock-stricked}" measuredWidth="183" measuredHeight="20">
-    <font/>
-  </widgets>
-  <widgets xsi:type="model:WidgetGroup" id="970" x="2178" y="2599" measuredWidth="666" measuredHeight="32">
-    <widgets xsi:type="model:WidgetGroup" id="961" measuredWidth="666" measuredHeight="32">
-      <widgets xsi:type="model:WidgetGroup" id="962" measuredWidth="666" measuredHeight="32">
-        <widgets xsi:type="model:Panel" id="963" width="666" height="32" measuredWidth="666" measuredHeight="32"/>
-        <widgets xsi:type="model:Label" id="964" x="7" y="4" text="{assets/lock-stricked}  Encryption was disabled because you chose to never encrypt to *unavailable@example.com*." measuredWidth="519" measuredHeight="24">
-          <font/>
-        </widgets>
-      </widgets>
-    </widgets>
-    <widgets xsi:type="model:Button" id="966" x="583" y="4" height="23" text="Undo" measuredWidth="50" measuredHeight="23">
-      <font/>
-    </widgets>
-    <widgets xsi:type="model:Icon" id="969" x="638" y="4" measuredWidth="24" measuredHeight="24" icon="close (medium)"/>
-  </widgets>
-  <widgets xsi:type="model:Label" id="992" x="2426" y="2090" text="Never Encrypt" measuredWidth="160" measuredHeight="38">
-    <font size="24px"/>
-  </widgets>
-  <widgets xsi:type="model:Label" id="999" x="2317" y="2369" text="Never Encrypt visibility and undo" measuredWidth="359" measuredHeight="38">
-    <font size="24px"/>
-  </widgets>
   <widgets xsi:type="model:Button" id="1008" x="21" y="35" width="100" height="23" text="{assets/privacy-security} Encryption" measuredWidth="100" measuredHeight="23" state="selected">
     <font/>
   </widgets>
@@ -819,20 +764,6 @@
   </widgets>
   <widgets xsi:type="model:Note" id="1844" x="720" y="3835" width="217" height="44" text="Options that are only for OpenPGP are hidden when using S/MIME." measuredWidth="217" measuredHeight="44" textAlignment="Left">
     <font/>
-  </widgets>
-  <widgets xsi:type="model:WidgetGroup" id="1845" x="2178" y="2649" measuredWidth="666" measuredHeight="32">
-    <widgets xsi:type="model:WidgetGroup" id="1846" measuredWidth="666" measuredHeight="32">
-      <widgets xsi:type="model:WidgetGroup" id="1847" measuredWidth="666" measuredHeight="32">
-        <widgets xsi:type="model:Panel" id="1848" width="666" height="32" measuredWidth="666" measuredHeight="32"/>
-        <widgets xsi:type="model:Label" id="1849" x="7" y="4" text="{assets/lock-stricked}  Encryption was disabled because you chose to never encrypt to these recipients." measuredWidth="460" measuredHeight="24">
-          <font/>
-        </widgets>
-      </widgets>
-    </widgets>
-    <widgets xsi:type="model:Button" id="1850" x="583" y="4" height="23" text="Undo" measuredWidth="50" measuredHeight="23">
-      <font/>
-    </widgets>
-    <widgets xsi:type="model:Icon" id="1851" x="638" y="4" measuredWidth="24" measuredHeight="24" icon="close (medium)"/>
   </widgets>
   <widgets xsi:type="model:Combo" id="1856" x="541" y="2226" width="101" text="{assets/spelling} Spelling" measuredWidth="101" measuredHeight="23">
     <font/>
