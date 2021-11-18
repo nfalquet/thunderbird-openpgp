@@ -507,15 +507,15 @@
   <widgets xsi:type="model:Combo" id="1571" x="1254" y="1702" text="Enable Encryption" measuredWidth="125" measuredHeight="23">
     <font/>
   </widgets>
-  <widgets xsi:type="model:VButtonBar" id="1573" x="1205" y="1624" text="Enable OpenPGP Encryption&#xA;Enable S/MIME Encryption&#xA;Don't Ask Me Again" measuredWidth="174" measuredHeight="83">
+  <widgets xsi:type="model:VButtonBar" id="1573" x="1205" y="1624" text="Enable OpenPGP Encryption&#xA;Enable S/MIME Encryption&#xA;Don't Remind Me Again" measuredWidth="174" measuredHeight="83">
     <font/>
     <items x="0" y="0" width="174" height="28" text="Enable OpenPGP Encryption"/>
     <items x="0" y="28" width="174" height="27" text="Enable S/MIME Encryption"/>
-    <items x="0" y="55" width="174" height="28" text="Don't Ask Me Again"/>
+    <items x="0" y="55" width="174" height="28" text="Don't Remind Me Again"/>
   </widgets>
-  <widgets xsi:type="model:VButtonBar" id="1574" x="1202" y="1516" text="Don't Ask Me Again" measuredWidth="128" measuredHeight="29">
+  <widgets xsi:type="model:VButtonBar" id="1574" x="1202" y="1516" text="Don't Remind Me Again" measuredWidth="150" measuredHeight="29">
     <font/>
-    <items x="0" y="0" width="128" height="28" text="Don't Ask Me Again"/>
+    <items x="0" y="0" width="150" height="28" text="Don't Remind Me Again"/>
   </widgets>
   <widgets xsi:type="model:Arrow" id="1575" x="1065" y="1656" width="144" height="35" measuredWidth="144" measuredHeight="35" left="false" right="true"/>
   <widgets xsi:type="model:Arrow" id="1576" x="1000" y="1664" width="206" height="137" measuredWidth="206" measuredHeight="137" left="false" right="true"/>
