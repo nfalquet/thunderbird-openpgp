@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Window" id="758" x="56" y="1078" width="601" height="643" text="OpenPGP Key Assistant" measuredWidth="601" measuredHeight="643"/>
+  <widgets xsi:type="model:Panel" id="759" x="86" y="1519" width="531" height="61" measuredWidth="531" measuredHeight="61"/>
+  <widgets xsi:type="model:Button" id="766" x="96" y="1539" width="88" height="24" text="{warning} Missing" measuredWidth="88" measuredHeight="24" background="#fff2cc" textAlignment="Left" style="round">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="767" x="193" y="1533" text="missing@example.com" measuredWidth="133" measuredHeight="23">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Panel" id="768" x="86" y="1463" width="531" height="61" measuredWidth="531" measuredHeight="61"/>
+  <widgets xsi:type="model:Button" id="769" x="96" y="1484" width="88" height="24" text="{warning} Expired" measuredWidth="88" measuredHeight="24" background="#fff2cc" textAlignment="Left" style="round">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="770" x="193" y="1475" text="expired@example.com" measuredWidth="130" measuredHeight="23">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="771" x="86" y="1115" width="555" height="86" text="*Impossible to encrypt because there are missing, invalid, or not accepted public keys for 4 recipients.*&#xA;&#xA;To send an end-to-end encrypted message, you must obtain and accept a public key for each recipient.&#xA;&#xA;You can import keys from a file, or try to discover new or updated keys online." measuredWidth="555" measuredHeight="86">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="772" x="86" y="1208" height="23" text="Discover Keys Online..." measuredWidth="144" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="773" x="86" y="1634" height="23" text="Disable Encryption" measuredWidth="122" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="774" x="193" y="1553" text="Import a key or try to discover keys online." measuredWidth="235" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="776" x="247" y="1208" height="23" text="Import Keys..." measuredWidth="95" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Panel" id="777" x="86" y="1347" width="531" height="63" measuredWidth="531" measuredHeight="63"/>
+  <widgets xsi:type="model:Label" id="778" x="193" y="1361" text="collected@example.com" measuredWidth="139" measuredHeight="23">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="779" x="96" y="1367" width="88" text="{help} Alleged" measuredWidth="88" measuredHeight="26" background="#cfe2f3" textAlignment="Left" style="round">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Panel" id="781" x="86" y="1405" width="531" height="63" measuredWidth="531" measuredHeight="63"/>
+  <widgets xsi:type="model:Label" id="782" x="193" y="1418" text="multiple@example.com" measuredWidth="135" measuredHeight="23">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="783" x="96" y="1424" width="88" text="{help} Multiple" measuredWidth="88" measuredHeight="26" background="#cfe2f3" textAlignment="Left" style="round">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="784" x="193" y="1439" text="There are multiple keys. You need to choose one." measuredWidth="269" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Panel" id="787" x="86" y="1289" width="531" height="63" measuredWidth="531" measuredHeight="63"/>
+  <widgets xsi:type="model:Label" id="788" x="193" y="1297" text="revoked@example.com" measuredWidth="133" measuredHeight="23">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="790" x="193" y="1320" text="Key revoked on 2020-06-12. You need a new key." measuredWidth="270" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="791" x="96" y="1309" width="88" height="24" text="{warning} Revoked" measuredWidth="88" measuredHeight="24" background="#fff2cc" textAlignment="Left" style="round">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="792" x="193" y="1496" text="Key expired on 2020-03-14. You need a new or updated key." measuredWidth="330" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="793" x="192" y="1386" text="Thunderbird found a key but doesn't know if it's trustworthy." measuredWidth="329" measuredHeight="15">
+    <font size="12px"/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="794" x="505" y="1632" text="{assets/send} Send Encrypted" measuredWidth="124" measuredHeight="26" state="disabled">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Checkbox" id="795" x="87" y="1249" text="Always Discover Keys Automatically" measuredWidth="216" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="796" x="86" y="1601" text="For other *6 recipients* you have valid and accepted public keys and no action is required." measuredWidth="474" measuredHeight="15">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="799" x="528" y="1367" width="71" text="Accept" measuredWidth="71" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="800" x="528" y="1424" width="71" text="Choose..." measuredWidth="71" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="802" x="832" y="575" measuredWidth="0" measuredHeight="0"/>
+  <widgets xsi:type="model:Text" id="806" x="528" y="1487" text="[Details...]" measuredWidth="47" measuredHeight="15">
+    <font/>
+    <items x="0" y="0" width="46" height="15" text="Details..."/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="807" x="528" y="1313" text="[Details...]" measuredWidth="47" measuredHeight="15">
+    <font/>
+    <items x="0" y="0" width="46" height="15" text="Details..."/>
+  </widgets>
+  <widgets xsi:type="model:VScrollbar" id="785" x="612" y="1289" height="291" measuredWidth="17" measuredHeight="291"/>
+  <widgets xsi:type="model:Window" id="808" x="818" y="948" width="409" height="400" text="Key Properties" measuredWidth="409" measuredHeight="400"/>
+  <widgets xsi:type="model:Text" id="809" x="836" y="981" text="Alleged Key Owner&#xA;Source&#xA;Type&#xA;Fingerprint&#xA;Created&#xA;Expiry" measuredWidth="102" measuredHeight="90">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="810" x="957" y="981" width="265" text="kim@humanrights.org&#xA;Collected from an email&#xA;public key&#xA;9B6D A7CF C646 78C5 69E8 5357 4F3D B3B4&#xA;2021-05-21&#xA;Never" measuredWidth="265" measuredHeight="90">
+    <font bold="false"/>
+  </widgets>
+  <widgets xsi:type="model:Tabs" id="811" x="818" y="1083" width="409" text="Your Acceptance, Certifications, Structure" measuredWidth="409" measuredHeight="27" selection="0">
+    <items x="1" y="0" width="112" height="27" text="Your Acceptance"/>
+    <items x="113" y="0" width="93" height="27" text="Certifications"/>
+    <items x="206" y="0" width="72" height="27" text="Structure"/>
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="812" x="837" y="1120" width="370" height="91" text="Accept the key to use it to encrypt and verify OpenPGP signatures." measuredWidth="370" measuredHeight="91" lineHeight="1.5">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:List" id="813" x="837" y="1141" text="( ) No, reject this key.&#xA;( ) Not yet, maybe later.&#xA;(o) Yes, but I have not verified the fingerprint of the key.&#xA;( ) Yes, and I verified the fingerprint of the key." measuredWidth="310" measuredHeight="92" border="false" alpha="0">
+    <font/>
+    <items x="0" y="2" width="310" height="22" text="( ) No, reject this key."/>
+    <items x="0" y="24" width="310" height="22" text="( ) Not yet, maybe later."/>
+    <items x="0" y="46" width="310" height="22" text="(o) Yes, but I have not verified the fingerprint of the key."/>
+    <items x="0" y="68" width="310" height="22" text="( ) Yes, and I verified the fingerprint of the key."/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="814" x="1134" y="1308" width="80" text="OK" measuredWidth="80" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="815" x="837" y="1242" width="370" height="55" text="Verify the fingerprint of the key using a secure communication channel other than email to make sure that it's really the key of kim@humanrights.org." measuredWidth="370" measuredHeight="55" lineHeight="1.5">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Arrow" id="825" x="408" y="1180" width="411" height="188" text="popup" measuredWidth="411" measuredHeight="188" left="false" right="true" direction="bottom"/>
+  <widgets xsi:type="model:Window" id="826" x="818" y="1458" width="601" height="583" text="OpenPGP Key Assistant" measuredWidth="601" measuredHeight="583"/>
+  <widgets xsi:type="model:Arrow" id="859" x="587" y="1437" width="232" height="208" text="same screen" measuredWidth="232" measuredHeight="208" left="false" right="true"/>
+  <widgets xsi:type="model:Text" id="862" x="848" y="1618" text="Status&#xA;Created&#xA;Fingerprint" measuredWidth="63" measuredHeight="45">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="863" x="929" y="1618" text="Alleged key downloaded from keys.openpgp.org.&#xA;2021-03-03&#xA;53BE FCF1 337D 082E F71A  1D0F 9131 A0A4 EBD5 5B77&#xA;[Details...]" measuredWidth="312" measuredHeight="60">
+    <font bold="false"/>
+    <items x="0" y="45" width="46" height="15" text="Details..."/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="870" x="848" y="1705" text="Status&#xA;Created&#xA;Fingerprint" measuredWidth="63" measuredHeight="45">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="871" x="929" y="1705" text="Key expired on 2020-03-04.&#xA;2021-01-01&#xA;337D 082E F71A 1D0F 9131 A0A4 EBD5 5B77 53BE FCF1&#xA;[Details...]" measuredWidth="309" measuredHeight="60">
+    <font bold="false"/>
+    <items x="0" y="45" width="46" height="15" text="Details..."/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="876" x="848" y="1795" text="Status&#xA;Created&#xA;Fingerprint" measuredWidth="63" measuredHeight="45">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="877" x="929" y="1795" text="Key unusable because you rejected it.&#xA;2019-01-01&#xA;082E F71A 1D0F 9131 A0A4 EBD5 5B77 53BE FCF1 337D&#xA;[Details...]" measuredWidth="309" measuredHeight="60">
+    <font bold="false"/>
+    <items x="0" y="45" width="46" height="15" text="Details..."/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="879" x="846" y="1991" width="65" text="Cancel" measuredWidth="65" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="881" x="1265" y="1614" text="Delete" measuredWidth="54" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="882" x="847" y="1565" height="23" text="Discover Keys Online..." measuredWidth="144" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="883" x="1008" y="1565" height="23" text="Import Keys..." measuredWidth="95" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="884" x="581" y="1601" text="[Show All]" measuredWidth="48" measuredHeight="15">
+    <font/>
+    <items x="0" y="0" width="47" height="15" text="Show All"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="885" x="86" y="1670" width="543" height="34" text="Thunderbird normally requires that the recipient's public key contains a user ID with a matching email address. This can be overridden by using OpenPGP recipient alias rules. [Learn more]" measuredWidth="543" measuredHeight="34">
+    <font/>
+    <items x="421" y="15" width="62" height="15" text="Learn more"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="888" x="847" y="1501" text="Thunderbird found multiple keys for *multiple@example.com*. You need to choose and accept one.&#xA;&#xA;You can also import other keys from a file, or try to discover new or updated keys online." measuredWidth="528" measuredHeight="45">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="889" x="1336" y="1614" text="Accept" measuredWidth="57" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="890" x="1265" y="1701" text="Delete" measuredWidth="54" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="891" x="1336" y="1701" text="Accept" measuredWidth="57" measuredHeight="25" state="disabled">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="892" x="1265" y="1796" text="Delete" measuredWidth="54" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="893" x="1336" y="1796" text="Accept" measuredWidth="57" measuredHeight="25" state="disabled">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="894" x="848" y="1889" text="Status&#xA;Created&#xA;Fingerprint" measuredWidth="63" measuredHeight="45">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="895" x="929" y="1889" text="Key collected from an email.&#xA;2021-05-23&#xA;082E F71A 1D0F 9131 A0A4 EBD5 5B77 53BE FCF1 337D&#xA;[Details...]" measuredWidth="309" measuredHeight="60">
+    <font bold="false"/>
+    <items x="0" y="45" width="46" height="15" text="Details..."/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="896" x="1265" y="1885" text="Delete" measuredWidth="54" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="897" x="1336" y="1885" text="Accept" measuredWidth="57" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Arrow" id="899" x="1387" y="1628" width="230" height="8" text="back to list of recipients" measuredWidth="230" measuredHeight="8" left="false" right="true" direction="bottom"/>
+  <widgets xsi:type="model:Panel" id="901" x="1436" y="1287" width="531" height="63" measuredWidth="531" measuredHeight="63"/>
+  <widgets xsi:type="model:Label" id="902" x="1543" y="1300" text="collected@example.com" measuredWidth="139" measuredHeight="23">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="903" x="1446" y="1306" width="88" text="{check} Accepted" measuredWidth="88" measuredHeight="26" background="#d9ead3" textAlignment="Left" style="round">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="904" x="1543" y="1321" text="You accepted a key collected from an email." measuredWidth="240" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="906" x="1916" y="1311" text="[Undo]" measuredWidth="31" measuredHeight="15">
+    <font bold="false"/>
+    <items x="0" y="0" width="30" height="15" text="Undo"/>
+  </widgets>
+  <widgets xsi:type="model:Window" id="907" x="818" y="56" width="601" height="553" text="OpenPGP Key Assistant" measuredWidth="601" measuredHeight="553"/>
+  <widgets xsi:type="model:Text" id="908" x="848" y="214" text="Key ID&#xA;Fingerprint&#xA;Status&#xA;" measuredWidth="63" measuredHeight="45">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="909" x="929" y="214" text="0x9131A0A4EBD55B77&#xA;53BE FCF1 337D 082E F71A  1D0F 9131 A0A4 EBD5 5B77&#xA;Alleged key downloaded from keys.openpgp.org." measuredWidth="312" measuredHeight="45">
+    <font bold="false"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="910" x="848" y="300" text="Key ID&#xA;Fingerprint&#xA;Status" measuredWidth="63" measuredHeight="45">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="911" x="929" y="300" text="0xEBD55B7753BEFCF1&#xA;337D 082E F71A 1D0F 9131 A0A4 EBD5 5B77 53BE FCF1&#xA;Key has expired, you could check if the owner has extended the validity period of the key." measuredWidth="477" measuredHeight="45">
+    <font bold="false"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="912" x="848" y="389" text="Key ID&#xA;Fingerprint&#xA;Status" measuredWidth="63" measuredHeight="45">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="913" x="929" y="389" text="0x5B7753BEFCF1337D&#xA;082E F71A 1D0F 9131 A0A4 EBD5 5B77 53BE FCF1 337D&#xA;Key unusable because you have decided to reject it." measuredWidth="309" measuredHeight="45">
+    <font bold="false"/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="914" x="846" y="561" text="Go Back to List" measuredWidth="101" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="918" x="847" y="103" width="541" height="99" text="To send an end-to-end encrypted message to a recipient, you need to obtain the correct OpenPGP public key and mark it as accepted. &#xA;&#xA;To avoid accepting a rogue key, verify the key details.&#xA;&#xA;Available public keys for *bob@example.com*:" measuredWidth="541" measuredHeight="99">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Checkbox" id="929" x="848" y="256" text="Accept" measuredWidth="58" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="930" x="929" y="260" text="[More Details and Options...]" measuredWidth="148" measuredHeight="15">
+    <font bold="false"/>
+    <items x="0" y="0" width="147" height="15" text="More Details and Options..."/>
+  </widgets>
+  <widgets xsi:type="model:Checkbox" id="931" x="848" y="343" text="Accept" measuredWidth="58" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="932" x="929" y="347" text="[More Details and Options...]" measuredWidth="148" measuredHeight="15">
+    <font bold="false"/>
+    <items x="0" y="0" width="147" height="15" text="More Details and Options..."/>
+  </widgets>
+  <widgets xsi:type="model:Checkbox" id="933" x="848" y="432" text="Accept" measuredWidth="58" measuredHeight="23" state="disabled">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="934" x="929" y="436" text="[More Details and Options...]" measuredWidth="148" measuredHeight="15">
+    <font bold="false"/>
+    <items x="0" y="0" width="147" height="15" text="More Details and Options..."/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="935" x="848" y="474" text="Key ID&#xA;Fingerprint&#xA;Status" measuredWidth="63" measuredHeight="45">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="936" x="929" y="474" text="0x5B7753BEFCF1337D&#xA;082E F71A 1D0F 9131 A0A4 EBD5 5B77 53BE FCF1 337D&#xA;???" measuredWidth="309" measuredHeight="45">
+    <font bold="false"/>
+  </widgets>
+  <widgets xsi:type="model:Checkbox" id="937" x="848" y="518" text="Accept" measuredWidth="58" measuredHeight="23" selected="true" state="disabled">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="938" x="929" y="520" text="[More Details and Options...]" measuredWidth="148" measuredHeight="15">
+    <font bold="false"/>
+    <items x="0" y="0" width="147" height="15" text="More Details and Options..."/>
+  </widgets>
+  <widgets xsi:type="model:Window" id="939" x="57" y="62" width="601" height="500" text="OpenPGP Key Assistant" measuredWidth="601" measuredHeight="500"/>
+  <widgets xsi:type="model:Text" id="946" x="80" y="107" width="555" height="86" text="*Impossible to encrypt because there are missing, invalid, or not accepted public keys for 4 recipients.*&#xA;&#xA;To send an end-to-end encrypted message, you must obtain and accept a public key for each recipient.&#xA;&#xA;*Availability of OpenPGP keys:*" measuredWidth="555" measuredHeight="86">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="947" x="443" y="468" height="23" text="Discover Public Keys Online..." measuredWidth="180" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="948" x="80" y="438" height="23" text="Disable Encryption" measuredWidth="122" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="950" x="437" y="438" height="23" text="Import Public Keys From File..." measuredWidth="186" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Panel" id="951" x="80" y="259" width="531" height="63" measuredWidth="531" measuredHeight="63"/>
+  <widgets xsi:type="model:Label" id="952" x="97" y="273" text="bob@example.com" measuredWidth="111" measuredHeight="23">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Panel" id="954" x="80" y="317" width="531" height="63" measuredWidth="531" measuredHeight="63"/>
+  <widgets xsi:type="model:Label" id="955" x="97" y="330" text="charly@example.com" measuredWidth="123" measuredHeight="23">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Panel" id="958" x="80" y="201" width="531" height="63" measuredWidth="531" measuredHeight="63"/>
+  <widgets xsi:type="model:Label" id="959" x="97" y="209" text="alice@example.com" measuredWidth="114" measuredHeight="23">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="960" x="97" y="232" text="No usable public key" measuredWidth="117" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="963" x="96" y="296" text="No accepted public key" measuredWidth="125" measuredHeight="15">
+    <font size="12px"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="966" x="80" y="403" text="For other *6 recipients* you have valid and accepted public keys and no action is required." measuredWidth="474" measuredHeight="15">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="967" x="522" y="279" text="Resolve..." measuredWidth="71" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="968" x="522" y="336" text="Resolve..." measuredWidth="71" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:VScrollbar" id="971" x="606" y="201" height="179" measuredWidth="17" measuredHeight="179"/>
+  <widgets xsi:type="model:Text" id="972" x="575" y="403" text="[Show All]" measuredWidth="48" measuredHeight="15">
+    <font/>
+    <items x="0" y="0" width="47" height="15" text="Show All"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="973" x="80" y="507" width="543" height="34" text="Thunderbird normally requires that the recipient's public key contains a user ID with a matching email address. This can be overridden by using OpenPGP recipient alias rules. [Learn more]" measuredWidth="543" measuredHeight="34">
+    <font/>
+    <items x="421" y="15" width="62" height="15" text="Learn more"/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="974" x="522" y="220" text="Resolve..." measuredWidth="71" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="977" x="96" y="354" text="Missing public key" measuredWidth="101" measuredHeight="15">
+    <font size="12px"/>
+  </widgets>
+  <widgets xsi:type="model:Alert" id="978" x="816" y="672" width="649" text="Alert&#xA;Either import a key from file, or try to discover keys for this email.&#xA;Cancel,Import Public Keys From File,Discover Public Keys Online" measuredWidth="649" measuredHeight="132" icon="warning (large)">
+    <items x="70" y="93" width="178" height="24" text="Cancel"/>
+    <items x="263" y="93" width="178" height="24" text="Import Public Keys From File"/>
+    <items x="456" y="93" width="178" height="24" text="Discover Public Keys Online"/>
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Arrow" id="979" x="583" y="354" width="236" height="361" text="popup" measuredWidth="236" measuredHeight="361" left="false" right="true"/>
+  <widgets xsi:type="model:Arrow" id="981" x="585" y="230" width="234" height="8" text="same screen" measuredWidth="234" measuredHeight="8" left="false" right="true"/>
+  <widgets xsi:type="model:Arrow" id="982" x="587" y="291" width="234" height="8" text="same screen" measuredWidth="234" measuredHeight="8" left="false" right="true"/>
+  <widgets xsi:type="model:Label" id="983" x="-236" y="304" text="Always Resolve" measuredWidth="173" measuredHeight="38">
+    <font size="24px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="984" x="-236" y="1375" text="Accept or Choose" measuredWidth="195" measuredHeight="38">
+    <font size="24px"/>
+  </widgets>
+  <widgets xsi:type="model:Arrow" id="986" x="1196" y="1318" width="241" height="8" text="back to list of recipients" measuredWidth="241" measuredHeight="8" left="false" right="true" direction="bottom"/>
+  <widgets xsi:type="model:Panel" id="987" x="1616" y="1594" width="531" height="63" measuredWidth="531" measuredHeight="63"/>
+  <widgets xsi:type="model:Label" id="988" x="1723" y="1607" text="multiple@example.com" measuredWidth="135" measuredHeight="23">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="989" x="1626" y="1613" width="88" text="{check} Accepted" measuredWidth="88" measuredHeight="26" background="#d9ead3" textAlignment="Left" style="round">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="990" x="1723" y="1628" text="You chose a key from keys.openpgp.org." measuredWidth="225" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="991" x="2096" y="1618" text="[Undo]" measuredWidth="31" measuredHeight="15">
+    <font bold="false"/>
+    <items x="0" y="0" width="30" height="15" text="Undo"/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="1021" x="837" y="1306" width="80" text="Cancel" measuredWidth="80" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="1077" x="391" y="1365" text="[Details...]" measuredWidth="47" measuredHeight="15">
+    <font/>
+    <items x="0" y="0" width="46" height="15" text="Details..."/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>
