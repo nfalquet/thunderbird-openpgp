@@ -420,7 +420,7 @@
       </widgets>
     </widgets>
     <widgets xsi:type="model:Icon" id="1205" x="644" y="8" measuredWidth="16" measuredHeight="16" icon="delete (small)"/>
-    <widgets xsi:type="model:Combo" id="1561" x="513" y="5" text="Enable Encryption" measuredWidth="125" measuredHeight="23">
+    <widgets xsi:type="model:Button" id="1864" x="521" y="5" height="23" text="Enable Encryption" measuredWidth="118" measuredHeight="23">
       <font/>
     </widgets>
   </widgets>
@@ -449,22 +449,22 @@
       </widgets>
     </widgets>
     <widgets xsi:type="model:Icon" id="1452" x="644" y="8" measuredWidth="16" measuredHeight="16" icon="delete (small)"/>
-    <widgets xsi:type="model:Combo" id="1562" x="513" y="4" text="Enable Encryption" measuredWidth="125" measuredHeight="23">
+    <widgets xsi:type="model:Button" id="1865" x="521" y="5" height="23" text="Enable Encryption" measuredWidth="118" measuredHeight="23">
       <font/>
     </widgets>
   </widgets>
   <widgets xsi:type="model:Label" id="1453" x="375" y="1498" text="If S/MIME is possible:" measuredWidth="235" measuredHeight="38">
     <font size="24px"/>
   </widgets>
-  <widgets xsi:type="model:WidgetGroup" id="1454" x="376" y="1644" width="740" measuredWidth="740" measuredHeight="32">
-    <widgets xsi:type="model:WidgetGroup" id="1455" width="740" measuredWidth="740" measuredHeight="32">
-      <widgets xsi:type="model:Panel" id="1456" width="740" height="32" measuredWidth="740" measuredHeight="32"/>
-      <widgets xsi:type="model:Label" id="1457" x="4" y="4" width="625" text="{assets/privacy-security} You can use end-to-end encryption for this message." measuredWidth="625" measuredHeight="24">
+  <widgets xsi:type="model:WidgetGroup" id="1454" x="376" y="1644" width="740" measuredWidth="666" measuredHeight="32">
+    <widgets xsi:type="model:WidgetGroup" id="1455" width="666" measuredWidth="666" measuredHeight="32">
+      <widgets xsi:type="model:Panel" id="1456" width="666" height="32" measuredWidth="666" measuredHeight="32"/>
+      <widgets xsi:type="model:Label" id="1457" x="3" y="4" width="562" text="{assets/privacy-security} You can use end-to-end encryption for this message." measuredWidth="562" measuredHeight="24">
         <font/>
       </widgets>
     </widgets>
-    <widgets xsi:type="model:Icon" id="1459" x="718" y="8" measuredWidth="16" measuredHeight="16" icon="delete (small)"/>
-    <widgets xsi:type="model:Combo" id="1566" x="584" y="4" width="126" text="Enable Encryption" measuredWidth="126" measuredHeight="23">
+    <widgets xsi:type="model:Icon" id="1459" x="644" y="8" measuredWidth="16" measuredHeight="16" icon="delete (small)"/>
+    <widgets xsi:type="model:Button" id="1866" x="520" y="5" height="23" text="Enable Encryption" measuredWidth="118" measuredHeight="23">
       <font/>
     </widgets>
   </widgets>
@@ -478,48 +478,11 @@
   <widgets xsi:type="model:Note" id="1515" x="49" y="-405" width="183" height="43" text="Display a broken lock if subject encryption is disabled." measuredWidth="183" measuredHeight="43" textAlignment="Left">
     <font/>
   </widgets>
-  <widgets xsi:type="model:Combo" id="1549" x="1203" y="1540" text="Enable Encryption" measuredWidth="125" measuredHeight="23">
-    <font/>
-  </widgets>
-  <widgets xsi:type="model:List" id="1556" x="1842" y="1444" text="Without end-to-end encryption, your messages are easily exposed to your&#xA;email provider and mass surveillance.&#xA;&#xA; (o) *Enable encryption for new messages*&#xA;       You will be able to disable encryption for individual messages.&#xA; ( ) *Disable encryption for new messages*&#xA;       [x] Propose to encrypt when possible&#xA;&#xA;A digital signature allows recipients to verify that the message was sent by you&#xA;and its content was not changed. Encrypted messages are always signed by default.&#xA;&#xA; [ ] *Sign unencrypted messages*" measuredWidth="460" measuredHeight="260" border="false" alpha="0">
-    <font/>
-    <items x="0" y="2" width="460" height="21" text="Without end-to-end encryption, your messages are easily exposed to your"/>
-    <items x="0" y="23" width="460" height="21" text="email provider and mass surveillance."/>
-    <items x="0" y="44" width="460" height="21"/>
-    <items x="0" y="65" width="460" height="22" text=" (o) *Enable encryption for new messages*"/>
-    <items x="0" y="87" width="460" height="21" text="       You will be able to disable encryption for individual messages."/>
-    <items x="0" y="108" width="460" height="22" text=" ( ) *Disable encryption for new messages*"/>
-    <items x="0" y="130" width="460" height="22" text="       [x] Propose to encrypt when possible"/>
-    <items x="0" y="152" width="460" height="21"/>
-    <items x="0" y="173" width="460" height="21" text="A digital signature allows recipients to verify that the message was sent by you"/>
-    <items x="0" y="194" width="460" height="21" text="and its content was not changed. Encrypted messages are always signed by default."/>
-    <items x="0" y="215" width="460" height="21"/>
-    <items x="0" y="236" width="460" height="22" text=" [ ] *Sign unencrypted messages*"/>
-  </widgets>
-  <widgets xsi:type="model:Note" id="1557" x="1136" y="1458" width="324" height="48" text="Similar widget as we already have for &quot;Remind Me Later&quot; in the attachment notification." measuredWidth="324" measuredHeight="48" textAlignment="Left">
-    <font/>
-  </widgets>
-  <widgets xsi:type="model:Arrow" id="1567" x="1008" y="1444" width="201" height="116" measuredWidth="201" measuredHeight="116" left="false" right="true"/>
-  <widgets xsi:type="model:Arrow" id="1568" x="1318" y="1525" width="534" height="60" text="unsets" measuredWidth="534" measuredHeight="60" left="false" right="true"/>
   <widgets xsi:type="model:Note" id="1569" x="368" y="1081" width="681" height="25" text="Only if the user has &quot;Disable encryption for new messages&quot; in their settings." measuredWidth="681" measuredHeight="25" textAlignment="Left">
     <font/>
   </widgets>
-  <widgets xsi:type="model:Combo" id="1571" x="1254" y="1702" text="Enable Encryption" measuredWidth="125" measuredHeight="23">
-    <font/>
-  </widgets>
-  <widgets xsi:type="model:VButtonBar" id="1573" x="1205" y="1624" text="Enable OpenPGP Encryption&#xA;Enable S/MIME Encryption&#xA;Don't Remind Me Again" measuredWidth="174" measuredHeight="83">
-    <font/>
-    <items x="0" y="0" width="174" height="28" text="Enable OpenPGP Encryption"/>
-    <items x="0" y="28" width="174" height="27" text="Enable S/MIME Encryption"/>
-    <items x="0" y="55" width="174" height="28" text="Don't Remind Me Again"/>
-  </widgets>
-  <widgets xsi:type="model:VButtonBar" id="1574" x="1202" y="1516" text="Don't Remind Me Again" measuredWidth="150" measuredHeight="29">
-    <font/>
-    <items x="0" y="0" width="150" height="28" text="Don't Remind Me Again"/>
-  </widgets>
-  <widgets xsi:type="model:Arrow" id="1575" x="1065" y="1656" width="144" height="35" measuredWidth="144" measuredHeight="35" left="false" right="true"/>
-  <widgets xsi:type="model:Arrow" id="1576" x="1000" y="1664" width="206" height="137" measuredWidth="206" measuredHeight="137" left="false" right="true"/>
-  <widgets xsi:type="model:Alert" id="1577" x="1205" y="1760" text="Encryption Technology&#xA;Do you want to enable OpenPGP or S/MIME encryption for this message?&#xA;OpenPGP,S/MIME,Cancel" measuredWidth="483" measuredHeight="132" icon="warning (large)">
+  <widgets xsi:type="model:Arrow" id="1576" x="960" y="1664" width="8" height="97" measuredWidth="8" measuredHeight="97" left="false" right="true"/>
+  <widgets xsi:type="model:Alert" id="1577" x="567" y="1760" text="Encryption Technology&#xA;Do you want to enable OpenPGP or S/MIME encryption for this message?&#xA;OpenPGP,S/MIME,Cancel" measuredWidth="483" measuredHeight="132" icon="warning (large)">
     <items x="198" y="93" width="80" height="24" text="OpenPGP"/>
     <items x="293" y="93" width="80" height="24" text="S/MIME"/>
     <items x="388" y="93" width="80" height="24" text="Cancel"/>
@@ -800,10 +763,10 @@
   <widgets xsi:type="model:Note" id="1805" x="673" y="2912" width="215" height="44" text="Only display S/MIME options if the user only has S/MIME." measuredWidth="215" measuredHeight="44" textAlignment="Left">
     <font/>
   </widgets>
-  <widgets xsi:type="model:Label" id="1806" x="2226" y="1276" text="Account settings" measuredWidth="186" measuredHeight="38">
+  <widgets xsi:type="model:Label" id="1806" x="367" y="-846" text="Account settings" measuredWidth="186" measuredHeight="38">
     <font size="24px"/>
   </widgets>
-  <widgets xsi:type="model:List" id="1807" x="2382" y="1444" text="Without end-to-end encryption, your messages are easily exposed to your&#xA;email provider and mass surveillance.&#xA;&#xA; [ ] *Enable encryption for new messages*&#xA;       You will be able to disable encryption for individual messages.&#xA;&#xA;A digital signature allows recipients to verify that the message was sent by you&#xA;and its content was not changed. Encrypted messages are always signed by default.&#xA;&#xA; [ ] *Sign unencrypted messages*" measuredWidth="460" measuredHeight="216" border="false" alpha="0">
+  <widgets xsi:type="model:List" id="1807" x="359" y="-788" text="Without end-to-end encryption, your messages are easily exposed to your&#xA;email provider and mass surveillance.&#xA;&#xA; [ ] *Enable encryption for new messages*&#xA;       You will be able to disable encryption for individual messages.&#xA;&#xA;A digital signature allows recipients to verify that the message was sent by you&#xA;and its content was not changed. Encrypted messages are always signed by default.&#xA;&#xA; [ ] *Sign unencrypted messages*" measuredWidth="460" measuredHeight="216" border="false" alpha="0">
     <font/>
     <items x="0" y="2" width="460" height="21" text="Without end-to-end encryption, your messages are easily exposed to your"/>
     <items x="0" y="23" width="460" height="21" text="email provider and mass surveillance."/>
@@ -816,22 +779,10 @@
     <items x="0" y="171" width="460" height="21"/>
     <items x="0" y="192" width="460" height="22" text=" [ ] *Sign unencrypted messages*"/>
   </widgets>
-  <widgets xsi:type="model:Note" id="1808" x="1844" y="1402" width="413" text="With notification when encryption is possible and &quot;Don't Ask Me Again&quot;." measuredWidth="413" measuredHeight="29" textAlignment="Left">
-    <font/>
-  </widgets>
-  <widgets xsi:type="model:Note" id="1809" x="2387" y="1402" width="462" text="Without notification when encryption is possible or without &quot;Don't Ask Me Again&quot;." measuredWidth="462" measuredHeight="29" textAlignment="Left">
-    <font/>
-  </widgets>
   <widgets xsi:type="model:Note" id="1810" x="1086" y="609" width="133" height="30" text="Opens key assistant." measuredWidth="133" measuredHeight="30" textAlignment="Left">
     <font/>
   </widgets>
   <widgets xsi:type="model:Arrow" id="1811" x="1024" y="623" width="61" height="8" measuredWidth="61" measuredHeight="8" left="false" right="true" direction="bottom"/>
-  <widgets xsi:type="model:Label" id="1812" x="2033" y="1336" text="A" measuredWidth="22" measuredHeight="38">
-    <font size="24px"/>
-  </widgets>
-  <widgets xsi:type="model:Label" id="1813" x="2580" y="1336" text="B" measuredWidth="22" measuredHeight="38">
-    <font size="24px"/>
-  </widgets>
   <widgets xsi:type="model:Note" id="1816" x="179" y="340" width="133" height="30" text="Opens key assistant." measuredWidth="133" measuredHeight="30" textAlignment="Left">
     <font/>
   </widgets>
