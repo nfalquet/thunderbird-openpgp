@@ -763,21 +763,23 @@
   <widgets xsi:type="model:Note" id="1805" x="673" y="2912" width="215" height="44" text="Only display S/MIME options if the user only has S/MIME." measuredWidth="215" measuredHeight="44" textAlignment="Left">
     <font/>
   </widgets>
-  <widgets xsi:type="model:Label" id="1806" x="367" y="-846" text="Account settings" measuredWidth="186" measuredHeight="38">
+  <widgets xsi:type="model:Label" id="1806" x="367" y="-886" text="Account settings" measuredWidth="186" measuredHeight="38">
     <font size="24px"/>
   </widgets>
-  <widgets xsi:type="model:List" id="1807" x="359" y="-788" text="Without end-to-end encryption, your messages are easily exposed to your&#xA;email provider and mass surveillance.&#xA;&#xA; [ ] *Enable encryption for new messages*&#xA;       You will be able to disable encryption for individual messages.&#xA;&#xA;A digital signature allows recipients to verify that the message was sent by you&#xA;and its content was not changed. Encrypted messages are always signed by default.&#xA;&#xA; [ ] *Sign unencrypted messages*" measuredWidth="460" measuredHeight="216" border="false" alpha="0">
+  <widgets xsi:type="model:List" id="1807" x="359" y="-828" text="*Default settings for sending messages*&#xA;&#xA;Without end-to-end encryption, your messages are easily exposed to your&#xA;email provider and mass surveillance.&#xA;&#xA; [ ] *Enable encryption for new messages*&#xA;       You will be able to disable encryption for individual messages.&#xA;&#xA;A digital signature allows recipients to verify that the message was sent by you&#xA;and its content was not changed. Encrypted messages are always signed by default.&#xA;&#xA; [ ] *Sign unencrypted messages*" measuredWidth="460" measuredHeight="258" border="false" alpha="0">
     <font/>
-    <items x="0" y="2" width="460" height="21" text="Without end-to-end encryption, your messages are easily exposed to your"/>
-    <items x="0" y="23" width="460" height="21" text="email provider and mass surveillance."/>
-    <items x="0" y="44" width="460" height="21"/>
-    <items x="0" y="65" width="460" height="22" text=" [ ] *Enable encryption for new messages*"/>
-    <items x="0" y="87" width="460" height="21" text="       You will be able to disable encryption for individual messages."/>
-    <items x="0" y="108" width="460" height="21"/>
-    <items x="0" y="129" width="460" height="21" text="A digital signature allows recipients to verify that the message was sent by you"/>
-    <items x="0" y="150" width="460" height="21" text="and its content was not changed. Encrypted messages are always signed by default."/>
-    <items x="0" y="171" width="460" height="21"/>
-    <items x="0" y="192" width="460" height="22" text=" [ ] *Sign unencrypted messages*"/>
+    <items x="0" y="2" width="460" height="21" text="*Default settings for sending messages*"/>
+    <items x="0" y="23" width="460" height="21"/>
+    <items x="0" y="44" width="460" height="21" text="Without end-to-end encryption, your messages are easily exposed to your"/>
+    <items x="0" y="65" width="460" height="21" text="email provider and mass surveillance."/>
+    <items x="0" y="86" width="460" height="21"/>
+    <items x="0" y="107" width="460" height="22" text=" [ ] *Enable encryption for new messages*"/>
+    <items x="0" y="129" width="460" height="21" text="       You will be able to disable encryption for individual messages."/>
+    <items x="0" y="150" width="460" height="21"/>
+    <items x="0" y="171" width="460" height="21" text="A digital signature allows recipients to verify that the message was sent by you"/>
+    <items x="0" y="192" width="460" height="21" text="and its content was not changed. Encrypted messages are always signed by default."/>
+    <items x="0" y="213" width="460" height="21"/>
+    <items x="0" y="234" width="460" height="22" text=" [ ] *Sign unencrypted messages*"/>
   </widgets>
   <widgets xsi:type="model:Note" id="1810" x="1086" y="609" width="133" height="30" text="Opens key assistant." measuredWidth="133" measuredHeight="30" textAlignment="Left">
     <font/>
