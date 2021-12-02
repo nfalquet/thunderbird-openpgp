@@ -77,7 +77,7 @@
   <widgets xsi:type="model:Button" id="361" x="1318" y="579" height="20" text="rejected@example.com {warning}" measuredWidth="166" measuredHeight="20">
     <font/>
   </widgets>
-  <widgets xsi:type="model:Label" id="556" x="45" y="-38" text="Encryption toggle" measuredWidth="199" measuredHeight="38">
+  <widgets xsi:type="model:Label" id="556" x="-275" y="42" text="Encryption toggle" measuredWidth="199" measuredHeight="38">
     <font size="24px"/>
   </widgets>
   <widgets xsi:type="model:Label" id="560" x="1318" y="228" text="Recipient pills" measuredWidth="157" measuredHeight="38">
@@ -109,9 +109,6 @@
   <widgets xsi:type="model:Label" id="810" x="625" y="-498" text="OpenPGP menu" measuredWidth="180" measuredHeight="38">
     <font size="24px"/>
   </widgets>
-  <widgets xsi:type="model:Button" id="854" x="176" y="35" width="100" height="23" text="{assets/lock-stricked} Encryption" measuredWidth="100" measuredHeight="23">
-    <font/>
-  </widgets>
   <widgets xsi:type="model:Label" id="885" x="44" y="-343" text="Subject" measuredWidth="46" measuredHeight="23" textAlignment="Right">
     <font/>
   </widgets>
@@ -135,9 +132,6 @@
     <items x="0" y="82" width="180" height="23" text="Manage Keys for Recipients"/>
     <items x="0" y="105" width="180" height="23" text="Open Key Manager"/>
   </widgets>
-  <widgets xsi:type="model:Button" id="1008" x="21" y="35" width="100" height="23" text="{assets/privacy-security} Encryption" measuredWidth="100" measuredHeight="23" state="selected">
-    <font/>
-  </widgets>
   <widgets xsi:type="model:Popup" id="1128" x="1102" y="-226" text="&amp;File(s)&#xA;&amp;Web Page...&#xA;---&#xA;[ ] My vCard Contact...&#xA;[ ] My OpenPGP Public Key&#xA;---&#xA;[ ] Remind Me Later" measuredWidth="161" measuredHeight="141">
     <items x="0" y="2" width="161" height="23" text="&amp;File(s)"/>
     <items x="0" y="25" width="161" height="23" text="&amp;Web Page..."/>
@@ -152,7 +146,7 @@
   </widgets>
   <widgets xsi:type="model:Arrow" id="1182" x="1008" y="-177" width="95" height="60" measuredWidth="95" measuredHeight="60" left="false" right="true" direction="bottom"/>
   <widgets xsi:type="model:Arrow" id="1183" x="650" y="-299" width="30" height="152" measuredWidth="30" measuredHeight="152" left="false" right="true" direction="bottom"/>
-  <widgets xsi:type="model:Arrow" id="1184" x="255" y="-118" width="205" height="97" measuredWidth="205" measuredHeight="97" direction="bottom"/>
+  <widgets xsi:type="model:Arrow" id="1184" x="120" y="-118" width="340" height="198" measuredWidth="340" measuredHeight="198" direction="bottom"/>
   <widgets xsi:type="model:Label" id="1188" x="367" y="-226" text="No key issues" measuredWidth="151" measuredHeight="38">
     <font size="24px"/>
   </widgets>
@@ -721,6 +715,30 @@
     <font/>
   </widgets>
   <widgets xsi:type="model:Arrow" id="1861" x="519" y="2240" width="64" height="74" measuredWidth="64" measuredHeight="74" left="false" right="true"/>
+  <widgets xsi:type="model:Button" id="1868" x="-516" y="197" width="100" height="23" text="{assets/privacy-security} Encryption" measuredWidth="100" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="1875" x="-397" y="197" text="Available and unpressed: encryption is not configured and the button opens an assistant to configure OpenPGP (not designed yet)." measuredWidth="708" measuredHeight="23">
+    <font size="12px"/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="1872" x="-516" y="106" width="100" height="23" text="{assets/lock-stricked} Encryption" measuredWidth="100" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="1876" x="-397" y="106" text="Available and unpressed with broken lock: encryption is not enabled for this message." measuredWidth="467" measuredHeight="23">
+    <font size="12px"/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="1871" x="-516" y="136" width="100" height="23" text="{assets/privacy-security} Encryption" measuredWidth="100" measuredHeight="23" state="selected">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="1877" x="-397" y="136" text="Available and pressed with plain lock: encryption is enabled for this message." measuredWidth="420" measuredHeight="23">
+    <font size="12px"/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="1869" x="-516" y="166" width="100" height="23" text="{assets/privacy-security} Encryption" measuredWidth="100" measuredHeight="23" state="disabled">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="1878" x="-397" y="166" text="Unavailable: encryption is not available for this identity." measuredWidth="302" measuredHeight="23">
+    <font size="12px"/>
+  </widgets>
   <hRuler/>
   <vRuler/>
   <font size="12px"/>
