@@ -549,11 +549,12 @@
   <widgets xsi:type="model:Combo" id="1696" x="540" y="3268" width="85" text="OpenPGP" measuredWidth="85" measuredHeight="23">
     <font/>
   </widgets>
-  <widgets xsi:type="model:Popup" id="1697" x="673" y="2813" text="[x] Encrypt&#xA;[x] Sign&#xA;---&#xA;Manage Certificates for Recipients" measuredWidth="215" measuredHeight="84">
-    <items x="0" y="2" width="215" height="23" text="[x] Encrypt"/>
-    <items x="0" y="25" width="215" height="23" text="[x] Sign"/>
-    <items x="0" y="48" width="215" height="11" text="---"/>
-    <items x="0" y="59" width="215" height="23" text="Manage Certificates for Recipients"/>
+  <widgets xsi:type="model:Popup" id="1697" x="673" y="2813" text="[x] Encrypt&#xA;[x] Sign&#xA;---&#xA;View Certificates for Recipients&#xA;Open Certificate Manager" measuredWidth="198" measuredHeight="107">
+    <items x="0" y="2" width="198" height="23" text="[x] Encrypt"/>
+    <items x="0" y="25" width="198" height="23" text="[x] Sign"/>
+    <items x="0" y="48" width="198" height="11" text="---"/>
+    <items x="0" y="59" width="198" height="23" text="View Certificates for Recipients"/>
+    <items x="0" y="82" width="198" height="23" text="Open Certificate Manager"/>
   </widgets>
   <widgets xsi:type="model:Label" id="1698" x="463" y="2765" text="OpenPGP" measuredWidth="114" measuredHeight="38">
     <font size="24px"/>
@@ -605,14 +606,15 @@
   <widgets xsi:type="model:Combo" id="1742" x="540" y="3628" width="85" text="S/MIME" measuredWidth="85" measuredHeight="23">
     <font/>
   </widgets>
-  <widgets xsi:type="model:Popup" id="1761" x="493" y="3692" text="~( ) OpenPGP~&#xA;(o) S/MIME&#xA;---&#xA;[x] Encrypt&#xA;[x] Sign&#xA;---&#xA;Manage Certificates for Recipient" measuredWidth="209" measuredHeight="141">
-    <items x="0" y="2" width="209" height="23" text="~( ) OpenPGP~"/>
-    <items x="0" y="25" width="209" height="23" text="(o) S/MIME"/>
-    <items x="0" y="48" width="209" height="11" text="---"/>
-    <items x="0" y="59" width="209" height="23" text="[x] Encrypt"/>
-    <items x="0" y="82" width="209" height="23" text="[x] Sign"/>
-    <items x="0" y="105" width="209" height="11" text="---"/>
-    <items x="0" y="116" width="209" height="23" text="Manage Certificates for Recipient"/>
+  <widgets xsi:type="model:Popup" id="1761" x="493" y="3692" text="~( ) OpenPGP~&#xA;(o) S/MIME&#xA;---&#xA;[x] Encrypt&#xA;[x] Sign&#xA;---&#xA;View Certificates for Recipients&#xA;Open Certificate Manager" measuredWidth="198" measuredHeight="164">
+    <items x="0" y="2" width="198" height="23" text="~( ) OpenPGP~"/>
+    <items x="0" y="25" width="198" height="23" text="(o) S/MIME"/>
+    <items x="0" y="48" width="198" height="11" text="---"/>
+    <items x="0" y="59" width="198" height="23" text="[x] Encrypt"/>
+    <items x="0" y="82" width="198" height="23" text="[x] Sign"/>
+    <items x="0" y="105" width="198" height="11" text="---"/>
+    <items x="0" y="116" width="198" height="23" text="View Certificates for Recipients"/>
+    <items x="0" y="139" width="198" height="23" text="Open Certificate Manager"/>
   </widgets>
   <widgets xsi:type="model:Label" id="1765" x="-51" y="3955" text="Identity with both technologies" measuredWidth="344" measuredHeight="38">
     <font size="24px"/>
@@ -623,14 +625,15 @@
   <widgets xsi:type="model:Label" id="1771" x="721" y="4031" text="S/MIME" measuredWidth="91" measuredHeight="38">
     <font size="24px"/>
   </widgets>
-  <widgets xsi:type="model:Popup" id="1772" x="597" y="4085" text="( ) OpenPGP&#xA;(o) S/MIME&#xA;---&#xA;[x] Encrypt&#xA;[x] Sign&#xA;---&#xA;Manage Certificates for Recipients" measuredWidth="215" measuredHeight="141">
-    <items x="0" y="2" width="215" height="23" text="( ) OpenPGP"/>
-    <items x="0" y="25" width="215" height="23" text="(o) S/MIME"/>
-    <items x="0" y="48" width="215" height="11" text="---"/>
-    <items x="0" y="59" width="215" height="23" text="[x] Encrypt"/>
-    <items x="0" y="82" width="215" height="23" text="[x] Sign"/>
-    <items x="0" y="105" width="215" height="11" text="---"/>
-    <items x="0" y="116" width="215" height="23" text="Manage Certificates for Recipients"/>
+  <widgets xsi:type="model:Popup" id="1772" x="597" y="4085" text="( ) OpenPGP&#xA;(o) S/MIME&#xA;---&#xA;[x] Encrypt&#xA;[x] Sign&#xA;---&#xA;View Certificates for Recipients&#xA;Open Certificate Manager" measuredWidth="198" measuredHeight="164">
+    <items x="0" y="2" width="198" height="23" text="( ) OpenPGP"/>
+    <items x="0" y="25" width="198" height="23" text="(o) S/MIME"/>
+    <items x="0" y="48" width="198" height="11" text="---"/>
+    <items x="0" y="59" width="198" height="23" text="[x] Encrypt"/>
+    <items x="0" y="82" width="198" height="23" text="[x] Sign"/>
+    <items x="0" y="105" width="198" height="11" text="---"/>
+    <items x="0" y="116" width="198" height="23" text="View Certificates for Recipients"/>
+    <items x="0" y="139" width="198" height="23" text="Open Certificate Manager"/>
   </widgets>
   <widgets xsi:type="model:Arrow" id="1780" x="-168" y="2219" width="481" height="8" measuredWidth="481" measuredHeight="8" left="false" right="true" direction="bottom"/>
   <widgets xsi:type="model:Arrow" id="1782" x="-193" y="2461" width="114" height="99" measuredWidth="114" measuredHeight="99" left="false" right="true" direction="bottom"/>
@@ -639,7 +642,7 @@
   <widgets xsi:type="model:Arrow" id="1785" x="-193" y="3461" width="114" height="145" measuredWidth="114" measuredHeight="145" left="false" right="true"/>
   <widgets xsi:type="model:Arrow" id="1786" x="-193" y="3101" width="114" height="355" measuredWidth="114" measuredHeight="355" left="false" right="true" direction="bottom"/>
   <widgets xsi:type="model:Arrow" id="1787" x="-193" y="3461" width="122" height="499" measuredWidth="122" measuredHeight="499" left="false" right="true"/>
-  <widgets xsi:type="model:Note" id="1805" x="673" y="2912" width="215" height="44" text="Only display S/MIME options if the user only has S/MIME." measuredWidth="215" measuredHeight="44" textAlignment="Left">
+  <widgets xsi:type="model:Note" id="1805" x="673" y="2942" width="215" height="44" text="Only display S/MIME options if the user only has S/MIME." measuredWidth="215" measuredHeight="44" textAlignment="Left">
     <font/>
   </widgets>
   <widgets xsi:type="model:Label" id="1806" x="367" y="-886" text="Account settings" measuredWidth="186" measuredHeight="38">
