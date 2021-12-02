@@ -420,7 +420,7 @@
     <font size="24px"/>
   </widgets>
   <widgets xsi:type="model:Arrow" id="1514" x="244" y="-396" width="292" height="63" measuredWidth="292" measuredHeight="63" direction="bottom"/>
-  <widgets xsi:type="model:Note" id="1515" x="49" y="-405" width="183" height="43" text="Display a broken lock if subject encryption is disabled." measuredWidth="183" measuredHeight="43" textAlignment="Left">
+  <widgets xsi:type="model:Note" id="1515" x="49" y="-415" width="224" height="60" text="- OpenPGP: Display a broken lock if subject encryption is disabled.&#xA;- S/MIME: Always display." measuredWidth="224" measuredHeight="60" textAlignment="Left">
     <font/>
   </widgets>
   <widgets xsi:type="model:Note" id="1569" x="368" y="1081" width="681" height="25" text="Only if the user has &quot;Disable encryption for new messages&quot; in their settings." measuredWidth="681" measuredHeight="25" textAlignment="Left">
