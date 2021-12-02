@@ -83,59 +83,17 @@
   <widgets xsi:type="model:Label" id="560" x="1318" y="228" text="Recipient pills" measuredWidth="157" measuredHeight="38">
     <font size="24px"/>
   </widgets>
-  <widgets xsi:type="model:WidgetGroup" id="704" x="360" y="809" measuredWidth="666" measuredHeight="32">
-    <widgets xsi:type="model:WidgetGroup" id="705" measuredWidth="666" measuredHeight="32">
-      <widgets xsi:type="model:Panel" id="706" width="666" height="32" measuredWidth="666" measuredHeight="32"/>
-      <widgets xsi:type="model:Label" id="707" x="7" y="4" text="{assets/privacy-security} You have not accepted the key for *unaccepted@example.com*." measuredWidth="359" measuredHeight="24">
+  <widgets xsi:type="model:WidgetGroup" id="716" x="360" y="771" measuredWidth="700" measuredHeight="32">
+    <widgets xsi:type="model:WidgetGroup" id="717" width="700" measuredWidth="700" measuredHeight="32">
+      <widgets xsi:type="model:Panel" id="718" width="700" height="32" measuredWidth="700" measuredHeight="32"/>
+      <widgets xsi:type="model:Label" id="719" x="5" y="4" width="499" text="{assets/privacy-security} End-to-end encryption requires resolving key issues for *unavailable@example.com*." measuredWidth="499" measuredHeight="24">
         <font/>
       </widgets>
     </widgets>
-    <widgets xsi:type="model:Button" id="1132" x="466" y="5" height="23" text="Disable Encryption" measuredWidth="122" measuredHeight="23">
+    <widgets xsi:type="model:Button" id="1130" x="500" y="5" height="23" text="Disable Encryption" measuredWidth="122" measuredHeight="23">
       <font/>
     </widgets>
-    <widgets xsi:type="model:Button" id="1133" x="591" y="5" height="23" text="Resolve..." measuredWidth="71" measuredHeight="23">
-      <font/>
-    </widgets>
-  </widgets>
-  <widgets xsi:type="model:WidgetGroup" id="716" x="360" y="771" measuredWidth="666" measuredHeight="32">
-    <widgets xsi:type="model:WidgetGroup" id="717" width="666" measuredWidth="666" measuredHeight="32">
-      <widgets xsi:type="model:Panel" id="718" width="666" height="32" measuredWidth="666" measuredHeight="32"/>
-      <widgets xsi:type="model:Label" id="719" x="6" y="4" text="{assets/privacy-security} You don't have a key for *unavailable@example.com*." measuredWidth="304" measuredHeight="24">
-        <font/>
-      </widgets>
-    </widgets>
-    <widgets xsi:type="model:Button" id="1130" x="466" y="5" height="23" text="Disable Encryption" measuredWidth="122" measuredHeight="23">
-      <font/>
-    </widgets>
-    <widgets xsi:type="model:Button" id="1131" x="591" y="5" height="23" text="Resolve..." measuredWidth="71" measuredHeight="23">
-      <font/>
-    </widgets>
-  </widgets>
-  <widgets xsi:type="model:WidgetGroup" id="751" x="360" y="848" measuredWidth="666" measuredHeight="32">
-    <widgets xsi:type="model:WidgetGroup" id="752" measuredWidth="666" measuredHeight="32">
-      <widgets xsi:type="model:Panel" id="753" width="666" height="32" measuredWidth="666" measuredHeight="32"/>
-      <widgets xsi:type="model:Label" id="754" x="7" y="4" text="{assets/privacy-security} The key for *expired@example.com* has expired." measuredWidth="280" measuredHeight="24">
-        <font/>
-      </widgets>
-    </widgets>
-    <widgets xsi:type="model:Button" id="1134" x="466" y="5" height="23" text="Disable Encryption" measuredWidth="122" measuredHeight="23">
-      <font/>
-    </widgets>
-    <widgets xsi:type="model:Button" id="1135" x="591" y="5" height="23" text="Resolve..." measuredWidth="71" measuredHeight="23">
-      <font/>
-    </widgets>
-  </widgets>
-  <widgets xsi:type="model:WidgetGroup" id="757" x="360" y="887" measuredWidth="666" measuredHeight="32">
-    <widgets xsi:type="model:WidgetGroup" id="758" measuredWidth="666" measuredHeight="32">
-      <widgets xsi:type="model:Panel" id="759" width="666" height="32" measuredWidth="666" measuredHeight="32"/>
-      <widgets xsi:type="model:Label" id="760" x="7" y="4" text="{assets/privacy-security} You rejected the key for *rejected@example.com*." measuredWidth="286" measuredHeight="24">
-        <font/>
-      </widgets>
-    </widgets>
-    <widgets xsi:type="model:Button" id="1136" x="466" y="4" height="23" text="Disable Encryption" measuredWidth="122" measuredHeight="23">
-      <font/>
-    </widgets>
-    <widgets xsi:type="model:Button" id="1137" x="591" y="4" height="23" text="Resolve..." measuredWidth="71" measuredHeight="23">
+    <widgets xsi:type="model:Button" id="1131" x="625" y="5" height="23" text="Resolve..." measuredWidth="71" measuredHeight="23">
       <font/>
     </widgets>
   </widgets>
@@ -177,14 +135,6 @@
     <items x="0" y="82" width="180" height="23" text="Manage Keys for Recipients"/>
     <items x="0" y="105" width="180" height="23" text="Open Key Manager"/>
   </widgets>
-  <widgets xsi:type="model:WidgetGroup" id="894" x="360" y="926" measuredWidth="666" measuredHeight="32">
-    <widgets xsi:type="model:WidgetGroup" id="895" measuredWidth="666" measuredHeight="32">
-      <widgets xsi:type="model:Panel" id="896" width="666" height="32" measuredWidth="666" measuredHeight="32"/>
-      <widgets xsi:type="model:Label" id="897" x="7" y="4" text="{assets/privacy-security} You have several invalid keys for *multiple@example.com*." measuredWidth="334" measuredHeight="24">
-        <font/>
-      </widgets>
-    </widgets>
-  </widgets>
   <widgets xsi:type="model:Button" id="1008" x="21" y="35" width="100" height="23" text="{assets/privacy-security} Encryption" measuredWidth="100" measuredHeight="23" state="selected">
     <font/>
   </widgets>
@@ -196,12 +146,6 @@
     <items x="0" y="82" width="161" height="23" text="[ ] My OpenPGP Public Key"/>
     <items x="0" y="105" width="161" height="11" text="---"/>
     <items x="0" y="116" width="161" height="23" text="[ ] Remind Me Later"/>
-  </widgets>
-  <widgets xsi:type="model:Button" id="1147" x="826" y="930" height="23" text="Disable Encryption" measuredWidth="122" measuredHeight="23">
-    <font/>
-  </widgets>
-  <widgets xsi:type="model:Button" id="1148" x="951" y="930" height="23" text="Resolve..." measuredWidth="71" measuredHeight="23">
-    <font/>
   </widgets>
   <widgets xsi:type="model:Label" id="1152" x="1102" y="-293" text="Attach menu" measuredWidth="143" measuredHeight="38">
     <font size="24px"/>
