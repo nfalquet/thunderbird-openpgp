@@ -77,7 +77,7 @@
   <widgets xsi:type="model:Button" id="361" x="1318" y="579" height="20" text="rejected@example.com {warning}" measuredWidth="166" measuredHeight="20">
     <font/>
   </widgets>
-  <widgets xsi:type="model:Label" id="556" x="-275" y="42" text="Encryption toggle" measuredWidth="199" measuredHeight="38">
+  <widgets xsi:type="model:Label" id="556" x="-397" y="42" text="Encryption toggle" measuredWidth="199" measuredHeight="38">
     <font size="24px"/>
   </widgets>
   <widgets xsi:type="model:Label" id="560" x="1318" y="228" text="Recipient pills" measuredWidth="157" measuredHeight="38">
@@ -146,7 +146,7 @@
   </widgets>
   <widgets xsi:type="model:Arrow" id="1182" x="1008" y="-177" width="95" height="60" measuredWidth="95" measuredHeight="60" left="false" right="true" direction="bottom"/>
   <widgets xsi:type="model:Arrow" id="1183" x="650" y="-299" width="30" height="152" measuredWidth="30" measuredHeight="152" left="false" right="true" direction="bottom"/>
-  <widgets xsi:type="model:Arrow" id="1184" x="120" y="-118" width="340" height="198" measuredWidth="340" measuredHeight="198" direction="bottom"/>
+  <widgets xsi:type="model:Arrow" id="1184" x="-144" y="-118" width="604" height="143" measuredWidth="604" measuredHeight="143" direction="bottom"/>
   <widgets xsi:type="model:Label" id="1188" x="367" y="-226" text="No key issues" measuredWidth="151" measuredHeight="38">
     <font size="24px"/>
   </widgets>
@@ -718,29 +718,56 @@
     <font/>
   </widgets>
   <widgets xsi:type="model:Arrow" id="1861" x="519" y="2240" width="64" height="74" measuredWidth="64" measuredHeight="74" left="false" right="true"/>
-  <widgets xsi:type="model:Button" id="1868" x="-516" y="197" width="100" height="23" text="{assets/privacy-security} Encryption" measuredWidth="100" measuredHeight="23">
+  <widgets xsi:type="model:Button" id="1868" x="-516" y="297" width="100" height="23" text="{assets/privacy-security} Encryption" measuredWidth="100" measuredHeight="23">
     <font/>
   </widgets>
-  <widgets xsi:type="model:Label" id="1875" x="-397" y="197" text="Available and unpressed: encryption is not configured and the button opens an assistant to configure OpenPGP (not designed yet)." measuredWidth="708" measuredHeight="23">
+  <widgets xsi:type="model:Label" id="1875" x="-397" y="297" text="Available and unpressed: encryption is not configured and the button opens an assistant to configure OpenPGP (not designed yet)." measuredWidth="708" measuredHeight="23">
     <font size="12px"/>
   </widgets>
-  <widgets xsi:type="model:Button" id="1872" x="-516" y="106" width="100" height="23" text="{assets/lock-stricked} Encryption" measuredWidth="100" measuredHeight="23">
+  <widgets xsi:type="model:Button" id="1872" x="-516" y="136" width="100" height="23" text="{assets/lock-stricked} Encryption" measuredWidth="100" measuredHeight="23">
     <font/>
   </widgets>
-  <widgets xsi:type="model:Label" id="1876" x="-397" y="106" text="Available and unpressed with broken lock: encryption is not enabled for this message." measuredWidth="467" measuredHeight="23">
+  <widgets xsi:type="model:Label" id="1876" x="-397" y="136" text="Available and unpressed with broken lock: encryption is not enabled for this message." measuredWidth="467" measuredHeight="23">
     <font size="12px"/>
   </widgets>
-  <widgets xsi:type="model:Button" id="1871" x="-516" y="136" width="100" height="23" text="{assets/privacy-security} Encryption" measuredWidth="100" measuredHeight="23" state="selected">
+  <widgets xsi:type="model:Button" id="1871" x="-516" y="166" width="100" height="23" text="{assets/privacy-security} Encryption" measuredWidth="100" measuredHeight="23" state="selected">
     <font/>
   </widgets>
-  <widgets xsi:type="model:Label" id="1877" x="-397" y="136" text="Available and pressed with plain lock: encryption is enabled for this message." measuredWidth="420" measuredHeight="23">
+  <widgets xsi:type="model:Label" id="1877" x="-397" y="166" text="Available and pressed with plain lock: encryption is enabled for this message." measuredWidth="420" measuredHeight="23">
     <font size="12px"/>
   </widgets>
-  <widgets xsi:type="model:Button" id="1869" x="-516" y="166" width="100" height="23" text="{assets/privacy-security} Encryption" measuredWidth="100" measuredHeight="23" state="disabled">
+  <widgets xsi:type="model:Button" id="1869" x="-516" y="266" width="100" height="23" text="{assets/privacy-security} Encryption" measuredWidth="100" measuredHeight="23" state="disabled">
     <font/>
   </widgets>
-  <widgets xsi:type="model:Label" id="1878" x="-397" y="166" text="Unavailable: encryption is not available for this identity." measuredWidth="302" measuredHeight="23">
+  <widgets xsi:type="model:Label" id="1878" x="-397" y="266" text="Unavailable: encryption is not available for this identity." measuredWidth="302" measuredHeight="23">
     <font size="12px"/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="1897" x="-634" y="136" width="100" height="23" text="{assets/lock-stricked} Encryption" measuredWidth="100" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="1899" x="-634" y="166" width="100" height="23" text="{assets/privacy-security} Encrypted" measuredWidth="100" measuredHeight="23" state="selected">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="1903" x="-754" y="136" width="100" height="23" text="{assets/lock-stricked} Encrypt" measuredWidth="100" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="1904" x="-754" y="166" width="100" height="23" text="{assets/privacy-security} Encrypted" measuredWidth="100" measuredHeight="23" state="selected">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="1905" x="-397" y="95" text="Encryption is already configured" measuredWidth="277" measuredHeight="32">
+    <font size="18px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="1906" x="-397" y="225" text="Encryption is not configured yet" measuredWidth="274" measuredHeight="32">
+    <font size="18px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="1908" x="-714" y="92" text="C" measuredWidth="18" measuredHeight="32">
+    <font size="18px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="1910" x="-593" y="92" text="B" measuredWidth="18" measuredHeight="32">
+    <font size="18px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="1911" x="-475" y="92" text="A" measuredWidth="19" measuredHeight="32">
+    <font size="18px"/>
   </widgets>
   <hRuler/>
   <vRuler/>
