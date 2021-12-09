@@ -1,0 +1,857 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Panel" id="1229" x="356" y="-104" width="684" height="279" measuredWidth="684" measuredHeight="279"/>
+  <widgets xsi:type="model:Window" id="1206" x="356" y="-177" width="684" height="80" text="Thunderbird" measuredWidth="684" measuredHeight="80"/>
+  <widgets xsi:type="model:Menu" id="1207" x="356" y="-160" width="684" text="&amp;File,&amp;Edit,&amp;View,&amp;Insert,F&amp;ormat,O&amp;ptions,&amp;Security,&amp;Tools,&amp;Help" measuredWidth="684" measuredHeight="27">
+    <items x="5" y="0" width="30" height="27" text="&amp;File"/>
+    <items x="35" y="0" width="32" height="27" text="&amp;Edit"/>
+    <items x="67" y="0" width="37" height="27" text="&amp;View"/>
+    <items x="104" y="0" width="42" height="27" text="&amp;Insert"/>
+    <items x="146" y="0" width="51" height="27" text="F&amp;ormat"/>
+    <items x="197" y="0" width="54" height="27" text="O&amp;ptions"/>
+    <items x="251" y="0" width="55" height="27" text="&amp;Security"/>
+    <items x="306" y="0" width="41" height="27" text="&amp;Tools"/>
+    <items x="347" y="0" width="36" height="27" text="&amp;Help"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="1208" x="440" y="-93" text="From" measuredWidth="36" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="1209" x="456" y="-66" text="To" measuredWidth="20" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="1210" x="430" y="-34" text="Subject" measuredWidth="46" measuredHeight="23" textAlignment="Right">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="1211" x="487" y="-93" text="Alice &lt;alice@irq7.fr>" measuredWidth="118" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Icon" id="1212" x="658" y="-87" width="10" height="10" measuredWidth="10" measuredHeight="10" icon="assets/toolbarbutton-arrow (small)"/>
+  <widgets xsi:type="model:VLine" id="1213" x="682" y="-89" height="14" measuredWidth="6" measuredHeight="14" foreground="#999"/>
+  <widgets xsi:type="model:Label" id="1214" x="701" y="-93" text="Cc" measuredWidth="20" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="1215" x="727" y="-93" text="Bcc" measuredWidth="26" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Icon" id="1216" x="765" y="-90" measuredWidth="16" measuredHeight="16" icon="assets/overflow (small)"/>
+  <widgets xsi:type="model:Panel" id="1217" x="365" y="-5" width="666" height="170" measuredWidth="666" measuredHeight="170"/>
+  <widgets xsi:type="model:TextField" id="1218" x="480" y="-68" width="550" measuredWidth="550" measuredHeight="28">
+    <font size="16px"/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="1219" x="480" y="-37" width="550" measuredWidth="550" measuredHeight="28">
+    <font size="16px"/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="1221" x="485" y="-64" height="20" text="accepted@example.com" measuredWidth="152" measuredHeight="20">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Combo" id="1222" x="549" y="-129" width="101" text="{assets/spelling} Spelling" measuredWidth="101" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Combo" id="1223" x="656" y="-129" width="80" text="{assets/save} Save" measuredWidth="80" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="1224" x="366" y="-129" width="71" height="23" text="{assets/send} Send" measuredWidth="71" measuredHeight="23" textAlignment="Left">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="1225" x="640" y="-64" height="20" text="unavailable@example.com" measuredWidth="164" measuredHeight="20">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="1226" x="443" y="-129" width="100" height="23" text="{assets/privacy-security} Encryption" measuredWidth="100" measuredHeight="23" state="selected">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Combo" id="1227" x="943" y="-129" width="88" text="{attachment} Attach" measuredWidth="88" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="357" x="1318" y="285" height="20" text="verified@example.com" measuredWidth="144" measuredHeight="20">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="358" x="1318" y="351" height="20" text="accepted@example.com" measuredWidth="152" measuredHeight="20">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="359" x="1318" y="645" height="20" text="unavailable@example.com {warning}" measuredWidth="183" measuredHeight="20">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="360" x="1318" y="454" height="20" text="unaccepted@example.com {warning}" measuredWidth="185" measuredHeight="20">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="361" x="1318" y="579" height="20" text="rejected@example.com {warning}" measuredWidth="166" measuredHeight="20">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="556" x="-397" y="42" text="Encryption toggle" measuredWidth="202" measuredHeight="38">
+    <font size="24px" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="560" x="1318" y="228" text="Recipient pills" measuredWidth="157" measuredHeight="38">
+    <font size="24px"/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="716" x="360" y="771" measuredWidth="700" measuredHeight="32">
+    <widgets xsi:type="model:WidgetGroup" id="717" width="700" measuredWidth="700" measuredHeight="32">
+      <widgets xsi:type="model:Panel" id="718" width="700" height="32" measuredWidth="700" measuredHeight="32"/>
+      <widgets xsi:type="model:Label" id="719" x="5" y="4" width="499" text="{assets/privacy-security} End-to-end encryption requires resolving key issues for *unavailable@example.com*." measuredWidth="499" measuredHeight="24">
+        <font/>
+      </widgets>
+    </widgets>
+    <widgets xsi:type="model:Button" id="1130" x="500" y="5" height="23" text="Disable Encryption" measuredWidth="122" measuredHeight="23">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Button" id="1131" x="625" y="5" height="23" text="Resolve..." measuredWidth="71" measuredHeight="23">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:Label" id="763" x="360" y="722" text="Single recipient issue" measuredWidth="233" measuredHeight="38">
+    <font size="24px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="764" x="49" y="-453" text="Subject encryption" measuredWidth="207" measuredHeight="38">
+    <font size="24px"/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="791" x="1318" y="518" height="20" text="expired@example.com {warning}" measuredWidth="163" measuredHeight="20">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="810" x="625" y="-498" text="OpenPGP menu" measuredWidth="180" measuredHeight="38">
+    <font size="24px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="885" x="44" y="-343" text="Subject" measuredWidth="46" measuredHeight="23" textAlignment="Right">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="886" x="94" y="-346" width="158" measuredWidth="158" measuredHeight="28">
+    <font size="16px"/>
+  </widgets>
+  <widgets xsi:type="model:Icon" id="887" x="100" y="-339" measuredWidth="16" measuredHeight="16" icon="assets/lock-stricked (small)"/>
+  <widgets xsi:type="model:Popup" id="891" x="528" y="-431" text="[x] Require Encryption&#xA;[x] Subject Encryption&#xA;[x] Digitally Sign&#xA;---&#xA;Manage Keys for Recipients&#xA;Open Key Manager" measuredWidth="180" measuredHeight="130">
+    <items x="0" y="2" width="180" height="23" text="[x] Require Encryption"/>
+    <items x="0" y="25" width="180" height="23" text="[x] Subject Encryption"/>
+    <items x="0" y="48" width="180" height="23" text="[x] Digitally Sign"/>
+    <items x="0" y="71" width="180" height="11" text="---"/>
+    <items x="0" y="82" width="180" height="23" text="Manage Keys for Recipients"/>
+    <items x="0" y="105" width="180" height="23" text="Open Key Manager"/>
+  </widgets>
+  <widgets xsi:type="model:Popup" id="892" x="720" y="-431" text="[ ] Require Encrypt&#xA;~[ ] Subject Encryption~&#xA;[ ] Digitally Sign&#xA;---&#xA;Manage Keys for Recipients&#xA;Open Key Manager" measuredWidth="180" measuredHeight="130">
+    <items x="0" y="2" width="180" height="23" text="[ ] Require Encrypt"/>
+    <items x="0" y="25" width="180" height="23" text="~[ ] Subject Encryption~"/>
+    <items x="0" y="48" width="180" height="23" text="[ ] Digitally Sign"/>
+    <items x="0" y="71" width="180" height="11" text="---"/>
+    <items x="0" y="82" width="180" height="23" text="Manage Keys for Recipients"/>
+    <items x="0" y="105" width="180" height="23" text="Open Key Manager"/>
+  </widgets>
+  <widgets xsi:type="model:Popup" id="1128" x="1102" y="-226" text="&amp;File(s)&#xA;&amp;Web Page...&#xA;---&#xA;[ ] My vCard Contact...&#xA;[ ] My OpenPGP Public Key&#xA;---&#xA;[ ] Remind Me Later" measuredWidth="161" measuredHeight="141">
+    <items x="0" y="2" width="161" height="23" text="&amp;File(s)"/>
+    <items x="0" y="25" width="161" height="23" text="&amp;Web Page..."/>
+    <items x="0" y="48" width="161" height="11" text="---"/>
+    <items x="0" y="59" width="161" height="23" text="[ ] My vCard Contact..."/>
+    <items x="0" y="82" width="161" height="23" text="[ ] My OpenPGP Public Key"/>
+    <items x="0" y="105" width="161" height="11" text="---"/>
+    <items x="0" y="116" width="161" height="23" text="[ ] Remind Me Later"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="1152" x="1102" y="-293" text="Attach menu" measuredWidth="143" measuredHeight="38">
+    <font size="24px"/>
+  </widgets>
+  <widgets xsi:type="model:Arrow" id="1182" x="1008" y="-177" width="95" height="60" measuredWidth="95" measuredHeight="60" left="false" right="true" direction="bottom"/>
+  <widgets xsi:type="model:Arrow" id="1183" x="650" y="-299" width="30" height="152" measuredWidth="30" measuredHeight="152" left="false" right="true" direction="bottom"/>
+  <widgets xsi:type="model:Arrow" id="1184" x="-144" y="-118" width="604" height="143" measuredWidth="604" measuredHeight="143" direction="bottom"/>
+  <widgets xsi:type="model:Label" id="1188" x="367" y="-226" text="No key issues" measuredWidth="151" measuredHeight="38">
+    <font size="24px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="1196" x="358" y="248" text="Multiple recipient issues" measuredWidth="266" measuredHeight="38">
+    <font size="24px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="1204" x="367" y="1037" text="Notify when encryption is possible" measuredWidth="377" measuredHeight="38">
+    <font size="24px"/>
+  </widgets>
+  <widgets xsi:type="model:Window" id="1232" x="358" y="297" width="684" height="80" text="Thunderbird" measuredWidth="684" measuredHeight="80"/>
+  <widgets xsi:type="model:Panel" id="1233" x="358" y="370" width="684" height="279" measuredWidth="684" measuredHeight="279"/>
+  <widgets xsi:type="model:Menu" id="1234" x="358" y="313" width="684" text="&amp;File,&amp;Edit,&amp;View,&amp;Insert,F&amp;ormat,O&amp;ptions,&amp;Security,&amp;Tools,&amp;Help" measuredWidth="684" measuredHeight="27">
+    <items x="5" y="0" width="30" height="27" text="&amp;File"/>
+    <items x="35" y="0" width="32" height="27" text="&amp;Edit"/>
+    <items x="67" y="0" width="37" height="27" text="&amp;View"/>
+    <items x="104" y="0" width="42" height="27" text="&amp;Insert"/>
+    <items x="146" y="0" width="51" height="27" text="F&amp;ormat"/>
+    <items x="197" y="0" width="54" height="27" text="O&amp;ptions"/>
+    <items x="251" y="0" width="55" height="27" text="&amp;Security"/>
+    <items x="306" y="0" width="41" height="27" text="&amp;Tools"/>
+    <items x="347" y="0" width="36" height="27" text="&amp;Help"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="1235" x="443" y="380" text="From" measuredWidth="36" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="1236" x="459" y="407" text="To" measuredWidth="20" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="1237" x="433" y="439" text="Subject" measuredWidth="46" measuredHeight="23" textAlignment="Right">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="1238" x="490" y="380" text="Alice &lt;alice@irq7.fr>" measuredWidth="118" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Icon" id="1239" x="661" y="386" width="10" height="10" measuredWidth="10" measuredHeight="10" icon="assets/toolbarbutton-arrow (small)"/>
+  <widgets xsi:type="model:VLine" id="1240" x="685" y="384" height="14" measuredWidth="6" measuredHeight="14" foreground="#999"/>
+  <widgets xsi:type="model:Label" id="1241" x="704" y="380" text="Cc" measuredWidth="20" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="1242" x="730" y="380" text="Bcc" measuredWidth="26" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Icon" id="1243" x="768" y="383" measuredWidth="16" measuredHeight="16" icon="assets/overflow (small)"/>
+  <widgets xsi:type="model:Panel" id="1244" x="368" y="468" width="666" height="170" measuredWidth="666" measuredHeight="170"/>
+  <widgets xsi:type="model:TextField" id="1245" x="483" y="405" width="550" measuredWidth="550" measuredHeight="28">
+    <font size="16px"/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="1246" x="483" y="436" width="550" measuredWidth="550" measuredHeight="28">
+    <font size="16px"/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="1247" x="488" y="409" height="20" text="accepted@example.com" measuredWidth="152" measuredHeight="20">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Combo" id="1248" x="552" y="344" width="101" text="{assets/spelling} Spelling" measuredWidth="101" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Combo" id="1249" x="659" y="344" width="80" text="{assets/save} Save" measuredWidth="80" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="1250" x="369" y="344" width="71" height="23" text="{assets/send} Send" measuredWidth="71" measuredHeight="23" textAlignment="Left">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="1251" x="643" y="409" height="20" text="unavailable@example.com {warning}" measuredWidth="183" measuredHeight="20">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="1257" x="446" y="344" width="100" height="23" text="{assets/privacy-security} Encryption" measuredWidth="100" measuredHeight="23" state="selected">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Combo" id="1258" x="946" y="344" width="88" text="{attachment} Attach" measuredWidth="88" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="1190" x="368" y="607" measuredWidth="666" measuredHeight="32">
+    <widgets xsi:type="model:WidgetGroup" id="1191" width="666" measuredWidth="666" measuredHeight="32">
+      <widgets xsi:type="model:Panel" id="1192" width="666" height="32" measuredWidth="666" measuredHeight="32"/>
+      <widgets xsi:type="model:Label" id="1193" x="6" y="4" text="{assets/privacy-security} End-to-end encryption requires resolving key issues for 2 of the 6 recipients." measuredWidth="438" measuredHeight="24">
+        <font/>
+      </widgets>
+    </widgets>
+    <widgets xsi:type="model:Button" id="1194" x="466" y="5" height="23" text="Disable Encryption" measuredWidth="122" measuredHeight="23">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Button" id="1195" x="591" y="5" height="23" text="Resolve..." measuredWidth="71" measuredHeight="23">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:Arrow" id="1187" x="1008" y="419" width="311" height="8" measuredWidth="311" measuredHeight="8" left="false" right="true" direction="bottom"/>
+  <widgets xsi:type="model:Window" id="1261" x="366" y="1114" width="684" height="80" text="Thunderbird" measuredWidth="684" measuredHeight="80"/>
+  <widgets xsi:type="model:Panel" id="1262" x="366" y="1187" width="684" height="279" measuredWidth="684" measuredHeight="279"/>
+  <widgets xsi:type="model:Menu" id="1263" x="366" y="1130" width="684" text="&amp;File,&amp;Edit,&amp;View,&amp;Insert,F&amp;ormat,O&amp;ptions,&amp;Security,&amp;Tools,&amp;Help" measuredWidth="684" measuredHeight="27">
+    <items x="5" y="0" width="30" height="27" text="&amp;File"/>
+    <items x="35" y="0" width="32" height="27" text="&amp;Edit"/>
+    <items x="67" y="0" width="37" height="27" text="&amp;View"/>
+    <items x="104" y="0" width="42" height="27" text="&amp;Insert"/>
+    <items x="146" y="0" width="51" height="27" text="F&amp;ormat"/>
+    <items x="197" y="0" width="54" height="27" text="O&amp;ptions"/>
+    <items x="251" y="0" width="55" height="27" text="&amp;Security"/>
+    <items x="306" y="0" width="41" height="27" text="&amp;Tools"/>
+    <items x="347" y="0" width="36" height="27" text="&amp;Help"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="1264" x="451" y="1197" text="From" measuredWidth="36" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="1265" x="467" y="1224" text="To" measuredWidth="20" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="1266" x="441" y="1256" text="Subject" measuredWidth="46" measuredHeight="23" textAlignment="Right">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="1267" x="498" y="1197" text="Alice &lt;alice@irq7.fr>" measuredWidth="118" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Icon" id="1268" x="669" y="1203" width="10" height="10" measuredWidth="10" measuredHeight="10" icon="assets/toolbarbutton-arrow (small)"/>
+  <widgets xsi:type="model:VLine" id="1269" x="693" y="1201" height="14" measuredWidth="6" measuredHeight="14" foreground="#999"/>
+  <widgets xsi:type="model:Label" id="1270" x="712" y="1197" text="Cc" measuredWidth="20" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="1271" x="738" y="1197" text="Bcc" measuredWidth="26" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Icon" id="1272" x="776" y="1200" measuredWidth="16" measuredHeight="16" icon="assets/overflow (small)"/>
+  <widgets xsi:type="model:Panel" id="1273" x="376" y="1285" width="666" height="170" measuredWidth="666" measuredHeight="170"/>
+  <widgets xsi:type="model:TextField" id="1274" x="491" y="1222" width="550" measuredWidth="550" measuredHeight="28">
+    <font size="16px"/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="1275" x="491" y="1253" width="550" measuredWidth="550" measuredHeight="28">
+    <font size="16px"/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="1276" x="496" y="1226" height="20" text="accepted@example.com" measuredWidth="152" measuredHeight="20">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Combo" id="1277" x="560" y="1161" width="101" text="{assets/spelling} Spelling" measuredWidth="101" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Combo" id="1278" x="667" y="1161" width="80" text="{assets/save} Save" measuredWidth="80" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="1279" x="377" y="1161" width="71" height="23" text="{assets/send} Send" measuredWidth="71" measuredHeight="23" textAlignment="Left">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="1280" x="651" y="1226" height="20" text="verified@example.com" measuredWidth="144" measuredHeight="20">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="1281" x="454" y="1161" width="100" height="23" text="{assets/lock-stricked} Encryption" measuredWidth="100" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Combo" id="1282" x="954" y="1161" width="88" text="{attachment} Attach" measuredWidth="88" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="1198" x="376" y="1424" measuredWidth="666" measuredHeight="32">
+    <widgets xsi:type="model:WidgetGroup" id="1199" width="666" measuredWidth="666" measuredHeight="32">
+      <widgets xsi:type="model:Panel" id="1200" width="666" height="32" measuredWidth="666" measuredHeight="32"/>
+      <widgets xsi:type="model:Label" id="1201" x="6" y="4" text="{assets/privacy-security} You can use OpenPGP end-to-encryption for this message." measuredWidth="343" measuredHeight="24">
+        <font/>
+      </widgets>
+    </widgets>
+    <widgets xsi:type="model:Icon" id="1205" x="644" y="8" measuredWidth="16" measuredHeight="16" icon="delete (small)"/>
+    <widgets xsi:type="model:Button" id="1864" x="521" y="5" height="23" text="Enable Encryption" measuredWidth="118" measuredHeight="23">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:Label" id="1294" x="517" y="2050" text="Encryption technology toggle" measuredWidth="329" measuredHeight="38">
+    <font size="24px" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Window" id="1295" x="346" y="2177" width="684" height="80" text="Thunderbird" measuredWidth="684" measuredHeight="80"/>
+  <widgets xsi:type="model:Menu" id="1296" x="346" y="2193" width="684" text="&amp;File,&amp;Edit,&amp;View,&amp;Insert,F&amp;ormat,O&amp;ptions,&amp;Tools,&amp;Help" measuredWidth="684" measuredHeight="27">
+    <items x="5" y="0" width="30" height="27" text="&amp;File"/>
+    <items x="35" y="0" width="32" height="27" text="&amp;Edit"/>
+    <items x="67" y="0" width="37" height="27" text="&amp;View"/>
+    <items x="104" y="0" width="42" height="27" text="&amp;Insert"/>
+    <items x="146" y="0" width="51" height="27" text="F&amp;ormat"/>
+    <items x="197" y="0" width="54" height="27" text="O&amp;ptions"/>
+    <items x="251" y="0" width="41" height="27" text="&amp;Tools"/>
+    <items x="292" y="0" width="36" height="27" text="&amp;Help"/>
+  </widgets>
+  <widgets xsi:type="model:Combo" id="1301" x="935" y="2225" width="88" text="{attachment} Attach" measuredWidth="88" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="1447" x="376" y="1544" measuredWidth="666" measuredHeight="32">
+    <widgets xsi:type="model:WidgetGroup" id="1448" width="666" measuredWidth="666" measuredHeight="32">
+      <widgets xsi:type="model:Panel" id="1449" width="666" height="32" measuredWidth="666" measuredHeight="32"/>
+      <widgets xsi:type="model:Label" id="1450" x="6" y="4" text="{assets/privacy-security} You can use S/MIME end-to-end encryption for this message." measuredWidth="357" measuredHeight="24">
+        <font/>
+      </widgets>
+    </widgets>
+    <widgets xsi:type="model:Icon" id="1452" x="644" y="8" measuredWidth="16" measuredHeight="16" icon="delete (small)"/>
+    <widgets xsi:type="model:Button" id="1865" x="521" y="5" height="23" text="Enable Encryption" measuredWidth="118" measuredHeight="23">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:Label" id="1453" x="375" y="1498" text="If S/MIME is possible:" measuredWidth="235" measuredHeight="38">
+    <font size="24px"/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="1454" x="376" y="1644" width="740" measuredWidth="666" measuredHeight="32">
+    <widgets xsi:type="model:WidgetGroup" id="1455" width="666" measuredWidth="666" measuredHeight="32">
+      <widgets xsi:type="model:Panel" id="1456" width="666" height="32" measuredWidth="666" measuredHeight="32"/>
+      <widgets xsi:type="model:Label" id="1457" x="3" y="4" width="562" text="{assets/privacy-security} You can use end-to-end encryption for this message." measuredWidth="562" measuredHeight="24">
+        <font/>
+      </widgets>
+    </widgets>
+    <widgets xsi:type="model:Icon" id="1459" x="644" y="8" measuredWidth="16" measuredHeight="16" icon="delete (small)"/>
+    <widgets xsi:type="model:Button" id="1866" x="538" y="5" height="23" text="Enable S/MIME" measuredWidth="102" measuredHeight="23">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Button" id="1867" x="424" y="5" height="23" text="Enable OpenPGP" measuredWidth="111" measuredHeight="23">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:Label" id="1460" x="375" y="1598" text="If both OpenPGP and S/MIME are possible:" measuredWidth="466" measuredHeight="38">
+    <font size="24px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="1480" x="-586" y="2198" text="0 technologies across all identities" measuredWidth="376" measuredHeight="38">
+    <font size="24px"/>
+  </widgets>
+  <widgets xsi:type="model:Arrow" id="1514" x="244" y="-396" width="292" height="63" measuredWidth="292" measuredHeight="63" direction="bottom"/>
+  <widgets xsi:type="model:Note" id="1515" x="49" y="-415" width="224" height="60" text="- OpenPGP: Display a broken lock if subject encryption is disabled.&#xA;- S/MIME: Always display." measuredWidth="224" measuredHeight="60" textAlignment="Left">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Note" id="1569" x="368" y="1081" width="681" height="25" text="Only if the user has &quot;Disable encryption for new messages&quot; in their settings." measuredWidth="681" measuredHeight="25" textAlignment="Left">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Window" id="1578" x="346" y="2419" width="684" height="80" text="Thunderbird" measuredWidth="684" measuredHeight="80"/>
+  <widgets xsi:type="model:Menu" id="1579" x="346" y="2435" width="684" text="&amp;File,&amp;Edit,&amp;View,&amp;Insert,F&amp;ormat,O&amp;ptions,~&amp;Security~,&amp;Tools,&amp;Help" measuredWidth="684" measuredHeight="27">
+    <items x="5" y="0" width="30" height="27" text="&amp;File"/>
+    <items x="35" y="0" width="32" height="27" text="&amp;Edit"/>
+    <items x="67" y="0" width="37" height="27" text="&amp;View"/>
+    <items x="104" y="0" width="42" height="27" text="&amp;Insert"/>
+    <items x="146" y="0" width="51" height="27" text="F&amp;ormat"/>
+    <items x="197" y="0" width="54" height="27" text="O&amp;ptions"/>
+    <items x="251" y="0" width="55" height="27" text="~&amp;Security~"/>
+    <items x="306" y="0" width="41" height="27" text="&amp;Tools"/>
+    <items x="347" y="0" width="36" height="27" text="&amp;Help"/>
+  </widgets>
+  <widgets xsi:type="model:Combo" id="1580" x="541" y="2466" width="101" text="{assets/spelling} Spelling" measuredWidth="101" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Combo" id="1581" x="648" y="2466" width="80" text="{assets/save} Save" measuredWidth="80" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="1582" x="357" y="2466" width="71" height="23" text="{assets/send} Send" measuredWidth="71" measuredHeight="23" textAlignment="Left">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="1583" x="434" y="2466" width="100" height="23" text="{assets/privacy-security} Encryption" measuredWidth="100" measuredHeight="23" state="disabled">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Combo" id="1584" x="935" y="2467" width="88" text="{attachment} Attach" measuredWidth="88" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="1590" x="-586" y="2540" text="1 technology across all identities" measuredWidth="354" measuredHeight="38">
+    <font size="24px"/>
+  </widgets>
+  <widgets xsi:type="model:Window" id="1622" x="347" y="3930" width="684" height="80" text="Thunderbird" measuredWidth="684" measuredHeight="80"/>
+  <widgets xsi:type="model:Menu" id="1623" x="347" y="3946" width="684" text="&amp;File,&amp;Edit,&amp;View,&amp;Insert,F&amp;ormat,O&amp;ptions,&amp;Security,&amp;Tools,&amp;Help" measuredWidth="684" measuredHeight="27">
+    <items x="5" y="0" width="30" height="27" text="&amp;File"/>
+    <items x="35" y="0" width="32" height="27" text="&amp;Edit"/>
+    <items x="67" y="0" width="37" height="27" text="&amp;View"/>
+    <items x="104" y="0" width="42" height="27" text="&amp;Insert"/>
+    <items x="146" y="0" width="51" height="27" text="F&amp;ormat"/>
+    <items x="197" y="0" width="54" height="27" text="O&amp;ptions"/>
+    <items x="251" y="0" width="55" height="27" text="&amp;Security"/>
+    <items x="306" y="0" width="41" height="27" text="&amp;Tools"/>
+    <items x="347" y="0" width="36" height="27" text="&amp;Help"/>
+  </widgets>
+  <widgets xsi:type="model:Combo" id="1624" x="632" y="3977" width="101" text="{assets/spelling} Spelling" measuredWidth="101" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Combo" id="1625" x="739" y="3977" width="80" text="{assets/save} Save" measuredWidth="80" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="1626" x="358" y="3977" width="71" height="23" text="{assets/send} Send" measuredWidth="71" measuredHeight="23" textAlignment="Left">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="1627" x="435" y="3977" width="100" height="23" text="{assets/privacy-security} Encryption" measuredWidth="100" measuredHeight="23" state="selected">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Combo" id="1628" x="936" y="3978" width="88" text="{attachment} Attach" measuredWidth="88" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Combo" id="1629" x="541" y="3977" width="85" text="OpenPGP" measuredWidth="85" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Popup" id="1630" x="389" y="4085" text="(o) OpenPGP&#xA;( ) S/MIME&#xA;---&#xA;[x] Encrypt&#xA;[x] Encrypt Subject&#xA;[x] Sign&#xA;---&#xA;Manage Keys for Recipients&#xA;Open Key Manager" measuredWidth="180" measuredHeight="187">
+    <items x="0" y="2" width="180" height="23" text="(o) OpenPGP"/>
+    <items x="0" y="25" width="180" height="23" text="( ) S/MIME"/>
+    <items x="0" y="48" width="180" height="11" text="---"/>
+    <items x="0" y="59" width="180" height="23" text="[x] Encrypt"/>
+    <items x="0" y="82" width="180" height="23" text="[x] Encrypt Subject"/>
+    <items x="0" y="105" width="180" height="23" text="[x] Sign"/>
+    <items x="0" y="128" width="180" height="11" text="---"/>
+    <items x="0" y="139" width="180" height="23" text="Manage Keys for Recipients"/>
+    <items x="0" y="162" width="180" height="23" text="Open Key Manager"/>
+  </widgets>
+  <widgets xsi:type="model:Popup" id="1631" x="463" y="2813" text="[x] Encrypt&#xA;[x] Encrypt Subject&#xA;[x] Sign&#xA;---&#xA;Manage Keys for Recipients&#xA;Open Key Manager" measuredWidth="180" measuredHeight="130">
+    <items x="0" y="2" width="180" height="23" text="[x] Encrypt"/>
+    <items x="0" y="25" width="180" height="23" text="[x] Encrypt Subject"/>
+    <items x="0" y="48" width="180" height="23" text="[x] Sign"/>
+    <items x="0" y="71" width="180" height="11" text="---"/>
+    <items x="0" y="82" width="180" height="23" text="Manage Keys for Recipients"/>
+    <items x="0" y="105" width="180" height="23" text="Open Key Manager"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="1650" x="-51" y="2440" text="Identity without encryption" measuredWidth="300" measuredHeight="38">
+    <font size="24px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="1651" x="-51" y="2664" text="Identity with encryption" measuredWidth="264" measuredHeight="38">
+    <font size="24px"/>
+  </widgets>
+  <widgets xsi:type="model:Window" id="1652" x="346" y="2639" width="684" height="80" text="Thunderbird" measuredWidth="684" measuredHeight="80"/>
+  <widgets xsi:type="model:Menu" id="1653" x="346" y="2655" width="684" text="&amp;File,&amp;Edit,&amp;View,&amp;Insert,F&amp;ormat,O&amp;ptions,&amp;Security,&amp;Tools,&amp;Help" measuredWidth="684" measuredHeight="27">
+    <items x="5" y="0" width="30" height="27" text="&amp;File"/>
+    <items x="35" y="0" width="32" height="27" text="&amp;Edit"/>
+    <items x="67" y="0" width="37" height="27" text="&amp;View"/>
+    <items x="104" y="0" width="42" height="27" text="&amp;Insert"/>
+    <items x="146" y="0" width="51" height="27" text="F&amp;ormat"/>
+    <items x="197" y="0" width="54" height="27" text="O&amp;ptions"/>
+    <items x="251" y="0" width="55" height="27" text="&amp;Security"/>
+    <items x="306" y="0" width="41" height="27" text="&amp;Tools"/>
+    <items x="347" y="0" width="36" height="27" text="&amp;Help"/>
+  </widgets>
+  <widgets xsi:type="model:Combo" id="1654" x="541" y="2686" width="101" text="{assets/spelling} Spelling" measuredWidth="101" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Combo" id="1655" x="648" y="2686" width="80" text="{assets/save} Save" measuredWidth="80" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="1656" x="357" y="2686" width="71" height="23" text="{assets/send} Send" measuredWidth="71" measuredHeight="23" textAlignment="Left">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="1657" x="434" y="2686" width="100" height="23" text="{assets/privacy-security} Encryption" measuredWidth="100" measuredHeight="23" state="selected">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Combo" id="1658" x="935" y="2687" width="88" text="{attachment} Attach" measuredWidth="88" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="1659" x="-586" y="3440" text="2 technologies across all identities" measuredWidth="374" measuredHeight="38">
+    <font size="24px"/>
+  </widgets>
+  <widgets xsi:type="model:Arrow" id="1660" x="567" y="2668" width="59" height="145" measuredWidth="59" measuredHeight="145" direction="bottom"/>
+  <widgets xsi:type="model:Label" id="1661" x="-51" y="3079" text="Identity without encryption" measuredWidth="300" measuredHeight="38">
+    <font size="24px"/>
+  </widgets>
+  <widgets xsi:type="model:Window" id="1662" x="346" y="3059" width="684" height="80" text="Thunderbird" measuredWidth="684" measuredHeight="80"/>
+  <widgets xsi:type="model:Menu" id="1663" x="346" y="3075" width="684" text="&amp;File,&amp;Edit,&amp;View,&amp;Insert,F&amp;ormat,O&amp;ptions,~&amp;Security~,&amp;Tools,&amp;Help" measuredWidth="684" measuredHeight="27">
+    <items x="5" y="0" width="30" height="27" text="&amp;File"/>
+    <items x="35" y="0" width="32" height="27" text="&amp;Edit"/>
+    <items x="67" y="0" width="37" height="27" text="&amp;View"/>
+    <items x="104" y="0" width="42" height="27" text="&amp;Insert"/>
+    <items x="146" y="0" width="51" height="27" text="F&amp;ormat"/>
+    <items x="197" y="0" width="54" height="27" text="O&amp;ptions"/>
+    <items x="251" y="0" width="55" height="27" text="~&amp;Security~"/>
+    <items x="306" y="0" width="41" height="27" text="&amp;Tools"/>
+    <items x="347" y="0" width="36" height="27" text="&amp;Help"/>
+  </widgets>
+  <widgets xsi:type="model:Combo" id="1664" x="631" y="3106" width="101" text="{assets/spelling} Spelling" measuredWidth="101" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Combo" id="1665" x="738" y="3106" width="80" text="{assets/save} Save" measuredWidth="80" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="1666" x="357" y="3106" width="71" height="23" text="{assets/send} Send" measuredWidth="71" measuredHeight="23" textAlignment="Left">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="1667" x="434" y="3106" width="100" height="23" text="{assets/privacy-security} Encryption" measuredWidth="100" measuredHeight="23" state="selected">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Combo" id="1668" x="935" y="3107" width="88" text="{attachment} Attach" measuredWidth="88" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Combo" id="1669" x="540" y="3106" width="85" text="OpenPGP" measuredWidth="85" measuredHeight="23" state="disabled">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="1688" x="-51" y="3241" text="Identity with only OpenPGP" measuredWidth="308" measuredHeight="38">
+    <font size="24px"/>
+  </widgets>
+  <widgets xsi:type="model:Window" id="1689" x="346" y="3221" width="684" height="80" text="Thunderbird" measuredWidth="684" measuredHeight="80"/>
+  <widgets xsi:type="model:Menu" id="1690" x="346" y="3237" width="684" text="&amp;File,&amp;Edit,&amp;View,&amp;Insert,F&amp;ormat,O&amp;ptions,&amp;Security,&amp;Tools,&amp;Help" measuredWidth="684" measuredHeight="27">
+    <items x="5" y="0" width="30" height="27" text="&amp;File"/>
+    <items x="35" y="0" width="32" height="27" text="&amp;Edit"/>
+    <items x="67" y="0" width="37" height="27" text="&amp;View"/>
+    <items x="104" y="0" width="42" height="27" text="&amp;Insert"/>
+    <items x="146" y="0" width="51" height="27" text="F&amp;ormat"/>
+    <items x="197" y="0" width="54" height="27" text="O&amp;ptions"/>
+    <items x="251" y="0" width="55" height="27" text="&amp;Security"/>
+    <items x="306" y="0" width="41" height="27" text="&amp;Tools"/>
+    <items x="347" y="0" width="36" height="27" text="&amp;Help"/>
+  </widgets>
+  <widgets xsi:type="model:Combo" id="1691" x="631" y="3268" width="101" text="{assets/spelling} Spelling" measuredWidth="101" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Combo" id="1692" x="738" y="3268" width="80" text="{assets/save} Save" measuredWidth="80" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="1693" x="357" y="3268" width="71" height="23" text="{assets/send} Send" measuredWidth="71" measuredHeight="23" textAlignment="Left">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="1694" x="434" y="3268" width="100" height="23" text="{assets/privacy-security} Encryption" measuredWidth="100" measuredHeight="23" state="selected">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Combo" id="1695" x="935" y="3269" width="88" text="{attachment} Attach" measuredWidth="88" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Combo" id="1696" x="540" y="3268" width="85" text="OpenPGP" measuredWidth="85" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Popup" id="1697" x="673" y="2813" text="[x] Encrypt&#xA;[x] Sign&#xA;---&#xA;View Certificates for Recipients&#xA;Open Certificate Manager" measuredWidth="198" measuredHeight="107">
+    <items x="0" y="2" width="198" height="23" text="[x] Encrypt"/>
+    <items x="0" y="25" width="198" height="23" text="[x] Sign"/>
+    <items x="0" y="48" width="198" height="11" text="---"/>
+    <items x="0" y="59" width="198" height="23" text="View Certificates for Recipients"/>
+    <items x="0" y="82" width="198" height="23" text="Open Certificate Manager"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="1698" x="463" y="2765" text="OpenPGP" measuredWidth="114" measuredHeight="38">
+    <font size="24px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="1700" x="733" y="2765" text="S/MIME" measuredWidth="91" measuredHeight="38">
+    <font size="24px"/>
+  </widgets>
+  <widgets xsi:type="model:Popup" id="1701" x="491" y="3332" text="(o) OpenPGP&#xA;~( ) S/MIME~&#xA;---&#xA;[x] Encrypt&#xA;[x] Encrypt Subject&#xA;[x] Sign&#xA;---&#xA;Manage Keys for Recipients&#xA;Open Key Manager" measuredWidth="180" measuredHeight="187">
+    <items x="0" y="2" width="180" height="23" text="(o) OpenPGP"/>
+    <items x="0" y="25" width="180" height="23" text="~( ) S/MIME~"/>
+    <items x="0" y="48" width="180" height="11" text="---"/>
+    <items x="0" y="59" width="180" height="23" text="[x] Encrypt"/>
+    <items x="0" y="82" width="180" height="23" text="[x] Encrypt Subject"/>
+    <items x="0" y="105" width="180" height="23" text="[x] Sign"/>
+    <items x="0" y="128" width="180" height="11" text="---"/>
+    <items x="0" y="139" width="180" height="23" text="Manage Keys for Recipients"/>
+    <items x="0" y="162" width="180" height="23" text="Open Key Manager"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="1734" x="-51" y="3601" text="Identity with only S/MIME" measuredWidth="285" measuredHeight="38">
+    <font size="24px"/>
+  </widgets>
+  <widgets xsi:type="model:Window" id="1735" x="346" y="3581" width="684" height="80" text="Thunderbird" measuredWidth="684" measuredHeight="80"/>
+  <widgets xsi:type="model:Menu" id="1736" x="346" y="3597" width="684" text="&amp;File,&amp;Edit,&amp;View,&amp;Insert,F&amp;ormat,O&amp;ptions,&amp;Security,&amp;Tools,&amp;Help" measuredWidth="684" measuredHeight="27">
+    <items x="5" y="0" width="30" height="27" text="&amp;File"/>
+    <items x="35" y="0" width="32" height="27" text="&amp;Edit"/>
+    <items x="67" y="0" width="37" height="27" text="&amp;View"/>
+    <items x="104" y="0" width="42" height="27" text="&amp;Insert"/>
+    <items x="146" y="0" width="51" height="27" text="F&amp;ormat"/>
+    <items x="197" y="0" width="54" height="27" text="O&amp;ptions"/>
+    <items x="251" y="0" width="55" height="27" text="&amp;Security"/>
+    <items x="306" y="0" width="41" height="27" text="&amp;Tools"/>
+    <items x="347" y="0" width="36" height="27" text="&amp;Help"/>
+  </widgets>
+  <widgets xsi:type="model:Combo" id="1737" x="631" y="3628" width="101" text="{assets/spelling} Spelling" measuredWidth="101" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Combo" id="1738" x="738" y="3628" width="80" text="{assets/save} Save" measuredWidth="80" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="1739" x="357" y="3628" width="71" height="23" text="{assets/send} Send" measuredWidth="71" measuredHeight="23" textAlignment="Left">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="1740" x="434" y="3628" width="100" height="23" text="{assets/privacy-security} Encryption" measuredWidth="100" measuredHeight="23" state="selected">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Combo" id="1741" x="935" y="3629" width="88" text="{attachment} Attach" measuredWidth="88" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Combo" id="1742" x="540" y="3628" width="85" text="S/MIME" measuredWidth="85" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Popup" id="1761" x="493" y="3692" text="~( ) OpenPGP~&#xA;(o) S/MIME&#xA;---&#xA;[x] Encrypt&#xA;[x] Sign&#xA;---&#xA;View Certificates for Recipients&#xA;Open Certificate Manager" measuredWidth="198" measuredHeight="164">
+    <items x="0" y="2" width="198" height="23" text="~( ) OpenPGP~"/>
+    <items x="0" y="25" width="198" height="23" text="(o) S/MIME"/>
+    <items x="0" y="48" width="198" height="11" text="---"/>
+    <items x="0" y="59" width="198" height="23" text="[x] Encrypt"/>
+    <items x="0" y="82" width="198" height="23" text="[x] Sign"/>
+    <items x="0" y="105" width="198" height="11" text="---"/>
+    <items x="0" y="116" width="198" height="23" text="View Certificates for Recipients"/>
+    <items x="0" y="139" width="198" height="23" text="Open Certificate Manager"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="1765" x="-51" y="3955" text="Identity with both technologies" measuredWidth="344" measuredHeight="38">
+    <font size="24px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="1770" x="389" y="4031" text="OpenPGP" measuredWidth="114" measuredHeight="38">
+    <font size="24px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="1771" x="721" y="4031" text="S/MIME" measuredWidth="91" measuredHeight="38">
+    <font size="24px"/>
+  </widgets>
+  <widgets xsi:type="model:Popup" id="1772" x="597" y="4085" text="( ) OpenPGP&#xA;(o) S/MIME&#xA;---&#xA;[x] Encrypt&#xA;[x] Sign&#xA;---&#xA;View Certificates for Recipients&#xA;Open Certificate Manager" measuredWidth="198" measuredHeight="164">
+    <items x="0" y="2" width="198" height="23" text="( ) OpenPGP"/>
+    <items x="0" y="25" width="198" height="23" text="(o) S/MIME"/>
+    <items x="0" y="48" width="198" height="11" text="---"/>
+    <items x="0" y="59" width="198" height="23" text="[x] Encrypt"/>
+    <items x="0" y="82" width="198" height="23" text="[x] Sign"/>
+    <items x="0" y="105" width="198" height="11" text="---"/>
+    <items x="0" y="116" width="198" height="23" text="View Certificates for Recipients"/>
+    <items x="0" y="139" width="198" height="23" text="Open Certificate Manager"/>
+  </widgets>
+  <widgets xsi:type="model:Arrow" id="1780" x="-168" y="2219" width="481" height="8" measuredWidth="481" measuredHeight="8" left="false" right="true" direction="bottom"/>
+  <widgets xsi:type="model:Arrow" id="1782" x="-193" y="2461" width="114" height="99" measuredWidth="114" measuredHeight="99" left="false" right="true" direction="bottom"/>
+  <widgets xsi:type="model:Arrow" id="1783" x="-193" y="2565" width="114" height="110" measuredWidth="114" measuredHeight="110" left="false" right="true"/>
+  <widgets xsi:type="model:Arrow" id="1784" x="-193" y="3263" width="114" height="193" measuredWidth="114" measuredHeight="193" left="false" right="true" direction="bottom"/>
+  <widgets xsi:type="model:Arrow" id="1785" x="-193" y="3461" width="114" height="145" measuredWidth="114" measuredHeight="145" left="false" right="true"/>
+  <widgets xsi:type="model:Arrow" id="1786" x="-193" y="3101" width="114" height="355" measuredWidth="114" measuredHeight="355" left="false" right="true" direction="bottom"/>
+  <widgets xsi:type="model:Arrow" id="1787" x="-193" y="3461" width="122" height="499" measuredWidth="122" measuredHeight="499" left="false" right="true"/>
+  <widgets xsi:type="model:Note" id="1805" x="673" y="2942" width="215" height="44" text="Only display S/MIME options if the user only has S/MIME." measuredWidth="215" measuredHeight="44" textAlignment="Left">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="1806" x="367" y="-976" text="Account settings" measuredWidth="189" measuredHeight="38">
+    <font size="24px" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:List" id="1807" x="359" y="-828" text="*Default settings for sending messages*&#xA;&#xA;Without end-to-end encryption, your messages are easily exposed to your&#xA;email provider and mass surveillance.&#xA;&#xA; [ ] *Encrypt new messages*&#xA;       You will be able to disable encryption for individual messages.&#xA;&#xA;A digital signature allows recipients to verify that the message was sent by you&#xA;and its content was not changed. Encrypted messages are always signed by default.&#xA;&#xA; [ ] *Sign unencrypted messages*" measuredWidth="460" measuredHeight="258" border="false" alpha="0">
+    <font/>
+    <items x="0" y="2" width="460" height="21" text="*Default settings for sending messages*"/>
+    <items x="0" y="23" width="460" height="21"/>
+    <items x="0" y="44" width="460" height="21" text="Without end-to-end encryption, your messages are easily exposed to your"/>
+    <items x="0" y="65" width="460" height="21" text="email provider and mass surveillance."/>
+    <items x="0" y="86" width="460" height="21"/>
+    <items x="0" y="107" width="460" height="22" text=" [ ] *Encrypt new messages*"/>
+    <items x="0" y="129" width="460" height="21" text="       You will be able to disable encryption for individual messages."/>
+    <items x="0" y="150" width="460" height="21"/>
+    <items x="0" y="171" width="460" height="21" text="A digital signature allows recipients to verify that the message was sent by you"/>
+    <items x="0" y="192" width="460" height="21" text="and its content was not changed. Encrypted messages are always signed by default."/>
+    <items x="0" y="213" width="460" height="21"/>
+    <items x="0" y="234" width="460" height="22" text=" [ ] *Sign unencrypted messages*"/>
+  </widgets>
+  <widgets xsi:type="model:Note" id="1810" x="1086" y="609" width="133" height="30" text="Opens key assistant." measuredWidth="133" measuredHeight="30" textAlignment="Left">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Arrow" id="1811" x="1024" y="623" width="61" height="8" measuredWidth="61" measuredHeight="8" left="false" right="true" direction="bottom"/>
+  <widgets xsi:type="model:Note" id="1816" x="179" y="340" width="133" height="30" text="Opens key assistant." measuredWidth="133" measuredHeight="30" textAlignment="Left">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Arrow" id="1817" x="314" y="356" width="61" height="8" measuredWidth="61" measuredHeight="8" direction="bottom"/>
+  <widgets xsi:type="model:Note" id="1820" x="179" y="-143" width="133" height="57" text="Sends without opening the key assistant." measuredWidth="133" measuredHeight="57" textAlignment="Left">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Arrow" id="1821" x="314" y="-116" width="61" height="8" measuredWidth="61" measuredHeight="8" direction="bottom"/>
+  <widgets xsi:type="model:Note" id="1822" x="963" y="-349" width="133" height="30" text="Opens key assistant." measuredWidth="133" measuredHeight="30" textAlignment="Left">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Arrow" id="1823" x="898" y="-335" width="64" height="8" measuredWidth="64" measuredHeight="8" left="false" right="true"/>
+  <widgets xsi:type="model:Arrow" id="1826" x="638" y="2668" width="69" height="146" measuredWidth="69" measuredHeight="146" left="false" right="true"/>
+  <widgets xsi:type="model:Arrow" id="1827" x="595" y="3250" width="34" height="83" measuredWidth="34" measuredHeight="83" direction="bottom"/>
+  <widgets xsi:type="model:Arrow" id="1828" x="558" y="3278" width="17" height="55" measuredWidth="17" measuredHeight="55" left="false" right="true"/>
+  <widgets xsi:type="model:Arrow" id="1829" x="594" y="3610" width="34" height="83" measuredWidth="34" measuredHeight="83" direction="bottom"/>
+  <widgets xsi:type="model:Arrow" id="1830" x="557" y="3638" width="17" height="55" measuredWidth="17" measuredHeight="55" left="false" right="true"/>
+  <widgets xsi:type="model:Arrow" id="1831" x="633" y="3959" width="31" height="127" measuredWidth="31" measuredHeight="127" left="false" right="true"/>
+  <widgets xsi:type="model:Arrow" id="1832" x="583" y="3993" width="66" height="93" measuredWidth="66" measuredHeight="93" left="false" right="true"/>
+  <widgets xsi:type="model:Arrow" id="1833" x="533" y="3959" width="86" height="127" measuredWidth="86" measuredHeight="127" direction="bottom"/>
+  <widgets xsi:type="model:Arrow" id="1834" x="507" y="3992" width="64" height="94" measuredWidth="64" measuredHeight="94" direction="bottom"/>
+  <widgets xsi:type="model:Popup" id="1838" x="1112" y="3638" text="&amp;File(s)&#xA;&amp;Web Page...&#xA;---&#xA;[ ] My vCard Contact...&#xA;---&#xA;[ ] Remind Me Later" measuredWidth="136" measuredHeight="118">
+    <items x="0" y="2" width="136" height="23" text="&amp;File(s)"/>
+    <items x="0" y="25" width="136" height="23" text="&amp;Web Page..."/>
+    <items x="0" y="48" width="136" height="11" text="---"/>
+    <items x="0" y="59" width="136" height="23" text="[ ] My vCard Contact..."/>
+    <items x="0" y="82" width="136" height="11" text="---"/>
+    <items x="0" y="93" width="136" height="23" text="[ ] Remind Me Later"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="1839" x="1112" y="3571" text="Attach menu" measuredWidth="143" measuredHeight="38">
+    <font size="24px"/>
+  </widgets>
+  <widgets xsi:type="model:Note" id="1844" x="720" y="3835" width="217" height="44" text="Options that are only for OpenPGP are hidden when using S/MIME." measuredWidth="217" measuredHeight="44" textAlignment="Left">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Combo" id="1856" x="541" y="2226" width="101" text="{assets/spelling} Spelling" measuredWidth="101" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Combo" id="1857" x="648" y="2226" width="80" text="{assets/save} Save" measuredWidth="80" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="1858" x="357" y="2226" width="71" height="23" text="{assets/send} Send" measuredWidth="71" measuredHeight="23" textAlignment="Left">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="1859" x="434" y="2226" width="100" height="23" text="{assets/privacy-security} Encryption" measuredWidth="100" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Note" id="1860" x="582" y="2299" text="Opens an assistant to configure OpenPGP." measuredWidth="246" measuredHeight="29">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Arrow" id="1861" x="519" y="2240" width="64" height="74" measuredWidth="64" measuredHeight="74" left="false" right="true"/>
+  <widgets xsi:type="model:Button" id="1868" x="-646" y="297" width="100" height="23" text="{assets/privacy-security} Encryption" measuredWidth="100" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="1875" x="-397" y="297" text="Available and unpressed: encryption is not configured and the button opens an assistant to configure OpenPGP (not designed yet)." measuredWidth="708" measuredHeight="23">
+    <font size="12px"/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="1872" x="-646" y="136" width="100" height="23" text="{assets/lock-stricked} Encryption" measuredWidth="100" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="1876" x="-397" y="136" text="Available and unpressed with broken lock: encryption is not enabled for this message." measuredWidth="467" measuredHeight="23">
+    <font size="12px"/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="1871" x="-646" y="166" width="100" height="23" text="{assets/privacy-security} Encryption" measuredWidth="100" measuredHeight="23" state="selected">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="1877" x="-397" y="166" text="Available and pressed with plain lock: encryption is enabled for this message." measuredWidth="420" measuredHeight="23">
+    <font size="12px"/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="1869" x="-646" y="266" width="100" height="23" text="{assets/privacy-security} Encryption" measuredWidth="100" measuredHeight="23" state="disabled">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="1878" x="-397" y="266" text="Unavailable: encryption is not available for this identity." measuredWidth="302" measuredHeight="23">
+    <font size="12px"/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="1897" x="-764" y="136" width="100" height="23" text="{assets/lock-stricked} Encryption" measuredWidth="100" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="1899" x="-764" y="166" width="100" height="23" text="{assets/privacy-security} Encrypted" measuredWidth="100" measuredHeight="23" state="selected">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="1903" x="-884" y="136" width="100" height="23" text="{assets/lock-stricked} Encrypt" measuredWidth="100" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="1904" x="-884" y="166" width="100" height="23" text="{assets/privacy-security} Encrypted" measuredWidth="100" measuredHeight="23" state="selected">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="1905" x="-397" y="95" text="Encryption is already configured" measuredWidth="277" measuredHeight="32">
+    <font size="18px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="1906" x="-397" y="225" text="Encryption is not configured yet" measuredWidth="274" measuredHeight="32">
+    <font size="18px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="1908" x="-844" y="92" text="C" measuredWidth="18" measuredHeight="32">
+    <font size="18px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="1910" x="-723" y="92" text="B" measuredWidth="18" measuredHeight="32">
+    <font size="18px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="1911" x="-605" y="92" text="A" measuredWidth="19" measuredHeight="32">
+    <font size="18px"/>
+  </widgets>
+  <widgets xsi:type="model:List" id="1915" x="891" y="-872" text="*Default settings for sending messages*&#xA;&#xA;Without end-to-end encryption, your messages are easily exposed to your&#xA;email provider and mass surveillance.&#xA;&#xA; (o) *Disable encryption for new messages*&#xA;       [ ] Enable encryption automatically when encrypting is possible&#xA; ( ) *Enable encryption for new messages*&#xA;       You will be able to disable encryption for individual messages.&#xA;&#xA;A digital signature allows recipients to verify that the message was sent by you&#xA;and its content was not changed. Encrypted messages are always signed by default.&#xA;&#xA; [ ] *Sign unencrypted messages*" measuredWidth="460" measuredHeight="302" border="false" alpha="0">
+    <font/>
+    <items x="0" y="2" width="460" height="21" text="*Default settings for sending messages*"/>
+    <items x="0" y="23" width="460" height="21"/>
+    <items x="0" y="44" width="460" height="21" text="Without end-to-end encryption, your messages are easily exposed to your"/>
+    <items x="0" y="65" width="460" height="21" text="email provider and mass surveillance."/>
+    <items x="0" y="86" width="460" height="21"/>
+    <items x="0" y="107" width="460" height="22" text=" (o) *Disable encryption for new messages*"/>
+    <items x="0" y="129" width="460" height="22" text="       [ ] Enable encryption automatically when encrypting is possible"/>
+    <items x="0" y="151" width="460" height="22" text=" ( ) *Enable encryption for new messages*"/>
+    <items x="0" y="173" width="460" height="21" text="       You will be able to disable encryption for individual messages."/>
+    <items x="0" y="194" width="460" height="21"/>
+    <items x="0" y="215" width="460" height="21" text="A digital signature allows recipients to verify that the message was sent by you"/>
+    <items x="0" y="236" width="460" height="21" text="and its content was not changed. Encrypted messages are always signed by default."/>
+    <items x="0" y="257" width="460" height="21"/>
+    <items x="0" y="278" width="460" height="22" text=" [ ] *Sign unencrypted messages*"/>
+  </widgets>
+  <widgets xsi:type="model:Note" id="1916" x="1348" y="-745" width="209" height="30" text="#135636: Encryption when possible" measuredWidth="209" measuredHeight="30" textAlignment="Left">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Arrow" id="1917" x="1285" y="-730" width="64" height="8" measuredWidth="64" measuredHeight="8"/>
+  <widgets xsi:type="model:Button" id="1918" x="-764" y="297" width="100" height="23" text="{assets/lock-stricked} Encryption" measuredWidth="100" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="1919" x="-764" y="266" width="100" height="23" text="{assets/lock-stricked} Encryption" measuredWidth="100" measuredHeight="23" state="disabled">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="1922" x="-723" y="225" text="B" measuredWidth="18" measuredHeight="32">
+    <font size="18px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="1923" x="-605" y="225" text="A" measuredWidth="19" measuredHeight="32">
+    <font size="18px"/>
+  </widgets>
+  <widgets xsi:type="model:Popup" id="1925" x="-707" y="427" text="( ) Do Not Encrypt&#xA;( ) Encrypt If Possible&#xA;(o) Require Encryption" measuredWidth="134" measuredHeight="73">
+    <items x="0" y="2" width="134" height="23" text="( ) Do Not Encrypt"/>
+    <items x="0" y="25" width="134" height="23" text="( ) Encrypt If Possible"/>
+    <items x="0" y="48" width="134" height="23" text="(o) Require Encryption"/>
+  </widgets>
+  <widgets xsi:type="model:Combo" id="1924" x="-707" y="409" text="{assets/privacy-security} Encryption" measuredWidth="105" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Popup" id="1926" x="-516" y="427" text="(o) Do Not Encrypt&#xA;( ) Encrypt If Possible&#xA;( ) Require Encryption" measuredWidth="134" measuredHeight="73">
+    <items x="0" y="2" width="134" height="23" text="(o) Do Not Encrypt"/>
+    <items x="0" y="25" width="134" height="23" text="( ) Encrypt If Possible"/>
+    <items x="0" y="48" width="134" height="23" text="( ) Require Encryption"/>
+  </widgets>
+  <widgets xsi:type="model:Combo" id="1927" x="-516" y="409" text="{assets/lock-stricked} Encryption" measuredWidth="105" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Image" id="1928" x="-536" y="133" measuredWidth="115" measuredHeight="29" src="assets/off.png"/>
+  <widgets xsi:type="model:Image" id="1929" x="-534" y="161" measuredWidth="110" measuredHeight="32" src="assets/on.png"/>
+  <widgets xsi:type="model:Label" id="1930" x="367" y="-926" text="First implementation" measuredWidth="233" measuredHeight="38">
+    <font size="24px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="1931" x="891" y="-926" text="Encrypt if possible" measuredWidth="203" measuredHeight="38">
+    <font size="24px"/>
+  </widgets>
+  <widgets xsi:type="model:List" id="1932" x="1611" y="-872" text="*Default settings for sending messages*&#xA;&#xA;Without end-to-end encryption, your messages are easily exposed to your&#xA;email provider and mass surveillance.&#xA;&#xA; ( ) *Encryption on*&#xA;       Turn on encryption for every new message,&#xA;       block me from sending without encryption,&#xA;       unless I manually disable encryption&#xA; (o) *Optional encryption*&#xA;      Allow sending message without encryption&#xA;      without asking me for confirguration&#xA;      (*) Remind me when sending an email with encryption&#xA;            is possible, but require me to manually enable encryption&#xA;      ( ) Automatically enable encryption if possible at the time,&#xA;            you will not be able to see in the user interface if&#xA;            encryption will be on or off.&#xA;&#xA;A digital signature allows recipients to verify that the message was sent by you&#xA;and its content was not changed. Encrypted messages are always signed by default.&#xA;&#xA; [ ] *Sign unencrypted messages*" measuredWidth="460" measuredHeight="471" border="false" alpha="0">
+    <font/>
+    <items x="0" y="2" width="460" height="21" text="*Default settings for sending messages*"/>
+    <items x="0" y="23" width="460" height="21"/>
+    <items x="0" y="44" width="460" height="21" text="Without end-to-end encryption, your messages are easily exposed to your"/>
+    <items x="0" y="65" width="460" height="21" text="email provider and mass surveillance."/>
+    <items x="0" y="86" width="460" height="21"/>
+    <items x="0" y="107" width="460" height="22" text=" ( ) *Encryption on*"/>
+    <items x="0" y="129" width="460" height="21" text="       Turn on encryption for every new message,"/>
+    <items x="0" y="150" width="460" height="21" text="       block me from sending without encryption,"/>
+    <items x="0" y="171" width="460" height="21" text="       unless I manually disable encryption"/>
+    <items x="0" y="192" width="460" height="22" text=" (o) *Optional encryption*"/>
+    <items x="0" y="214" width="460" height="21" text="      Allow sending message without encryption"/>
+    <items x="0" y="235" width="460" height="21" text="      without asking me for confirguration"/>
+    <items x="0" y="256" width="460" height="22" text="      (*) Remind me when sending an email with encryption"/>
+    <items x="0" y="278" width="460" height="21" text="            is possible, but require me to manually enable encryption"/>
+    <items x="0" y="299" width="460" height="22" text="      ( ) Automatically enable encryption if possible at the time,"/>
+    <items x="0" y="321" width="460" height="21" text="            you will not be able to see in the user interface if"/>
+    <items x="0" y="342" width="460" height="21" text="            encryption will be on or off."/>
+    <items x="0" y="363" width="460" height="21"/>
+    <items x="0" y="384" width="460" height="21" text="A digital signature allows recipients to verify that the message was sent by you"/>
+    <items x="0" y="405" width="460" height="21" text="and its content was not changed. Encrypted messages are always signed by default."/>
+    <items x="0" y="426" width="460" height="21"/>
+    <items x="0" y="447" width="460" height="22" text=" [ ] *Sign unencrypted messages*"/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>
