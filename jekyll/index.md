@@ -93,18 +93,12 @@ testing](https://simplysecure.org/blog/formative-testing).
 
 Gus Andrews helped interview, facilitate, and debrief the tests with P1 and P2.
 
-Design elements
+Composer window
 ---------------
 
-### Overview
-
-**Example screen**
+### Example screen
 
 ![](mockups/composer.png)
-
-**Summary**
-
-![](mockups/summary.png)
 
 ### Account settings
 
