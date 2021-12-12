@@ -179,25 +179,12 @@ If keys are missing for several recipients:
 > I have to act on them anyway. The emails I work a lot with I have an interest
 > in getting them in order. --&nbsp;P1
 
-### Recipient pills
+### Recipient pill
 
-If encryption is turned on, the status of the key for each recipient is
-displayed in their recipient pill:
+When a key notification is diplayed, the pill of the problematic recipients is
+highlighted:
 
-![](mockups/recipient-pills.png)
-
-The icons were well understood by test participants and are simple enough to
-improve accessibility at a very small size.
-
-These pills are completed with a tooltip that provides more information and a
-possible solution on hover:
-
-![](mockups/recipient-tooltip.png)
-
-The status of the key is also available in the right-click menu of the
-recipient pill:
-
-![](mockups/recipient-right-click.png)
+![](mockups/recipient-pill.png)
 
 ### Never Encrypt dialog
 
