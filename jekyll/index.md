@@ -186,14 +186,6 @@ highlighted:
 
 ![](mockups/recipient-pill.png)
 
-### Send button
-
-If encryption is turned on but the email is impossible to encrypt, the **Send**
-button is made unavailable and a tooltip instructs the user to review pending
-key notifications:
-
-![](mockups/send-unavailable.png)
-
 ### About the recipients dialog
 
 If encryption is turned on but the email is impossible to encrypt, we could
