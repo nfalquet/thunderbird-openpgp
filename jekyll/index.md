@@ -108,11 +108,19 @@ Design elements
 
 ### Account settings
 
-The account settings should allow people to choose between at least 2 big
+![](mockups/settings.png)
+
+It will replace the current radio buttons:
+
+![](mockups/settings-current.png)
+
+These account settings allow people to choose between 2 main
 categories: those who want to encrypt as little as possible and those who want
 to encrypt as much as possible (or everything):
 
-- According to [Ruoti et al.](https://arxiv.org/pdf/1510.08554.pdf), only 20%
+- **Encrypt new messages = Off** (default)
+
+  According to [Ruoti et al.](https://arxiv.org/pdf/1510.08554.pdf), only 20%
   of non at-risk users agree with the idea that they would "encrypt email
   frequently.”.
 
@@ -120,18 +128,16 @@ to encrypt as much as possible (or everything):
   > it, in case,  but I don't know if there's anyone I would need to send that
   > information to.
 
-- The at-risk users who were interviewed during the usability tests want to:
+- **Encrypt new messages = On** (default)
 
-  * Encrypt as much as possible.
+  The at-risk users who were interviewed during the usability tests want to
+  encrypt as much as possible, err on the side of caution, and be asked what to
+  do with key issues as part of sensitive communications.
 
-    > If encryption is possible, it's good that it's done.
-    > ---&nbsp;P1
-
-    > The logic should be to encrypt as much as possible not to attract
-    > extra attention to communications that are indeed sensitive.
-    > ---&nbsp;P4
-
-  * Be asked what to do with key issues as part of sensitive communications.
+  > Sometimes you exchange keys and you think that you have it but something
+  > goes wrong. I prefer to be asked whether to send unencrypted instead of
+  > having a bad surprise.
+  > ---&nbsp;P3
 
   The challenge for at-risk users is to introduce enough friction in the
   composer to prevent them from sending sensitive communications unencrypted,
@@ -141,80 +147,6 @@ to encrypt as much as possible (or everything):
   prevented from sending them an unencrypted email by mistake. But they don't
   want to be bothered about encryption each time they write to their yoga
   teacher who doesn't use OpenPGP.
-
-This distinction can be summarized in the account settings with the following:
-
-![](mockups/settings-only-one-1.png)
-
-Or (not tested yet):
-
-![](mockups/settings-only-one-2.png)
-
-Or (not tested yet):
-
-- **Enable encryption for new messages**
-
-It would replace the current radio buttons:
-
-![](mockups/settings-current.png)
-
-If we want to give the user more control over how much friction the composer
-adds to prevent them from sending an unencrypted email by mistake, we can add
-another suboption. This suboption would allow the user to choose between 3
-modes, which could roughly map to the modes discussed on
-[Topicbox](https://thunderbird.topicbox.com/groups/e2ee/Tcb4b3decdb7e66ce/require-encryption-vs-optional-encryption):
-
-- Manual
-
-  ![](mockups/settings-manual.png)
-
-- Relaxed
-
-  ![](mockups/settings-automatic.png)
-
-  But, at-risk users prefer some kind of interaction within the composer to
-  learn and solve key issues and erring on the side of caution.
-
-  I don't think that any of the test participants would prefer a *Relaxed* mode
-  that would not prevent them from sending an unencrypted email by mistake to
-  someone whose key expired the day before.
-
-  > Sometimes you exchange keys and you think that you have it but something
-  > goes wrong. I prefer to be asked whether to send unencrypted instead of
-  > having a bad surprise.
-  > ---&nbsp;P3
-
-- Strict
-
-  ![](mockups/settings-strict.png)
-
-  But, at-risk users also send many unencrypted emails and would not want a
-  **Strict** mode that makes it too cumbersome or entirely prevents sending
-  unencrypted emails.
-
-  > With "Require Encryption", if 70-80% of the people I write to don't use a
-  > key, I'll have to say 'no' almost every time. It'll be yet another step in
-  > the process of sending an email.
-  > ---&nbsp;P4
-
-This means that at-risk users actually want something in-between a **Relaxed**
-mode that could be too silent and a **Strict** mode that could be too
-cumbersome.
-
-I believe that the status and notification mechanisms described below can
-introduce the right amount of friction in the composer to keep at-risk users
-both safe and efficient without asking them to choose between a second
-suboption. See the [recipient pills](#recipient-pills) and [key
-notifications](#key-notifications).
-
-The additional friction that would be added by the option **Always ask me to
-confirm before sending an email unencrypted** should be discussed and better
-defined.
-
-For example, **Always ask me** could:
-
-- Always display the [recipients dialog](#about-the-recipients-dialog) when sending.
-- Not provide the [Never Encrypt dialog](#never-encrypt-dialog).
 
 ### Encryption split button
 
