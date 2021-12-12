@@ -163,6 +163,22 @@ If neither OpenPGP nor S/MIME are configured for the current identity, the
 toggle is off and clicking on it could open a configuration assistant (not
 designed yet).
 
+### Key notification
+
+If encryption is turned on, but the user doesn't have a valid and accepted key
+for one of the recipients, a key notification appears at the bottom the body of
+the email:
+
+![](mockups/key-notification-single.png)
+
+If keys are missing for several recipients:
+
+![](mockups/key-notification-multiple.png)
+
+> If I'm serious about encryption, problems should be shown right away because
+> I have to act on them anyway. The emails I work a lot with I have an interest
+> in getting them in order. --&nbsp;P1
+
 ### Recipient pills
 
 If encryption is turned on, the status of the key for each recipient is
@@ -182,27 +198,6 @@ The status of the key is also available in the right-click menu of the
 recipient pill:
 
 ![](mockups/recipient-right-click.png)
-
-### Key notifications
-
-If encryption is turned on, the recipient pills are completed with
-notifications that appear on top of the body of the email:
-
-![](mockups/recipient-notification.png)
-
-Several notifications are visible at the same time. After 3
-notifications, a single notification summarizes how many more notifications are
-not displayed yet:
-
-![](mockups/recipient-multiple.png)
-
-> If I'm serious about encryption, problems should be shown right away because
-> I have to act on them anyway. The emails I work a lot with I have an interest
-> in getting them in order. Progressively, more and more people will use PGP
-> and the list will get lower in the future. It would be good to have these
-> notifications because if I have 10 recipients, I don't have to click on 10
-> addresses. I can immediately start to address the problems from the
-> notification. --&nbsp;P1
 
 ### Never Encrypt dialog
 
