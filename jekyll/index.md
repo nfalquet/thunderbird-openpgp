@@ -66,7 +66,7 @@ and repression from State and private actors. I call them **at-risk** users:
 - P3 (Colombia), from a local social movement
 - P4 (Guatemala), a journalist and digital security trainer
 
-I asked them to perform 3 tasks on 2 proposals developed by our team, Proposal A and Proposal B,
+I asked them to perform 3 tasks on 2 proposals developed by our team, [Proposal A](mockups/proposal-a.png) and Proposal B,
 using the [think-aloud
 protocol](https://www.nngroup.com/articles/thinking-aloud-the-1-usability-tool/):
 
@@ -95,74 +95,6 @@ Gus Andrews helped interview, facilitate, and debrief the tests with P1 and P2.
 
 Design elements
 ---------------
-
-### Proposal A vs Proposal B
-
-Below is an example screen of Proposal A:
-
-![](mockups/proposal-a.png)
-
-Below is an example screen of Proposal B:
-
-![](mockups/proposal-b.png)
-
-All tests participants could use fine both proposals.
-
-When asked which one they prefer, all test participants preferred Proposal B.
-
-They liked the simpler encryption split button and the key notifications
-combined with the Never Encrypt dialog that
-provides just-in-time help.
-
-> Proposal B is much better. I can choose if I want encryption to be on
-> or not in general. If choose encryption to be off by default, I can still
-> turn it on for some people. Having these 2 options is more clear and
-> coherent. I like the "Never Encrypt" dialog.
-> ---&nbsp;P1
-
-> Proposal B is better for me, with encryption on by default. I expect the
-> program to tell me if I can't send because of a missing key. I like the
-> advice.
-> ---&nbsp;P2
-
-> I like "Encrypt If Possible" and "Require Encryption" in Proposal A, but
-> "Encryption On" and "Encryption Off" are super clear as well. I like the
-> "Send Encrypted" button in Proposal A but I prefer the notification of
-> Proposal B.
-> ---&nbsp;P3
-
-> I like "Encrypt If Possible" in Proposal A. But I like that Proposal B asks
-> you to confirm when the email will be sent unencrypted. I prefer B because if
-> we imagine that more people start encrypting, it will become better to
-> confirm before sending unencrypted emails.
-> ---&nbsp;P4
-
-P1, the test participants with less experience with OpenPGP, was also the most
-confused by Proposal A.
-
-- The combination of the 1 widgets for "what will happen" (eg. "Send
-  Encrypted") and "what the user wants" (eg. "Encrypt If Possible") seemed
-  confusing to P1:
-
-  > That's a bit confusing. I have 3 options: "Encryption", "Send Encrypted",
-  > and "Encrypt If Possible". I already said that it's ok to encrypt if
-  > possible, so I don't know why I should still make the choice. If it's not
-  > possible, it's not possible anyway. ---&nbsp;P1
-
-- "Encrypt If Possible" sounded too uncertain to P1:
-
-  > When I really want the information to be protected, 'Encrypt If Possible'
-  > is the wrong option because I need to be sure that it's going to be
-  > encrypted. ---&nbsp;P1
-
-- The options in the split button didn't seem logical to P1:
-
-  > "Do Not Encrypt" is not logical because I already have a "Send Unencrypted"
-  > button. That option I don't need. "Encrypt If Possible" is not logic either
-  > because I don't have a key for this person. ---&nbsp;P1
-
-In the rest of this document, I describe an improved version of Proposal B
-only.
 
 ### Overview
 
