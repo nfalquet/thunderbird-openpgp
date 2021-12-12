@@ -186,43 +186,6 @@ highlighted:
 
 ![](mockups/recipient-pill.png)
 
-### About the recipients dialog
-
-If encryption is turned on but the email is impossible to encrypt, we could
-instead keep the **Send** button available and display the recipients dialog with
-a list of recipients and keys when the user chooses to send the email:
-
-![](mockups/recipients-dialog.png)
-
-Recipient pills provide a better user experience than only displaying the
-recipients dialog when sending the email because:
-
-- If encryption is possible because all keys are fine, the UX is the same.
-
-- Recipient pills provide better *visibility of system status*
-  ([Usability Heuristics #1](https://www.nngroup.com/articles/visibility-system-status/)):
-
-  * They present feedback to the user as quickly as possible.
-
-  * Without this immediate feedback, the encryption toggle would remain on
-    while it's impossible to encrypt and without telling the user. The
-    **Send** button will feel uncertain. Predictable interactions create trust.
-
-- Recipient pills rely on *recognition rather than recall*
-  ([Usability Heuristics #6](https://www.nngroup.com/articles/recognition-and-recall/)):
-
-  * They inform the user about whether it is possible to encrypt without having
-    to recall, guess, or wait until they try to send. They provide help in
-    context.
-
-- Key notifications *help users recognize, diagnose, and recover from errors*
-  ([Usability Heuristics #9](https://www.nngroup.com/articles/ten-usability-heuristics/)):
-
-  * They describe the problem and provide shortcuts that can solve the error immediately.
-
-Once we have the recipient pills and key notifications, we could
-get rid of the code for this window and save a bit on maintenance.
-
 ### Additional options
 
 The same OpenPGP and S/MIME options are available from either:
@@ -433,6 +396,9 @@ Next steps
 - Test the software prototype with more at-risk users.
 
 - Design improvements for key management and discovery.
+
+Key assistant
+-------------
 
 Variations
 ----------
