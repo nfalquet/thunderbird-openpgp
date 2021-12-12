@@ -186,20 +186,6 @@ highlighted:
 
 ![](mockups/recipient-pill.png)
 
-### Never Encrypt dialog
-
-When the user chooses **Do Not Encrypt** in a notification:
-
-- The **Encryption** split button is turned off.
-
-- The user is proposed to remember this preference for this
-  recipient in the future:
-
-  ![](mockups/encrypt-never.png)
-
-  This choice is undone automatically if the user ever imports a key for this
-  recipient in the future.
-
 ### Send button
 
 If encryption is turned on but the email is impossible to encrypt, the **Send**
@@ -469,3 +455,20 @@ Variations
   right](https://www.nngroup.com/articles/state-switch-buttons/). Reenforcing
   the toggle with a change in label and icon provides multiple and strong
   signifiers and is more accessible.
+
+Additional features
+-------------------
+
+### Never Encrypt dialog
+
+When the user chooses **Do Not Encrypt** in a notification:
+
+- The **Encryption** split button is turned off.
+
+- The user is proposed to remember this preference for this
+  recipient in the future:
+
+  ![](mockups/encrypt-never.png)
+
+  This choice is undone automatically if the user ever imports a key for this
+  recipient in the future.
