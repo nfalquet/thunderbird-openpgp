@@ -142,10 +142,10 @@ to encrypt as much as possible (or everything):
   want to be bothered about encryption each time they write to their yoga
   teacher who doesn't use OpenPGP.
 
-### Encryption split button
+### Encryption toggle
 
 Whether the user wants to encrypt the email or not is displayed in the label of
-the **Encryption** split button in the toolbar, left of the **Send** button.
+the **Encryption** toggle button in the toolbar, right of the **Send** button.
 
 ![](mockups/encryption-on.png)
 
@@ -156,39 +156,12 @@ the **Encryption** split button in the toolbar, left of the **Send** button.
 When opening the composer, encryption is turned on by default depending on
 various heuristics:
 
-- If the account is configured to **Encrypt automatically if possible**.
+- If the account is configured to **Encrypt new messages**.
 - If the email is a reply to or a forward of an encrypted email.
 
-This split button is only displayed if OpenPGP or S/MIME is configured for the
-current account.
-
-**Widget**
-
-- According to Alex, a split button is easier to implement than, for example, an
-  **Encrypt** checkbox, which we also considered. Test participants had no
-  problem with the **Encryption On** and **Encryption Off** labels and nobody had
-  a strong preference for a checkbox.
-
-  ![](mockups/encrypt-checkbox.png)
-
-- Merging the encryption toggle and additional options provides everything in
-  the same widget under a single padlock icon. Split buttons were well
-  understood by test participants.
-
-- State-switch controls are [notoriously hard to get
-  right](https://www.nngroup.com/articles/state-switch-buttons/). Reenforcing
-  the toggle with a change in label and icon provides multiple and strong
-  signifiers and is more accessible.
-
-  > “Encryption On” and “Encryption Off” are super clear. ---&nbsp;P2
-
-- The **Quick Filter** feature uses a simple 3D toggle, but pressing it has
-  visible consequences beyond changing the state of the button, by displaying
-  the quick filter toolbar. It's also not mission-critical.
-
-  ![](mockups/quick-filter-off.png)
-
-  ![](mockups/quick-filter-on.png)
+If neither OpenPGP nor S/MIME are configured for the current identity, the
+toggle is off and clicking on it could open a configuration assistant (not
+designed yet).
 
 ### Recipient pills
 
@@ -500,3 +473,17 @@ Next steps
 - Test the software prototype with more at-risk users.
 
 - Design improvements for key management and discovery.
+
+Variations
+----------
+
+### Encryption split button
+
+- Merging the encryption toggle and additional options provides everything in
+  the same widget under a single padlock icon. Split buttons were well
+  understood by test participants.
+
+- State-switch controls are [notoriously hard to get
+  right](https://www.nngroup.com/articles/state-switch-buttons/). Reenforcing
+  the toggle with a change in label and icon provides multiple and strong
+  signifiers and is more accessible.
