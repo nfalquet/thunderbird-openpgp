@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <office:document xmlns:presentation="urn:oasis:names:tc:opendocument:xmlns:presentation:1.0" xmlns:css3t="http://www.w3.org/TR/css3-text/" xmlns:grddl="http://www.w3.org/2003/g/data-view#" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:formx="urn:openoffice:names:experimental:ooxml-odf-interop:xmlns:form:1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:chart="urn:oasis:names:tc:opendocument:xmlns:chart:1.0" xmlns:svg="urn:oasis:names:tc:opendocument:xmlns:svg-compatible:1.0" xmlns:text="urn:oasis:names:tc:opendocument:xmlns:text:1.0" xmlns:oooc="http://openoffice.org/2004/calc" xmlns:style="urn:oasis:names:tc:opendocument:xmlns:style:1.0" xmlns:ooow="http://openoffice.org/2004/writer" xmlns:meta="urn:oasis:names:tc:opendocument:xmlns:meta:1.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rpt="http://openoffice.org/2005/report" xmlns:draw="urn:oasis:names:tc:opendocument:xmlns:drawing:1.0" xmlns:config="urn:oasis:names:tc:opendocument:xmlns:config:1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:ooo="http://openoffice.org/2004/office" xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0" xmlns:dr3d="urn:oasis:names:tc:opendocument:xmlns:dr3d:1.0" xmlns:table="urn:oasis:names:tc:opendocument:xmlns:table:1.0" xmlns:number="urn:oasis:names:tc:opendocument:xmlns:datastyle:1.0" xmlns:of="urn:oasis:names:tc:opendocument:xmlns:of:1.2" xmlns:calcext="urn:org:documentfoundation:names:experimental:calc:xmlns:calcext:1.0" xmlns:tableooo="http://openoffice.org/2009/table" xmlns:drawooo="http://openoffice.org/2010/draw" xmlns:loext="urn:org:documentfoundation:names:experimental:office:xmlns:loext:1.0" xmlns:dom="http://www.w3.org/2001/xml-events" xmlns:field="urn:openoffice:names:experimental:ooo-ms-interop:xmlns:field:1.0" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:form="urn:oasis:names:tc:opendocument:xmlns:form:1.0" xmlns:script="urn:oasis:names:tc:opendocument:xmlns:script:1.0" xmlns:xforms="http://www.w3.org/2002/xforms" office:version="1.3" office:mimetype="application/vnd.oasis.opendocument.spreadsheet">
- <office:meta><meta:initial-creator>Debian user</meta:initial-creator><meta:creation-date>2015-03-25T15:55:10</meta:creation-date><dc:date>2022-02-21T19:14:21.574907548</dc:date><meta:editing-duration>P6DT2H46M40S</meta:editing-duration><meta:editing-cycles>996</meta:editing-cycles><meta:generator>LibreOffice/7.0.4.2$Linux_X86_64 LibreOffice_project/00$Build-2</meta:generator><meta:document-statistic meta:table-count="3" meta:cell-count="268" meta:object-count="0"/></office:meta>
+ <office:meta><meta:initial-creator>Debian user</meta:initial-creator><meta:creation-date>2015-03-25T15:55:10</meta:creation-date><dc:date>2022-02-24T19:41:12.896804517</dc:date><meta:editing-duration>P8DT3H40M22S</meta:editing-duration><meta:editing-cycles>1107</meta:editing-cycles><meta:generator>LibreOffice/7.0.4.2$Linux_X86_64 LibreOffice_project/00$Build-2</meta:generator><meta:document-statistic meta:table-count="3" meta:cell-count="341" meta:object-count="0"/></office:meta>
  <office:settings>
   <config:config-item-set config:name="ooo:view-settings">
    <config:config-item config:name="VisibleAreaTop" config:type="int">0</config:config-item>
    <config:config-item config:name="VisibleAreaLeft" config:type="int">0</config:config-item>
-   <config:config-item config:name="VisibleAreaWidth" config:type="int">42148</config:config-item>
-   <config:config-item config:name="VisibleAreaHeight" config:type="int">73993</config:config-item>
+   <config:config-item config:name="VisibleAreaWidth" config:type="int">35658</config:config-item>
+   <config:config-item config:name="VisibleAreaHeight" config:type="int">72622</config:config-item>
    <config:config-item-map-indexed config:name="Views">
     <config:config-item-map-entry>
      <config:config-item config:name="ViewId" config:type="string">view1</config:config-item>
@@ -49,17 +49,17 @@
        <config:config-item config:name="AnchoredTextOverflowLegacy" config:type="boolean">false</config:config-item>
       </config:config-item-map-entry>
       <config:config-item-map-entry config:name="issues">
-       <config:config-item config:name="CursorPositionX" config:type="int">0</config:config-item>
-       <config:config-item config:name="CursorPositionY" config:type="int">0</config:config-item>
+       <config:config-item config:name="CursorPositionX" config:type="int">11</config:config-item>
+       <config:config-item config:name="CursorPositionY" config:type="int">139</config:config-item>
        <config:config-item config:name="HorizontalSplitMode" config:type="short">0</config:config-item>
        <config:config-item config:name="VerticalSplitMode" config:type="short">2</config:config-item>
        <config:config-item config:name="HorizontalSplitPosition" config:type="int">0</config:config-item>
-       <config:config-item config:name="VerticalSplitPosition" config:type="int">2</config:config-item>
-       <config:config-item config:name="ActiveSplitRange" config:type="short">0</config:config-item>
+       <config:config-item config:name="VerticalSplitPosition" config:type="int">3</config:config-item>
+       <config:config-item config:name="ActiveSplitRange" config:type="short">2</config:config-item>
        <config:config-item config:name="PositionLeft" config:type="int">0</config:config-item>
        <config:config-item config:name="PositionRight" config:type="int">0</config:config-item>
        <config:config-item config:name="PositionTop" config:type="int">0</config:config-item>
-       <config:config-item config:name="PositionBottom" config:type="int">2</config:config-item>
+       <config:config-item config:name="PositionBottom" config:type="int">119</config:config-item>
        <config:config-item config:name="ZoomType" config:type="short">0</config:config-item>
        <config:config-item config:name="ZoomValue" config:type="int">100</config:config-item>
        <config:config-item config:name="PageViewZoomValue" config:type="int">60</config:config-item>
@@ -68,7 +68,7 @@
       </config:config-item-map-entry>
      </config:config-item-map-named>
      <config:config-item config:name="ActiveTable" config:type="string">issues</config:config-item>
-     <config:config-item config:name="HorizontalScrollbarWidth" config:type="int">1621</config:config-item>
+     <config:config-item config:name="HorizontalScrollbarWidth" config:type="int">1307</config:config-item>
      <config:config-item config:name="ZoomType" config:type="short">0</config:config-item>
      <config:config-item config:name="ZoomValue" config:type="int">100</config:config-item>
      <config:config-item config:name="PageViewZoomValue" config:type="int">60</config:config-item>
@@ -246,13 +246,13 @@
  </office:styles>
  <office:automatic-styles>
   <style:style style:name="co1" style:family="table-column">
-   <style:table-column-properties fo:break-before="auto" style:column-width="22.957cm"/>
+   <style:table-column-properties fo:break-before="auto" style:column-width="16.258cm"/>
   </style:style>
   <style:style style:name="co2" style:family="table-column">
    <style:table-column-properties fo:break-before="auto" style:column-width="0.762cm"/>
   </style:style>
   <style:style style:name="co3" style:family="table-column">
-   <style:table-column-properties fo:break-before="auto" style:column-width="1.524cm"/>
+   <style:table-column-properties fo:break-before="auto" style:column-width="1.734cm"/>
   </style:style>
   <style:style style:name="co4" style:family="table-column">
    <style:table-column-properties fo:break-before="auto" style:column-width="0.543cm"/>
@@ -304,11 +304,11 @@
   <style:style style:name="ce74" style:family="table-cell" style:parent-style-name="Default">
    <style:text-properties fo:font-weight="bold" style:font-weight-asian="bold" style:font-weight-complex="bold"/>
   </style:style>
-  <style:style style:name="ce8" style:family="table-cell" style:parent-style-name="Default">
-   <style:text-properties fo:color="#7f7f7f"/>
-  </style:style>
   <style:style style:name="ce29" style:family="table-cell" style:parent-style-name="Default">
    <style:text-properties fo:font-weight="normal" style:font-weight-asian="normal" style:font-weight-complex="normal"/>
+  </style:style>
+  <style:style style:name="ce8" style:family="table-cell" style:parent-style-name="Default">
+   <style:text-properties fo:color="#7f7f7f"/>
   </style:style>
   <style:style style:name="ce15" style:family="table-cell" style:parent-style-name="Default">
    <style:table-cell-properties style:text-align-source="fix" style:repeat-content="false" fo:background-color="transparent"/>
@@ -495,15 +495,15 @@
    <style:table-cell-properties fo:background-color="#fe7f00" style:text-align-source="fix" style:repeat-content="false"/>
    <style:paragraph-properties fo:text-align="center" fo:margin-left="0cm"/>
   </style:style>
-  <style:style style:name="ce62" style:family="table-cell" style:parent-style-name="Default">
-   <style:table-cell-properties fo:background-color="#fe7f00" style:text-align-source="fix" style:repeat-content="false"/>
-   <style:paragraph-properties fo:text-align="center" fo:margin-left="0cm"/>
-   <style:text-properties fo:font-weight="bold" style:font-weight-asian="bold" style:font-weight-complex="bold"/>
-  </style:style>
   <style:style style:name="ce63" style:family="table-cell" style:parent-style-name="Default">
    <style:table-cell-properties fo:background-color="#fe7f00" style:text-align-source="fix" style:repeat-content="false"/>
    <style:paragraph-properties fo:text-align="center" fo:margin-left="0cm"/>
    <style:text-properties fo:font-weight="normal" style:font-weight-asian="normal" style:font-weight-complex="normal"/>
+  </style:style>
+  <style:style style:name="ce62" style:family="table-cell" style:parent-style-name="Default">
+   <style:table-cell-properties fo:background-color="#fe7f00" style:text-align-source="fix" style:repeat-content="false"/>
+   <style:paragraph-properties fo:text-align="center" fo:margin-left="0cm"/>
+   <style:text-properties fo:font-weight="bold" style:font-weight-asian="bold" style:font-weight-complex="bold"/>
   </style:style>
   <style:style style:name="ce64" style:family="table-cell" style:parent-style-name="Default">
    <style:table-cell-properties fo:background-color="#fe7f00" style:text-align-source="fix" style:repeat-content="false"/>
@@ -515,12 +515,22 @@
    <style:paragraph-properties fo:text-align="center" fo:margin-left="0cm"/>
    <style:text-properties fo:color="#7f7f7f" fo:font-weight="bold" style:font-weight-asian="bold" style:font-weight-complex="bold"/>
   </style:style>
+  <style:style style:name="ce108" style:family="table-cell" style:parent-style-name="Default">
+   <style:table-cell-properties style:text-align-source="fix" style:repeat-content="false" fo:background-color="transparent"/>
+   <style:paragraph-properties fo:text-align="center" fo:margin-left="0cm"/>
+   <style:text-properties fo:font-weight="normal" style:font-weight-asian="normal" style:font-weight-complex="normal"/>
+  </style:style>
   <style:style style:name="ce10" style:family="table-cell" style:parent-style-name="Default">
    <style:table-cell-properties fo:background-color="#000000"/>
   </style:style>
   <style:style style:name="ce67" style:family="table-cell" style:parent-style-name="Default">
    <style:table-cell-properties fo:background-color="transparent"/>
    <style:text-properties fo:color="#7f7f7f" fo:font-weight="normal" style:font-weight-asian="normal" style:font-weight-complex="normal"/>
+  </style:style>
+  <style:style style:name="ce111" style:family="table-cell" style:parent-style-name="Default">
+   <style:table-cell-properties style:text-align-source="fix" style:repeat-content="false" style:vertical-align="automatic"/>
+   <style:paragraph-properties fo:text-align="center" fo:margin-left="0cm"/>
+   <style:text-properties fo:font-weight="bold" style:font-weight-asian="bold" style:font-weight-complex="bold"/>
   </style:style>
   <style:style style:name="ce68" style:family="table-cell" style:parent-style-name="Default">
    <style:table-cell-properties style:text-align-source="fix" style:repeat-content="false" fo:background-color="transparent" style:vertical-align="automatic"/>
@@ -584,7 +594,7 @@
      <text:p><text:sheet-name>???</text:sheet-name><text:s/>(<text:title>???</text:title>)</text:p>
     </style:region-left>
     <style:region-right>
-     <text:p><text:date style:data-style-name="N2" text:date-value="2022-02-21">00/00/0000</text:date>, <text:time style:data-style-name="N2" text:time-value="18:56:57.000573307">00:00:00</text:time></text:p>
+     <text:p><text:date style:data-style-name="N2" text:date-value="2022-02-24">00/00/0000</text:date>, <text:time style:data-style-name="N2" text:time-value="18:56:57.000573307">00:00:00</text:time></text:p>
     </style:region-right>
    </style:header>
    <style:header-left style:display="false"/>
@@ -601,9 +611,9 @@
     <table:table-column table:style-name="co1" table:default-cell-style-name="ce1"/>
     <table:table-column table:style-name="co2" table:number-columns-repeated="10" table:default-cell-style-name="ce9"/>
     <table:table-column table:style-name="co3" table:default-cell-style-name="Default"/>
-    <table:table-column table:style-name="co4" table:default-cell-style-name="Default"/>
+    <table:table-column table:style-name="co4" table:default-cell-style-name="ce9"/>
     <table:table-column table:style-name="co5" table:default-cell-style-name="Default"/>
-    <table:table-column table:style-name="co6" table:number-columns-repeated="1008" table:default-cell-style-name="Default"/>
+    <table:table-column table:style-name="co6" table:number-columns-repeated="1010" table:default-cell-style-name="Default"/>
     <table:table-row table:style-name="ro1">
      <table:table-cell table:style-name="ce2"/>
      <table:table-cell table:style-name="ce23" office:value-type="string" calcext:value-type="string" table:number-columns-spanned="7" table:number-rows-spanned="1">
@@ -614,7 +624,10 @@
      <table:covered-table-cell table:style-name="ce77"/>
      <table:covered-table-cell table:number-columns-repeated="3" table:style-name="ce83"/>
      <table:table-cell table:number-columns-repeated="3"/>
-     <table:table-cell table:style-name="ce77" table:number-columns-repeated="1011"/>
+     <table:table-cell table:style-name="ce77"/>
+     <table:table-cell table:style-name="ce83"/>
+     <table:table-cell table:style-name="ce77" table:number-columns-repeated="1009"/>
+     <table:table-cell table:number-columns-repeated="2"/>
     </table:table-row>
     <table:table-row table:style-name="ro2">
      <table:table-cell/>
@@ -626,7 +639,7 @@
      <table:table-cell table:style-name="ce24"/>
      <table:table-cell table:style-name="ce61"/>
      <table:table-cell table:style-name="Default" table:number-columns-repeated="3"/>
-     <table:table-cell table:number-columns-repeated="1011"/>
+     <table:table-cell table:number-columns-repeated="1013"/>
     </table:table-row>
     <table:table-row table:style-name="ro2">
      <table:table-cell office:value-type="string" calcext:value-type="string">
@@ -669,15 +682,17 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>Solution</text:p>
      </table:table-cell>
-     <table:table-cell table:number-columns-repeated="1008"/>
+     <table:table-cell table:number-columns-repeated="1010"/>
     </table:table-row>
     <table:table-row table:style-name="ro2">
      <table:table-cell table:style-name="ce5" office:value-type="string" calcext:value-type="string">
       <text:p>Trust Model</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce14" table:number-columns-repeated="10"/>
-     <table:table-cell table:style-name="ce10" table:number-columns-repeated="1009"/>
-     <table:table-cell table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce10"/>
+     <table:table-cell table:style-name="ce14"/>
+     <table:table-cell table:style-name="ce10" table:number-columns-repeated="1007"/>
+     <table:table-cell table:number-columns-repeated="4"/>
     </table:table-row>
     <table:table-row table:style-name="ro2">
      <table:table-cell table:style-name="ce74" office:value-type="string" calcext:value-type="string">
@@ -688,17 +703,21 @@
      <table:table-cell table:style-name="ce74"/>
      <table:table-cell table:style-name="ce57"/>
      <table:table-cell table:style-name="ce74" table:number-columns-repeated="2"/>
-     <table:table-cell table:style-name="ce13" office:value-type="float" office:value="2" calcext:value-type="float">
-      <text:p>2</text:p>
+     <table:table-cell table:style-name="ce13" table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce13" table:formula="of:=6*[.I5]/[.J5]" office:value-type="string" office:string-value="" calcext:value-type="error">
+      <text:p>#DIV/0!</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce13" office:value-type="float" office:value="3" calcext:value-type="float">
-      <text:p>3</text:p>
+     <table:table-cell table:style-name="ce74" office:value-type="string" calcext:value-type="string">
+      <text:p>#1757082</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce13" table:formula="of:=6*[.I5]/[.J5]" office:value-type="float" office:value="4" calcext:value-type="float">
-      <text:p>4</text:p>
+     <table:table-cell table:style-name="ce111" office:value-type="string" calcext:value-type="string">
+      <text:p>★</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce74" table:number-columns-repeated="1010"/>
-     <table:table-cell/>
+     <table:table-cell table:style-name="ce74" office:value-type="string" calcext:value-type="string">
+      <text:p>Have a dedicated screen for key verification information and widgets </text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce74" table:number-columns-repeated="1007"/>
+     <table:table-cell table:number-columns-repeated="3"/>
     </table:table-row>
     <table:table-row table:style-name="ro2">
      <table:table-cell table:style-name="ce74" office:value-type="string" calcext:value-type="string">
@@ -710,22 +729,17 @@
      <table:table-cell table:style-name="ce53"/>
      <table:table-cell table:style-name="ce74"/>
      <table:table-cell table:style-name="ce11" table:number-columns-repeated="3"/>
-     <table:table-cell table:style-name="ce74" table:number-columns-repeated="1010"/>
-     <table:table-cell/>
-    </table:table-row>
-    <table:table-row table:style-name="ro2">
      <table:table-cell table:style-name="ce74" office:value-type="string" calcext:value-type="string">
-      <text:p>Thinks that the recipient needs her key to open her emails</text:p>
+      <text:p>#1757082</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce74"/>
-     <table:table-cell table:style-name="ce38"/>
-     <table:table-cell table:style-name="ce16"/>
-     <table:table-cell table:style-name="ce74" table:number-columns-repeated="2"/>
-     <table:table-cell table:style-name="ce53"/>
-     <table:table-cell table:style-name="ce62"/>
-     <table:table-cell table:style-name="ce11" table:number-columns-repeated="3"/>
-     <table:table-cell table:style-name="ce74" table:number-columns-repeated="1010"/>
-     <table:table-cell/>
+     <table:table-cell table:style-name="ce111" office:value-type="string" calcext:value-type="string">
+      <text:p>★</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce74" office:value-type="string" calcext:value-type="string">
+      <text:p>Have a dedicated screen for key verification information and widgets </text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce74" table:number-columns-repeated="1007"/>
+     <table:table-cell table:number-columns-repeated="3"/>
     </table:table-row>
     <table:table-row table:style-name="ro2">
      <table:table-cell office:value-type="string" calcext:value-type="string">
@@ -739,7 +753,31 @@
      <table:table-cell table:style-name="ce24"/>
      <table:table-cell table:style-name="ce61"/>
      <table:table-cell table:style-name="ce11" table:number-columns-repeated="3"/>
-     <table:table-cell table:number-columns-repeated="1011"/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>#1757085</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce111" office:value-type="string" calcext:value-type="string">
+      <text:p>★</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>QR code verification of public keys</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="1010"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell table:style-name="ce29" office:value-type="string" calcext:value-type="string">
+      <text:p>Thinks that the recipient needs her key to open her emails</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce29"/>
+     <table:table-cell table:style-name="ce39"/>
+     <table:table-cell table:style-name="ce44"/>
+     <table:table-cell table:style-name="ce29" table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce54"/>
+     <table:table-cell table:style-name="ce63"/>
+     <table:table-cell table:style-name="ce108" table:number-columns-repeated="3"/>
+     <table:table-cell table:style-name="ce29"/>
+     <table:table-cell table:style-name="ce13"/>
+     <table:table-cell table:style-name="ce29" table:number-columns-repeated="1011"/>
     </table:table-row>
     <table:table-row table:style-name="ro2">
      <table:table-cell table:style-name="ce8" office:value-type="string" calcext:value-type="string">
@@ -749,8 +787,10 @@
      <table:table-cell table:style-name="ce58"/>
      <table:table-cell table:style-name="ce8" table:number-columns-repeated="2"/>
      <table:table-cell table:style-name="ce13" table:number-columns-repeated="3"/>
-     <table:table-cell table:style-name="ce8" table:number-columns-repeated="1010"/>
-     <table:table-cell/>
+     <table:table-cell table:style-name="ce8"/>
+     <table:table-cell table:style-name="ce32"/>
+     <table:table-cell table:style-name="ce8" table:number-columns-repeated="1008"/>
+     <table:table-cell table:number-columns-repeated="3"/>
     </table:table-row>
     <table:table-row table:style-name="ro2">
      <table:table-cell table:style-name="ce8" office:value-type="string" calcext:value-type="string">
@@ -760,20 +800,24 @@
      <table:table-cell table:style-name="ce48"/>
      <table:table-cell table:style-name="ce8" table:number-columns-repeated="3"/>
      <table:table-cell table:style-name="ce13" table:number-columns-repeated="3"/>
-     <table:table-cell table:style-name="ce8" table:number-columns-repeated="1010"/>
-     <table:table-cell/>
+     <table:table-cell table:style-name="ce8"/>
+     <table:table-cell table:style-name="ce32"/>
+     <table:table-cell table:style-name="ce8" table:number-columns-repeated="1008"/>
+     <table:table-cell table:number-columns-repeated="3"/>
     </table:table-row>
     <table:table-row table:style-name="ro2">
      <table:table-cell table:style-name="Default" table:number-columns-repeated="8"/>
-     <table:table-cell table:number-columns-repeated="1014"/>
+     <table:table-cell table:number-columns-repeated="1016"/>
     </table:table-row>
     <table:table-row table:style-name="ro2">
      <table:table-cell table:style-name="ce5" office:value-type="string" calcext:value-type="string">
       <text:p>Account Setup</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce14" table:number-columns-repeated="10"/>
-     <table:table-cell table:style-name="ce10" table:number-columns-repeated="1009"/>
-     <table:table-cell table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce10"/>
+     <table:table-cell table:style-name="ce14"/>
+     <table:table-cell table:style-name="ce10" table:number-columns-repeated="1007"/>
+     <table:table-cell table:number-columns-repeated="4"/>
     </table:table-row>
     <table:table-row table:style-name="ro2">
      <table:table-cell table:style-name="ce74" office:value-type="string" calcext:value-type="string">
@@ -784,12 +828,13 @@
      <table:table-cell table:style-name="ce53"/>
      <table:table-cell table:style-name="ce74"/>
      <table:table-cell table:number-columns-repeated="3"/>
-     <table:table-cell table:style-name="ce74" table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce74"/>
+     <table:table-cell table:style-name="ce75"/>
      <table:table-cell table:style-name="ce74" office:value-type="string" calcext:value-type="string">
       <text:p>Add instructional placeholder in empty POP inbox</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce74" table:number-columns-repeated="1007"/>
-     <table:table-cell/>
+     <table:table-cell table:number-columns-repeated="3"/>
     </table:table-row>
     <table:table-row table:style-name="ro2">
      <table:table-cell table:style-name="ce74" office:value-type="string" calcext:value-type="string">
@@ -798,12 +843,13 @@
      <table:table-cell table:style-name="ce74" table:number-columns-repeated="6"/>
      <table:table-cell table:style-name="ce62"/>
      <table:table-cell table:number-columns-repeated="3"/>
-     <table:table-cell table:style-name="ce74" table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce74"/>
+     <table:table-cell table:style-name="ce75"/>
      <table:table-cell table:style-name="ce74" office:value-type="string" calcext:value-type="string">
       <text:p>Better just-in-time help and documentation</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce74" table:number-columns-repeated="1007"/>
-     <table:table-cell/>
+     <table:table-cell table:number-columns-repeated="3"/>
     </table:table-row>
     <table:table-row table:style-name="ro2">
      <table:table-cell table:style-name="ce29" office:value-type="string" calcext:value-type="string">
@@ -813,12 +859,13 @@
      <table:table-cell table:style-name="ce54"/>
      <table:table-cell table:style-name="ce63"/>
      <table:table-cell table:number-columns-repeated="3"/>
-     <table:table-cell table:style-name="ce29" table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce29"/>
+     <table:table-cell table:style-name="ce13"/>
      <table:table-cell table:style-name="ce29" office:value-type="string" calcext:value-type="string">
       <text:p>Bug</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce29" table:number-columns-repeated="1007"/>
-     <table:table-cell/>
+     <table:table-cell table:number-columns-repeated="3"/>
     </table:table-row>
     <table:table-row table:style-name="ro2">
      <table:table-cell table:style-name="ce8" office:value-type="string" calcext:value-type="string">
@@ -828,8 +875,10 @@
      <table:table-cell table:style-name="ce55"/>
      <table:table-cell table:style-name="ce8"/>
      <table:table-cell table:number-columns-repeated="3"/>
-     <table:table-cell table:style-name="ce8" table:number-columns-repeated="1010"/>
-     <table:table-cell/>
+     <table:table-cell table:style-name="ce8"/>
+     <table:table-cell table:style-name="ce32"/>
+     <table:table-cell table:style-name="ce8" table:number-columns-repeated="1008"/>
+     <table:table-cell table:number-columns-repeated="3"/>
     </table:table-row>
     <table:table-row table:style-name="ro2">
      <table:table-cell table:style-name="ce15" office:value-type="string" calcext:value-type="string">
@@ -841,19 +890,82 @@
      <table:table-cell table:style-name="ce68"/>
      <table:table-cell table:style-name="ce67" table:number-columns-repeated="1007"/>
      <table:table-cell table:style-name="ce71"/>
-     <table:table-cell/>
+     <table:table-cell table:number-columns-repeated="3"/>
     </table:table-row>
     <table:table-row table:style-name="ro2">
      <table:table-cell table:style-name="Default" table:number-columns-repeated="8"/>
-     <table:table-cell table:number-columns-repeated="1014"/>
+     <table:table-cell table:number-columns-repeated="1016"/>
     </table:table-row>
     <table:table-row table:style-name="ro2">
      <table:table-cell table:style-name="ce5" office:value-type="string" calcext:value-type="string">
       <text:p>OpenPGP Setup</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce14" table:number-columns-repeated="11"/>
-     <table:table-cell table:style-name="ce10" table:number-columns-repeated="1008"/>
-     <table:table-cell table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce14" table:number-columns-repeated="12"/>
+     <table:table-cell table:style-name="ce10" table:number-columns-repeated="1007"/>
+     <table:table-cell table:number-columns-repeated="4"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell table:style-name="ce17" office:value-type="string" calcext:value-type="string">
+      <text:p>Wonders why Encrypt is unavailable when they didn’t configure OpenPGP yet</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce75" table:number-columns-repeated="4"/>
+     <table:table-cell table:style-name="ce57"/>
+     <table:table-cell table:style-name="ce53"/>
+     <table:table-cell table:style-name="ce74"/>
+     <table:table-cell table:number-columns-repeated="3"/>
+     <table:table-cell table:style-name="ce74" office:value-type="string" calcext:value-type="string">
+      <text:p>#1627956</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce69" office:value-type="string" calcext:value-type="string">
+      <text:p>❌</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce74" office:value-type="string" calcext:value-type="string">
+      <text:p>Only show the unavailable Encrypt and OpenPGP when the user has at least 1 key already</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce74" table:number-columns-repeated="1007"/>
+     <table:table-cell table:number-columns-repeated="3"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell table:style-name="ce17" office:value-type="string" calcext:value-type="string">
+      <text:p>Thinks that creating a personal key from the Key Manager is enough to setup</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce75" table:number-columns-repeated="4"/>
+     <table:table-cell table:style-name="ce57"/>
+     <table:table-cell table:style-name="ce75"/>
+     <table:table-cell table:style-name="ce74"/>
+     <table:table-cell table:number-columns-repeated="3"/>
+     <table:table-cell table:style-name="ce74" office:value-type="string" calcext:value-type="string">
+      <text:p>#1706587</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce75" office:value-type="string" calcext:value-type="string">
+      <text:p>-</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce74" office:value-type="string" calcext:value-type="string">
+      <text:p>Offer to link new personal key if it matches email account</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce74" table:number-columns-repeated="1007"/>
+     <table:table-cell table:number-columns-repeated="3"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell table:style-name="ce17" office:value-type="string" calcext:value-type="string">
+      <text:p>Thinks that the message will be encrypted because the “Encrypt” button is on (and unavailable) while OpenPGP is not configured yet</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce75" table:number-columns-repeated="4"/>
+     <table:table-cell table:style-name="ce57"/>
+     <table:table-cell table:style-name="ce75"/>
+     <table:table-cell table:style-name="ce74"/>
+     <table:table-cell table:number-columns-repeated="3"/>
+     <table:table-cell table:style-name="ce74" office:value-type="string" calcext:value-type="string">
+      <text:p>#1627956</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce69" office:value-type="string" calcext:value-type="string">
+      <text:p>❌</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce74" office:value-type="string" calcext:value-type="string">
+      <text:p>Bug</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce74" table:number-columns-repeated="1007"/>
+     <table:table-cell table:number-columns-repeated="3"/>
     </table:table-row>
     <table:table-row table:style-name="ro2">
      <table:table-cell table:style-name="ce17" office:value-type="string" calcext:value-type="string">
@@ -865,97 +977,13 @@
      <table:table-cell table:style-name="ce53"/>
      <table:table-cell table:style-name="ce62"/>
      <table:table-cell table:number-columns-repeated="3"/>
-     <table:table-cell table:style-name="ce74" table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce74"/>
+     <table:table-cell table:style-name="ce75"/>
      <table:table-cell table:style-name="ce70" office:value-type="string" calcext:value-type="string">
       <text:p>Better onboarding from Composer and Key Manager</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce74" table:number-columns-repeated="1007"/>
-     <table:table-cell/>
-    </table:table-row>
-    <table:table-row table:style-name="ro2">
-     <table:table-cell table:style-name="ce17" office:value-type="string" calcext:value-type="string">
-      <text:p>Wonders why Encrypt is unavailable when she didn’t configure OpenPGP yet</text:p>
-     </table:table-cell>
-     <table:table-cell table:style-name="ce75" table:number-columns-repeated="4"/>
-     <table:table-cell table:style-name="ce57"/>
-     <table:table-cell table:style-name="ce53"/>
-     <table:table-cell table:style-name="ce74"/>
      <table:table-cell table:number-columns-repeated="3"/>
-     <table:table-cell table:style-name="ce74"/>
-     <table:table-cell table:style-name="ce69" office:value-type="string" calcext:value-type="string">
-      <text:p>❌</text:p>
-     </table:table-cell>
-     <table:table-cell table:style-name="ce74" office:value-type="string" calcext:value-type="string">
-      <text:p>Only show the unavailable Encrypt and OpenPGP when the user has at least 1 key already</text:p>
-     </table:table-cell>
-     <table:table-cell table:style-name="ce74" table:number-columns-repeated="1007"/>
-     <table:table-cell/>
-    </table:table-row>
-    <table:table-row table:style-name="ro2">
-     <table:table-cell table:style-name="ce17" office:value-type="string" calcext:value-type="string">
-      <text:p>Thinks that creating a personal key from the Key Manager is enough to setup</text:p>
-     </table:table-cell>
-     <table:table-cell table:style-name="ce75" table:number-columns-repeated="4"/>
-     <table:table-cell table:style-name="ce57"/>
-     <table:table-cell table:style-name="ce75"/>
-     <table:table-cell table:style-name="ce74"/>
-     <table:table-cell table:number-columns-repeated="3"/>
-     <table:table-cell table:style-name="ce74" table:number-columns-repeated="2"/>
-     <table:table-cell table:style-name="ce74" office:value-type="string" calcext:value-type="string">
-      <text:p>Offer to link new personal key if it matches email account</text:p>
-     </table:table-cell>
-     <table:table-cell table:style-name="ce74" table:number-columns-repeated="1007"/>
-     <table:table-cell/>
-    </table:table-row>
-    <table:table-row table:style-name="ro2">
-     <table:table-cell table:style-name="ce17" office:value-type="string" calcext:value-type="string">
-      <text:p>Thinks that the message will be encrypted because the “Encrypt” button is on (and unavailable) while OpenPGP is not configured yet</text:p>
-     </table:table-cell>
-     <table:table-cell table:style-name="ce75" table:number-columns-repeated="4"/>
-     <table:table-cell table:style-name="ce57"/>
-     <table:table-cell table:style-name="ce75"/>
-     <table:table-cell table:style-name="ce74"/>
-     <table:table-cell table:number-columns-repeated="3"/>
-     <table:table-cell table:style-name="ce74"/>
-     <table:table-cell table:style-name="ce69" office:value-type="string" calcext:value-type="string">
-      <text:p>❌</text:p>
-     </table:table-cell>
-     <table:table-cell table:style-name="ce74" office:value-type="string" calcext:value-type="string">
-      <text:p>Bug</text:p>
-     </table:table-cell>
-     <table:table-cell table:style-name="ce74" table:number-columns-repeated="1007"/>
-     <table:table-cell/>
-    </table:table-row>
-    <table:table-row table:style-name="ro2">
-     <table:table-cell table:style-name="ce6" office:value-type="string" calcext:value-type="string">
-      <text:p>Checks the advanced settings</text:p>
-     </table:table-cell>
-     <table:table-cell table:style-name="ce31"/>
-     <table:table-cell table:style-name="ce39"/>
-     <table:table-cell table:style-name="ce44"/>
-     <table:table-cell table:style-name="ce49"/>
-     <table:table-cell table:style-name="ce59"/>
-     <table:table-cell table:style-name="ce13"/>
-     <table:table-cell table:style-name="ce63"/>
-     <table:table-cell table:number-columns-repeated="3"/>
-     <table:table-cell table:style-name="ce29" table:number-columns-repeated="2"/>
-     <table:table-cell table:style-name="ce29" office:value-type="string" calcext:value-type="string">
-      <text:p>-</text:p>
-     </table:table-cell>
-     <table:table-cell table:style-name="ce29" table:number-columns-repeated="1007"/>
-     <table:table-cell/>
-    </table:table-row>
-    <table:table-row table:style-name="ro2">
-     <table:table-cell office:value-type="string" calcext:value-type="string">
-      <text:p>Changes to “Enable” by default</text:p>
-     </table:table-cell>
-     <table:table-cell table:style-name="ce20"/>
-     <table:table-cell table:style-name="ce22"/>
-     <table:table-cell table:number-columns-repeated="10"/>
-     <table:table-cell office:value-type="string" calcext:value-type="string">
-      <text:p>-</text:p>
-     </table:table-cell>
-     <table:table-cell table:number-columns-repeated="1008"/>
     </table:table-row>
     <table:table-row table:style-name="ro2">
      <table:table-cell office:value-type="string" calcext:value-type="string">
@@ -965,11 +993,37 @@
      <table:table-cell table:style-name="ce56"/>
      <table:table-cell/>
      <table:table-cell table:style-name="ce61"/>
-     <table:table-cell table:number-columns-repeated="5"/>
+     <table:table-cell table:number-columns-repeated="3"/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>#1757089</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce111" office:value-type="string" calcext:value-type="string">
+      <text:p>★</text:p>
+     </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>Replace confirmation screen when generating key with inline feedback</text:p>
      </table:table-cell>
-     <table:table-cell table:number-columns-repeated="1008"/>
+     <table:table-cell table:number-columns-repeated="1010"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>No easy way of publish a personal key on the key servers</text:p>
+     </table:table-cell>
+     <table:table-cell/>
+     <table:table-cell table:style-name="ce22"/>
+     <table:table-cell table:number-columns-repeated="4"/>
+     <table:table-cell table:style-name="ce61"/>
+     <table:table-cell table:number-columns-repeated="3"/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>#1731232</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>-</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Offer to publish on key server after key generation, from key properties, and right-click in Key Manager</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="1010"/>
     </table:table-row>
     <table:table-row table:style-name="ro2">
      <table:table-cell office:value-type="string" calcext:value-type="string">
@@ -981,7 +1035,7 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>Improve doc and SEO</text:p>
      </table:table-cell>
-     <table:table-cell table:number-columns-repeated="1008"/>
+     <table:table-cell table:number-columns-repeated="1010"/>
     </table:table-row>
     <table:table-row table:style-name="ro2">
      <table:table-cell office:value-type="string" calcext:value-type="string">
@@ -997,21 +1051,49 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>Bug</text:p>
      </table:table-cell>
-     <table:table-cell table:number-columns-repeated="1008"/>
+     <table:table-cell table:number-columns-repeated="1010"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell table:style-name="ce6" office:value-type="string" calcext:value-type="string">
+      <text:p>Checks the advanced settings</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce31"/>
+     <table:table-cell table:style-name="ce39"/>
+     <table:table-cell table:style-name="ce44"/>
+     <table:table-cell table:style-name="ce49"/>
+     <table:table-cell table:style-name="ce59"/>
+     <table:table-cell table:style-name="ce13"/>
+     <table:table-cell table:style-name="ce63"/>
+     <table:table-cell table:number-columns-repeated="3"/>
+     <table:table-cell table:style-name="ce29"/>
+     <table:table-cell table:style-name="ce13"/>
+     <table:table-cell table:style-name="ce29" table:number-columns-repeated="1008"/>
+     <table:table-cell table:number-columns-repeated="3"/>
     </table:table-row>
     <table:table-row table:style-name="ro2">
      <table:table-cell office:value-type="string" calcext:value-type="string">
-      <text:p>No easy way of publish a personal key on the key servers</text:p>
+      <text:p>Changes to “Enable” by default</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell table:style-name="ce20"/>
      <table:table-cell table:style-name="ce22"/>
-     <table:table-cell table:number-columns-repeated="4"/>
-     <table:table-cell table:style-name="ce61"/>
-     <table:table-cell table:number-columns-repeated="5"/>
-     <table:table-cell office:value-type="string" calcext:value-type="string">
-      <text:p>Offer to publish on key server after key generation, from key properties, and right-click in Key Manager</text:p>
+     <table:table-cell table:number-columns-repeated="1021"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell table:style-name="ce21" office:value-type="string" calcext:value-type="string">
+      <text:p>Can’t find how to do a backup of their revocation certificate</text:p>
      </table:table-cell>
-     <table:table-cell table:number-columns-repeated="1008"/>
+     <table:table-cell table:style-name="ce32" table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce45"/>
+     <table:table-cell table:style-name="ce32" table:number-columns-repeated="4"/>
+     <table:table-cell table:number-columns-repeated="3"/>
+     <table:table-cell table:style-name="ce8" office:value-type="string" calcext:value-type="string">
+      <text:p>#1722825</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce32" office:value-type="string" calcext:value-type="string">
+      <text:p>-</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce8" table:number-columns-repeated="1008"/>
+     <table:table-cell table:number-columns-repeated="3"/>
     </table:table-row>
     <table:table-row table:style-name="ro2">
      <table:table-cell table:style-name="ce21" office:value-type="string" calcext:value-type="string">
@@ -1021,8 +1103,10 @@
      <table:table-cell table:style-name="ce48"/>
      <table:table-cell table:style-name="ce32" table:number-columns-repeated="3"/>
      <table:table-cell table:number-columns-repeated="3"/>
-     <table:table-cell table:style-name="ce8" table:number-columns-repeated="1010"/>
-     <table:table-cell/>
+     <table:table-cell table:style-name="ce8"/>
+     <table:table-cell table:style-name="ce32"/>
+     <table:table-cell table:style-name="ce8" table:number-columns-repeated="1008"/>
+     <table:table-cell table:number-columns-repeated="3"/>
     </table:table-row>
     <table:table-row table:style-name="ro2">
      <table:table-cell table:style-name="ce21" office:value-type="string" calcext:value-type="string">
@@ -1035,19 +1119,10 @@
      <table:table-cell table:style-name="ce32"/>
      <table:table-cell table:style-name="ce8"/>
      <table:table-cell table:number-columns-repeated="3"/>
-     <table:table-cell table:style-name="ce8" table:number-columns-repeated="1010"/>
-     <table:table-cell/>
-    </table:table-row>
-    <table:table-row table:style-name="ro2">
-     <table:table-cell table:style-name="ce21" office:value-type="string" calcext:value-type="string">
-      <text:p>Can’t find how to do a backup of their revocation certificate</text:p>
-     </table:table-cell>
-     <table:table-cell table:style-name="ce32" table:number-columns-repeated="2"/>
-     <table:table-cell table:style-name="ce45"/>
-     <table:table-cell table:style-name="ce32" table:number-columns-repeated="4"/>
+     <table:table-cell table:style-name="ce8"/>
+     <table:table-cell table:style-name="ce32"/>
+     <table:table-cell table:style-name="ce8" table:number-columns-repeated="1008"/>
      <table:table-cell table:number-columns-repeated="3"/>
-     <table:table-cell table:style-name="ce8" table:number-columns-repeated="1010"/>
-     <table:table-cell/>
     </table:table-row>
     <table:table-row table:style-name="ro2">
      <table:table-cell table:style-name="ce21" office:value-type="string" calcext:value-type="string">
@@ -1056,8 +1131,10 @@
      <table:table-cell table:style-name="ce33"/>
      <table:table-cell table:style-name="ce32" table:number-columns-repeated="6"/>
      <table:table-cell table:number-columns-repeated="3"/>
-     <table:table-cell table:style-name="ce8" table:number-columns-repeated="1010"/>
-     <table:table-cell/>
+     <table:table-cell table:style-name="ce8"/>
+     <table:table-cell table:style-name="ce32"/>
+     <table:table-cell table:style-name="ce8" table:number-columns-repeated="1008"/>
+     <table:table-cell table:number-columns-repeated="3"/>
     </table:table-row>
     <table:table-row table:style-name="ro2">
      <table:table-cell table:style-name="ce21" office:value-type="string" calcext:value-type="string">
@@ -1068,8 +1145,10 @@
      <table:table-cell table:style-name="ce48"/>
      <table:table-cell table:style-name="ce32" table:number-columns-repeated="3"/>
      <table:table-cell table:number-columns-repeated="3"/>
-     <table:table-cell table:style-name="ce8" table:number-columns-repeated="1010"/>
-     <table:table-cell/>
+     <table:table-cell table:style-name="ce8"/>
+     <table:table-cell table:style-name="ce32"/>
+     <table:table-cell table:style-name="ce8" table:number-columns-repeated="1008"/>
+     <table:table-cell table:number-columns-repeated="3"/>
     </table:table-row>
     <table:table-row table:style-name="ro2">
      <table:table-cell table:style-name="ce21" office:value-type="string" calcext:value-type="string">
@@ -1079,8 +1158,10 @@
      <table:table-cell table:style-name="ce40"/>
      <table:table-cell table:style-name="ce32" table:number-columns-repeated="5"/>
      <table:table-cell table:number-columns-repeated="3"/>
-     <table:table-cell table:style-name="ce8" table:number-columns-repeated="1010"/>
-     <table:table-cell/>
+     <table:table-cell table:style-name="ce8"/>
+     <table:table-cell table:style-name="ce32"/>
+     <table:table-cell table:style-name="ce8" table:number-columns-repeated="1008"/>
+     <table:table-cell table:number-columns-repeated="3"/>
     </table:table-row>
     <table:table-row table:style-name="ro2">
      <table:table-cell table:style-name="ce21" office:value-type="string" calcext:value-type="string">
@@ -1089,19 +1170,21 @@
      <table:table-cell table:style-name="ce32" table:number-columns-repeated="6"/>
      <table:table-cell table:style-name="ce64"/>
      <table:table-cell table:number-columns-repeated="3"/>
-     <table:table-cell table:style-name="ce8" table:number-columns-repeated="1010"/>
-     <table:table-cell/>
+     <table:table-cell table:style-name="ce8"/>
+     <table:table-cell table:style-name="ce32"/>
+     <table:table-cell table:style-name="ce8" table:number-columns-repeated="1008"/>
+     <table:table-cell table:number-columns-repeated="3"/>
     </table:table-row>
     <table:table-row table:style-name="ro2">
-     <table:table-cell table:number-columns-repeated="1022"/>
+     <table:table-cell table:number-columns-repeated="1024"/>
     </table:table-row>
     <table:table-row table:style-name="ro2">
      <table:table-cell table:style-name="ce5" office:value-type="string" calcext:value-type="string">
       <text:p>Composer</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce14" table:number-columns-repeated="11"/>
-     <table:table-cell table:style-name="ce10" table:number-columns-repeated="1008"/>
-     <table:table-cell table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce14" table:number-columns-repeated="12"/>
+     <table:table-cell table:style-name="ce10" table:number-columns-repeated="1007"/>
+     <table:table-cell table:number-columns-repeated="4"/>
     </table:table-row>
     <table:table-row table:style-name="ro2">
      <table:table-cell table:style-name="ce17" office:value-type="string" calcext:value-type="string">
@@ -1110,7 +1193,9 @@
      <table:table-cell table:style-name="ce75" table:number-columns-repeated="6"/>
      <table:table-cell table:style-name="ce61"/>
      <table:table-cell table:number-columns-repeated="3"/>
-     <table:table-cell table:style-name="ce74"/>
+     <table:table-cell table:style-name="ce74" office:value-type="string" calcext:value-type="string">
+      <text:p>#1627956</text:p>
+     </table:table-cell>
      <table:table-cell table:style-name="ce69" office:value-type="string" calcext:value-type="string">
       <text:p>❌</text:p>
      </table:table-cell>
@@ -1118,7 +1203,44 @@
       <text:p>Add green check to lock when encryption is enabled and possible to be more clear (and consistent with the Reader)</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce74" table:number-columns-repeated="1007"/>
-     <table:table-cell/>
+     <table:table-cell table:number-columns-repeated="3"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell table:style-name="ce17" office:value-type="string" calcext:value-type="string">
+      <text:p>Wonders about the difference between “Encrypt” and “Require Encryption”</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce75" table:number-columns-repeated="6"/>
+     <table:table-cell table:style-name="ce62"/>
+     <table:table-cell table:number-columns-repeated="3"/>
+     <table:table-cell table:style-name="ce74" office:value-type="string" calcext:value-type="string">
+      <text:p>#1627956</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce69" office:value-type="string" calcext:value-type="string">
+      <text:p>❌</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce74" office:value-type="string" calcext:value-type="string">
+      <text:p>Rename “Require Encryption” as “Encrypt” because it’s shorter, simpler, and more consistent</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce74" table:number-columns-repeated="1007"/>
+     <table:table-cell table:number-columns-repeated="3"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell table:style-name="ce17" office:value-type="string" calcext:value-type="string">
+      <text:p>Missing subject encryption in OpenPGP menu</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce75" table:number-columns-repeated="7"/>
+     <table:table-cell table:number-columns-repeated="3"/>
+     <table:table-cell table:style-name="ce74" office:value-type="string" calcext:value-type="string">
+      <text:p>#1627956</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce69" office:value-type="string" calcext:value-type="string">
+      <text:p>❌</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce74" office:value-type="string" calcext:value-type="string">
+      <text:p>Bug</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce74" table:number-columns-repeated="1007"/>
+     <table:table-cell table:number-columns-repeated="3"/>
     </table:table-row>
     <table:table-row table:style-name="ro2">
      <table:table-cell table:style-name="ce17" office:value-type="string" calcext:value-type="string">
@@ -1130,29 +1252,15 @@
      <table:table-cell table:style-name="ce50"/>
      <table:table-cell table:style-name="ce75" table:number-columns-repeated="3"/>
      <table:table-cell table:number-columns-repeated="3"/>
-     <table:table-cell table:style-name="ce74" table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce74"/>
+     <table:table-cell table:style-name="ce75" office:value-type="string" calcext:value-type="string">
+      <text:p>-</text:p>
+     </table:table-cell>
      <table:table-cell table:style-name="ce74" office:value-type="string" calcext:value-type="string">
       <text:p>Should go away as these were all current users; additional green mark should help as well</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce74" table:number-columns-repeated="1007"/>
-     <table:table-cell/>
-    </table:table-row>
-    <table:table-row table:style-name="ro2">
-     <table:table-cell table:style-name="ce17" office:value-type="string" calcext:value-type="string">
-      <text:p>Wonders about the difference between “Encrypt” and “Require Encryption”</text:p>
-     </table:table-cell>
-     <table:table-cell table:style-name="ce75" table:number-columns-repeated="6"/>
-     <table:table-cell table:style-name="ce62"/>
      <table:table-cell table:number-columns-repeated="3"/>
-     <table:table-cell table:style-name="ce74"/>
-     <table:table-cell table:style-name="ce69" office:value-type="string" calcext:value-type="string">
-      <text:p>❌</text:p>
-     </table:table-cell>
-     <table:table-cell table:style-name="ce74" office:value-type="string" calcext:value-type="string">
-      <text:p>Rename “Require Encryption” as “Encrypt” because it’s shorter, simpler, and more consistent</text:p>
-     </table:table-cell>
-     <table:table-cell table:style-name="ce74" table:number-columns-repeated="1007"/>
-     <table:table-cell/>
     </table:table-row>
     <table:table-row table:style-name="ro2">
      <table:table-cell table:style-name="ce17" office:value-type="string" calcext:value-type="string">
@@ -1163,45 +1271,15 @@
      <table:table-cell table:style-name="ce75" table:number-columns-repeated="3"/>
      <table:table-cell table:style-name="ce62"/>
      <table:table-cell table:number-columns-repeated="3"/>
-     <table:table-cell table:style-name="ce74" table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce74"/>
+     <table:table-cell table:style-name="ce75" office:value-type="string" calcext:value-type="string">
+      <text:p>-</text:p>
+     </table:table-cell>
      <table:table-cell table:style-name="ce74" office:value-type="string" calcext:value-type="string">
       <text:p>Let’s ignore this one and hope that people will get used to them</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce74" table:number-columns-repeated="1007"/>
-     <table:table-cell/>
-    </table:table-row>
-    <table:table-row table:style-name="ro2">
-     <table:table-cell table:style-name="ce17" office:value-type="string" calcext:value-type="string">
-      <text:p>Missing subject encryption in OpenPGP menu</text:p>
-     </table:table-cell>
-     <table:table-cell table:style-name="ce75" table:number-columns-repeated="7"/>
      <table:table-cell table:number-columns-repeated="3"/>
-     <table:table-cell table:style-name="ce74"/>
-     <table:table-cell table:style-name="ce69" office:value-type="string" calcext:value-type="string">
-      <text:p>❌</text:p>
-     </table:table-cell>
-     <table:table-cell table:style-name="ce74" office:value-type="string" calcext:value-type="string">
-      <text:p>Bug</text:p>
-     </table:table-cell>
-     <table:table-cell table:style-name="ce74" table:number-columns-repeated="1007"/>
-     <table:table-cell/>
-    </table:table-row>
-    <table:table-row table:style-name="ro2">
-     <table:table-cell table:style-name="ce6" office:value-type="string" calcext:value-type="string">
-      <text:p>Sends an unencrypted email by mistake</text:p>
-     </table:table-cell>
-     <table:table-cell table:style-name="ce13" table:number-columns-repeated="3"/>
-     <table:table-cell table:style-name="ce49"/>
-     <table:table-cell table:style-name="ce13"/>
-     <table:table-cell table:style-name="ce54"/>
-     <table:table-cell table:style-name="ce13"/>
-     <table:table-cell table:number-columns-repeated="3"/>
-     <table:table-cell table:style-name="ce29" table:number-columns-repeated="2"/>
-     <table:table-cell table:style-name="ce29" office:value-type="string" calcext:value-type="string">
-      <text:p>These were slips in the middle of numerous emails and key issues</text:p>
-     </table:table-cell>
-     <table:table-cell table:style-name="ce29" table:number-columns-repeated="1007"/>
-     <table:table-cell/>
     </table:table-row>
     <table:table-row table:style-name="ro2">
      <table:table-cell table:style-name="ce6" office:value-type="string" calcext:value-type="string">
@@ -1211,7 +1289,9 @@
      <table:table-cell table:style-name="ce39"/>
      <table:table-cell table:style-name="ce13" table:number-columns-repeated="5"/>
      <table:table-cell table:number-columns-repeated="3"/>
-     <table:table-cell table:style-name="ce29"/>
+     <table:table-cell table:style-name="ce29" office:value-type="string" calcext:value-type="string">
+      <text:p>#1627956</text:p>
+     </table:table-cell>
      <table:table-cell table:style-name="ce69" office:value-type="string" calcext:value-type="string">
       <text:p>❌</text:p>
      </table:table-cell>
@@ -1219,7 +1299,7 @@
       <text:p>Bug</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce29" table:number-columns-repeated="1007"/>
-     <table:table-cell/>
+     <table:table-cell table:number-columns-repeated="3"/>
     </table:table-row>
     <table:table-row table:style-name="ro2">
      <table:table-cell table:style-name="ce6" office:value-type="string" calcext:value-type="string">
@@ -1230,7 +1310,9 @@
      <table:table-cell table:style-name="ce54"/>
      <table:table-cell table:style-name="ce29"/>
      <table:table-cell table:number-columns-repeated="3"/>
-     <table:table-cell table:style-name="ce29"/>
+     <table:table-cell table:style-name="ce29" office:value-type="string" calcext:value-type="string">
+      <text:p>#1627956</text:p>
+     </table:table-cell>
      <table:table-cell table:style-name="ce69" office:value-type="string" calcext:value-type="string">
       <text:p>❌</text:p>
      </table:table-cell>
@@ -1238,7 +1320,7 @@
       <text:p>Bug</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce29" table:number-columns-repeated="1007"/>
-     <table:table-cell/>
+     <table:table-cell table:number-columns-repeated="3"/>
     </table:table-row>
     <table:table-row table:style-name="ro2">
      <table:table-cell table:style-name="ce6" office:value-type="string" calcext:value-type="string">
@@ -1248,7 +1330,9 @@
      <table:table-cell table:style-name="ce39"/>
      <table:table-cell table:style-name="ce13" table:number-columns-repeated="5"/>
      <table:table-cell table:number-columns-repeated="3"/>
-     <table:table-cell table:style-name="ce29"/>
+     <table:table-cell table:style-name="ce29" office:value-type="string" calcext:value-type="string">
+      <text:p>#1627956</text:p>
+     </table:table-cell>
      <table:table-cell table:style-name="ce69" office:value-type="string" calcext:value-type="string">
       <text:p>❌</text:p>
      </table:table-cell>
@@ -1256,7 +1340,7 @@
       <text:p>Bug</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce29" table:number-columns-repeated="1007"/>
-     <table:table-cell/>
+     <table:table-cell table:number-columns-repeated="3"/>
     </table:table-row>
     <table:table-row table:style-name="ro2">
      <table:table-cell office:value-type="string" calcext:value-type="string">
@@ -1266,14 +1350,35 @@
      <table:table-cell table:style-name="ce56"/>
      <table:table-cell/>
      <table:table-cell table:style-name="Default"/>
-     <table:table-cell table:number-columns-repeated="4"/>
+     <table:table-cell table:number-columns-repeated="3"/>
+     <table:table-cell table:style-name="ce29" office:value-type="string" calcext:value-type="string">
+      <text:p>#1627956</text:p>
+     </table:table-cell>
      <table:table-cell table:style-name="ce69" office:value-type="string" calcext:value-type="string">
       <text:p>❌</text:p>
      </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>Bug</text:p>
      </table:table-cell>
-     <table:table-cell table:number-columns-repeated="1008"/>
+     <table:table-cell table:number-columns-repeated="1010"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Tries to get info about the problematic recipient from the tooltip and the warning icon (current tooltip is misleading)</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce16"/>
+     <table:table-cell table:number-columns-repeated="7"/>
+     <table:table-cell table:style-name="ce29" office:value-type="string" calcext:value-type="string">
+      <text:p>#1627956</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce69" office:value-type="string" calcext:value-type="string">
+      <text:p>❌</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Have tooltips related to key issues or at least remove the tooltip related to the address book</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="1010"/>
     </table:table-row>
     <table:table-row table:style-name="ro2">
      <table:table-cell office:value-type="string" calcext:value-type="string">
@@ -1288,7 +1393,7 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>Parse the list of recipients automatically on paste events</text:p>
      </table:table-cell>
-     <table:table-cell table:number-columns-repeated="1008"/>
+     <table:table-cell table:number-columns-repeated="1010"/>
     </table:table-row>
     <table:table-row table:style-name="ro2">
      <table:table-cell office:value-type="string" calcext:value-type="string">
@@ -1300,22 +1405,27 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>Bug</text:p>
      </table:table-cell>
-     <table:table-cell table:number-columns-repeated="1008"/>
+     <table:table-cell table:number-columns-repeated="1010"/>
     </table:table-row>
     <table:table-row table:style-name="ro2">
-     <table:table-cell office:value-type="string" calcext:value-type="string">
-      <text:p>Tries to get info about the problematic recipient from the tooltip and the warning icon (current tooltip is misleading)</text:p>
+     <table:table-cell table:style-name="ce6" office:value-type="string" calcext:value-type="string">
+      <text:p>Sends an unencrypted email by mistake</text:p>
      </table:table-cell>
-     <table:table-cell table:number-columns-repeated="2"/>
-     <table:table-cell table:style-name="ce16"/>
-     <table:table-cell table:number-columns-repeated="8"/>
-     <table:table-cell table:style-name="ce69" office:value-type="string" calcext:value-type="string">
-      <text:p>❌</text:p>
+     <table:table-cell table:style-name="ce13" table:number-columns-repeated="3"/>
+     <table:table-cell table:style-name="ce49"/>
+     <table:table-cell table:style-name="ce13"/>
+     <table:table-cell table:style-name="ce54"/>
+     <table:table-cell table:style-name="ce13"/>
+     <table:table-cell table:number-columns-repeated="3"/>
+     <table:table-cell table:style-name="ce29"/>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>-</text:p>
      </table:table-cell>
-     <table:table-cell office:value-type="string" calcext:value-type="string">
-      <text:p>Have tooltips related to key issues or at least remove the tooltip related to the address book</text:p>
+     <table:table-cell table:style-name="ce29" office:value-type="string" calcext:value-type="string">
+      <text:p>These were slips in the middle of numerous emails and key issues</text:p>
      </table:table-cell>
-     <table:table-cell table:number-columns-repeated="1008"/>
+     <table:table-cell table:style-name="ce29" table:number-columns-repeated="1007"/>
+     <table:table-cell table:number-columns-repeated="3"/>
     </table:table-row>
     <table:table-row table:style-name="ro2">
      <table:table-cell table:style-name="ce21" office:value-type="string" calcext:value-type="string">
@@ -1325,19 +1435,21 @@
      <table:table-cell table:style-name="ce45"/>
      <table:table-cell table:style-name="ce32" table:number-columns-repeated="4"/>
      <table:table-cell table:number-columns-repeated="3"/>
-     <table:table-cell table:style-name="ce8" table:number-columns-repeated="1010"/>
-     <table:table-cell/>
+     <table:table-cell table:style-name="ce8"/>
+     <table:table-cell table:style-name="ce32"/>
+     <table:table-cell table:style-name="ce8" table:number-columns-repeated="1008"/>
+     <table:table-cell table:number-columns-repeated="3"/>
     </table:table-row>
     <table:table-row table:style-name="ro2">
-     <table:table-cell table:number-columns-repeated="1022"/>
+     <table:table-cell table:number-columns-repeated="1024"/>
     </table:table-row>
     <table:table-row table:style-name="ro2">
      <table:table-cell table:style-name="ce5" office:value-type="string" calcext:value-type="string">
       <text:p>Attaching Keys</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce14" table:number-columns-repeated="11"/>
-     <table:table-cell table:style-name="ce10" table:number-columns-repeated="1008"/>
-     <table:table-cell table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce14" table:number-columns-repeated="12"/>
+     <table:table-cell table:style-name="ce10" table:number-columns-repeated="1007"/>
+     <table:table-cell table:number-columns-repeated="4"/>
     </table:table-row>
     <table:table-row table:style-name="ro2">
      <table:table-cell table:style-name="ce17" office:value-type="string" calcext:value-type="string">
@@ -1348,7 +1460,9 @@
      <table:table-cell table:style-name="ce53"/>
      <table:table-cell table:style-name="ce62"/>
      <table:table-cell table:number-columns-repeated="3"/>
-     <table:table-cell table:style-name="ce74"/>
+     <table:table-cell table:style-name="ce74" office:value-type="string" calcext:value-type="string">
+      <text:p>#1627956</text:p>
+     </table:table-cell>
      <table:table-cell table:style-name="ce69" office:value-type="string" calcext:value-type="string">
       <text:p>❌</text:p>
      </table:table-cell>
@@ -1356,7 +1470,7 @@
       <text:p>Keep the shortcut to Attach in OpenPGP menu, at least for some time</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce74" table:number-columns-repeated="1007"/>
-     <table:table-cell/>
+     <table:table-cell table:number-columns-repeated="3"/>
     </table:table-row>
     <table:table-row table:style-name="ro2">
      <table:table-cell table:style-name="ce17" office:value-type="string" calcext:value-type="string">
@@ -1370,12 +1484,17 @@
      <table:table-cell table:style-name="ce53"/>
      <table:table-cell table:style-name="ce62"/>
      <table:table-cell table:number-columns-repeated="3"/>
-     <table:table-cell table:style-name="ce74" table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce74" office:value-type="string" calcext:value-type="string">
+      <text:p>#1757091</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce111" office:value-type="string" calcext:value-type="string">
+      <text:p>★</text:p>
+     </table:table-cell>
      <table:table-cell table:style-name="ce74" office:value-type="string" calcext:value-type="string">
       <text:p>Public key should immediately be visible in attachments</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce74" table:number-columns-repeated="1007"/>
-     <table:table-cell/>
+     <table:table-cell table:number-columns-repeated="3"/>
     </table:table-row>
     <table:table-row table:style-name="ro2">
      <table:table-cell table:style-name="ce17" office:value-type="string" calcext:value-type="string">
@@ -1386,42 +1505,35 @@
      <table:table-cell table:style-name="ce46"/>
      <table:table-cell table:style-name="ce75" table:number-columns-repeated="4"/>
      <table:table-cell table:number-columns-repeated="3"/>
-     <table:table-cell table:style-name="ce74" table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce74"/>
+     <table:table-cell table:style-name="ce75"/>
      <table:table-cell table:style-name="ce74" office:value-type="string" calcext:value-type="string">
       <text:p>“ “</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce74" table:number-columns-repeated="1007"/>
-     <table:table-cell/>
-    </table:table-row>
-    <table:table-row table:style-name="ro2">
-     <table:table-cell office:value-type="string" calcext:value-type="string">
-      <text:p>Tries to attach other public keys from the Attach menu</text:p>
-     </table:table-cell>
-     <table:table-cell table:style-name="ce20"/>
-     <table:table-cell/>
-     <table:table-cell table:style-name="ce16"/>
-     <table:table-cell table:style-name="ce18"/>
-     <table:table-cell/>
-     <table:table-cell table:style-name="ce24"/>
-     <table:table-cell table:number-columns-repeated="6"/>
-     <table:table-cell office:value-type="string" calcext:value-type="string">
-      <text:p>Shortcut to open modified version of the Key Manager with “Attach” button instead of “Close”</text:p>
-     </table:table-cell>
-     <table:table-cell table:number-columns-repeated="1008"/>
+     <table:table-cell table:number-columns-repeated="3"/>
     </table:table-row>
     <table:table-row table:style-name="ro2">
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>Does complicated manoeuvres to attach other people’s public keys</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell table:style-name="ce20"/>
      <table:table-cell table:style-name="ce22"/>
      <table:table-cell table:style-name="ce16"/>
      <table:table-cell table:style-name="ce18"/>
-     <table:table-cell table:number-columns-repeated="8"/>
+     <table:table-cell/>
+     <table:table-cell table:style-name="ce24"/>
+     <table:table-cell table:number-columns-repeated="4"/>
      <table:table-cell office:value-type="string" calcext:value-type="string">
-      <text:p>“ “</text:p>
+      <text:p>#1757093</text:p>
      </table:table-cell>
-     <table:table-cell table:number-columns-repeated="1008"/>
+     <table:table-cell table:style-name="ce111" office:value-type="string" calcext:value-type="string">
+      <text:p>★</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p><text:s/>Make it easier to attach other people&apos;s public keys </text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="1010"/>
     </table:table-row>
     <table:table-row table:style-name="ro2">
      <table:table-cell table:style-name="ce21" office:value-type="string" calcext:value-type="string">
@@ -1430,8 +1542,10 @@
      <table:table-cell table:style-name="ce32" table:number-columns-repeated="6"/>
      <table:table-cell table:style-name="ce64"/>
      <table:table-cell table:number-columns-repeated="3"/>
-     <table:table-cell table:style-name="ce8" table:number-columns-repeated="1010"/>
-     <table:table-cell/>
+     <table:table-cell table:style-name="ce8"/>
+     <table:table-cell table:style-name="ce32"/>
+     <table:table-cell table:style-name="ce8" table:number-columns-repeated="1008"/>
+     <table:table-cell table:number-columns-repeated="3"/>
     </table:table-row>
     <table:table-row table:style-name="ro2">
      <table:table-cell table:style-name="ce21" office:value-type="string" calcext:value-type="string">
@@ -1442,21 +1556,23 @@
      <table:table-cell table:style-name="ce32"/>
      <table:table-cell table:style-name="ce8"/>
      <table:table-cell table:number-columns-repeated="3"/>
-     <table:table-cell table:style-name="ce8" table:number-columns-repeated="1010"/>
-     <table:table-cell/>
+     <table:table-cell table:style-name="ce8"/>
+     <table:table-cell table:style-name="ce32"/>
+     <table:table-cell table:style-name="ce8" table:number-columns-repeated="1008"/>
+     <table:table-cell table:number-columns-repeated="3"/>
     </table:table-row>
     <table:table-row table:style-name="ro2">
      <table:table-cell table:number-columns-repeated="7"/>
      <table:table-cell table:style-name="Default"/>
-     <table:table-cell table:number-columns-repeated="1014"/>
+     <table:table-cell table:number-columns-repeated="1016"/>
     </table:table-row>
     <table:table-row table:style-name="ro2">
      <table:table-cell table:style-name="ce5" office:value-type="string" calcext:value-type="string">
       <text:p>Multiple Keys</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce14" table:number-columns-repeated="11"/>
-     <table:table-cell table:style-name="ce10" table:number-columns-repeated="1008"/>
-     <table:table-cell table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce14" table:number-columns-repeated="12"/>
+     <table:table-cell table:style-name="ce10" table:number-columns-repeated="1007"/>
+     <table:table-cell table:number-columns-repeated="4"/>
     </table:table-row>
     <table:table-row table:style-name="ro2">
      <table:table-cell table:style-name="ce17" office:value-type="string" calcext:value-type="string">
@@ -1470,12 +1586,17 @@
      <table:table-cell table:style-name="ce53"/>
      <table:table-cell table:style-name="ce65"/>
      <table:table-cell table:number-columns-repeated="3"/>
-     <table:table-cell table:style-name="ce74" table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce29" office:value-type="string" calcext:value-type="string">
+      <text:p>#1757108</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce111" office:value-type="string" calcext:value-type="string">
+      <text:p>★</text:p>
+     </table:table-cell>
      <table:table-cell table:style-name="ce74" office:value-type="string" calcext:value-type="string">
-      <text:p>Warn about duplicated keys in import screen</text:p>
+      <text:p>Warn when importing a public key if we already have another key for the same email address</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce74" table:number-columns-repeated="1007"/>
-     <table:table-cell/>
+     <table:table-cell table:number-columns-repeated="3"/>
     </table:table-row>
     <table:table-row table:style-name="ro2">
      <table:table-cell office:value-type="string" calcext:value-type="string">
@@ -1484,25 +1605,34 @@
      <table:table-cell table:style-name="ce20"/>
      <table:table-cell table:number-columns-repeated="2"/>
      <table:table-cell table:style-name="ce18"/>
-     <table:table-cell table:number-columns-repeated="7"/>
+     <table:table-cell table:number-columns-repeated="6"/>
+     <table:table-cell table:style-name="ce29" office:value-type="string" calcext:value-type="string">
+      <text:p>#1627956</text:p>
+     </table:table-cell>
      <table:table-cell table:style-name="ce69" office:value-type="string" calcext:value-type="string">
       <text:p>❌</text:p>
      </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string">
-      <text:p>Display issue in Key Assistant to choose which key to use and add preference list to override the default, which is incomprehensible for users</text:p>
+      <text:p>Display list of available keys in “View Keys...” from Key Assistant and encrypt to all available keys</text:p>
      </table:table-cell>
-     <table:table-cell table:number-columns-repeated="1008"/>
+     <table:table-cell table:number-columns-repeated="1010"/>
     </table:table-row>
     <table:table-row table:style-name="ro2">
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>Expects Thunderbird to warn if there are several keys for 1 recipient</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce20"/>
-     <table:table-cell table:number-columns-repeated="11"/>
-     <table:table-cell office:value-type="string" calcext:value-type="string">
-      <text:p>“ “</text:p>
+     <table:table-cell table:number-columns-repeated="9"/>
+     <table:table-cell table:style-name="ce29" office:value-type="string" calcext:value-type="string">
+      <text:p>#1747062</text:p>
      </table:table-cell>
-     <table:table-cell table:number-columns-repeated="1008"/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>-</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Confusing encryption choice when multiple public keys present for same email address</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="1010"/>
     </table:table-row>
     <table:table-row table:style-name="ro2">
      <table:table-cell office:value-type="string" calcext:value-type="string">
@@ -1515,7 +1645,7 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>“ “</text:p>
      </table:table-cell>
-     <table:table-cell table:number-columns-repeated="1008"/>
+     <table:table-cell table:number-columns-repeated="1010"/>
     </table:table-row>
     <table:table-row table:style-name="ro2">
      <table:table-cell office:value-type="string" calcext:value-type="string">
@@ -1527,18 +1657,81 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>“ “</text:p>
      </table:table-cell>
-     <table:table-cell table:number-columns-repeated="1008"/>
+     <table:table-cell table:number-columns-repeated="1010"/>
     </table:table-row>
     <table:table-row table:style-name="ro2">
-     <table:table-cell table:number-columns-repeated="1022"/>
+     <table:table-cell table:number-columns-repeated="1024"/>
     </table:table-row>
     <table:table-row table:style-name="ro2">
      <table:table-cell table:style-name="ce5" office:value-type="string" calcext:value-type="string">
       <text:p>Import</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce14" table:number-columns-repeated="11"/>
-     <table:table-cell table:style-name="ce10" table:number-columns-repeated="1008"/>
-     <table:table-cell table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce14" table:number-columns-repeated="12"/>
+     <table:table-cell table:style-name="ce10" table:number-columns-repeated="1007"/>
+     <table:table-cell table:number-columns-repeated="4"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell table:style-name="ce17" office:value-type="string" calcext:value-type="string">
+      <text:p>Doesn’t accept a public key when importing and then wonders why they can’t use it</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce75" table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce46"/>
+     <table:table-cell table:style-name="ce75" table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce53"/>
+     <table:table-cell table:style-name="ce74"/>
+     <table:table-cell table:number-columns-repeated="3"/>
+     <table:table-cell table:style-name="ce74" office:value-type="string" calcext:value-type="string">
+      <text:p>#1757088</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce111" office:value-type="string" calcext:value-type="string">
+      <text:p>★</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce74" office:value-type="string" calcext:value-type="string">
+      <text:p>Better acceptance widgets in import screen </text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce74" table:number-columns-repeated="1007"/>
+     <table:table-cell table:number-columns-repeated="3"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell table:style-name="ce74" office:value-type="string" calcext:value-type="string">
+      <text:p>Wonders what it means to accept or not accept a key in import screen</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce74" table:number-columns-repeated="6"/>
+     <table:table-cell table:style-name="ce62"/>
+     <table:table-cell table:number-columns-repeated="3"/>
+     <table:table-cell table:style-name="ce74" office:value-type="string" calcext:value-type="string">
+      <text:p>#1757086</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce111" office:value-type="string" calcext:value-type="string">
+      <text:p>★</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce74" office:value-type="string" calcext:value-type="string">
+      <text:p>Explain better key acceptance in import screen</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce74" table:number-columns-repeated="1007"/>
+     <table:table-cell table:number-columns-repeated="3"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell table:style-name="ce17" office:value-type="string" calcext:value-type="string">
+      <text:p>“Decrypt and Open” label doesn’t match that it will import keys</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce34"/>
+     <table:table-cell table:style-name="ce75" table:number-columns-repeated="3"/>
+     <table:table-cell table:style-name="ce57"/>
+     <table:table-cell table:style-name="ce53"/>
+     <table:table-cell table:style-name="ce74"/>
+     <table:table-cell table:number-columns-repeated="3"/>
+     <table:table-cell table:style-name="ce74" office:value-type="string" calcext:value-type="string">
+      <text:p>#1757094</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce111" office:value-type="string" calcext:value-type="string">
+      <text:p>★</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce74" office:value-type="string" calcext:value-type="string">
+      <text:p>Misleading menu entry &quot;Decrypt and Open&quot; when importing a public key from attachment</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce74" table:number-columns-repeated="1007"/>
+     <table:table-cell table:number-columns-repeated="3"/>
     </table:table-row>
     <table:table-row table:style-name="ro2">
      <table:table-cell table:style-name="ce17" office:value-type="string" calcext:value-type="string">
@@ -1552,43 +1745,17 @@
      <table:table-cell table:style-name="ce53"/>
      <table:table-cell table:style-name="ce62"/>
      <table:table-cell table:number-columns-repeated="3"/>
-     <table:table-cell table:style-name="ce74" table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce74" office:value-type="string" calcext:value-type="string">
+      <text:p>#1752726</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce75" office:value-type="string" calcext:value-type="string">
+      <text:p>-</text:p>
+     </table:table-cell>
      <table:table-cell table:style-name="ce17" office:value-type="string" calcext:value-type="string">
       <text:p>Disable OS integration when opening key files</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce74" table:number-columns-repeated="1007"/>
-     <table:table-cell/>
-    </table:table-row>
-    <table:table-row table:style-name="ro2">
-     <table:table-cell table:style-name="ce17" office:value-type="string" calcext:value-type="string">
-      <text:p>Doesn’t accept a public key when importing and then wonders why they can’t use it</text:p>
-     </table:table-cell>
-     <table:table-cell table:style-name="ce75" table:number-columns-repeated="2"/>
-     <table:table-cell table:style-name="ce46"/>
-     <table:table-cell table:style-name="ce75" table:number-columns-repeated="2"/>
-     <table:table-cell table:style-name="ce53"/>
-     <table:table-cell table:style-name="ce74"/>
      <table:table-cell table:number-columns-repeated="3"/>
-     <table:table-cell table:style-name="ce74" table:number-columns-repeated="2"/>
-     <table:table-cell table:style-name="ce74" office:value-type="string" calcext:value-type="string">
-      <text:p>Explain acceptance in import screen</text:p>
-     </table:table-cell>
-     <table:table-cell table:style-name="ce74" table:number-columns-repeated="1007"/>
-     <table:table-cell/>
-    </table:table-row>
-    <table:table-row table:style-name="ro2">
-     <table:table-cell table:style-name="ce74" office:value-type="string" calcext:value-type="string">
-      <text:p>Wonders what it means to accept or not accept a key in import screen</text:p>
-     </table:table-cell>
-     <table:table-cell table:style-name="ce74" table:number-columns-repeated="6"/>
-     <table:table-cell table:style-name="ce62"/>
-     <table:table-cell table:number-columns-repeated="3"/>
-     <table:table-cell table:style-name="ce74" table:number-columns-repeated="2"/>
-     <table:table-cell table:style-name="ce74" office:value-type="string" calcext:value-type="string">
-      <text:p>“ “</text:p>
-     </table:table-cell>
-     <table:table-cell table:style-name="ce74" table:number-columns-repeated="1007"/>
-     <table:table-cell/>
     </table:table-row>
     <table:table-row table:style-name="ro2">
      <table:table-cell table:style-name="ce17" office:value-type="string" calcext:value-type="string">
@@ -1601,12 +1768,17 @@
      <table:table-cell table:style-name="ce53"/>
      <table:table-cell table:style-name="ce74"/>
      <table:table-cell table:number-columns-repeated="3"/>
-     <table:table-cell table:style-name="ce74" table:number-columns-repeated="2"/>
      <table:table-cell table:style-name="ce74" office:value-type="string" calcext:value-type="string">
-      <text:p>Flag duplicated or existing keys during import</text:p>
+      <text:p>#1754470</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce75" office:value-type="string" calcext:value-type="string">
+      <text:p>-</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce74" office:value-type="string" calcext:value-type="string">
+      <text:p>Flag duplicated keys during import</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce74" table:number-columns-repeated="1007"/>
-     <table:table-cell/>
+     <table:table-cell table:number-columns-repeated="3"/>
     </table:table-row>
     <table:table-row table:style-name="ro2">
      <table:table-cell table:style-name="ce17" office:value-type="string" calcext:value-type="string">
@@ -1620,29 +1792,17 @@
      <table:table-cell table:style-name="ce53"/>
      <table:table-cell table:style-name="ce62"/>
      <table:table-cell table:number-columns-repeated="3"/>
-     <table:table-cell table:style-name="ce74" table:number-columns-repeated="2"/>
      <table:table-cell table:style-name="ce74" office:value-type="string" calcext:value-type="string">
-      <text:p>“ “</text:p>
+      <text:p>#1651059</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce75" office:value-type="string" calcext:value-type="string">
+      <text:p>-</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce74" office:value-type="string" calcext:value-type="string">
+      <text:p>Provide feedback when key is automatically collected</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce74" table:number-columns-repeated="1007"/>
-     <table:table-cell/>
-    </table:table-row>
-    <table:table-row table:style-name="ro2">
-     <table:table-cell table:style-name="ce17" office:value-type="string" calcext:value-type="string">
-      <text:p>“Decrypt and Open” label doesn’t match that it will import keys (but some people ultimately understand and use it)</text:p>
-     </table:table-cell>
-     <table:table-cell table:style-name="ce34"/>
-     <table:table-cell table:style-name="ce75" table:number-columns-repeated="3"/>
-     <table:table-cell table:style-name="ce57"/>
-     <table:table-cell table:style-name="ce53"/>
-     <table:table-cell table:style-name="ce74"/>
      <table:table-cell table:number-columns-repeated="3"/>
-     <table:table-cell table:style-name="ce74" table:number-columns-repeated="2"/>
-     <table:table-cell table:style-name="ce74" office:value-type="string" calcext:value-type="string">
-      <text:p>Bug</text:p>
-     </table:table-cell>
-     <table:table-cell table:style-name="ce74" table:number-columns-repeated="1007"/>
-     <table:table-cell/>
     </table:table-row>
     <table:table-row table:style-name="ro2">
      <table:table-cell table:style-name="ce6" office:value-type="string" calcext:value-type="string">
@@ -1655,12 +1815,57 @@
      <table:table-cell table:style-name="ce13" table:number-columns-repeated="2"/>
      <table:table-cell table:style-name="ce29"/>
      <table:table-cell table:number-columns-repeated="3"/>
-     <table:table-cell table:style-name="ce29" table:number-columns-repeated="2"/>
      <table:table-cell table:style-name="ce29" office:value-type="string" calcext:value-type="string">
-      <text:p>Allow to choose which keys to import from batch of keys</text:p>
+      <text:p>#1757108</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce111" office:value-type="string" calcext:value-type="string">
+      <text:p>★</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce29" office:value-type="string" calcext:value-type="string">
+      <text:p>Warn when importing a public key if we already have another key for the same email address</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce29" table:number-columns-repeated="1007"/>
-     <table:table-cell/>
+     <table:table-cell table:number-columns-repeated="3"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Clicks through the import success screen without using it</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce16"/>
+     <table:table-cell table:style-name="ce18"/>
+     <table:table-cell table:style-name="ce56"/>
+     <table:table-cell table:style-name="ce24"/>
+     <table:table-cell table:style-name="Default"/>
+     <table:table-cell table:number-columns-repeated="3"/>
+     <table:table-cell table:style-name="ce29" office:value-type="string" calcext:value-type="string">
+      <text:p>#1757108</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce111" office:value-type="string" calcext:value-type="string">
+      <text:p>★</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce29" office:value-type="string" calcext:value-type="string">
+      <text:p>Warn when importing a public key if we already have another key for the same email address</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="1010"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Success screen doesn’t figure key ID to help compare with Key Manager</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="5"/>
+     <table:table-cell table:style-name="ce24"/>
+     <table:table-cell table:number-columns-repeated="4"/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>#1757096</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce111" office:value-type="string" calcext:value-type="string">
+      <text:p>★</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Add key ID to import screens (and use consistent fields across all UIs)</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="1010"/>
     </table:table-row>
     <table:table-row table:style-name="ro2">
      <table:table-cell office:value-type="string" calcext:value-type="string">
@@ -1674,19 +1879,7 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>Bug</text:p>
      </table:table-cell>
-     <table:table-cell table:number-columns-repeated="1008"/>
-    </table:table-row>
-    <table:table-row table:style-name="ro2">
-     <table:table-cell office:value-type="string" calcext:value-type="string">
-      <text:p>Success screen doesn’t figure key ID to help compare with Key Manager</text:p>
-     </table:table-cell>
-     <table:table-cell table:number-columns-repeated="5"/>
-     <table:table-cell table:style-name="ce24"/>
-     <table:table-cell table:number-columns-repeated="6"/>
-     <table:table-cell office:value-type="string" calcext:value-type="string">
-      <text:p>Add key ID to import screens (and use consistent fields across all UIs)</text:p>
-     </table:table-cell>
-     <table:table-cell table:number-columns-repeated="1008"/>
+     <table:table-cell table:number-columns-repeated="1010"/>
     </table:table-row>
     <table:table-row table:style-name="ro2">
      <table:table-cell office:value-type="string" calcext:value-type="string">
@@ -1701,23 +1894,7 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>Bug</text:p>
      </table:table-cell>
-     <table:table-cell table:number-columns-repeated="1008"/>
-    </table:table-row>
-    <table:table-row table:style-name="ro2">
-     <table:table-cell office:value-type="string" calcext:value-type="string">
-      <text:p>Clicks through the import success screen without using it</text:p>
-     </table:table-cell>
-     <table:table-cell table:number-columns-repeated="2"/>
-     <table:table-cell table:style-name="ce16"/>
-     <table:table-cell table:style-name="ce18"/>
-     <table:table-cell table:style-name="ce56"/>
-     <table:table-cell table:style-name="ce24"/>
-     <table:table-cell table:style-name="Default"/>
-     <table:table-cell table:number-columns-repeated="5"/>
-     <table:table-cell office:value-type="string" calcext:value-type="string">
-      <text:p>Merge both import screens</text:p>
-     </table:table-cell>
-     <table:table-cell table:number-columns-repeated="1008"/>
+     <table:table-cell table:number-columns-repeated="1010"/>
     </table:table-row>
     <table:table-row table:style-name="ro2">
      <table:table-cell table:style-name="ce21" office:value-type="string" calcext:value-type="string">
@@ -1728,8 +1905,10 @@
      <table:table-cell table:style-name="ce32" table:number-columns-repeated="2"/>
      <table:table-cell table:style-name="ce8"/>
      <table:table-cell table:number-columns-repeated="3"/>
-     <table:table-cell table:style-name="ce8" table:number-columns-repeated="1010"/>
-     <table:table-cell/>
+     <table:table-cell table:style-name="ce8"/>
+     <table:table-cell table:style-name="ce32"/>
+     <table:table-cell table:style-name="ce8" table:number-columns-repeated="1008"/>
+     <table:table-cell table:number-columns-repeated="3"/>
     </table:table-row>
     <table:table-row table:style-name="ro2">
      <table:table-cell table:style-name="ce21" office:value-type="string" calcext:value-type="string">
@@ -1739,8 +1918,10 @@
      <table:table-cell table:style-name="ce32" table:number-columns-repeated="5"/>
      <table:table-cell table:style-name="ce8"/>
      <table:table-cell table:number-columns-repeated="3"/>
-     <table:table-cell table:style-name="ce8" table:number-columns-repeated="1010"/>
-     <table:table-cell/>
+     <table:table-cell table:style-name="ce8"/>
+     <table:table-cell table:style-name="ce32"/>
+     <table:table-cell table:style-name="ce8" table:number-columns-repeated="1008"/>
+     <table:table-cell table:number-columns-repeated="3"/>
     </table:table-row>
     <table:table-row table:style-name="ro2">
      <table:table-cell table:style-name="ce21" office:value-type="string" calcext:value-type="string">
@@ -1750,8 +1931,10 @@
      <table:table-cell table:style-name="ce32" table:number-columns-repeated="5"/>
      <table:table-cell table:style-name="ce8"/>
      <table:table-cell table:number-columns-repeated="3"/>
-     <table:table-cell table:style-name="ce8" table:number-columns-repeated="1010"/>
-     <table:table-cell/>
+     <table:table-cell table:style-name="ce8"/>
+     <table:table-cell table:style-name="ce32"/>
+     <table:table-cell table:style-name="ce8" table:number-columns-repeated="1008"/>
+     <table:table-cell table:number-columns-repeated="3"/>
     </table:table-row>
     <table:table-row table:style-name="ro2">
      <table:table-cell table:style-name="ce21" office:value-type="string" calcext:value-type="string">
@@ -1760,8 +1943,10 @@
      <table:table-cell table:style-name="ce33"/>
      <table:table-cell table:style-name="ce32" table:number-columns-repeated="6"/>
      <table:table-cell table:number-columns-repeated="3"/>
-     <table:table-cell table:style-name="ce8" table:number-columns-repeated="1010"/>
-     <table:table-cell/>
+     <table:table-cell table:style-name="ce8"/>
+     <table:table-cell table:style-name="ce32"/>
+     <table:table-cell table:style-name="ce8" table:number-columns-repeated="1008"/>
+     <table:table-cell table:number-columns-repeated="3"/>
     </table:table-row>
     <table:table-row table:style-name="ro2">
      <table:table-cell table:style-name="ce21" office:value-type="string" calcext:value-type="string">
@@ -1771,20 +1956,22 @@
      <table:table-cell table:style-name="ce55"/>
      <table:table-cell table:style-name="ce32"/>
      <table:table-cell table:number-columns-repeated="3"/>
-     <table:table-cell table:style-name="ce8" table:number-columns-repeated="1010"/>
-     <table:table-cell/>
+     <table:table-cell table:style-name="ce8"/>
+     <table:table-cell table:style-name="ce32"/>
+     <table:table-cell table:style-name="ce8" table:number-columns-repeated="1008"/>
+     <table:table-cell table:number-columns-repeated="3"/>
     </table:table-row>
     <table:table-row table:style-name="ro2">
      <table:table-cell table:style-name="Default" table:number-columns-repeated="8"/>
-     <table:table-cell table:number-columns-repeated="1014"/>
+     <table:table-cell table:number-columns-repeated="1016"/>
     </table:table-row>
     <table:table-row table:style-name="ro2">
      <table:table-cell table:style-name="ce5" office:value-type="string" calcext:value-type="string">
       <text:p>Key Properties</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce14" table:number-columns-repeated="11"/>
-     <table:table-cell table:style-name="ce10" table:number-columns-repeated="1008"/>
-     <table:table-cell table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce14" table:number-columns-repeated="12"/>
+     <table:table-cell table:style-name="ce10" table:number-columns-repeated="1007"/>
+     <table:table-cell table:number-columns-repeated="4"/>
     </table:table-row>
     <table:table-row table:style-name="ro2">
      <table:table-cell table:style-name="ce17" office:value-type="string" calcext:value-type="string">
@@ -1795,12 +1982,17 @@
      <table:table-cell table:style-name="ce75"/>
      <table:table-cell table:style-name="ce62"/>
      <table:table-cell table:number-columns-repeated="3"/>
-     <table:table-cell table:style-name="ce74" table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce74" office:value-type="string" calcext:value-type="string">
+      <text:p>#1698391</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce75" office:value-type="string" calcext:value-type="string">
+      <text:p>-</text:p>
+     </table:table-cell>
      <table:table-cell table:style-name="ce74" office:value-type="string" calcext:value-type="string">
       <text:p>Add “Update Online” button to Key Properties</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce74" table:number-columns-repeated="1007"/>
-     <table:table-cell/>
+     <table:table-cell table:number-columns-repeated="3"/>
     </table:table-row>
     <table:table-row table:style-name="ro2">
      <table:table-cell office:value-type="string" calcext:value-type="string">
@@ -1810,42 +2002,67 @@
      <table:table-cell table:style-name="ce18"/>
      <table:table-cell/>
      <table:table-cell table:style-name="ce24"/>
-     <table:table-cell table:number-columns-repeated="6"/>
+     <table:table-cell table:number-columns-repeated="4"/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>#1757096</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce111" office:value-type="string" calcext:value-type="string">
+      <text:p>★</text:p>
+     </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>Add key ID to Key Properties (and use consistent fields across all UIs)</text:p>
      </table:table-cell>
-     <table:table-cell table:number-columns-repeated="1008"/>
+     <table:table-cell table:number-columns-repeated="1010"/>
     </table:table-row>
     <table:table-row table:style-name="ro2">
      <table:table-cell table:style-name="Default" table:number-columns-repeated="8"/>
-     <table:table-cell table:number-columns-repeated="1014"/>
+     <table:table-cell table:number-columns-repeated="1016"/>
     </table:table-row>
     <table:table-row table:style-name="ro2">
      <table:table-cell table:style-name="ce5" office:value-type="string" calcext:value-type="string">
       <text:p>Key Manager</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce14" table:number-columns-repeated="11"/>
-     <table:table-cell table:style-name="ce10" table:number-columns-repeated="1008"/>
-     <table:table-cell table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce14" table:number-columns-repeated="12"/>
+     <table:table-cell table:style-name="ce10" table:number-columns-repeated="1007"/>
+     <table:table-cell table:number-columns-repeated="4"/>
     </table:table-row>
     <table:table-row table:style-name="ro2">
      <table:table-cell table:style-name="ce17" office:value-type="string" calcext:value-type="string">
-      <text:p>Key Manager doesn’t help in understanding the status of the keys (eg. multiple, rejected, expired)</text:p>
+      <text:p>Imports public keys using “Import Secret Key From File”</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce34"/>
-     <table:table-cell table:style-name="ce75"/>
-     <table:table-cell table:style-name="ce46"/>
-     <table:table-cell table:style-name="ce50"/>
-     <table:table-cell table:style-name="ce57"/>
-     <table:table-cell table:style-name="ce75"/>
-     <table:table-cell table:style-name="ce74"/>
+     <table:table-cell table:style-name="ce75" table:number-columns-repeated="6"/>
+     <table:table-cell table:style-name="ce62"/>
      <table:table-cell table:number-columns-repeated="3"/>
-     <table:table-cell table:style-name="ce74" table:number-columns-repeated="2"/>
      <table:table-cell table:style-name="ce74" office:value-type="string" calcext:value-type="string">
-      <text:p>Display special key status in a column: rejected, expired, undecided, personal</text:p>
+      <text:p>#1757087</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce111" office:value-type="string" calcext:value-type="string">
+      <text:p>★</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce74" office:value-type="string" calcext:value-type="string">
+      <text:p>Merge both public and secret key import options of the Key Manager</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce74" table:number-columns-repeated="1007"/>
-     <table:table-cell/>
+     <table:table-cell table:number-columns-repeated="3"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell table:style-name="ce17" office:value-type="string" calcext:value-type="string">
+      <text:p>Doesn’t understand which key is the last one to be imported</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce75" table:number-columns-repeated="6"/>
+     <table:table-cell table:style-name="ce62"/>
+     <table:table-cell table:number-columns-repeated="3"/>
+     <table:table-cell table:style-name="ce74" office:value-type="string" calcext:value-type="string">
+      <text:p>#1757095</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce111" office:value-type="string" calcext:value-type="string">
+      <text:p>★</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce74" office:value-type="string" calcext:value-type="string">
+      <text:p>Display creation instead of expiry</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce74" table:number-columns-repeated="1007"/>
+     <table:table-cell table:number-columns-repeated="3"/>
     </table:table-row>
     <table:table-row table:style-name="ro2">
      <table:table-cell table:style-name="ce17" office:value-type="string" calcext:value-type="string">
@@ -1859,7 +2076,9 @@
      <table:table-cell table:style-name="ce24"/>
      <table:table-cell table:style-name="ce74"/>
      <table:table-cell table:number-columns-repeated="3"/>
-     <table:table-cell table:style-name="ce74"/>
+     <table:table-cell table:style-name="ce74" office:value-type="string" calcext:value-type="string">
+      <text:p>#1627956</text:p>
+     </table:table-cell>
      <table:table-cell table:style-name="ce69" office:value-type="string" calcext:value-type="string">
       <text:p>❌</text:p>
      </table:table-cell>
@@ -1867,48 +2086,31 @@
       <text:p>Attach keys to Composer from which Key Manager was opened</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce74" table:number-columns-repeated="1007"/>
-     <table:table-cell/>
+     <table:table-cell table:number-columns-repeated="3"/>
     </table:table-row>
     <table:table-row table:style-name="ro2">
      <table:table-cell table:style-name="ce17" office:value-type="string" calcext:value-type="string">
-      <text:p>Imports public keys using “Import Secret Key From File”</text:p>
+      <text:p>Key Manager doesn’t help in understanding the status of the keys (eg. multiple, rejected, expired)</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce75" table:number-columns-repeated="6"/>
-     <table:table-cell table:style-name="ce62"/>
+     <table:table-cell table:style-name="ce34"/>
+     <table:table-cell table:style-name="ce75"/>
+     <table:table-cell table:style-name="ce46"/>
+     <table:table-cell table:style-name="ce50"/>
+     <table:table-cell table:style-name="ce57"/>
+     <table:table-cell table:style-name="ce75"/>
+     <table:table-cell table:style-name="ce74"/>
      <table:table-cell table:number-columns-repeated="3"/>
-     <table:table-cell table:style-name="ce74" table:number-columns-repeated="2"/>
      <table:table-cell table:style-name="ce74" office:value-type="string" calcext:value-type="string">
-      <text:p>Merge both public and secret key import</text:p>
+      <text:p>#1700448</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce75" office:value-type="string" calcext:value-type="string">
+      <text:p>-</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce74" office:value-type="string" calcext:value-type="string">
+      <text:p>Display special key status in a column: rejected, expired, undecided, personal</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce74" table:number-columns-repeated="1007"/>
-     <table:table-cell/>
-    </table:table-row>
-    <table:table-row table:style-name="ro2">
-     <table:table-cell table:style-name="ce17" office:value-type="string" calcext:value-type="string">
-      <text:p>Doesn’t understand which key is the last one to be imported</text:p>
-     </table:table-cell>
-     <table:table-cell table:style-name="ce75" table:number-columns-repeated="6"/>
-     <table:table-cell table:style-name="ce62"/>
      <table:table-cell table:number-columns-repeated="3"/>
-     <table:table-cell table:style-name="ce74" table:number-columns-repeated="2"/>
-     <table:table-cell table:style-name="ce74" office:value-type="string" calcext:value-type="string">
-      <text:p>Display creation instead of expiry</text:p>
-     </table:table-cell>
-     <table:table-cell table:style-name="ce74" table:number-columns-repeated="1007"/>
-     <table:table-cell/>
-    </table:table-row>
-    <table:table-row table:style-name="ro2">
-     <table:table-cell table:style-name="ce17" office:value-type="string" calcext:value-type="string">
-      <text:p>“ “</text:p>
-     </table:table-cell>
-     <table:table-cell table:style-name="ce75" table:number-columns-repeated="7"/>
-     <table:table-cell table:number-columns-repeated="3"/>
-     <table:table-cell table:style-name="ce74" table:number-columns-repeated="2"/>
-     <table:table-cell table:style-name="ce74" office:value-type="string" calcext:value-type="string">
-      <text:p>Highlight or blink newly imported keys</text:p>
-     </table:table-cell>
-     <table:table-cell table:style-name="ce74" table:number-columns-repeated="1007"/>
-     <table:table-cell/>
     </table:table-row>
     <table:table-row table:style-name="ro2">
      <table:table-cell office:value-type="string" calcext:value-type="string">
@@ -1924,7 +2126,7 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>Have better default sizes</text:p>
      </table:table-cell>
-     <table:table-cell table:number-columns-repeated="1008"/>
+     <table:table-cell table:number-columns-repeated="1010"/>
     </table:table-row>
     <table:table-row table:style-name="ro2">
      <table:table-cell office:value-type="string" calcext:value-type="string">
@@ -1938,7 +2140,7 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>Improve error message</text:p>
      </table:table-cell>
-     <table:table-cell table:number-columns-repeated="1008"/>
+     <table:table-cell table:number-columns-repeated="1010"/>
     </table:table-row>
     <table:table-row table:style-name="ro2">
      <table:table-cell office:value-type="string" calcext:value-type="string">
@@ -1950,7 +2152,7 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>Add instructional placeholder in list of keys until a public key is imported and accepted</text:p>
      </table:table-cell>
-     <table:table-cell table:number-columns-repeated="1008"/>
+     <table:table-cell table:number-columns-repeated="1010"/>
     </table:table-row>
     <table:table-row table:style-name="ro2">
      <table:table-cell table:style-name="ce21" office:value-type="string" calcext:value-type="string">
@@ -1961,8 +2163,10 @@
      <table:table-cell table:style-name="ce32" table:number-columns-repeated="2"/>
      <table:table-cell table:style-name="ce8"/>
      <table:table-cell table:number-columns-repeated="3"/>
-     <table:table-cell table:style-name="ce8" table:number-columns-repeated="1010"/>
-     <table:table-cell/>
+     <table:table-cell table:style-name="ce8"/>
+     <table:table-cell table:style-name="ce32"/>
+     <table:table-cell table:style-name="ce8" table:number-columns-repeated="1008"/>
+     <table:table-cell table:number-columns-repeated="3"/>
     </table:table-row>
     <table:table-row table:style-name="ro2">
      <table:table-cell table:style-name="ce21" office:value-type="string" calcext:value-type="string">
@@ -1972,8 +2176,10 @@
      <table:table-cell table:style-name="ce32" table:number-columns-repeated="5"/>
      <table:table-cell table:style-name="ce8"/>
      <table:table-cell table:number-columns-repeated="3"/>
-     <table:table-cell table:style-name="ce8" table:number-columns-repeated="1010"/>
-     <table:table-cell/>
+     <table:table-cell table:style-name="ce8"/>
+     <table:table-cell table:style-name="ce32"/>
+     <table:table-cell table:style-name="ce8" table:number-columns-repeated="1008"/>
+     <table:table-cell table:number-columns-repeated="3"/>
     </table:table-row>
     <table:table-row table:style-name="ro2">
      <table:table-cell table:style-name="ce21" office:value-type="string" calcext:value-type="string">
@@ -1983,8 +2189,10 @@
      <table:table-cell table:style-name="ce32" table:number-columns-repeated="5"/>
      <table:table-cell table:style-name="ce8"/>
      <table:table-cell table:number-columns-repeated="3"/>
-     <table:table-cell table:style-name="ce8" table:number-columns-repeated="1010"/>
-     <table:table-cell/>
+     <table:table-cell table:style-name="ce8"/>
+     <table:table-cell table:style-name="ce32"/>
+     <table:table-cell table:style-name="ce8" table:number-columns-repeated="1008"/>
+     <table:table-cell table:number-columns-repeated="3"/>
     </table:table-row>
     <table:table-row table:style-name="ro2">
      <table:table-cell table:style-name="ce21" office:value-type="string" calcext:value-type="string">
@@ -1995,8 +2203,10 @@
      <table:table-cell table:style-name="ce32"/>
      <table:table-cell table:style-name="ce8"/>
      <table:table-cell table:number-columns-repeated="3"/>
-     <table:table-cell table:style-name="ce8" table:number-columns-repeated="1010"/>
-     <table:table-cell/>
+     <table:table-cell table:style-name="ce8"/>
+     <table:table-cell table:style-name="ce32"/>
+     <table:table-cell table:style-name="ce8" table:number-columns-repeated="1008"/>
+     <table:table-cell table:number-columns-repeated="3"/>
     </table:table-row>
     <table:table-row table:style-name="ro2">
      <table:table-cell table:style-name="ce21" office:value-type="string" calcext:value-type="string">
@@ -2005,19 +2215,21 @@
      <table:table-cell table:style-name="ce33"/>
      <table:table-cell table:style-name="ce32" table:number-columns-repeated="6"/>
      <table:table-cell table:number-columns-repeated="3"/>
-     <table:table-cell table:style-name="ce8" table:number-columns-repeated="1010"/>
-     <table:table-cell/>
+     <table:table-cell table:style-name="ce8"/>
+     <table:table-cell table:style-name="ce32"/>
+     <table:table-cell table:style-name="ce8" table:number-columns-repeated="1008"/>
+     <table:table-cell table:number-columns-repeated="3"/>
     </table:table-row>
     <table:table-row table:style-name="ro2">
-     <table:table-cell table:number-columns-repeated="1022"/>
+     <table:table-cell table:number-columns-repeated="1024"/>
     </table:table-row>
     <table:table-row table:style-name="ro2">
      <table:table-cell table:style-name="ce5" office:value-type="string" calcext:value-type="string">
       <text:p>Key Assistant</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce14" table:number-columns-repeated="11"/>
-     <table:table-cell table:style-name="ce10" table:number-columns-repeated="1008"/>
-     <table:table-cell table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce14" table:number-columns-repeated="12"/>
+     <table:table-cell table:style-name="ce10" table:number-columns-repeated="1007"/>
+     <table:table-cell table:number-columns-repeated="4"/>
     </table:table-row>
     <table:table-row table:style-name="ro3">
      <table:table-cell table:style-name="ce17" office:value-type="string" calcext:value-type="string">
@@ -2030,7 +2242,9 @@
      <table:table-cell table:style-name="ce53"/>
      <table:table-cell table:style-name="ce62"/>
      <table:table-cell table:number-columns-repeated="3"/>
-     <table:table-cell table:style-name="ce74"/>
+     <table:table-cell table:style-name="ce74" office:value-type="string" calcext:value-type="string">
+      <text:p>#1627956</text:p>
+     </table:table-cell>
      <table:table-cell table:style-name="ce69" office:value-type="string" calcext:value-type="string">
       <text:p>❌</text:p>
      </table:table-cell>
@@ -2038,7 +2252,7 @@
       <text:p>Improve the layout and signal/noise ratio of the Key Assistant and move “Thunderbird normally...” to resolution screen or even doc</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce74" table:number-columns-repeated="1007"/>
-     <table:table-cell/>
+     <table:table-cell table:number-columns-repeated="3"/>
     </table:table-row>
     <table:table-row table:style-name="ro3">
      <table:table-cell table:style-name="ce17" office:value-type="string" calcext:value-type="string">
@@ -2046,7 +2260,9 @@
      </table:table-cell>
      <table:table-cell table:style-name="ce75" table:number-columns-repeated="7"/>
      <table:table-cell table:number-columns-repeated="3"/>
-     <table:table-cell table:style-name="ce74"/>
+     <table:table-cell table:style-name="ce74" office:value-type="string" calcext:value-type="string">
+      <text:p>#1627956</text:p>
+     </table:table-cell>
      <table:table-cell table:style-name="ce69" office:value-type="string" calcext:value-type="string">
       <text:p>❌</text:p>
      </table:table-cell>
@@ -2054,7 +2270,7 @@
       <text:p>Add a “Resolve” button for missing keys in recipients list</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce74" table:number-columns-repeated="1007"/>
-     <table:table-cell/>
+     <table:table-cell table:number-columns-repeated="3"/>
     </table:table-row>
     <table:table-row table:style-name="ro2">
      <table:table-cell table:style-name="ce17" office:value-type="string" calcext:value-type="string">
@@ -2066,7 +2282,9 @@
      <table:table-cell table:style-name="ce75" table:number-columns-repeated="3"/>
      <table:table-cell table:style-name="ce62"/>
      <table:table-cell table:number-columns-repeated="3"/>
-     <table:table-cell table:style-name="ce74"/>
+     <table:table-cell table:style-name="ce74" office:value-type="string" calcext:value-type="string">
+      <text:p>#1627956</text:p>
+     </table:table-cell>
      <table:table-cell table:style-name="ce69" office:value-type="string" calcext:value-type="string">
       <text:p>❌</text:p>
      </table:table-cell>
@@ -2074,7 +2292,7 @@
       <text:p>Always expand both lists of recipients when there are few recipients</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce74" table:number-columns-repeated="1007"/>
-     <table:table-cell/>
+     <table:table-cell table:number-columns-repeated="3"/>
     </table:table-row>
     <table:table-row table:style-name="ro2">
      <table:table-cell table:style-name="ce17" office:value-type="string" calcext:value-type="string">
@@ -2087,7 +2305,9 @@
      <table:table-cell table:style-name="ce53"/>
      <table:table-cell table:style-name="ce75"/>
      <table:table-cell table:number-columns-repeated="3"/>
-     <table:table-cell table:style-name="ce74"/>
+     <table:table-cell table:style-name="ce74" office:value-type="string" calcext:value-type="string">
+      <text:p>#1627956</text:p>
+     </table:table-cell>
      <table:table-cell table:style-name="ce69" office:value-type="string" calcext:value-type="string">
       <text:p>❌</text:p>
      </table:table-cell>
@@ -2095,7 +2315,7 @@
       <text:p>Remove radio button and make “Accept Key” (renamed) available by default when resolution screen only has 1 key</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce74" table:number-columns-repeated="1007"/>
-     <table:table-cell/>
+     <table:table-cell table:number-columns-repeated="3"/>
     </table:table-row>
     <table:table-row table:style-name="ro2">
      <table:table-cell table:style-name="ce74" office:value-type="string" calcext:value-type="string">
@@ -2109,7 +2329,9 @@
      <table:table-cell table:style-name="ce53"/>
      <table:table-cell table:style-name="ce62"/>
      <table:table-cell table:number-columns-repeated="3"/>
-     <table:table-cell table:style-name="ce74"/>
+     <table:table-cell table:style-name="ce74" office:value-type="string" calcext:value-type="string">
+      <text:p>#1627956</text:p>
+     </table:table-cell>
      <table:table-cell table:style-name="ce69" office:value-type="string" calcext:value-type="string">
       <text:p>❌</text:p>
      </table:table-cell>
@@ -2117,10 +2339,10 @@
       <text:p>Replace “Avoid accepting a rogue key” by better explanation of key acceptance in import screens</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce74" table:number-columns-repeated="1007"/>
-     <table:table-cell/>
+     <table:table-cell table:number-columns-repeated="3"/>
     </table:table-row>
     <table:table-row table:style-name="ro2">
-     <table:table-cell table:style-name="ce74" office:value-type="string" calcext:value-type="string">
+     <table:table-cell table:style-name="ce29" office:value-type="string" calcext:value-type="string">
       <text:p>Key Assistant has “View Key...” when in fact there are 2 valid keys for 1 recipient</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce74" table:number-columns-repeated="2"/>
@@ -2130,7 +2352,9 @@
      <table:table-cell/>
      <table:table-cell table:style-name="ce74"/>
      <table:table-cell table:number-columns-repeated="3"/>
-     <table:table-cell table:style-name="ce74"/>
+     <table:table-cell table:style-name="ce29" office:value-type="string" calcext:value-type="string">
+      <text:p>#1627956</text:p>
+     </table:table-cell>
      <table:table-cell table:style-name="ce69" office:value-type="string" calcext:value-type="string">
       <text:p>❌</text:p>
      </table:table-cell>
@@ -2138,37 +2362,7 @@
       <text:p>Bug</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce74" table:number-columns-repeated="1007"/>
-     <table:table-cell/>
-    </table:table-row>
-    <table:table-row table:style-name="ro2">
-     <table:table-cell office:value-type="string" calcext:value-type="string">
-      <text:p>Doesn’t understand “Alleged key previously collected” even after translating it</text:p>
-     </table:table-cell>
-     <table:table-cell table:number-columns-repeated="2"/>
-     <table:table-cell table:style-name="ce16"/>
-     <table:table-cell table:number-columns-repeated="8"/>
-     <table:table-cell table:style-name="ce69" office:value-type="string" calcext:value-type="string">
-      <text:p>❌</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string" calcext:value-type="string">
-      <text:p>Use a simpler word</text:p>
-     </table:table-cell>
-     <table:table-cell table:number-columns-repeated="1008"/>
-    </table:table-row>
-    <table:table-row table:style-name="ro2">
-     <table:table-cell office:value-type="string" calcext:value-type="string">
-      <text:p>Closes the Key Assistant after successful key discovery from list of recipients but without accepting the key in resolution screen</text:p>
-     </table:table-cell>
-     <table:table-cell/>
-     <table:table-cell table:style-name="ce22"/>
-     <table:table-cell table:number-columns-repeated="9"/>
-     <table:table-cell table:style-name="ce69" office:value-type="string" calcext:value-type="string">
-      <text:p>❌</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string" calcext:value-type="string">
-      <text:p>Add a button “Enable Encryption” that is unavailable until all problems are solved (in addition to or instead of the “Close” button), like the “Send Encrypted” button</text:p>
-     </table:table-cell>
-     <table:table-cell table:number-columns-repeated="1008"/>
+     <table:table-cell table:number-columns-repeated="3"/>
     </table:table-row>
     <table:table-row table:style-name="ro2">
      <table:table-cell office:value-type="string" calcext:value-type="string">
@@ -2176,14 +2370,17 @@
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="5"/>
      <table:table-cell table:style-name="ce24"/>
-     <table:table-cell table:number-columns-repeated="5"/>
+     <table:table-cell table:number-columns-repeated="4"/>
+     <table:table-cell table:style-name="ce29" office:value-type="string" calcext:value-type="string">
+      <text:p>#1627956</text:p>
+     </table:table-cell>
      <table:table-cell table:style-name="ce69" office:value-type="string" calcext:value-type="string">
       <text:p>❌</text:p>
      </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>Bug</text:p>
      </table:table-cell>
-     <table:table-cell table:number-columns-repeated="1008"/>
+     <table:table-cell table:number-columns-repeated="1010"/>
     </table:table-row>
     <table:table-row table:style-name="ro2">
      <table:table-cell office:value-type="string" calcext:value-type="string">
@@ -2191,14 +2388,27 @@
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="3"/>
      <table:table-cell table:style-name="ce18"/>
-     <table:table-cell table:number-columns-repeated="7"/>
+     <table:table-cell table:number-columns-repeated="6"/>
+     <table:table-cell table:style-name="ce29" office:value-type="string" calcext:value-type="string">
+      <text:p>#1627956</text:p>
+     </table:table-cell>
      <table:table-cell table:style-name="ce69" office:value-type="string" calcext:value-type="string">
       <text:p>❌</text:p>
      </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>Implement inline feedback as designed</text:p>
      </table:table-cell>
-     <table:table-cell table:number-columns-repeated="1008"/>
+     <table:table-cell table:number-columns-repeated="1010"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell table:style-name="ce21" office:value-type="string" calcext:value-type="string">
+      <text:p>Doesn’t understand “Alleged key previously collected” even after translating it</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce16"/>
+     <table:table-cell table:number-columns-repeated="8"/>
+     <table:table-cell table:style-name="ce69"/>
+     <table:table-cell table:number-columns-repeated="1011"/>
     </table:table-row>
     <table:table-row table:style-name="ro2">
      <table:table-cell table:style-name="ce21" office:value-type="string" calcext:value-type="string">
@@ -2209,8 +2419,10 @@
      <table:table-cell table:style-name="ce32"/>
      <table:table-cell table:style-name="ce8"/>
      <table:table-cell table:number-columns-repeated="3"/>
-     <table:table-cell table:style-name="ce8" table:number-columns-repeated="1010"/>
-     <table:table-cell/>
+     <table:table-cell table:style-name="ce8"/>
+     <table:table-cell table:style-name="ce32"/>
+     <table:table-cell table:style-name="ce8" table:number-columns-repeated="1008"/>
+     <table:table-cell table:number-columns-repeated="3"/>
     </table:table-row>
     <table:table-row table:style-name="ro2">
      <table:table-cell table:style-name="ce21" office:value-type="string" calcext:value-type="string">
@@ -2221,20 +2433,22 @@
      <table:table-cell table:style-name="ce32" table:number-columns-repeated="3"/>
      <table:table-cell table:style-name="ce21"/>
      <table:table-cell table:number-columns-repeated="3"/>
-     <table:table-cell table:style-name="ce8" table:number-columns-repeated="1010"/>
-     <table:table-cell/>
+     <table:table-cell table:style-name="ce8"/>
+     <table:table-cell table:style-name="ce32"/>
+     <table:table-cell table:style-name="ce8" table:number-columns-repeated="1008"/>
+     <table:table-cell table:number-columns-repeated="3"/>
     </table:table-row>
     <table:table-row table:style-name="ro2">
      <table:table-cell table:style-name="Default" table:number-columns-repeated="8"/>
-     <table:table-cell table:number-columns-repeated="1014"/>
+     <table:table-cell table:number-columns-repeated="1016"/>
     </table:table-row>
     <table:table-row table:style-name="ro2">
      <table:table-cell table:style-name="ce5" office:value-type="string" calcext:value-type="string">
       <text:p>Reader</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce14" table:number-columns-repeated="11"/>
-     <table:table-cell table:style-name="ce10" table:number-columns-repeated="1008"/>
-     <table:table-cell table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce14" table:number-columns-repeated="12"/>
+     <table:table-cell table:style-name="ce10" table:number-columns-repeated="1007"/>
+     <table:table-cell table:number-columns-repeated="4"/>
     </table:table-row>
     <table:table-row table:style-name="ro2">
      <table:table-cell table:style-name="ce17" office:value-type="string" calcext:value-type="string">
@@ -2248,12 +2462,38 @@
      <table:table-cell table:style-name="ce53"/>
      <table:table-cell table:style-name="ce62"/>
      <table:table-cell table:number-columns-repeated="3"/>
-     <table:table-cell table:style-name="ce74" table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce74" office:value-type="string" calcext:value-type="string">
+      <text:p>#1731984</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce75" office:value-type="string" calcext:value-type="string">
+      <text:p>-</text:p>
+     </table:table-cell>
      <table:table-cell table:style-name="ce74" office:value-type="string" calcext:value-type="string">
       <text:p>Display scary red notification of top of emails that are encrypted and unsigned</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce74" table:number-columns-repeated="1007"/>
-     <table:table-cell/>
+     <table:table-cell table:number-columns-repeated="3"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell table:style-name="ce17" office:value-type="string" calcext:value-type="string">
+      <text:p>Unverified signature looks more scary than it should (1. more scary than blue broken signature, 2. some people think it’s a problem)</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce75" table:number-columns-repeated="4"/>
+     <table:table-cell table:style-name="ce57"/>
+     <table:table-cell table:style-name="ce75"/>
+     <table:table-cell table:style-name="ce62"/>
+     <table:table-cell table:number-columns-repeated="3"/>
+     <table:table-cell table:style-name="ce74" office:value-type="string" calcext:value-type="string">
+      <text:p>#1757113</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce111" office:value-type="string" calcext:value-type="string">
+      <text:p>★</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce74" office:value-type="string" calcext:value-type="string">
+      <text:p>Display a plain lock for unverified signatures and a scary red notification for broken signatures</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce74" table:number-columns-repeated="1007"/>
+     <table:table-cell table:number-columns-repeated="3"/>
     </table:table-row>
     <table:table-row table:style-name="ro2">
      <table:table-cell table:style-name="ce17" office:value-type="string" calcext:value-type="string">
@@ -2266,28 +2506,31 @@
      <table:table-cell table:style-name="ce75"/>
      <table:table-cell table:style-name="ce74"/>
      <table:table-cell table:number-columns-repeated="3"/>
-     <table:table-cell table:style-name="ce74" table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce74"/>
+     <table:table-cell table:style-name="ce75"/>
      <table:table-cell table:style-name="ce74" office:value-type="string" calcext:value-type="string">
       <text:p>Bug</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce74" table:number-columns-repeated="1007"/>
-     <table:table-cell/>
+     <table:table-cell table:number-columns-repeated="3"/>
     </table:table-row>
     <table:table-row table:style-name="ro2">
-     <table:table-cell table:style-name="ce17" office:value-type="string" calcext:value-type="string">
-      <text:p>Unverified signature looks more scary than it should (1. more scary than blue broken signature, 2. some people think it’s a problem)</text:p>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>No display of subject encryption in Reader</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce75" table:number-columns-repeated="4"/>
-     <table:table-cell table:style-name="ce57"/>
-     <table:table-cell table:style-name="ce75"/>
-     <table:table-cell table:style-name="ce62"/>
+     <table:table-cell table:number-columns-repeated="6"/>
+     <table:table-cell table:style-name="Default"/>
      <table:table-cell table:number-columns-repeated="3"/>
-     <table:table-cell table:style-name="ce74" table:number-columns-repeated="2"/>
-     <table:table-cell table:style-name="ce74" office:value-type="string" calcext:value-type="string">
-      <text:p>Display a plain lock for unverified signatures and a scary red notification for broken signatures</text:p>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>#1757115</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce74" table:number-columns-repeated="1007"/>
-     <table:table-cell/>
+     <table:table-cell table:style-name="ce111" office:value-type="string" calcext:value-type="string">
+      <text:p>★</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Display broken lock on unencrypted subject lines</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="1010"/>
     </table:table-row>
     <table:table-row table:style-name="ro2">
      <table:table-cell office:value-type="string" calcext:value-type="string">
@@ -2301,19 +2544,7 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>Encryption animation when sending and opening encrypted emails</text:p>
      </table:table-cell>
-     <table:table-cell table:number-columns-repeated="1008"/>
-    </table:table-row>
-    <table:table-row table:style-name="ro2">
-     <table:table-cell office:value-type="string" calcext:value-type="string">
-      <text:p>No display of subject encryption in Reader</text:p>
-     </table:table-cell>
-     <table:table-cell table:number-columns-repeated="6"/>
-     <table:table-cell table:style-name="Default"/>
-     <table:table-cell table:number-columns-repeated="5"/>
-     <table:table-cell office:value-type="string" calcext:value-type="string">
-      <text:p>Display broken lock on unencrypted subject lines</text:p>
-     </table:table-cell>
-     <table:table-cell table:number-columns-repeated="1008"/>
+     <table:table-cell table:number-columns-repeated="1010"/>
     </table:table-row>
     <table:table-row table:style-name="ro2">
      <table:table-cell table:style-name="ce21" office:value-type="string" calcext:value-type="string">
@@ -2324,64 +2555,66 @@
      <table:table-cell table:style-name="ce32" table:number-columns-repeated="2"/>
      <table:table-cell table:style-name="ce8"/>
      <table:table-cell table:number-columns-repeated="3"/>
-     <table:table-cell table:style-name="ce8" table:number-columns-repeated="1010"/>
-     <table:table-cell/>
+     <table:table-cell table:style-name="ce8"/>
+     <table:table-cell table:style-name="ce32"/>
+     <table:table-cell table:style-name="ce8" table:number-columns-repeated="1008"/>
+     <table:table-cell table:number-columns-repeated="3"/>
     </table:table-row>
     <table:table-row table:style-name="ro2">
-     <table:table-cell table:number-columns-repeated="1022"/>
+     <table:table-cell table:number-columns-repeated="1024"/>
     </table:table-row>
     <table:table-row table:style-name="ro2">
      <table:table-cell table:style-name="ce5" office:value-type="string" calcext:value-type="string">
       <text:p>Congrats!</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce14" table:number-columns-repeated="11"/>
-     <table:table-cell table:style-name="ce10" table:number-columns-repeated="1008"/>
-     <table:table-cell table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce14" table:number-columns-repeated="12"/>
+     <table:table-cell table:style-name="ce10" table:number-columns-repeated="1007"/>
+     <table:table-cell table:number-columns-repeated="4"/>
     </table:table-row>
     <table:table-row table:style-name="ro2">
      <table:table-cell table:style-name="ce17" office:value-type="string" calcext:value-type="string">
       <text:p>From our work:</text:p>
      </table:table-cell>
-     <table:table-cell table:number-columns-repeated="1021"/>
+     <table:table-cell table:number-columns-repeated="1023"/>
     </table:table-row>
     <table:table-row table:style-name="ro2">
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>Encrypt toggle worked fine</text:p>
      </table:table-cell>
-     <table:table-cell table:number-columns-repeated="1021"/>
+     <table:table-cell table:number-columns-repeated="1023"/>
     </table:table-row>
     <table:table-row table:style-name="ro2">
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>Recipient pills were useful to understand which recipient has a problem and understand key issues</text:p>
      </table:table-cell>
-     <table:table-cell table:number-columns-repeated="1021"/>
+     <table:table-cell table:number-columns-repeated="1023"/>
     </table:table-row>
     <table:table-row table:style-name="ro2">
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>“End-to-end encryption” terminology worked fine</text:p>
      </table:table-cell>
-     <table:table-cell table:number-columns-repeated="1021"/>
+     <table:table-cell table:number-columns-repeated="1023"/>
     </table:table-row>
     <table:table-row table:style-name="ro2">
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>People understood the explanation of unsigned emails in reader (but they don’t find it on their own)</text:p>
      </table:table-cell>
-     <table:table-cell table:number-columns-repeated="1021"/>
+     <table:table-cell table:number-columns-repeated="1023"/>
     </table:table-row>
     <table:table-row table:style-name="ro2">
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>Account settings were well understood</text:p>
      </table:table-cell>
-     <table:table-cell table:number-columns-repeated="1021"/>
+     <table:table-cell table:number-columns-repeated="1023"/>
     </table:table-row>
     <table:table-row table:style-name="ro2">
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>Notification on update after online key discovery (though it might be replaced by inline feedback as designed)</text:p>
      </table:table-cell>
-     <table:table-cell table:number-columns-repeated="1021"/>
+     <table:table-cell table:number-columns-repeated="1023"/>
     </table:table-row>
     <table:table-row table:style-name="ro2">
-     <table:table-cell table:number-columns-repeated="1022"/>
+     <table:table-cell table:number-columns-repeated="1024"/>
     </table:table-row>
     <table:table-row table:style-name="ro2">
      <table:table-cell table:style-name="ce17" office:value-type="string" calcext:value-type="string">
@@ -2389,32 +2622,34 @@
      </table:table-cell>
      <table:table-cell table:style-name="ce75" table:number-columns-repeated="7"/>
      <table:table-cell table:number-columns-repeated="3"/>
-     <table:table-cell table:style-name="ce74" table:number-columns-repeated="1010"/>
-     <table:table-cell/>
+     <table:table-cell table:style-name="ce74"/>
+     <table:table-cell table:style-name="ce75"/>
+     <table:table-cell table:style-name="ce74" table:number-columns-repeated="1008"/>
+     <table:table-cell table:number-columns-repeated="3"/>
     </table:table-row>
     <table:table-row table:style-name="ro2">
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>Searchability is great and beats ProtonMail</text:p>
      </table:table-cell>
-     <table:table-cell table:number-columns-repeated="1021"/>
+     <table:table-cell table:number-columns-repeated="1023"/>
     </table:table-row>
     <table:table-row table:style-name="ro2">
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>Integrated OpenPGP is easier</text:p>
      </table:table-cell>
-     <table:table-cell table:number-columns-repeated="1021"/>
+     <table:table-cell table:number-columns-repeated="1023"/>
     </table:table-row>
     <table:table-row table:style-name="ro2">
      <table:table-cell table:style-name="Default" table:number-columns-repeated="8"/>
-     <table:table-cell table:number-columns-repeated="1014"/>
+     <table:table-cell table:number-columns-repeated="1016"/>
     </table:table-row>
     <table:table-row table:style-name="ro2">
      <table:table-cell table:style-name="ce5" office:value-type="string" calcext:value-type="string">
       <text:p>Complains</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce14" table:number-columns-repeated="11"/>
-     <table:table-cell table:style-name="ce10" table:number-columns-repeated="1008"/>
-     <table:table-cell table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce14" table:number-columns-repeated="12"/>
+     <table:table-cell table:style-name="ce10" table:number-columns-repeated="1007"/>
+     <table:table-cell table:number-columns-repeated="4"/>
     </table:table-row>
     <table:table-row table:style-name="ro2">
      <table:table-cell table:style-name="ce17" office:value-type="string" calcext:value-type="string">
@@ -2426,8 +2661,17 @@
      <table:table-cell table:style-name="ce51"/>
      <table:table-cell table:style-name="ce75" table:number-columns-repeated="3"/>
      <table:table-cell table:number-columns-repeated="3"/>
-     <table:table-cell table:style-name="ce74" table:number-columns-repeated="1010"/>
-     <table:table-cell/>
+     <table:table-cell table:style-name="ce74" office:value-type="string" calcext:value-type="string">
+      <text:p>#1741042</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce75" office:value-type="string" calcext:value-type="string">
+      <text:p>-</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce74" office:value-type="string" calcext:value-type="string">
+      <text:p><text:s/>Allow manual or time-out based locking of the OpenPGP secret keys</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce74" table:number-columns-repeated="1007"/>
+     <table:table-cell table:number-columns-repeated="3"/>
     </table:table-row>
     <table:table-row table:style-name="ro2">
      <table:table-cell office:value-type="string" calcext:value-type="string">
@@ -2435,7 +2679,7 @@
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="2"/>
      <table:table-cell table:style-name="ce46"/>
-     <table:table-cell table:number-columns-repeated="1018"/>
+     <table:table-cell table:number-columns-repeated="1020"/>
     </table:table-row>
     <table:table-row table:style-name="ro2">
      <table:table-cell office:value-type="string" calcext:value-type="string">
@@ -2443,7 +2687,7 @@
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="3"/>
      <table:table-cell table:style-name="ce48"/>
-     <table:table-cell table:number-columns-repeated="1017"/>
+     <table:table-cell table:number-columns-repeated="1019"/>
     </table:table-row>
     <table:table-row table:style-name="ro2">
      <table:table-cell office:value-type="string" calcext:value-type="string">
@@ -2451,7 +2695,7 @@
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="3"/>
      <table:table-cell table:style-name="ce48"/>
-     <table:table-cell table:number-columns-repeated="1017"/>
+     <table:table-cell table:number-columns-repeated="1019"/>
     </table:table-row>
     <table:table-row table:style-name="ro2">
      <table:table-cell office:value-type="string" calcext:value-type="string">
@@ -2459,7 +2703,7 @@
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="3"/>
      <table:table-cell table:style-name="ce48"/>
-     <table:table-cell table:number-columns-repeated="1017"/>
+     <table:table-cell table:number-columns-repeated="1019"/>
     </table:table-row>
     <table:table-row table:style-name="ro2">
      <table:table-cell office:value-type="string" calcext:value-type="string">
@@ -2467,35 +2711,35 @@
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="3"/>
      <table:table-cell table:style-name="ce48"/>
-     <table:table-cell table:number-columns-repeated="1017"/>
+     <table:table-cell table:number-columns-repeated="1019"/>
     </table:table-row>
     <table:table-row table:style-name="ro2">
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>Missing support for master and subkeys</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce34"/>
-     <table:table-cell table:number-columns-repeated="1020"/>
+     <table:table-cell table:number-columns-repeated="1022"/>
     </table:table-row>
     <table:table-row table:style-name="ro2">
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>Encrypt if possible</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce34"/>
-     <table:table-cell table:number-columns-repeated="1020"/>
+     <table:table-cell table:number-columns-repeated="1022"/>
     </table:table-row>
     <table:table-row table:style-name="ro2">
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>Encryption button</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce34"/>
-     <table:table-cell table:number-columns-repeated="1020"/>
+     <table:table-cell table:number-columns-repeated="1022"/>
     </table:table-row>
     <table:table-row table:style-name="ro2">
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>Decryption button when decrypting fails because of external GnuPG</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce34"/>
-     <table:table-cell table:number-columns-repeated="1020"/>
+     <table:table-cell table:number-columns-repeated="1022"/>
     </table:table-row>
     <table:table-row table:style-name="ro2">
      <table:table-cell office:value-type="string" calcext:value-type="string">
@@ -2505,69 +2749,69 @@
      <table:table-cell table:style-name="ce38"/>
      <table:table-cell table:number-columns-repeated="2"/>
      <table:table-cell table:style-name="ce56"/>
-     <table:table-cell table:number-columns-repeated="1016"/>
+     <table:table-cell table:number-columns-repeated="1018"/>
     </table:table-row>
     <table:table-row table:style-name="ro2">
-     <table:table-cell table:number-columns-repeated="1022"/>
+     <table:table-cell table:number-columns-repeated="1024"/>
     </table:table-row>
     <table:table-row table:style-name="ro2">
      <table:table-cell table:style-name="ce5" office:value-type="string" calcext:value-type="string">
       <text:p>Participants</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce14" table:number-columns-repeated="11"/>
-     <table:table-cell table:style-name="ce10" table:number-columns-repeated="1008"/>
-     <table:table-cell table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce14" table:number-columns-repeated="12"/>
+     <table:table-cell table:style-name="ce10" table:number-columns-repeated="1007"/>
+     <table:table-cell table:number-columns-repeated="4"/>
     </table:table-row>
     <table:table-row table:style-name="ro2">
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>P4: Still running TB 68, but used to train people on TB 78+</text:p>
      </table:table-cell>
-     <table:table-cell table:number-columns-repeated="1021"/>
+     <table:table-cell table:number-columns-repeated="1023"/>
     </table:table-row>
     <table:table-row table:style-name="ro2">
      <table:table-cell table:style-name="Default" office:value-type="string" calcext:value-type="string">
       <text:p>P5: Been using Enigmail, TB 68, and TB 78+ for years</text:p>
      </table:table-cell>
-     <table:table-cell table:number-columns-repeated="1021"/>
+     <table:table-cell table:number-columns-repeated="1023"/>
     </table:table-row>
     <table:table-row table:style-name="ro2">
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>P1: Just upgraded from TB 68, used Enigmail for 6-7 years before</text:p>
      </table:table-cell>
-     <table:table-cell table:number-columns-repeated="1021"/>
+     <table:table-cell table:number-columns-repeated="1023"/>
     </table:table-row>
     <table:table-row table:style-name="ro2">
      <table:table-cell table:style-name="Default" office:value-type="string" calcext:value-type="string">
       <text:p>P3: Been using Enigmail, TB 68, and TB 78+ for over 10 years</text:p>
      </table:table-cell>
-     <table:table-cell table:number-columns-repeated="1021"/>
+     <table:table-cell table:number-columns-repeated="1023"/>
     </table:table-row>
     <table:table-row table:style-name="ro2">
      <table:table-cell table:style-name="Default" office:value-type="string" calcext:value-type="string">
       <text:p>P7: Used Enigmail in the past, still uses Thunderbird for unencrypted emails, but want to migrate their PGP emails from ProtonMails to TB 78+</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="Default" table:number-columns-repeated="10"/>
-     <table:table-cell table:number-columns-repeated="1011"/>
+     <table:table-cell table:number-columns-repeated="1013"/>
     </table:table-row>
     <table:table-row table:style-name="ro2">
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>P6: Been using TB78+ and PGP for 1 year as part of their organization</text:p>
      </table:table-cell>
-     <table:table-cell table:number-columns-repeated="1021"/>
+     <table:table-cell table:number-columns-repeated="1023"/>
     </table:table-row>
     <table:table-row table:style-name="ro2">
      <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:span text:style-name="T1">P8: Uses Thundebird everyday and d</text:span>id a PGP training 2 years ago, but has a hard time implementing PGP in their activist group</text:p>
      </table:table-cell>
-     <table:table-cell table:number-columns-repeated="1021"/>
+     <table:table-cell table:number-columns-repeated="1023"/>
     </table:table-row>
     <table:table-row table:style-name="ro2" table:number-rows-repeated="1048344">
-     <table:table-cell table:number-columns-repeated="1022"/>
+     <table:table-cell table:number-columns-repeated="1024"/>
     </table:table-row>
-    <table:table-row table:style-name="ro1" table:number-rows-repeated="69">
-     <table:table-cell table:number-columns-repeated="1022"/>
+    <table:table-row table:style-name="ro1" table:number-rows-repeated="72">
+     <table:table-cell table:number-columns-repeated="1024"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
-     <table:table-cell table:number-columns-repeated="1022"/>
+     <table:table-cell table:number-columns-repeated="1024"/>
     </table:table-row>
    </table:table>
    <table:table table:name="demographics" table:style-name="ta1">
